@@ -75,22 +75,52 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
  
-shared.scr = [[ ss sa sa pp
-sss s
-ss
-aa
-sss
-hss sa sa pp
-sss s
-ss
-aa
-sss
-hss sa sa pp
-sss s
-ss
-aa
-sss
-h ]]
+shared.scr = [[ [8qep]|s [8qep] s d [8qe] f
+[80e] s a [9qep]|g [9qe] f
+[80e]|s [80e]|d [80e] a
+[9wr]|a [9wr]|s [9wr] p
+[8qe]|s [8qe]|d [8qe] f
+[80e] s a [9qep]|g [9qe] f
+[80e]|s [80e]|d [80e] a
+[9wr]|a [9wr]|s [9wr] p
+[8qe]|p [8qei]|p [8qei]|
+[8qe]|p [8qei]|p [8qei]|
+[8qei] s s s s|d f
+[80e] s|s [9qeg] g|f
+[80e]| s s d|a
+[9wr]|a p a s|p
+[8qe]| s s|d f
+[80e] s|s [9qeg] g|f
+[80e]| s s d|a
+[9wr]|a p a s|
+[8qe]|p||
+[8qe]|||
+[8qe]|s s s d|f
+[80e] s s s [9qeg] g|f
+[80e]| s s d|a
+[9wr]| a a s|p
+[8qe]| s s d|f
+[80e]|f f [9qeg] g|f
+[80e]| f f f|d
+[9wr]| d d f|
+[8qe]|s||
+[8qe]|||
+[8qe]|f f f g f|
+[80w]| f f g f|
+[80e]||f g|h
+[9wr]|g|f g|f
+[8qe]|f f f g f|
+[80w]| f f g f|
+[80e]||f g|h
+[9wr]|g|f g|f
+[8qe]|h h h j h|
+[80w]| h h j h|
+[80ef]||f g|h
+[9wr]|g|f g|f
+[8qe]||s||
+[80wo]|||
+[80ed] f||
+[9wrd] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
