@@ -69,22 +69,371 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("trhough the fire and flames", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ [18tY][wt][yi][wt][Yo][wt][tY][wt][yi][wt][Yo][wt][iO][wt][Yo][wt]
+[oP][wt][Yo][wt][iO][wt][yi][wt][Yo][wt][tY][wt][18yi][18wt][E18y][18wt]
+[18tY][wt][yi][wt][Yo][wt][tY][wt][yi][wt][Yo][wt][iO][wt][Yo][wt]
+[oP][wt][Yo][wt][iO][wt][yi][wt][Yo][wt][tY][wt][yi][wt][Ey][wt]
+[t^Y][wt][yi][wt][Yo][wt][tY][wt][yi][wt][Yo][wt][iO][wt][Yo][wt]
+[oP][wt][Yo][wt][iO][wt][yi][wt][Yo][wt][tY][wt][yi][wt][Ey][wt]
+[t%Y][wt][yi][wt][Yo][wt][tY][wt][yi][wt][Yo][wt][iO][wt][Yo][wt]
+[5oP][wt][Yo][wt][iO][wt][yi][wt][Yo][wt][tY][wt][yi][wt][Ey][wt]
+[18tY][wt][yi][wt][Yo][wt][tY][wt][yi][wt][Yo][wt][iO][wt][Yo][wt]
+[oP][wt][Yo][wt][iO][wt][yi][wt][Yo][wt][tY][wt][18yi][18wt][E18y][18wt]
+[18tY][wt][yi][wt][Yo][wt][tY][wt][yi][wt][Yo][wt][iO][wt][Yo][wt]
+[oP][wt][Yo][wt][iO][wt][yi][wt][Yo][wt][tY][wt][yi][wt][Ey][wt]
+[t%Y][Wt][yi][Wt][Yo][Wt][tY][Wt][yi][Wt][Yo][Wt][iO][Wt][Yo][Wt]
+[oP][Wt][Yo][Wt][iO][Wt][yi][Wt][Yo][Wt][tY][Wt][yi][Wt][Ey][Wt]
+[5tY][wt][yi][wt][Yo][wt][tY][wt][yi][wt][Yo][wt][iO][wt][Yo][wt]
+[Y5o][yi][tY][Et][5wE][Et][ty][Yi][5io][oP][Yo][yi][tY][Ey][wt][Ey]
+[18tY][tY][18tY][tY][18w]w[18tY][tY][18tY][tY][18wt][wt][18tY][tY][18wt][wt]
+[18tY][tY][18tY][tY][18w]w[18tY][tY][18tY][tY][18wt][wt][18tY][tY][18wt][wt]
+[%Yo][Yo][%Yo][Yo][%wt][wt][%Yo][Yo][%Yo][Yo][%wt][wt][%Yo][Yo][%wt][wt]
+[%Yo][Yo][%Yo][Yo][%wt][wt][%Yo][Yo][%Yo][Yo][%wt][wt][%Yo][Yo][%wt][wt]
+[4ti][ti][4ti][ti][W4t][Wt][4ti][ti][4ti][ti][W4t][Wt][4ti][ti][W4t][Wt]
+[4ti][ti][4ti][ti][W4t][Wt][4ti][ti][4ti][ti][W4t][Wt][4ti][ti][W4t][Wt]
+[t%Y][tY][t%Y][tY][%w]w[t%Y][tY][t%Y][tY][%wt][wt][t%Y][tY][%wt][wt]
+[E5y][Wt][E5y][tY][5yi][tY][5yi][Yo][5iP] [5tY] [E5y] 5 
+[Y18to][Yto][Y18to][Yto][18wY][wY][Y18to][Yto][Y18to][Yto][18wtY][wtY][Y18to][Yto][18wtY][wtY]
+[Y18to][Yto][Y18to][Yto][18wY][wY][Y18to][Yto][Y18to][Yto][18wtY][wtY][Y18to][Yto][18wtY][wtY]
+[o%YP][oYP][o%YP][oYP][wt%Y][wtY][o%YP][oYP][o%YP][oYP][wt%Y][wtY][o%YP][oYP][wt%Y][wtY]
+[o%YP][oYP][o%YP][oYP][wt%Y][wtY][o%YP][oYP][o%YP][oYP][wt%Y][wtY][o%YP][oYP][wt%Y][wtY]
+[4tiO][tiO][4tiO][tiO][W4ti][Wti][4tiO][tiO][4tiO][tiO][W4ti][Wti][4tiO][tiO][W4ti][Wti]
+[4tiO][tiO][4tiO][tiO][W4ti][Wti][4tiO][tiO][4tiO][tiO][W4ti][Wti][4tiO][tiO][W4ti][Wti]
+[s%D][Os][%YO][Os][s%D][dg][s%D][Os][s%D][Os][%YO][Os][s%D][dg][s%D][Os]
+[5dh] [5oD] [5dJ][oD][5dJ][oD][5dJ][oD][5dJ][oD][5dH][oD][Pg][oD]
+[Y158o] [Yo] [Ywo] [wyi] [wyi] [yi] [Yqo] [(Yo] 
+[Yqo] [Yo] [Ywo] [yi] [yi] [yi] [Yqo] [(Yo] 
+[qi@%O] [iO] [wiO] [Yqo] [Yo] [(Yo] [iO]^[8iO] 
+[iO] [iO] [iO] [Yo] [Yo] [Yo] [qiO] [iO] 
+[^4qyi] [yi] [qyi] [iP] [qiP]([iP] [(yi] [yi] 
+[qyi] [yi] [wyi] [qiP] [iP] [iP] [(yi] [yi] 
+[^P4qd][os][iP][Yo][4wo^P][io][Yqi][yo][^Y4i][iP][^(Y4o][yi][Yo][8yi][4t^Y][Ey]
+[Y158ts][YD][oh][PJ][DZ][sl][oh][YD][ts][YD][oh][PJ][sl][PJ][oh][PJ]
+[8sl]888[(w]8[8w]8[9w]888[(q]8[8(]8
+[8q]888(8[8w]89 [18] 8 [^(] 
+[%q]%%%[%w]%%%[%q]%[%(]%%%[%8]%
+%%[%(]%%%%%%%%%[%q]%%%
+[^q] [^q] q [%(q] [^q] ^^[^(]^^^
+[^q] [^q] w [%(q] [^(q] ^^[^(]^^^
+[8q] 8 [8w]8[8q]88 [8(] 8[^8]88
+8 [8t]-[^E] [8t] ( 8 ^ 
+[8t][8t][8t][8t][89wty][89y][8wt(Y][8(Y][8qwti][8qi][8(Y][8(Y][E8qi][8qi][(8wo][8wo]
+[8qEP][8EP][E8qwo][8wo][8qi][8qi][8w(Y][8(Y][8qwti]8w [(8whv] [^(w] 
+[8q%E] [%8][%8][^9wt][^9][%8][%8][8q(E][8(][%(8w][%8][^9][^9][8%(][%8]
+[%8] [%(8w][%8][^9][^9][%8][%8][8(][8(][%8][%8][^9][^9][%8q][%8]
+[^9] [^9q][^9][^9q] [^9] [qW] [9^(] [Wqs] [(Ewd] 
+[^9] [^9q][^9][^9] [^9w] [qW] [(w] [Wqs] [(Ewd] 
+[8qwt] 88[8w]8[8q]888[8(]8888 
+[8t] [8t]-[8t] [iO] [^E] [oP] [%W] 
+[YO4os] 4 [O4s] [4oP] 4 4 [4iO] 4 
+[YO4os] 4 [O4s] [4oP] 4 4 [4iO] 4 
+[8oP][Y8o][8tY][Y8o][8oP][Y8o][8ioP][Y8o][8tY][Y8o][8oYP][Y8o][8oP][Y8o][Y8ti][Y8o]
+[8oYP][Y8o][8tY][Y8o][8oP][Y8o][8oP][Y8o][Y8ti][Y8o][8oP][Y8o][8oP][Y8o][8tY][Y8o]
+[%Os] % [%O] [%Pod] % % [%Ois] % 
+[%Osd] % [%O] [o%PD] % % [%Ois] % 
+[^Pdg][Pd][iP][Pd][^dg][Pd][^dg][Pd][i^P][Pd][^dg][Pd][^dg][Pd][i^P][Pd]
+[^g]djg[^EJ]glg[%YL]jLJ[^iz][JZ]x[Jc]
+[@(Yo]--[Yi]--Y-
+[y^P]----[18P] ^ 
+[t%WP]-P O--o-
+[8%Y][%8][%8] [8(Y] [%8i] [9q] [%8] [(wo]-
+[Ywto] [8w] [Y8wo] [wtYO] [8w] [8w] [EYqo] [wt] 
+[Eqyi] [^q] [^qyi] [Eqyo] [^q] [^q] [(wyi] [qE] 
+[%Wto] %%%%[%i]%%%%%[%Y]%%%
+[%Y]%%%%%%%%%%%%%%%
+[Y18o]-[Yo] [Yi]--[18tY] ^ 
+[t%Y]--[yi]----
+[Y8to] [8wt] [Y8wto] [Y8ti] [8wt] [8wt] [8tY] [8wt] 
+[o@(YP][Yo][tY][tY][Yo][Yo][ioYO][iO][oP][oP][iO][iO][Yo][Yo][tY][tY]
+[Oqis][qiO][qiO][qiO][OPqos][qoP][Oqis][qiO][Oqs][Oqs][qiO][qiO][OPqos][qoP][Oqs][Oqs]
+[Oqis][qiO][qiO][qiO][OPqos][qoP][Oqios][qiO][Oqs][Oqs][qiO][qiO][Pqios][qoP][Oqs][Oqs]
+[^EPyd][^Ey][^Ey][^Ey][t^Y][t^Y][^Ey][^Ey][^yi][^yi][^Ey][^Ey][t^Y][t^Y][^yi][^yi]
+[^Ezc][zc][ZC][ZC][EYxv][xv][cv][cV][ocEV][Cb][Cb][vb][vEPB][vB][Vn][bn]
+[%(YP] s----[Ys]-
+[Ys]--[YP]-[yo] [yi]-
+[Y18wo]-[YP] [Yo]----
+[tY]-[tY]-
+[^qyi] ^^^^[^yi]^^^^^[^yi]^^^
+[^Yo]^^^^^[^yi]^^^^^[t^Y]^^^
+[59yo]----
+[9y][^E][5w][^E][y(Y][^E][5w][^E][wyo][^E][5w][^E][qyiP][^E][5w][^E]
+[y%(P][Ys]H D--[Ys] [Ys] 
+[Ys]--[yP]--[yi]-
+[18wto]-[YP] [to]--[ti]-
+[Yo]--t-[tY]-
+[^Eqid] ^[^Eid]^^[^Eid]^^^^^[^EYs]^^^
+[^Eyid]-[YPog]-[iosh]-[dYPJ]-
+[YD8tosl]8[Y8o]888[8yi]8[Y8o]8[8yi]8[8tY]8[8tY]8
+[Y8o]8[Y8o]888[8yi]8[Y8o]8[8iO]8[8oP]888
+[%Yo] [Yo]-[yi][yi][Yo][Yo][iO][iO][oP][oP][Yo][Yo]
+[o^P] [Os] [Pd] [zJB]----[sH]
+[8dJZ]8[8hPJ]8[D8oh]8[8sYD]888[Y8o]8[8oP]8[8PD]8
+[D8h]8[8sD]8[D8h]8[8gH]888[8hJ]8[8gH][D8h][8sD]8
+[%JZ] [JZ] [hJ] [JZ] [JZ] [hJ] [JZ] [hJ] 
+[h^J][gH][hJ][gH][Dh][hJ][gH][hJ][gH][hJ][gH][Dh][gH][sD][Dh][hJ]
+[D8h]8[D8h]888[8dg]8[D8h][D8h][8dg][8dg][8sD][8sD][P8d][P8d]
+[D8h]8[D8h]888[8dg]8[D8h]8[8gH]8[8hDJ]888
+[%JZ][hJ][JZ][hJ][Dh][hJ][Dh][hJ][Dh][Pg][Dh][Pg][Dh][hJ][Dh][Pg]
+[^Dh] [PD] [Dh] [gJ]----
+[8hJ]8[8hJ]888[8hJ][8gH][8hJ]8[8gH]8[D8h]8[8sD]8
+[D8h]8[D8h]888[8dg][D8h][8gH]8[8hJ]8[8hDJZ]888
+[%JZ][hJ][Dh][PD][Dh][JZ][hJ][Dh][PD][Dh][hJ][JZ][hJ][Dh][PD][Dh]
+[g%H]-[h^(J]-[g%H]-[(D5h]-[48tdg] 
+[18tv@B] 5 8 @ 5 8 @ 5 
+8 @ 5 8 @ 5 8 @ 
+[158] [18] [(1o] [18o] [1qo] [1(] [18i] [1^Y] 
+[18i] [18] [(1o] [18] [1q] [1(] [18i] [1^Y] 
+[%8i] [%8] [%(o] [%8] [%qi] [%(] [8%Y] [%^t] 
+[%8] [%8] [%(] [%8] [%q] [%(] [%8i] [%^] 
+[^8i] [^8] [^(i] [^8] [^qi] [^(] [8^Y] [^Y] 
+[^8i]i[^8] [^(o] [^8] [^qi] [^(] [8^Y] [^Y] 
+[158ihlZ][hlZ][hlZ][hlZ][Dohl][osh][hlZ][hlZ][ihlZ][hlZ][YDhl][osh][hlZ][hlZ][Dthl][osh]
+[158sh]----
+8888[i(P]8[8os]8[9os]888[i(P]8[Y8o]8
+[8iP]8[8iP]8(8[Y8o]8[9os] [18] [ti] [^Yo] 
+[i%O]%%%[o%P]%[i%O]%%%[%Yo]%%%[t%Y]%
+%%%%%%%%%%%%[%i]%%%
+[^qi] [^qi] i [%(Y] [^qi]^^^[^i]^[^Y]^
+[^qi] [^qo]-[%(i] [q^Y]^^^[^Y]^[^Y]^
+[8i] 8 [8o]8[8i]88 [8Y] 88[8t]8
+8 [58]-[^(] [8qiO]-[Poh]-
+[YO4os] [4tY] [YO4ts] [4oP] [4tY] [4tY] [4iO] [4tY] 
+[YO4os] [4tY] [YO4ts] [4oP] [4tY] [4tY] [4iO] [4tY] 
+[8oP][Y8o][8tY][Y8o][8oP][Y8o][8ioOP][Y8o][8tY][Y8o][8oP][Y8o][8oYP][Y8o][8tY][Y8o]
+[ry][8tiYO]-[^ry][Yo] [t%ETY]-[5et] [oP][W4r]-
+[%Os] [%ti] [%Otis] [o%P] [%ti] [%ti] [i%O] [%ti] 
+[%Os] [%ti] [%Otis] [o%P] [%ti] [%ti] [ti%O] [%ti] 
+[^P4dg][Pd][iP][Pd][^4dg][Pd][^4dg][Pd][4i^P][Pd][^4dg][Pd][^4dg][Pd][4i^P][Pd]
+[4l^Z][kZ][kz][JL][j^EL][jl][Hk][hk][h%YJ][Gj][gj][gH][^ifh][Dh][DG][dg]
+[@(EYo]--[EYi]--[EY]-
+[qy^EP]----[18wtP] [q^E] 
+[t%(WYP]-P O--o-
+[8%Y][%8][%8] [8(Y] [%8i] [9q] [%8] [(wsh]-
+[Ywto] [8w] [Y8wto] [wtYO] [8w] [8w] [EYqto] [wt] 
+[Eqyi] [^q] [^Eqyi] [EYqto] [^q] [^q] [(WEPyid] [qsED] 
+[(Wto] %%[%o]%[%i]%%%%%[%Y]%%%
+[%Y]%%%%%%%%%%%%%%%
+[Y18wto]-[Yto] [Yti]--[18wtY] [q^E] 
+[t%(WY]-[tY] [Yti]----
+[Y158to] [wt] [wto] [Yti] [wt] [wt] [tY] [wt] 
+[o@^(YP][Yo][tY][tY][Yo][Yo][ioEYO][iO][oP][oP][iO][iO][Yo][Yo][tY][tY]
+[4iWO][4iO][4iWO][4iO][4oP][4oP][4iWO][4iO][WO4is][O4s][4iO][4iO][4ioWOP][4oP][O4s][O4s]
+[4iWO][4iO][4iWO][4iO][4ioWOP][4oP][4iO][4iO][WOP4is][O4s][4iO][4iO][WP4ios][4oP][EOP4yis][O4s]
+[^Eys][^Ey][^Ey][^Ey][t^YP][t^Y][^Ey][^Ey][^yi][^yi][^Ey][^Ey][t^Y][t^Y][^yi][^yi]
+[^Z]zxz[EYc]zCz[EYov]zVz[EYPb]zBz
+[%(WYOs]----[YOs]-
+[YOs]--[YOP]--[iYO]-
+[Y18wto]-[oYP] [Yo]----
+[Yo]-[Yo]-
+[^Eqyi] ^^^^[^yi]^^^^^[^yi]^^^
+[^yo]^^^^^[^yi]^^^^^[t^Y]^^^
+[59wyo]----
+[9y][^E][5w][^E][8tyEY][^E][8t][^E][5wyo][^E][9y][^E][yo(YP][^E][9y][^E]
+[%(WYO]----[YOs] [YOs] 
+[YOs]--[YOP]--[iYO]-
+[Y18wto]-[YP] [Yo]--[Yi]-
+[Yo]--[tY]-[wtY]-
+[^Eqyi] [^yi]^^^[^yi]^^^^^[t^Y]^^^
+[^Eqyi]-[io]-[io]-[YP]-
+[Y158tos] [Y158o] [158] [158yi] [Y158o] [158yi] [158tY] [158wtY] 
+[Y158o] [Y158o] [158] [158yi] [158tY] [158wt] [158tY] [158] 
+[@%YD] [YD]-[yd] [YD] [ig] [oh] [YD] [YD]
+[^4oh] [ig] [YD] [ig]----
+[158PD] [158oP] [Y158o] [158tY] [158] [Y158o] [158oP] [158PD] 
+[D158h] [158PD] [D158h] [158gH] [158] [158hJ] [158gH][Dh][158sD] 
+[@%JZ] [JZ] [hJ] [JZ] [JZ] [hJ] [JZ] [hJ] 
+[4^J]lzJHhD [gJ]--
+[158] [YD158h] [YD158h] [158ydg] [YD158h] [158ydg] [158tsD] [158wos] 
+[158] [YD158h] [YD158h] [158ydg] [YD158h] [158igH] [158ohJ] [158] 
+[@%JZ][hJ][JZ][hJ][@%Jz][hJ][@%Hl][hJ][@%JZ][hJ][@%Hl][hJ][@%Jz][hJ][g@%H][Dh]
+[4h^J] [Dh] [sD] [igJ]----
+[158oh] [158oh] [158] [158oh][ig][158oh] [158ig] [158YD] [158ts] 
+[158oh] [158oh] [158] [158ig][oh][158ig] [158YD] [158sl] [158] 
+[h@%J][Dh][sD][Dh][gH][dg][Dh][sD][Os][sD][Dh][sD][@%dg][Pd][s@%D][Os]
+[g@%J][gJ][gJ][4h^J]-[g@%H]-[D25h]-[14dg] 
+[158sl@B]----
+^-
+[18]--[Yo]--
+[yi]--[tY]--^ 
+[18]--[oP]--
+[iO]--[Yo]-^-
+[18]--[Yto]--
+[Eyi]--[Yto]--[Eyi]-
+[t@%WY]----
+%-
+[18o]sDosDhl[oYZ]lhDswtY
+[yio]sDosDhl[tYZ]lhD[^s]osD
+[18o]sDosDhl[oPZ]lhDswtY
+[ioO]sDosDhl[oYZ]lhDso[^s]D
+[18o]sDosDhl[oYZ]lhDswtY
+[yio]sDosD[Yoh]lZlhD[Oyis]osD
+[@%YO]sDOsDHlZlHDsODs
+OYtWtYOsDOsDHsDH----
+[1E][1t][1t][1t][1t][1t][1E][1t][1Y][1t][1t][1t][1t][1t][1t][1t]
+[1o][1o][1o][1i][1i][1i][1Y][1Y][1i][1i][1i][1Y][1Y][1Y][1y]1
+[5E][5t][5t][5t][5t][5t][5E][5t][5Y][5t][5t][5t][5t][5t][5t][5t]
+[%o][%o][%o][%i][%i][%i][%Y][%Y][^i][^i][^i][^Y][^Y][^Y][^y]^
+[1E][1t][1t][1t][1t][1t][1E][1t][1Y][1t][1t][1t][1t][1t][1t][1t]
+[1o][1o][1o][1i][1i][1i][1Y][1Y][1i][1i][1i][1Y][1Y][1Y][1y]1
+[5E][5t][5t][5t][5t][5t][5E][5t][5Y][5t][5t][5t][5t][5t][5t][5t]
+[%o][%o][%o][%i][%i][%i][%Y][%Y][^i][^i][^i][^Y][^Y][^Y][^y]^
+[@%o] o-O [158o] i Y-
+[^4i] i-io [158i]YtEt-
+[i%P][%os][i%P][%os][%PD][%sg][%PD][%sg][%sg][%Dh][%sg][%Dh][s%D]%[%Dh][s%D]
+[^s][^s][^P][^P][^i][^i][^P][^P][^P][^P][^s][^P][^d][^g][^B]^
+[158sD] [sD]-[sD][Pd][l@%Z]-[Pd]-[oP] 
+[^P4d]-[oP]-[Yo] [158iO][Yo][iO][oP][tY]-
+[5o][5o][5o][5i][5o][5P][5o][5i][5o][5o][5o][5i][5o][5P][5o][5i]
+[%D][%s][%D][%g][%h][%g][%D][%s][^P]^^pP^^p[^P]^^pP
+[E1y][1tY][1tY][1tY][1tY][1tY][E1y][1tY][Y1o][1tY][1tY][1tY][1tY][1tY][1tY][1tY]
+[1oP][1oP][1oP][1iO][1iO][1iO][Y1o][Y1o][1iO][1iO][1iO][Y1o][Y1o][Y1o][1yi]1
+[E5y][5tY][5tY][5tY][5tY][5tY][E5y][5tY][Y5o][5tY][5tY][5tY][5tY][5tY][5tY][5tY]
+[o%P][o%P][o%P][i%O][i%O][i%O][%Yo][%Yo][i^O][i^O][i^O][^Yo][^Yo][^Yo][^yi]^
+[E1y][1tY][1tY][1tY][1tY][1tY][E1y][1tY][Y1o][1tY][1tY][1tY][1tY][1tY][1tY][1tY]
+[1oP][1oP][1oP][1iO][1iO][1iO][Y1o][Y1o][1iO][1iO][1iO][Y1o][Y1o][Y1o][1yi]1
+[E5y][5tY][5tY][5tY][5tY][5tY][E5y][5tY][Y5o][5tY][5tY][5tY][5tY][5tY][5tY][5tY]
+[o%P][o%P][o%P][i%O][i%O][i%O][%Yo][%Yo][i^O][i^O][i^O][^Yo][^Yo][^Yo][^yi]^
+[@%Wt][Wt][Wt] [tY] [Wt] [E158y] [qE] [(w] [wt] 
+[4q^W]-[wE]-[Ey] [158tZ]-c ZcZ
+[%W]E%t[%y]Y%y[%t][%y][%Y]i%o[%O]o%i[%o][%i][%Y][%y][%Y][%i]
+[^t][^E]t[^y]Y^i[^o][^O][^o]i^Y[^i][^o][^O][^P][^DZ]^^^
+[Y158o]-[Dh]-[Yo] [@%yi]-[dg]-[Yo] 
+[^4i]yiP[dg]-[158dg][sD][Pd][sD]--
+[5g]s5D[5h]s5[5P]s5P[5d]i5Y[5O]i5Y[5t]Y5E[5t]E5w[5E]w5E
+[%t]Y%o[%Y]o%O[%i]o%P[%s]D%s[^P]s^D[^g]D^s[^g][^D][^s][^D]
+[18oh] [oh][oh][oh] [ig] [YD] [ts] [YD] [ig] 
+[18oh] [oh][oh][oh] [ig] [YD] [PJ] [oh]-
+[18oh] [oh][oh][oh] [ig] [YD] [ts] [YD] [ig] 
+[%ig][oh][ig][YD][ts][YD][ig][oh][PJ][oh][ig][YD][%c]-
+[18ohJ] [ohJ][ohJ][ohJ] [igH] [YDh] [tsD] [YDh] [igH] 
+[18ohJ] [ohJ][ohJ][ohJ] [igH] [YDh] [PJZ] [ohJ]-
+[18ohJ] [ohJ][ohJ][ohJ] [igH] [YDh] [tsD] [YDh] [igH] 
+[h%J][gH][Dh][sD][Dh][gH][hJ][Hl][ad][sD] [dG][Dh] [Gk][hl] [kz][lZ] 
+[5hJ][gH][Dh][dg][Dh][dg][sD][Pd][LZlx] [hlHL] [fhDH] [SDsf] 
+[5D]hlZ-dgJz-DhlZ-dgJz-
+[18Y][18y][18t][18y][18t][18W][18w][18W][18][18t][18y][18Y][18][18o][18O][18s]
+[18o][18O][18s][18O][18s][18d][18D][18d][18D][18g][18D][18g][18h]-
+[%g][%D][%d][%s][%O][%s][%d][%D][%g][%D][%g][%h][%g][%h][%g][%H]
+[%h][%J][%h][%D][%d][%J][%l]%[%J][%l]%[%J][%l] J 
+[^l]J[^l]Hlh[^l][^g][^D][^d][^D][^g][^h][^H][^J]^
+[^H]J[^h]Jg [^D][^d][^s]^[^d][^D][^g][^h][^H]^
+[8s]d[8D]g[158D]Zgh[8g]D[8g]D[158d]sds
+Po[18O]POo[^i]Y[18y]t[@(o]O[18P]sdD
+[18hl][18][18][18][P18d][18][18lZ][18][18][18][P18d][18][18hl][18][18gJ][18]
+[18os][18][18gJ][18][18yh][18][18id][18][18sD][18][18yi] [Dh] ^ 
+[%Jz]%[%Jz]%[%Pd]%[l%Z]%[%Jz]%[%Os]%[h%J]%%%
+[%zc]%[%zc]%[%dc]%[%Dh]%[%dg]%[l%Z]%[%Hl]%%%
+[^t][^Y][^o][^l][^Z][^v][^V][^h]D[^s]Z[^l][^h][^l][^o][^Y][^o][^Y]
+[^t][^s][^D][^h][^l][^Z][^v][^D][^s][^o][^l][^v][6n]666
+[7n][7C][7n][7GC][7n][7C][7x][7C][7n][7C][7n][7C][7n][7C][7n]7
+[7n][7C][7n][7C][7n][7C][7x][7C][%B]%%%[%n]%%%
+[4qW][4wE][W4t][4EY][4ti][4yo][4YO][4iP][4oO][4iP][4os][O4d][4PD][4s][4dg][D4h]
+[4gJ]4[4gJ]444[4hl]4[4gJ]4[D4h]4[4sD]444
+[18hl][sD][hl][sD][hl][Dh][sD]l[oh][ts][oh][ts][oh][YD][ts][oh]
+[18hl][hl][hl]h[hJ] [Dh] [hJ] [Dh] [dg] [Dh] 
+[%Hl][DH]%[sD][h%J][sD]%[DH][%Hl][DH]%[sD][h%J][sD]%[DH][%Hl][DH]%[sD][h%J][sD]%[DH][%Hl][DH]%[sD][h%J][sD]%[DJ]
+[l%Z][%Hl][%DH][s%D][%Os][s%D][%DH][%Hl][%JL][%Hl][%JL][l%Z][%Hl]%[%DH]%
+[^4dg][gJ][dg][gJ][gJ][Jz][gJ][Jz]c--
+[36rT][Ty][yu][uI][I36o][op][pa][bn][J25z][xv][bn][Hlxv][36bn][Jhxv][bn][Hgxv]
+[@^(dg][Dh]--[dg][Dh]--[dg][sD]
+[^4dg] [sD] [Os] [oP]--[^I]o
+[@%P] o I i Y i o P 
+[%8a][%8][%8s] [8(D] [8%P] [9qJB] [%8n] [w(B] nB
+[18][18][18][18dg][D18h][18][18][18][18gH][18][18][18][18hJ][18][18][18hJ]
+[^Hl]^^^[h^J]^[h^J]^^^[g^H]^^^[^Dh]^
+[g@%H] [Dh] [sD] [oP] [Yo] [oP] [dg] [sD] 
+[@%] [sD] [dg] [sD] [dg][Dh]-[o%P]-
+[158sD] [hJ] [sD] [Os]-[Dh] [Os] [o^P] 
+[@%YO] [oP] [sD] [dg] [Dh][dg][sD] [hJ]-
+[158vB] [1lV] [1zc] [Z158v] [1JZ] [1lc] [158hJ] [H1l][dg][sg]
+[@^(Dh] [sg][Dh] [sg][Dh] [Dh][hJ] [Dh][hJ] [Dh][hJ] [Dh][hJ]-
+[48ql]H[4qh]D[4q][4qh][4qd]D[4ql]h[4q]H[4ql][4qh][4qD][4qh][4qd][4qD][4ql]h[4q]H
+[4ql]h[4q]H[4ql]h[4q]H[4qh][4qD][4qh][4qd][4qh]d[4q]h[4qd][4q][4qP][4q][4qO][4q]
+[158Y]o[18P][18D][18h][18J][18H][18][18h][18g][18D][18d][18s][18P][18O][18o]
+[^4y]i[^o][^O][^P][^s][^d][^D][^d][^s][^P][^O][^o][^P][^s][^d][Pd]
+[@%Dsl]--[sD]-[Os]-[Os] 
+[sD] [dg]-[dgV][hDB]-d-s 
+[158sD][Pd][os][YP][io][oP][io][Yi][oP] [oP] [oP] [oP] 
+[iO] [Yo] [tP] [ov]----
+[^D4h] [^Dh]^[s^D]^[^Dh]^[^Dh]^[s^D]^[^Dh]^[s^D]^
+[^Dh]^h[g^H]^^^[^Dh]^^^[s^D]^[d^B]^^^
+[5Y][5i][5o][5O][5P][5o][5O][5P][5O][5s][5d][5D][5s][5d][5D][5O]
+[%s]OdsPOsP[^o]PdPPdgd
+[%YD][%YD][%ts][%ts][%ig][%ig][%ts][%ts][%oh][%oh][%ts][%ts][%ig][%ig][%ts][%ts]
+[%OH][sD][sD][OH][sD][sD][Dl][OH][DH][Dl][OH][DH][OH][sD][sD][OH][sD][sD][Dl][OH][DH][Dl][OH][DH]
+[P18d] [18sD][Dh][gH][hJ][g^H][Dh][18gH][Dh][18sD] [P18d] [s^D][sD]
+[P18d][oP][P18d][Pd][oP][iO][^Yo] [18iO][oP][18tZ] ^ [18] 
+[s^D] [Pd] [sD] [sZ][Pz]-[oP] [Yo] [ol] 
+[OJ]lO [oP] [iO] [Yo] [Yh] [yg][Yh][yg][Yh]
+[E18yg][tY][yi][Yo][iO][oP][Pd][Os][oP][Os][oP][Os][sD][os][sD][os]
+[sD][hl][Dz][sh][tkL][Dh][kL][Dh][YJl][Dh][Jl][sD][Dijk][sD][hjk]H
+[158wtohYJ]--o--o-
+o--i--Y-
+[t@%WY]----
+t-y-Y-
+[^E4qyi]--i--i-
+i--Y--i-
+[@^(EYo]----
+t-Y-i-
+[Y158wto]--o--o-
+o--i--Y-
+[t@%(WY]--i--Y-
+t----Y-
+[^E4yi]--i--Y-
+i--o--O-
+[25wryozv][zv][Jz]h[zv][zv][Jz]h[zv][zv][Jz]h[zv][zv][Jz]h
+[oshv] c [YZ] z [odlcYPB] [JV] [PHv] h 
+[@%Ys]----[Ys]-
+[Ys]--[yP]--[yi]-
+[Y158o]-[oP] [Yo]----
+[tY]-[tY]-
+[^4yi] ^^^^[^yi]^^^^^[^yi]^^^
+[^Yo]^^^^^[^yi]^^^^^[t^Y]^^^
+[25yoP]oOPsOPsdPsdDsdD
+[9d][^P][5o][^P][(YD][^P][5o][^g][qoP][^o][5h][^P][woP][^J][5P][^o]
+[@%WYPtl] s----[sl] [PJ] 
+[sl]--[PJ]--[ih]-
+[Y158wtoh]g[18D][18g][18PD][18s][18oP][18i][18o][18P][18s][18D][18is][18D][18h][18h]
+[18oJ][18G][18j][18g][18h][18D][18g][18d][18ts][18][18][18][18YD][18][18] 
+[^E4qyig] [^i]^^^[^ig]^^^^^[^YD]^^^
+[^E4qyi]-[Yi]-[yo]-[YP]-
+[18tYP][18tY][Y18ts][18tY][18wt][18wt][18tY][18tY][18tY][18tY][18wt][18wt][18tY][18tY][18wt][18wt]
+[18tY][18tY][18tY][18tY][18wt][18wt][18tY][18tY][18tY][18tY][18wt][18wt][18tY][18tY][18wt][18wt]
+[%Yo][%Yo][%Yo][%Yo][%wt][%wt][%Yo][%Yo][%Yo][%Yo][%wt][%wt][%Yo][%Yo][%wt][%wt]
+[%Yo][%Yo][%Yo][%Yo][%wt][%wt][%Yo][%Yo][%Yo][%Yo][%wt][%wt][%Yo][%Yo][%wt][%wt]
+[4ti][4ti][4ti][4ti][W4t][W4t][4ti][4ti][4ti][4ti][W4t][W4t][4ti][4ti][W4t][W4t]
+[4ti][4ti][4ti][4ti][W4t][W4t][4ti][4ti][4ti][4ti][W4t][W4t][4ti][4ti][W4t][W4t]
+[t%Y][t%Y][t%Y][t%Y][%wt][%wt][t%Y][t%Y][t%Y][t%Y][%wt][%wt][t%Y][t%Y][%wt][%wt]
+[5WE][5wt][W5y][5EY][E5t][W5y][5EY][5yi][Y5o][5yi][5tY][5yi][5tY][W5t][5wE]5
+[18tY][18tY][18tY][18tY][18wt][18wt][18tY][18tY][18tY][18tY][18wt][18wt][18tY][18tY][18wt][18wt]
+[18tY][18tY][18tY][18tY][18wt][18wt][18tY][18tY][18tY][18tY][18wt][18wt][18tY][18tY][18wt][18wt]
+[%Yo][%Yo][%Yo][%Yo][%wt][%wt][%Yo][%Yo][%Yo][%Yo][%wt][%wt][%Yo][%Yo][%wt][%wt]
+[%Yo][%Yo][%Yo][%Yo][%wt][%wt][%Yo][%Yo][%Yo][%Yo][%wt][%wt][%Yo][%Yo][%wt][%wt]
+[4ti][4ti][4ti][4ti][W4t][W4t][4ti][4ti][4ti][4ti][W4t][W4t][4ti][4ti][W4t][W4t]
+[4ti][4ti][4ti][4ti][W4t][W4t][4ti][4ti][4ti][4ti][W4t][W4t][4ti][4ti][W4t][W4t]
+[5o][5s][5h][5H][5h][5D][5s][5D][5s][5o][5s][5o][5Y][5o][5Y][5t]
+[5o][5s][5D][5h][5H][5D][5h][5H][5D][5h][5H][5D][5H][5D][5h][5D]
+[Y158ohl] [158oPJ] [158oPJ] [Y158oh] [oPJ] [158oPJ] [Yoh] [158oPJ] 
+[oPJ] [Y158oh] [Yoh] [158oPJ] [158oPJ] [Y158oh] [^4tig] [EYD] 
+[^29yig] [@^(Yoh] [@^(Yoh] [@^(yig] [Yoh] [@^(Yoh] [yig] [@^(Yoh] 
+[Yoh] [@^(yig] [yig] [@^(Yoh] [i@^(OH] [@^(Yoh] [@^(yig] [tYD] 
+[48qcV][vB] [48qcV][vB] [48qcV][vB] [48qcV][vB]-[48qcV][vB]-[48qcV][vB]-
+[48qcV][vB]-[48qcV][vB] [c@^(V][vB] [c@^(V][vB] [48qcV][vB]-
+[^59wdz][PJ][oh][Pz][dJ][oh][Pz][dJ][Ph][oz][dJ][Ph][oz][PJ][dh][oz][PJ][dh][Pz][oJ][dh][Pz][oJ][Ph]
+[dz][oJ][Ph][dz][PJ][oh][dz][PJ][oh][Pz][dJ][oh][Pz][dJ][Ph][oz][dJ][Ph][oz][PJ][dh][oz][PJ][dh]
+[dz][PJ][oh][Pz][dJ][oh][Pz][dJ][Ph][oz][dJ][Ph][oz][PJ][dh][oz][PJ][dh][Pz][oJ][dh][Pz][oJ][Ph]
+[dz][oJ][Ph][dz][PJ][oh][dz][PJ][oh][Pz][dJ][oh][Pz][dJ][Ph][oz][dJ][Ph][oz][PJ][dh][oz][PJ][dh]
+[s%WOH] [P5woh] [O4qig] [o@(YD] [P5wog] [4qiOD] [o@(YD] [29yiD] 
+[5vB]--[Ey]--
+[18oh][18ig][18YD][18ts][18EP][ts][YD][ig][18oh]-[18PJ]-[^sl] 
+[7akn] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
