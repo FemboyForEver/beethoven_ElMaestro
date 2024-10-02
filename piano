@@ -438,22 +438,26 @@ i--o--O-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("la seine", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ [^E] [6e] [^E] [8t] 9 y 9yy
+y9 y 9yyy9 y 9yy
+y[^E] [6e] [^E] [8t] 9 e 9e 
+e[9i]-9 8 ^ E ^E 
+E[^i]-^ 6 [4t] t 4-
+[6T] T 6-[^y] y ^te 
+4-4 3 9 e 9e 
+e[9i]-9 8 ^ E ^E 
+E[^i]-^ 6 [4t] t 4-
+[6T] T 6-[^y] y ^te 
+4-[4i] [3u] y e e y--
+i u E q q E--
+i u-t T ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
