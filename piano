@@ -827,49 +827,78 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ 1 5 w e| |1 5 w e||0|
-1 5 w e| |1 5 w e||0|
-1 5 [wo] [pe]| |1 5 [wo] [pe]||[u0]|
-1 5 [wo] [ra]| |1 5 [wo] [pe]||[u0]|
-[u1]o[p5]a[wso]d[pea]| |
-[u1] 5 [wo] [pe] u| [u0]| [a1] 5 ws[rd]sasapot
-[u1] 5 [wo] [pe] u| [u0]| [u1]o[p5]a[wso]d[pea]| |
-[u1] 5 [wo] [pe] u| [u0]| [a1] 5 ws[rd]sasapot
-[u1] 5 [wo] [pe] u| [u0]| [s1] 5 [wo] [pe] a| |
-1 5 [woa] [pe]||[uo0]| [a1] 5 [wo] [ra] p| |
-1 5 [wpo] [pe]||[u0]| [s1] 5 [wo] [pe] a| |
-1 5 [woa] [pe]||[uo0]| [a1] 5 [wo] [ra] p| |
-1 5 [wpo] [pe]||[u0]|
-[td86] [e8]f[d0]s[ed]h[rd6] 8 w [h8]
-[rd75] wa9 a [wp5] 8o[tp8] o
-[rd75] wf[d9]s[rd7]h[rd7]||h
-[td6] 8s0 [ea] [pe6] op|
-[t86] [e8] 0 e [r6] 8 w 8
-[r75] w 9| [w5] 8 [t8]|
-[r75] w 9 [r7] [r7]| |
-[t6] 8 0 e [e6]| |
-[td86] [e8]f[d0]s[ed]h[rd6] 8 w [h8]
-[rd75] wa9 a [wp5] 8o[tp8] o
-[rd75] wf[d9]s[rd7]h[rd7]||h
-[td6] 8s0 [ea] [pe6] op|
-[u1]o[p5]a[wso]d[pea]| |
-[u1] 5 [wo] [pe] u| [u0]| [a1] 5 ws[rd]sasapot
-[u1] 5 [wo] [pe] u| [u0]| [u1]o[p5]a[wso]d[pea]| |
-[u1] 5 [wo] [pe] u| [u0]| [a1] 5 ws[rd]sasapot
-[u1] 5 [wo] [pe] u| [u0]|
-[s1] 5 [wo] [pe] a| |
-1 5 [woa] [pe]||[uo0]| [a1] 5 [wo] [ra] p| |
-1 5 [wpo] [pe]||[u0]| [s1] 5 [wo] [pe] a| |
-1 5 [woa] [pe]||[uo0]| [a1] 5 [wo] [ra] p| |
-1 5 [wpo] [pe]||[u0]|
-[td86] [e8]f[d0]s[ed]h[rd6] 8 w [h8]
-[rd75] wa9 a [wp5] 8o[tp8] o
-[rd75] wf[d9]s[rd7]h[rd7]||h
-[td6] 8s0 [ea] [pe6] op|
-[td86] [e8]f[d0]s[ed]h[rd6] 8 w [h8]
-[rd75] wa9 a [wp5] 8o[tp8] o
-[rd75] wf[d9]s[rd7]h[rd7]||h
-[td6] 8s0 [ea] [pe6] op ]]
+shared.scr = [[ [lj] s [kH] s [hJ] s
+[jg4]|[tie] g 8 h [tjie]|
+[hd5]|[yi] [da] 7SdSdSdS[yw]dSdSdSd
+[d^]|[yigdE]|[g^] h [yiHE]|
+[jg4]|[tie] s 4 d[tsie]dg
+[h^]|[yiHE] h [^H] h [yigE]|
+[spg4]|[tpie]sDds[p4] o [tie]|
+[J5]khd[yoPE] P [a5] s [yrod]|
+[tf]|[yid] s t|[uo]|
+[a5]ha[ysr]js[S5]JS[yrd]kd
+[utlf]|[tsi9]|[tsI(]|[tso0]|
+[p4]ss[tsie]|8|[tied] s
+[p4]|[tsie]|8|[tie]|
+[p4]ss[tsie]|8|[wtd0] s
+[p4]|[tqie]|[so92]|[oa30]|
+[p4]ss[tsie]|3|[wtd0] s
+[p@]|[wsYE]|2|[ytE]|
+[p5]ss[wsiE]|8|[widE] s
+[p4]|[tqie]|[gP5]|[sf6]|
+[s^]dg[tiW]gh[H4]hg[tiW]|
+[roiH]hg[h5]gd[wsE8]||
+[l4] j [tqhe] g [d^] f [yqgE]|
+[l4] j [tqhe] g [yqdE] g [tsqe]|
+[yqdE] g [tsqe]|[yqdE] f g J
+[j5] j [ywhE] g [h8]|[wut]|
+[l4] j [tqhe] g [d^] f [yqgE]|
+[l4] j [tqhe] g [yqdE] g [tsqe]|
+[yqdE] g [tsqe]|[yqdE] f g J
+[j5] g [wtoh] h [qige]||
+^|[yigdE] d [gd^] h [yiHE]|
+[jg4]|[tie] [sg] 4 d[tsie]dg
+[hd^]|[yiHE] h [^H] h [yigE]|
+[spg4]|[tpie]sDds[p4] o [tie]|
+[J5]khd[yoPE] P [a5] s [yrod]|
+[tf]|[yid] s t|[uo]|
+[a5]ha[ysr]js[S5]JS[yrd]kd
+[utlf]|[tsi9]|[tsI(]|[tso0]|
+[l4] j [tqhe] g [d^] f [yqgE]|
+[l4] j [tqhe] g [yqdE] g [tsqe]|
+[yqdE] g [tsqe]|[yqdE] f g J
+[j5] j [ywhE] g [h8]|[wut]|
+[l4] j [tqhe] g [d^] f [yqgE]|
+[l4] j [tqhe] g [yqdE] g [tsqe]|
+[yqdE] g [tsqe]|[yqdE] f g J
+[j5] g [wtoh] h [qige]||
+[p4]ss[tsie]|8|[tied] s
+[p4]|[tsie]|8|[tie]|
+[p4]ss[tsie]|8|[wtd0] s
+[p4]|[tqie]|[so92]|[oa30]|
+[p4]ss[tsie]|3|[wtd0] s
+[p@]|[wsYE]|2|[ytE]|
+[p5]ss[wsiE]|8|[widE] s
+[p4]|[tqie]|4|[yqE]|
+[l4] [qj] [the] g [yqdE] f g|
+[l6] [j0] [the] g [yqdE] g [tsqe]|
+[yqdE] g [tsqe]|[yqdE] f g J
+[j5] j [wqh9] g [h5]9q[80]|
+[l4]6j8[qh] g [d^9] f [qg8]|
+[l4]6j8[qh] g [yqdE] g [tsqe]|
+[yqdE] g [tsqe]|[yqdE] f g J
+[j5] g [wtoh] h [qige]||
+[p4]ss[tsie]|8|[tied] s
+[p4]|[tsie]|8|[tie]|
+[p4]ss[tsie]|8|[wtd0] s
+[p4]|[tqie]|[so92]|[oa30]|
+[p4]ss[tsie]|3|[wtd0] s
+[p@]|[wsYE]|2|[ytE]|
+[p5]ss[wsiE]|8|[widE] s
+[p4]|[tqie]|4|[yqE] i
+4|[tqe]|4|[yqE] i
+4|[tqe]|4|[yqE] i
+4 q [lj] s [kH] s [hJ] s [qg][je] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
