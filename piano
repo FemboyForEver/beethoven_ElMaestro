@@ -534,8 +534,8 @@ Section:NewButton("SAO", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 100 -- tempo overides the delay
  
 shared.scr = [[ d [wh] yo y[ka] [oj] [yh] [wj] ip i[zs] i [pd] [wh] yo y[ha] [oj] [yk] [wj] ip i[zs] i [pd] [wh] yo y[ka] [oj] [yh] [wj] ip i[zs] i [pl] [wk]j[yh]o ya o y w ip is|[zd] [wvkh] yo y[okh] [yj] [oh] [wjg] i[sp] i[zsjd] [if] [plg] [wkh] yo y[okhd] [yj] [oh] [wjgd] i[sp] i[zsjd] [if] [plg] [tskf] us o[khf] [sjG] [ohf] [yjdG] pd p[zG]|[lf] [wtkhd] [oj]sho[od] y s yoa| |z [xu]oaf x [zy]pd lk [yj]oa k| |[th]osG f [yd]pdG j [yl]oa k w y [zo] [xt]uos x [yC]pd xz [zw] u [ok] [uha] I [oh]G[uf]pS|u [pG] [hS] [yk] h p [jG]||h pd ph d Gf[fG]G|d|[zd] [wvoh] y[oa] yo [yj] [ok] [wojh] i[sp] i[zsg] [ih] [pjd] [woh] y[oa] yo [yj] [ok] [woj] i[sp] i[zsg] [ih] [pjd] [woh] y[oa] y[okd] [yj] [oh] [wojg] i[sp] i[zsg] [if] [plg] [wok] [yj][oa]hyo y [zo] [wol] [ki][sp]ji[hg] s [zpd] [wvkh] yo y[okh] [yj] [oh] [wjg] ip i[zsjd] [if] [plg] [wkh] yo y[okd] [yj] [oh] [wjgd] i[sp] i[zjgd] [sf] [plg] [tskf] us o[khf] [sjG] [ohf] [yjdG] pd p[zjG]|[lG] [tskf] [uj]shof s o t us of s o [yskd] [pj]dhph d p h ph pd p y [wohda]y ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
@@ -703,8 +703,8 @@ Section:NewButton("La Marseillaise", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 80 -- tempo overides the delay
  
 shared.scr = [[ o o o
 [8tos] [8tos]
@@ -791,8 +791,8 @@ Section:NewButton("urss", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 100 -- tempo overides the delay
  
 shared.scr = [[ [s8]| o|p [a0]| u|u|
 [qp]| o|i [o0]| t|t|
@@ -1038,8 +1038,8 @@ Section:NewButton("golden hour", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 90 -- tempo overides the delay
  
 shared.scr = [[ [id][pf][sh][pj][sh][pf][id][pf][sh][pj][sh][pf]
 [id][pf][sh][pj][sh][pf][id][pf][sh][pj][sh][pf]
