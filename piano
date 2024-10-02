@@ -547,49 +547,124 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 130 -- tempo overides the delay
  
-shared.scr = [[ [2i!%*TO][2i!TO][2i!TO][2i!TO] [2i!TO][2i!TO][2i!TO][2i!%*TO] 5 5 5 
-[12tu%*O][12tuO][12tuO][12tuO] [12tuO][12tuO][12tuO][12tu%*O] 5 5 5 
-[^Y14to] [^Y14to] [^Y2qto][Y14to]^[Y14to]^[Y14to]^[Y14to][^Y2qto][Y2qto][^Y14to] 
-[@ET2i]2[@ET2i]2[@ET2i]2[@ET2i]2[t%*YO]--
-[1i!^*TODH] [2i!^TODH] [1i!^TODH][1iTO][2i!^TOPD][1iTO][!^DH][1iTO][2i!^TODJ][1DH][1i!^TO][1iTO][2i!^TO] 
-[1i!^*TODH] [2i!^TODH] [1i!^TODH][1iTO][2i!^TOPD][1iTO][!^DH][1iTO][2i!^TODJ][1DH][1i!^TO][1iTO][2i!^TO] 
-[^*OP1tuh] [^OP12tuh] [^OP1tuh][1tuO][12tu^OPD][1tuO][^P1h][1tuO][12tu^OPH][P1h][1tu^O][1tuO][12tu^O] 
-[14to^*YDH] [24to^YDH] [14to^YDH][Y1to][24to^YPD][Y1to][4^DH][Y1to][24to^YDJ][1DH][^Y14to][Y1to][^Y24to] 
-[1i!^*TODH] [2i!^TODH] [1i!^TODH][1iTO][2i!^TOPD][1iTO][!^DH][1iTO][2i!^TODJ][1DH][1i!^TO][1iTO][2i!^TO] 
-[1i!^*TODH] [2i!^TODH] [1i!^TODH][1iTO][2i!^TOPD][1iTO][!^DH][1iTO][2i!^TODJ][1DH][1i!^TO][1iTO][2i!^TO] 
-[^*OP1tuh] [^OP12tuh] [^OP1tuh][1tuO][12tu^OPD][1tuO][^P1h][1tuO][12tu^OPH][P1h][1tu^O][1tuO][12tu^O] 
-[14to^*YDH] [24to^YDH] [14to^YDH][Y1to][24to^YPD][Y1to][4^DH][Y1to][24to^YDJ][1DH][^Y14to][Y1to][^Y24to] 
-[1i$*TO][i$TO][2i$TO][i$TO][$H][1$H][2$H][$H][1$H][$D][2$][$H]$[1$J][2$][$H]
-[1i$TO][i$TO][2i$TO][i$TO][$H][1$H][2$H][$H][1$H][$D][2$][$H]$[1$J][2$][$H]
-[1tu$O][tu$O][2tu$O][tu$O][$H][1$H][2$H][$H][1$H][$D][2$][$H]$[1$J][2$][$H]
-[$Y1to][$Yto][$Y2to][$Yto][$H][1$H][2$H][$J][$1l][$L][2$][$l]$[1$J][2$H]$
-[1i$*TO][i$TO][2i$TO][i$TO][$H][1$H][2$H][$H][1$H][$D][2$][$H]$[1$H][2$J][$H]
-[1i$TO][i$TO][2i$TO][i$TO][$H][1$H][2$H][$H][1$H][$D][2$][$H]$[1$H][2$J][$H]
-[1tu$O][tu$O][2tu$O][tu$O][$H][1$H][2$H][$H][1$H][$D][2$][$H]$[1$J][2$][$H]
-[$Y1to][$Yto][$Y2to][$Yto][$H][1$H][2$H][$J][$1l][$L][2$][$l]$[1$J][2$H]$
-[1i$*TO][i$TO][2i$TO][i$TO][$H][1$H][2$H][$H][1$H][$D][2$][$H]$[1$J][2$][$H]
-[1i$TO][i$TO][2i$TO][i$TO][$H][1$H][2$H][$H][1$H][$D][2$][$H]$[1$J][2$][$H]
-[1tu$O][tu$O][2tu$O][tu$O][$H][1$H][2$H][$H][1$H][$D][2$][$H]$[1$J][2$][$H]
-[$Y1to][$Yto][$Y2to][$Yto][$H][1$H][2$H][$J][$1l][$L][2$][$l]$[1$J][2$H]$
-[1i$*TO][i$TO][2i$TO][i$TO][$H][1$H][2$H][$H][1$H][$D][2$][$H]$[1$J][2$][$H]
-[1i$TO][i$TO][2i$TO][i$TO][$H][1$H][2$H][$H][1$H][$D][2$][$H]$[1$J][2$][$H]
-[1tu$O][tu$O][2tu$O][tu$O][$H][1$H][2$H][$H][1$H][$D][2$][$H]$[1$J][2$][$H]
-[$Y1to][$Yto][$Y2to][$Yto][$H][1$H][2$H][$J][$1l][$L][2$][$l]$[1$J][2$H]$
-[1i!$*TO]$[2i$TO]$[i$TOH][1$][2i$TO]$[1i$TOH]$[2i$TO]$[i$TOD][1$][2i$TO]$
-[1i$TOH]$[2i$TO]$[i$TOD][1$][2i$TO]$[1i$TOH]$[2i$TO]$[i$TOJ][1$][2i$TO]$
-[$O1tul]$[2tu$O]$[tu$OL][1$][2tu$O]$[$O1tul]$[2tu$O]$[tu$OJ][1$][2tu$O]$
-[14to$YH]$[$Y2to]$[$Yto][1$][$Y2to]$[1to$YZ]$[$Y2to]$[$Yto][1$][$Y2to]$
-[1i!$TOH]$[2i$TO]$[i$TO][1$][2i$TO]$[1i$TOZ]$[2i$TO]$[i$TO][1$][2i$TO]$
-[1i$TOH]$[2i$TO]$[i$TO][1$][2i$TO]$[1i$TOH]$[2i$TO]$[i$TOD][1$][2i$TO]$
-[$O1tul]$[2tu$O]$[tu$OL][1$][2tu$O]$[$O1tul]$[2tu$O]$[tu$OJ][1$][2tu$O]$
-[14toYH]$[2^]$[14toYH]$[2^]$[14toYH]$[2^]$[38][38][26] 
-[!*WYO10tisl] [2t!^WY] [1t!^WY][1t!WY][2t!^WY][1t!WY][^PJ][1t!WY][2t!^WY]1[t!^WYDZ][1t!WY][2t!^WY] 
-[*WEO10usl] [120^WE] [10^WE][10WE][120^WE][10WE][^PJ][10WE][120^WE]1[10^WEDZ][10WE][120^WE] 
-[*WY140qtosl] [^W24qt] [^W14qt][W14qt][^W24qt][W14qt][^PJ][W14qt][^W24qt]1[^W4qtsl][W14qt][^W24qt] 
-[10i@*(ETPJ] [2@^(ET] [@^(ET1ig][1@(ET][2@^(ET][%(W1t][^*0ig][%(W1t][%^(W2t]1[%^(Wtoh][%(W1t][%^(W2t] 
-[!*(WO10tioh][OH][!^(W2t][oh][1t!^(WOH][!(W1t][!^(W2toh][1t!(WOH]^[!(W1toh][2t!^(WOH]1[!^(Wtoh][1t!(WOH][!^(W2t] 
-[10u*WEOH][PJ][120^WE][OH][10^WEPJ][10WE][120^WEOH][10WEPJ]^[10WEOH][120^WEPJ]1[10^WEOH][10WEPJ][120^WE] 
-[140qto*WYPJ][sl][^W24qt][PJ][^W14qtsl][W14qt][24qt^WPJ][W14qtsl]^[14qtWPJ][^W24qtsl]1[^W4qt][W14qt][24qt^WOH] ]]
+shared.scr = [[ [qti][qti][qti][qti] [qti][qti][qti][qti]–
+[Wtu][Wtu][Wtu][Wtu] [Wtu][Wtu][Wtu][Wtu]–
+[euo] [euo] [euo]-[euo]-[euo] [euo] [euo]
+[wip] [wip] [wip] [wip] [8uo]–
+[qs] s s a s ds–
+[qs] s s a s ds–
+[0a] a a o a sa–
+[es] s s a s ds–
+[qs] s s a s ds–
+[qs] s s a s ds–
+[0a] a a o a sa–
+[es] s s a s ds–
+[ti] [ti] ssssso s ds
+[ti] [ti] ssssso s ds
+[uO] [uO] ssssso s ds
+[uo] [uo] sssdfg f ds
+[ti] [ti] ssssso s ds
+[ti] [ti] ssssso s ds
+[uO] [uO] ssssso s ds
+[uo] [uo] sssdfg f ds
+[ti] [ti] ssssso s ds
+[ti] [ti] ssssso s ds
+[uO] [uO] ssssso s ds
+[uo] [uo] sssdfg f ds
+[ti] [ti] ssssso s ds
+[ti] [ti] ssssso s ds
+[uO] [uO] ssssso s ds
+[uo] [uo] sssdfg f ds
+q-[ts]-[qs]-[to]-
+[qs]-[to]-[qs]-[td]-
+[0f]-[rg]-[0f]-[rd]-
+[es]-t-[eh]-t-
+[es]-t-[eh]-t-
+[es]-t-[es]-[to]-
+[0f]-[rg]-[0f]-[rd]-
+[es]-[es]-[es]–
+[4f] q 4 q [4d] q [4h] q
+[3f] 0 3 0 [3d] 0 [3h] 0
+[6f] e 6 e [6d] e [6f] e
+[5d]-[wp]-[8p] w [ta]-
+[4a]s as as4as as-
+[3s]d sd sd3sd sd-
+[6d]f df df6df-p
+[5j]-h h [8f]-d s
+[4f] q 4 q [4d] q [4h] q
+[3f] 0 3 0 [3d] 0 [3h] 0
+[6f] e 6 e [6d] e [6f] e
+[5d]-[wp]-[8p] w [ta]-
+[4a]sqa[4s] [qa]s4a[qs] [4a]sq
+[3s]d0s[3d] [0s]d3s[0d] [3s]d0
+[6d]fed[6f] [ed]f6d[ef] 6 [ep]
+[5j]-h h [8f]-d s
+[qf]-f-[wd]-d h
+[ef]-f-[td]-d h
+[qf]-f-[wp] p p a
+[es] a p o p–
+[ti] [ti] ssssso s ds
+[ti] [ti] ssssso s ds
+[uO] [uO] ssssso s ds
+[uo] [uo] sssdfg f ds
+[ti] [ti] ssssso s ds
+[ti] [ti] ssssso s ds
+[uO] [uO] ssssso s ds
+[uo] [uo] sssdfg f ds
+q-[ts]-[qs]-[to]-
+[qs]-[to]-[qs]-[td]-
+[0f]-[rg]-[0f]-[rd]-
+[es]-t-[eh]-t-
+[es]-t-[eh]-t-
+[es]-t-[es]-[to]-
+[0f]-[rg]-[0f]-[rd]-
+[es]-[es]-[es]–
+[4f] q 4 q [4d] q [4h] q
+[3f] 0 3 0 [3d] 0 [3h] 0
+[6f] e 6 e [6d] e [6f] e
+[5d]-[wp]-[8p] w [ta]-
+[4a]s as as4as as-
+[3s]d sd sd3sd sd-
+[6d]f df df6df-p
+[5j]-h h [8f]-d s
+[4f] q 4 q [4d] q [4h] q
+[3f] 0 3 0 [3d] 0 [3h] 0
+[6f] e 6 e [6d] e [6f] e
+[5d]-[wp]-[8p] w [ta]-
+[4a]s as as4as as-
+[3s]d sd sd3sd sd-
+[6d]f df df6df-p
+[5j]-h h [8f]-d s—-
+SET TRANSPOSE TO -5
+[4f] q 4 q [4d] q [4h] q
+[3f] 0 3 0 [3d] 0 [3h] 0
+[6f] e 6 e [6d] e [6f] e
+[5d]-p-[8p]-a-
+[4a]s as as4as as-
+[3s]d sd sd3sd sd-
+[6d]f df df6df-p
+[5j]-h h [8f]-d s
+[4f] q 4 q [4d] q [4h] q
+[3f] 0 3 0 [3d] 0 [3h] 0
+[6f] e 6 e [6d] e [6f] e
+[5d]-p-[8p]-a-
+[4a]s as as4as as-
+[3s]d sd sd3sd sd-
+[6d]f df df6df-p
+[5j]-h h [8f]-d s
+[qf]-f-[wd]-d h
+[ef]-f-[td]-d h
+[qf]-f-[wp] p p a
+[es] a p o p–
+[ij]-[ij]-[ij] h[ij]-l
+O j [Ol] [Oz] [OZ] zOl j
+[el] j e h [ej] he-h
+r f [rh] f [th] fth [ej]
+[ij]-[ij]-[ij] h[ij]-l
+u j [ul] [uz] [uZ] zul j
+[el] j e h [ej] he-l
+r j [rl] z [tZ] ztl [ej]
+[el] j[eh]-[ej] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
