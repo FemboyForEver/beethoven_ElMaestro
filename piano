@@ -1852,28 +1852,7 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ w|h o G o g|
-[8f]| s|d f|
-[qd]| p||
-q|s s|d s|
-[8f]|o o|p o s
-[qd]| d D d s d
-[8s]|Ppou y t|
-9|I I o o p p [wa]|p o||
-[9I]|o|O|p|
-[wa]|r|t|y|
-[8u]oo[wo]|8|[wp] o [8u]|[wo]|8|w|
-[8u]oo[wo]|8|[wp] o [8u]|[wt]|8|w|
-[8u]oo[wo]|8|[wp] o [8u]|[wo]|8|w|
-[8u]oo[wo]|8|[wp] o [8u]|[wt]|8|w|
-[8o] u [wy] t [4e] t [8w]|
-[8o] u [wy] t [4e] t [8w]|
-[4e] t [8w]|[4e] r [8t] i
-[2u] u [6y] t [5y]|9 w
-[8o] u [wy] t [4e] t [8w]|
-[8o] u [wy] t [4e] t [8w]|
-[4e] t [8w]|[4e] r [8t] i
-[$u] t [5y] y [80] ]]
+shared.scr = [[ C|x b C|||z|L z j f d p S d p| |p j f d d||o I y r e u e r y u o p f|||a d f||G j|G f f G d f a||a d f||f|G j k G|d|p|G j k|z|L|k|j|G|d|d f G|f d d|d|d|||p|d|S|a||a|p p I p| |p d S a|a|p p I p| |o I u||u I a I u||u|I u y p|||a d f||G j|G f f Gd f a a d f|f|G j k G||f|G j k|z|L k j|G|d|d f G|f d d||d| |G j k||z|L|k|j||G|d z|||d|f G|f d d||d||d|||j| |k z L j| |j z v C z j h G d p o||d]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
