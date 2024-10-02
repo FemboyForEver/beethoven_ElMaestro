@@ -44,19 +44,12 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ [lh] [gJ] [hd] [lh]|[gJ] [hd]|[lh] [gJ] [hd] [lh]|[gJ] [hd]|[gJ] [sg] [PD] [gJ]|[sg] [PD]|[gJ] [sg] [PD] [gJ]|[sg] [PD] t [lh] [gJ] [hd] [lh]|[gJ] [hd]|[lh] [gJ] [hd] [lh]|[gJ] [hd] E [gJ] [sg] [PD] [gJ]|[sg] [PD]|[gJ] [sg] [PD] [gJ]| |s D [gW]tY g h D|s D [wg]EY g J h|h J [ql]Wtl l Z z l J H [wh]Ey g s h|s D [gW]tY g h D|s D [wg]EY g J h|h J [ql]Wtl l Z [zw]Eyl h s [D(]wt| |t Y [i%] ( [iW] [oE] [tY]|t Y [i5] 9 [wi] [PE] [to]|o P [s4] [s8] [sq] [WD] [td] s P O [o5] 9 [wi] t o|t Y [t%]i ( [iW] [oE] [tY]|t Y [i5] 9 [wi] [PE] [to]|o P [o4]s [s8] [sq] D [d5] [s9] [wo] t [Y1] 5 8 9 (|Y y [^T] [O*] [qO] [WT] O| |^ * [qT] [WO] O|o i [o8] [O(] [wo] t| |8 ( w|[Y(]|[y9]|[^T] [O*] [qO] [WT] O| |^ * [qT] [WO] O|o i [o8] [O(] [wP] [tY]| |8 ( w|[Y(]|[y9]|[^T] [O] [qO] [WT] O||sS[^H] [T] [qT] [WO] O|o i [o8] [O(] [wo] t| |dD[J8] ( w|[Y(]|[y9]|[^T] [O] [qO] [WT] O||sS[^H] [T] [qT] [WO] O|o i [o8] [O(] [wP] [tY]| |dD[J8] ( w| |s D [tgYW]| |g|[wYED]| |s|[tqiW]| |i|[ywoE]| |s D [tgYW]|g|g|J|[wlYE]| |Z|l|[tqhW]| |s| |[ywED]| |[ts] [YD] [sigO%] ( [sigWO] [oh(] [YD%] ( [tsW] [YD] [sigP5] 9 [wsigP] [PJ9] [oh5] 9 [woh] [PJ9] [slgH4] [slgH8] [sqlgH] [ZD8] [zd4] [sl8] [qPJ] [OH8] [ohd5] 9 [wig] [ts9] [ohd5] 9 [wts] [YD9] [sigO%] ( [igW] [oh(] [YD%] ( [tsW] [YD(] [sigP5] 9 [wsigP] [PJ9] [oh5] 9 [woh] [PJ9] [slgH4] [slgH8] [sqlgH] [ZD8] [zhd5] [sl9] [woh] [ts9] [oYD1] 5 8 9 (|l Z [cO] D [cH] [vD] [ZO] D [lH] [ZD] [oc] D [hc] [DB] [vo] D [vh] [DB] [mi] [sm] [mg] [sZ] [zi] [sm] [gB] [sV] [vo] d [hc] [ld] [vo] d [lh] [dZ] [cO] D [cH] [vD] [ZO] D [lH] [ZD] [oc] D [hc] [DB] [vo] D [vh] [DB] [mi] [sm] [mg] [sZ] [zo] [md] [vh] l [tZ] o s d D ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
-end)Section:NewButton("doors elevatort", "Auto", function()
+end)
+Section:NewButton("doors elevatort", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
