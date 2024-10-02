@@ -9,8 +9,8 @@ Section:NewButton("Faded", "Autoplayf", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 89 -- tempo overides the delay
 
 shared.scr = [[ [6s] 0 [ts] e [us] t [of] u [4j] 8 [ej] q [tj] e [yh] u
 [8f] w [uf] t [of] u [tf] w [5a] 9 [ra] w [ya] r [wp] 0
