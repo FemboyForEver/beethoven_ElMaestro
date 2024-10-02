@@ -81,15 +81,38 @@ shared.scr = [[ [nk]|[pl]fjxm| |[nk]|[ml]||z x|[ok]dz[nh]||[ml] [nk]|[pjfb]| |b|
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("SAO swordland", "Auto", function()
+Section:NewButton("SAO", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ u| a| f| h| G|a|||a f h|G|f G|h|j G|h|G f| f k x|Z|L l|L|Z L| S Df| f jH| G fG| G Hj| H Gf| j| H| L| Z| l| P| P sS| G JH| G gD| D gG| H Jk| L kJ| H| J|||l| h| Z|z|Z Z|HH| H|l|Z Z|zz| J|z|c c|vv| c Z z Z| H| Z z Z c|v|c Z|||l| l| Z|l|Z Z| z| l| z| l| k k|||u| a| f| h| G|a|||a f h|G|f G|h|j k|||f k x|Z|L Z| l| L| S Df| f jH| G fG| G Hj| H Gf| j| H| L| Z| l| P| P sS| G JH| G gD| D gG| H Jk| L kJ| H| J|||s| d| D| g| s| d| D| g| s| d| D| g| D| d| s| d| s| d| D| g| s| d| D| g| s| d| D| g| h| g| H| hhh|||d|||P|||i|||o ]]
- 
+shared.scr = [[ u o [6t]up 0 e u p s [3u]oa7 0|
+u o [6t]up0 e u p s [3u]oa7 0|
+u o [4t]ip8 q t i p [5id] 9 [wus]||
+[ya] [6yp] 0 e u r| [6tp]| |
+u o [6t]up 0 e u p s
+[3u]oa 7 0 d s a
+[6t]up 0 e u p s
+[3u]oa 7 0 w u o
+[2y]ip 6 9 y i p
+[3id] 7 [0us] w r [ya]
+[6yp] 0 e i u y
+[6tp] 0 e t u p
+[4i]ps 8 q [ts] a s
+[1y]uo 5 8 w t o
+[2e]yi 6 9 i [W3u] y
+[6tu] 0 e t u p
+[4i]ps 8 q s a s
+[1t]yuo5 [8i] w u|
+[3e]ru7 0 e r e
+[3W]ru7 0|
+f h [es]fju p f j l [0d]hkr u d
+f h [es]fju p j k l [0f]hkr u d
+f h [9d]gje y d g j [0g]jzr [uf]jl| [dk]|
+[qsj] t i s g j [wd]hky o l [kz]|
+[ex]kjf u p ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
