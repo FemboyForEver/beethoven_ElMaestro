@@ -545,7 +545,7 @@ Section:NewButton("Young girl a", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.tempo = 130 -- tempo overides the delay
  
 shared.scr = [[ [2i!%*TO][2i!TO][2i!TO][2i!TO] [2i!TO][2i!TO][2i!TO][2i!%*TO] 5 5 5 
 [12tu%*O][12tuO][12tuO][12tuO] [12tuO][12tuO][12tuO][12tu%*O] 5 5 5 
