@@ -41,8 +41,8 @@ Section:NewButton("totoro", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 100 -- tempo overides the delay
  
 shared.scr = [[ [lh] [gJ] [hd] [lh]|[gJ] [hd]|[lh] [gJ] [hd] [lh]|[gJ] [hd]|[gJ] [sg] [PD] [gJ]|[sg] [PD]|[gJ] [sg] [PD] [gJ]|[sg] [PD] t [lh] [gJ] [hd] [lh]|[gJ] [hd]|[lh] [gJ] [hd] [lh]|[gJ] [hd] E [gJ] [sg] [PD] [gJ]|[sg] [PD]|[gJ] [sg] [PD] [gJ]| |s D [gW]tY g h D|s D [wg]EY g J h|h J [ql]Wtl l Z z l J H [wh]Ey g s h|s D [gW]tY g h D|s D [wg]EY g J h|h J [ql]Wtl l Z [zw]Eyl h s [D(]wt| |t Y [i%] ( [iW] [oE] [tY]|t Y [i5] 9 [wi] [PE] [to]|o P [s4] [s8] [sq] [WD] [td] s P O [o5] 9 [wi] t o|t Y [t%]i ( [iW] [oE] [tY]|t Y [i5] 9 [wi] [PE] [to]|o P [o4]s [s8] [sq] D [d5] [s9] [wo] t [Y1] 5 8 9 (|Y y [^T] [O*] [qO] [WT] O| |^ * [qT] [WO] O|o i [o8] [O(] [wo] t| |8 ( w|[Y(]|[y9]|[^T] [O*] [qO] [WT] O| |^ * [qT] [WO] O|o i [o8] [O(] [wP] [tY]| |8 ( w|[Y(]|[y9]|[^T] [O] [qO] [WT] O||sS[^H] [T] [qT] [WO] O|o i [o8] [O(] [wo] t| |dD[J8] ( w|[Y(]|[y9]|[^T] [O] [qO] [WT] O||sS[^H] [T] [qT] [WO] O|o i [o8] [O(] [wP] [tY]| |dD[J8] ( w| |s D [tgYW]| |g|[wYED]| |s|[tqiW]| |i|[ywoE]| |s D [tgYW]|g|g|J|[wlYE]| |Z|l|[tqhW]| |s| |[ywED]| |[ts] [YD] [sigO%] ( [sigWO] [oh(] [YD%] ( [tsW] [YD] [sigP5] 9 [wsigP] [PJ9] [oh5] 9 [woh] [PJ9] [slgH4] [slgH8] [sqlgH] [ZD8] [zd4] [sl8] [qPJ] [OH8] [ohd5] 9 [wig] [ts9] [ohd5] 9 [wts] [YD9] [sigO%] ( [igW] [oh(] [YD%] ( [tsW] [YD(] [sigP5] 9 [wsigP] [PJ9] [oh5] 9 [woh] [PJ9] [slgH4] [slgH8] [sqlgH] [ZD8] [zhd5] [sl9] [woh] [ts9] [oYD1] 5 8 9 (|l Z [cO] D [cH] [vD] [ZO] D [lH] [ZD] [oc] D [hc] [DB] [vo] D [vh] [DB] [mi] [sm] [mg] [sZ] [zi] [sm] [gB] [sV] [vo] d [hc] [ld] [vo] d [lh] [dZ] [cO] D [cH] [vD] [ZO] D [lH] [ZD] [oc] D [hc] [DB] [vo] D [vh] [DB] [mi] [sm] [mg] [sZ] [zo] [md] [vh] l [tZ] o s d D ]]
  
@@ -129,8 +129,8 @@ Section:NewButton("trhough the fire and flames", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 120 -- tempo overides the delay
  
 shared.scr = [[ [18tY][wt][yi][wt][Yo][wt][tY][wt][yi][wt][Yo][wt][iO][wt][Yo][wt]
 [oP][wt][Yo][wt][iO][wt][yi][wt][Yo][wt][tY][wt][18yi][18wt][E18y][18wt]
@@ -498,8 +498,8 @@ Section:NewButton("la seine", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 120 -- tempo overides the delay
  
 shared.scr = [[ [^e] [6e] [^e] [8t] 9 y 9yy
 y9 y 9yyy9 y 9yy
@@ -2870,9 +2870,9 @@ Section:NewButton("bigger then everything", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 125 -- tempo overides the delay
 
 shared.scr = [[ I[pS][9G]L----[ak] jp--
 [IG] [uf]--[TS] [ra]-9
@@ -3110,9 +3110,9 @@ Section:NewButton("la campanella", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 110 -- tempo overides the delay
 
 shared.scr = [[ [u0] [u0] [u0] [xf] [xf] [xf] [u0] [u0] [u0] [xf] [xf] [xf] [u0] [xf] [xf] [u0] [xf] [xf]|f x x z [ul] l k [uj] H j [ukO] f f [gO] f d [sp] s a [pYI] O p [uaO]|f x x z [ul] l k [uj] H j [ukO] f f [gO] f d [se] s a [pe] O p [aW0] u u [iW] u y p jlx [uO] Hkx e u f x x z [pl] [pl] k j H j [ukO] [ufO] f g f d [sp] [sp] a p O p [uaO]|f x x z [pl] [pl] k [pj] [pH] j [ukO] [ufO] f [ugO] [ufO] d [se] s a [pe] O p [aW0] u u [iW] u y p jlx [uO] Hkx [xspljf]|||f x x z [ul] l k [uj] H j [ukO] f f [gO] f d [sp] s a [pYI] O p [uaO]|f x x z [ul] l k [uj] H j [ukO] f f [gO] f d [se] s a [pe] O p [aW0] u u [iW] u y p jlx [uO] Hkx e u f x x z [pl] [pl] k j H j [ukO] [ufO] f g f d [sp] [sp] a p O p [uaO]|f x x z [pl] [pl] k [pj] [pH] j [ukO] [ufO] f [ugO] [ufO] d [se] s a [pe] O p [aW0] u u [iW] u y p jlx [uO] Hkx [xspljf] ]]
 
@@ -3348,8 +3348,8 @@ Section:NewButton("waltz death", "Autoplayf", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 200 -- tempo overides the delay
 
 shared.scr = [[ ^-^-^-^S-
 [269eypd]-29 2 2-29 2 
