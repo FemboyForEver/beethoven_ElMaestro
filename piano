@@ -73,7 +73,7 @@ end)Section:NewButton("another love", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
-shared.tempo = 120 -- tempo overides the delay
+shared.tempo = nil -- tempo overides the delay
  
 shared.scr = [[ [8qep]|s [8qep] s d [8qe] f
 [80e] s a [9qep]|g [9qe] f
