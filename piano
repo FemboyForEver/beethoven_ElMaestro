@@ -1722,26 +1722,46 @@ Section:NewButton("jojo aventure", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 136 -- tempo overides the delay
  
-shared.scr = [[ 4 7 ^% 4 7 ^%
-[g4] [k7] [^J][H%] [g4]| |
-q [tW] 8 [tW] q [tW] 8 [tW]
-q [tW] 8 [tW] q [tW] 8 [tW]
-[qi] [tW] 8 [tW] [qO] [tW]s8 [tgW]
-[wh] [yr] 9 [yr] w [yrH] [J9] [yrk]
-[ql] [tW]k8 [tWH] qg[tW] [s8] [tlW]
-[wk] [yr] 9 [yr] w [yr] Q [TE]
-[qi] [t8] [Y(][u0] [qi] [t8] [Y(] [u0]
-[qg] [s8] [D(][f0] [qg]| [utPD]|
-[qig] [tW] 8 [tW] [qOH] [tW][sl]8 [tgcW]
-[wvh] [yr] 9 [yr] w [yrVH] [JB9] [yrnk]
-[qml] [tW][nk]8 [tWVH] q[gc][tW] [sl8] [tmlW]
-[wnk] [yr] 9 [yr] w [yr] 9 [yr]
-4 7 ^% [i4] [a7] [^P][O%]
-[g4] [k7] [^J][H%] [c4]| |
-4eYo ]]
+shared.scr = [[ 7 7 7 6 7 9 7 $
+6 7 7 7 6 7 q 0
+9 6 7 7 7 6 7 9
+7 $ 6 7 7 7 6 7
+q 0 9 6 7 7 7 6
+7 9 7 $ 6 7 7 7
+6 7 q 0 9 6 7 7
+7 6 7 9 7 $ 6 7
+7 7 6 7 r r r e
+r y r Q e r r r
+e r i u y e r r
+r e r y r Q e r
+r r e r i u y e
+r r r e r y r Q
+e r r r e r i u
+y e r r r e r y
+r Q e r r r e r
+7 * 9 0 Q 7 9 e
+W Q 0 Q 7 * 9 0
+Q 7 9 e W e r W
+Q 7 * 9 0 Q 7 9
+e W Q 0 Q 7 * 9
+0 Q 7 9 e r e W
+Q 9 * 7 6 7 7 $
+6 7 * 6 7 9 * 7
+6 7 7 $ * 9 * 6
+3 y T r e r r Q
+e r T e r y T r
+6 9 Q 0 ( 7 e W
+Q 9 * 7 6 7 6 7
+6 7 6 7 7 * 9 0
+Q 9 9 0 q 0 9 *
+9 0 Q Q r 7 * 9
+0 9 * e w Q 9 9
+0 q 0 9 * 9 0 Q
+Q r 7 * 9 5 $ 4
+9 ^ 7 ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
@@ -1750,8 +1770,8 @@ Section:NewButton("Blue bird", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 120 -- tempo overides the delay
  
 shared.scr = [[ f j k [el] t u p [wk] r y [oj] e t u p
 s f j k [el] t u p [wz] r [yl] [oz] 0 [Wx] r u
@@ -1784,8 +1804,8 @@ Section:NewButton("claire de lune", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 60 -- tempo overides the delay
  
 shared.scr = [[ [uo] [fh] [sf] [Oi] [ad] [sf] [ad] [uo] [ps] [ad] [ps] f s [yi] [oa] [ps] [oa] [tyi] p a p d p [ryio] p o [ety] i o i [Wryu] [wet] u i u p u [qy] u y [0we] t y t [9qwr] 5 1 [0w] [uo] [fh] [sf] [48] [8qetipd] f d [38] [0wtos] [yd] [tuosh] [wtusf] [48] [8qetipd] f d s 5 [E0tos] [yd] [Etupfj] [oh] [uf] 6 [0eyupd] f d [ts] p 2 [uipfjx] [yipdjz] [yipdjz] [yipdjz] [tipsjl] [tipsjl] [tipsjl] [ripagjk] [ripagjk] [ripagjk] [tipsjl] [etipgj] [26] [uipfjx] [ipdgjc] [uipfjx] [yipdjz] [uipfjx] [yipdjz] [tipsjl] [yipdjz] [tipsjl] [ripajk] [tipz] [sjl] [eyipgj] 5 [qig] [wryodh] [rak] [eyipgj] [qig] % [qryiadg] [qryiadg] [qryiadg] [qryiadg] [wryoadh] [qryiadg] 6 [qetisg] [woh] [tsl] [etipgj] [qig] 5 [qeyipdg] [qeyipdg] [qeyipdg] [qeyipdg] [wruoafh] [qeyipdg] [18] [qetipsg] [woh] [ydz] [tipsgjl] [epj] [29] [etipgj] [etipgj] [etipgj] [etipgj] [ryoahk] [etipgj] [tipsjl] [yipdjz] u o s f h l v Y o p s D h l v y i o s d h l v w y i a o d h [1uo] 5 8 0 w t 3 7 0 w r u [P5o] ( w E [Ys] o [1uo] 5 8 0 w t 3 7 0 w r u [P5o] ( w E o Y [1us] 5 8 0 [wod] t [usf] o u t w 0 [wus] 0 85 [8sf] 5 [G2d] 6 [9sf] Q [eps] y [Iips] y [eu] Q [9t] 6 [2t] 6 9 [Qe] 9 6 [3p] 9 q e r i 4 8 q e t i [3a] 7 0 w [rof] u[5p] 9 q e r i 4 8 q e t i [3a] 7 0 w [rof] u [2g] 6 9 q e y [ig] i p [uf] i p [TSs] i p [yd] i p [Ttj] i p p g j y i p p g j [wrh] Y o aD h [8fh] w t u o s [0w] r u o a f [EJwh] Y o P [Dl] h [8fh] w t u o s [0w] r u o a f [EJwh] Y o P h D [Etl] Y o [Ps] h D [YZt] o P [Ds] l h [Yov] Ps [Dh] Z J [ov] O s h l H [ic] O s g l H [ui]O s g l H [Yic] O s g l H [yi] O s g l H [YVt] O s D l [Eg] y i i s O W t Y i s O [Hw] t Y O [Dl] H [Zql] t [YJz] i [OHl] s [DJh] g D [Hsg] O i Yi [YDh] t [Wdg] q [D4s] 8 [(Pd] q [WOs] t [YPo] t [WOi] q [(Yo] 8 [W4] 8 [4yi] 8 [Y4t] 8 [5qty] 9 5 9 [5w] 9 [5e] 9 5 9 [5t] 9 [5ryi] 9 5 9 [5yip] 9 [5qty] 9 5 9 [5w] 9 [5e] 9 5 9 [5t] 9 [5ryi] 9 5 9 [5yip] 9 [5t] 2 [5oaf] 9 [5ipd] 9 [wtip] 9 [we] y [wt]9 [weio] 9 [5r] 9 [5y] 2 [5tip] 2 [5oaf] 9 [5ipd] 9 [wtip] 9 [we] y [wt] 9 [weio] 9 [wr] 9 [wy] 9 [qtd] y i p [wi] y e y i p [ti] y [rg] y i p [aj] d [qtd] y i p [wi] y e y i p [ti] y [rg] y i p [aj] d [iz] p s d g j i p s d g k i p s d g j i O s d g H [il] O s d g J [iz] O s d g h u o a f h k [xv] [ux] u O [akz] d [flx] H [kz] u u o [pjl] s [fkz] h [jl] [lx] u [jl] y i [ohk] a [djl] g [hk] y t y [igj] p [shk] d [gj] z j [erfh] y u o j ah 7 q [edg] r [yfh] i [pdg] [O0ryf] [wr] e [tf] u [og] p [sf] j f [qsd] e t y f d0 w [eps] t [uad] o [ps] [9qroa] 5 [15] [0w] [uo] [Efh] [sf] [48s] [8qetipd] f d 5 [0wtps] [yd] [rtuofh] [tusf] 6 [0eyupd] f d[ts] 3 [wt] y [tup] [wtu] 2 [eti] o [9ips] [tyip] 5 [rip] 9 a [oafh] [wrop] 1 5 8 0 w t 3 7 0 wr u 1 5 8 0 w t 3 7 0 w r u [P5o] ( w E Y i [Yos] 6 w t u o s0 r u o a f 8 w t u o s 0 r u o a f [Jwh] E Y o P D l [Jwh] E Y o P Dl [Z5] [1xv] 5 8 0 w t u o s f h l t o s f h l x v ]]
  
@@ -1796,8 +1816,8 @@ Section:NewButton("A cruel angel's thenis", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 130 -- tempo overides the delay
  
 shared.scr = [[ 1[50]5[50]8[50]([50]w[50]t[750]Y[750][4Wi][5625]Y[5625]i[375][^yi][375]i[375]P[375]O[375][@Eo][1875]i[375]o[4825]2[375][1Yo][750]P[750][4Os][5625]i[5625]Y[375][^yP][375]P[375]o[375]P[375][%YP][5625]s[24375]t[1175]W[1175]([1175]8[470][8Yos][235]t[235][8osD][235]t[235][4etg][235]q[1175][4etD][235]q[1175][4g][235][^Pdg][235][Eg][235][^PdJ][235][EH][235][(PDh][1175]g[1175]Y[1175][(PDh][235]Y[1175]([235][8sDh][235]t[235][8sDJ][235]t[235][4gHl][235]q[1175][4Osg][235]q[1175][4D][235][^PdJ][235][EPdJ][235][^Pdh][235][EPdJ][235][8dgJ][3525][tDhl][235][29][235][@(][470][oD][235][(P][1175][EP][1175]Y[235]E[235]([235]D[235][^sD][3525][dg][3525][^yP][1175]q[1175][EyP][235]q[235]^[235]P[235][18sDh][235]8[1175][tH][235]w[1175][8h][235][^Pdg][235]^[1175][ED][235]q[1175][^g][235][%WsDh][3525]H[3525][Wh][1175]Y[1175][Os][235]Y[235]W[235]s[1175]d[1175][^EiPD][3525][iPD][3525][^iPd][1175]q[1175][EiPd][235]q[235]^[235]D[1175]g[1175][(YPDH][3525][(YPh][3525][9yPg][235][8toD][235]8[1175]w[1175]t[235][8h][235][9ypsh][3525]g[3525][9f][1175]e[1175][ypsg][235]w[1175]h[1175]9[235]s[235][5wps][470]w[235][wad][1175]y[1175][oad][235]y[235]w[470][@(][470][YoD][235][(P][1175][EYoP][1175]Y[235]E[235]([235]D[235][^YsD][3525][idg][3525][^EyP][1175]q[1175][EyP][235]q[235]^[235][EP][235][18oDh][235]8[1175][tOgH][235]w[1175][8oDh][235][^idg][235]^[1175][EYsD][235]q[1175][^idg][235][%WsDh][3525][OsH][3525][WEh][1175]Y[1175][tOs][235]Y[235]W[235]s[1175]d[1175][^EiPD][3525][iPD][3525][^iPd][1175]q[1175][EiPd][235]q[235]^[235]D[1175]g[1175][(YPDH][3525][(YPh][3525][9yPg][235][8toD][235]8[1175]w[1175]t[235][8oh][235][9yosh][3525][ig][3525][9uf][1175]e[1175][yisg][235]e[1175][oh][1175]9[235][OH][235][5woadh][470][5wk][783]h[783]d[783]a[783]d[783]h[783][5wl][783]j[783]g[783]s[783]g[783]j[783][5wdhkz][470][WsD][235]t[1175][OsD][235]t[1175][Wd][235][WsD][235]t[1175][OsD][235]t[1175][Wd][235][wPg][235]E[1175][oPg][235]E[1175][Dw][235][8id][235]w[1175][tYs][235]w[1175][8d][235][qOD][235]t[1175][iOD][235]t[1175][qd][235][^Og][1175]q[235][Ei][1175]d[235][^Ys][235][^ETiP][470][^EoDh][470][@(OgH][470][@(PhJ][470][WsD][1175]Y[1175]O[1175][sD][1175]O[1175]Y[1175][Wd][1175]Y[1175][WsD][1175]Y[1175]O[1175][sD][1175]O[1175]Y[1175][Wd][1175]Y[1175][wPg][1175]y[1175]o[1175][Pg][1175]o[1175]y[1175][wD][1175]y[1175][8id][1175]w[1175]t[1175][YoD][1175]t[1175]w[1175][8g][1175]w[1175][9Osh][1175]W[1175]y[1175][iH][1175]y[1175]W[1175][9h][1175]W[1175][9Osg][1175]W[1175]y[1175][iD][1175]y[1175]W[1175][9g][235][wyosh][235]o[1175]s[1175][wyd][1175]h[1175]J[1175]z[1175][5whkv][3525][5wjlb][3525][5wkzn][235][18lZm][235]8[1175]w[1175][tDhZ][235]8[235][4qgHc][235]q[1175][tiDZ][235]q[1175][tigc][235][^EgHc][235][Egc][1175]i[1175][PJB][235][EHV][235][@(hJv][1175][gc][1175]([1175][EYhZv][235]([1175][EY][235][18hZv][235]8[1175]w[1175][tJB][235]8[235][4qlVm][235]q[1175][tigc][235]q[1175][tiDZ][235][^Edgz][235][Edgz][1175]i[1175][PsDl][235][Edgz][235][@(gHc][1175][DhZ][1175]([1175][EYDhZ][3525]2[235][8tYs][235]8[1175]w[1175][toY][235]8[235][4qOg][235]q[1175][ioY][235]t[1175][qOg][235][^Edg][235][^dg][1175]q[1175][EdJ][235][^dH][235][(YDh][1175][dg][1175]([1175][YDh][235]E[1175]([235][8tDh][235]8[1175]w[1175][tDJ][235]8[235][4qHl][235]q[1175][ig][235]t[1175][qD][235][^EdJ][235][^dJ][1175]q[1175][EPh][235][^dJ][235][8tdJ][3525][8tDl][3525]w[235][18sDl][235]8[1175]w[1175][tDhZ][235]8[235][4qgHc][235]q[1175][tiDZ][235]q[1175][tigc][235][^Egzc][235][Egc][1175]i[1175][PJB][235][EHV][235][@(hZv][1175][gc][1175]([1175][EYhZv][235]([1175][EY][235][18hZv][235]8[1175]w[1175][tJB][235]8[235][4qlVm][235]q[1175][tigc][235]q[1175][tiDZ][235][^EJzB][235][^EJzB][235][5whJv][235][^EJzB][235][^EJzB][3525][8tlZm][1175] ]]
  
@@ -1808,8 +1828,8 @@ Section:NewButton("erika", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 120 -- tempo overides the delay
  
 shared.scr = [[ [$ETI]-[ET] [ET] [ETI] T E T 
 [7rQWI]-[QW] [QW] [QWI] r W Y 
@@ -1963,8 +1983,8 @@ Section:NewButton("the world", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 100 -- tempo overides the delay
  
 shared.scr = [[ [$Q] [$Q][$Q][$Q][ra][yad][Supf]
 [7adIG] [9dIG][radQIG][9dIG][Grypdj][S9oafh][Qr][6dIG] [6dIG][0eadIG][6dIG][QSrupf][7dIG][0e]
@@ -2005,8 +2025,8 @@ Section:NewButton("snk", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 120 -- tempo overides the delay
  
 shared.scr = [[ [epfj] u| e u|
 [eph] i| e i|
@@ -2075,8 +2095,8 @@ Section:NewButton("haikyuu", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 100 -- tempo overides the delay
  
 shared.scr = [[ O| |p| |[a%] 0 W 0 W 0 W 0 [T6] 0 e 0 e 0 e 0 [Y7] Q r Q r Q r Q [O*] W T W [pT] W T W [a%] 0 W 0 W 0 W 0 [T6] 0 e 0 e 0 e 0 [Y7] Q r Q [rp] Q r Q [O7] Q r Q [rp] Q r Q [a%] 0 W 0 W 0 [WD] 0 [D6] 0 e 0 [fe] 0 e 0 [a7] Q r [fQ] r Q [rG] Q [G] W T W [TH] W T W [f%] 0 W 0 W 0 [aW] 0 [D6] 0 e 0 [fe] 0 e 0 [G7] Q r Q r Q r Q 7 Q r Q r Q r Q| |r u I [O3] 7 0 W|u I O [p6] 0 e O| |Iu[I7] Q r T|u I p [rO0] p O [rI(]|a|[u*] W T||u a S [a7] Q [rp]|O||uI[O6] 0 I|[p^] 0O I [u7] Q r IuI| |[O3] 7 0 W|u I O [p6] 0 e O| |Iu[I7] Q r T|u I p [rO0] a S [ra(] S D [f] W T u| |DS[a7] Q [rO]|a|S D [f6] 0 e|S|f|f| |S|f|[f7] Q r DfG| |7 Q r I a G k C [rn]| |a f G [H%] 0 W 0 W [f0] [WG] [H0] [j6] 0 e [H0] e 0 e [G0]f[G7] Q r Q r [fQ] [rG] [jQ] [H0] rjuHr [G(] r [kY] r [f*] W T W T [fW] [kT] [WL] [k7] Q [rj] Q [rH] Q r [fQ]G[H6] 0 [eG] 0 [j^] 0HEG0 [f7] Q r [QG]f[rG] Q r Q [H%] 0 W 0 W [f0] [WG] [H0] [j6] 0 e [H0] e 0 e [G0]f[G7] Q r Q r [fQ] [rG] [jQ] [H0] rkuLr [k(] rLYZr [x] W T W T W T [ZW]L[k7] Q [rH] Q [rk] Q [rL] [ZQ] [x6] 0 e 0 [eL] 0 [xe] 0 [x6] 0 e 0 [eL] 0 [xe] 0 [x7] Q r [ZQ]x[rC] Q r Q r Q r Q r Q r Q [pfS6] 0 e T u p S f j| |j|k|[spf6] 0 e t u p s f j|||G| |D| |[f3] % 7 0 W r u O a f H k [xufVH]| |[W30] ]]
  
@@ -2088,7 +2108,7 @@ Section:NewButton("Vampire", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 160 -- tempo overides the delay
+shared.tempo = 200 -- tempo overides the delay
  
 shared.scr = [[ [pj]-[oh][ig][uf][yd][TS][yd]-[ep]-[0u][qi][*T][9y]-
 [6e]-[5w][4q][30][29][!*][29]-2-[*ET0wu]--
@@ -2243,8 +2263,8 @@ Section:NewButton("Liebestraum no 3", "Auto", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 60 -- tempo overides the delay
 
 shared.scr = [[ w [u8]osfsouosfso[u7]OdfdO Odf[ud]O[u6]oSf[uS]oioSf[uS]o[u2]IsfsIeIsf[se]I[e5]i[ro]f[to]i[wu]ioa[yo]i[t8]uosou1tus[wo]t[u8]osfsouosfso[u7]OdfdO^Odf[ud]O[u6]oSf[uS]o[ie]Topf[uS]o[p9]Isjfs2typ[eI]y[e5]y[ri]a[to]i[wu]ioa[yo]i[t8]uosou1usout[t%]isOir[tW4]isOiy[wu8]ofsou1ofsou[u8]pfspY[ut6]pfspI[rO3]afHfaOafHfa[O]WuSfHfSOSfHfS[O%](tsDHDsYOsDsO[i%]tOsgsO iOs[tO]i[y5]roadao[ti%]Osg[sY]O[yr5]o[aT]d[ya]o[ti%]Osd[sY]O[yr5]o[aT]d[ya]o[qO4]s[td]H[yd]sO o i Y y t r| 59qryiOo[sO][oa][sgO][oda][sgH][hda][lgH][khd][lcH][zkh][lcV][zvk][mcV][zvn][mcV][zvn][mcV][zvn][mcV][zvn][mcV][zvn][mcV][zvn][mcV][zvn][lcV][zvk][lcH][zkh][lcH][zkh][lgH][khd][sgH][hda][sgH][hda][sgO][oda][sgO][oda][sgO][oda][sgO][oda][sgO][oda][sgO][oda][sgO][oda][sgO][oda][sgO][oda][sgO][oda][sgO][oda][sgO][oda][sgO][oda]| G [h(][oE][YP][oD][YP][oE]h[oE][YP][oD][YP][oE][h9][ro][ia][og][ia][ro] [ro][ia][og][iha][ro][h][oE][iP][og][ihP][oE][H8][oE][uP][of][uhP][oE][h4][oe][pY][oD][pY][oe]s[qY][ie][pY][sie][qY][s^][iW][dOE][iP][OED][iW]h[OE][yP][dO][ygP][OE]g[o(][PED][oY][se][YI][oPE]oiYt[PE][h(][oE][YP][oD][YP][oE][h9][ro][ia][og][ia][ro][h][oE][uP][of][uP][oE]8[oE][uP][of][uhP][oE][h7][rO][ua][fO][uaH][rO]h[rO][ua][fO][uaH][rO][j7][pT][uSI][pf][uSI][pT]| [TS] [TS]7[eYQD]T[ufeQ]7[O7]HeY|[IG] [ufaW3] fOauOruWr[xf0][xljfe6] sup[tljZD][xuljf]et0e[ljGC8][kVH30] fOa[ukGC][xkfO]ruWr[VH0][xVLH!] fOS[xvuhL][xVOLH]TuWT[JB0][mlW%][YD][tH][sO][YD][tH][mlW%][YD][tH][sO][YD][tH][wml5][uf][tJ][sP][uf][tJ][wl][uf][tJ][sP]u[tml][mlQ$][YD][tJ][sP]Y[tml][qL4][YD][tj][sp]Y[tml][ml^]WyyOs[sgc]Oyy[gcW]^[gcL@]([vhZLE]T[iZVLH]O[vsmlZ]oYT[wJB]([lZJB%]([WVH]t[ykgc]O[lZYD]sOY[tZD]([mlW%][YD][tH][sO][YD][tH][wml5][uf][tJ][sP][uf][tJ][mlQ$][YD][tj][sp][YD][tj][ql][YD][tj][sp][YD][tj][ml30][uf][tj][sp][uf][tj][ml@(][ig][tj][sp][ig][tj][mlC92]tIp[nkI]t[jeb]t[kaI]p[slI]t[xljf5]qetyi[zpd]iyt[mle]q[mlC92]tI[pnk][zI][ml]t[nk][jeb]t[kaI]p[slI]t[xljf5]qetyi[zpd]iyt[mle]q[mlC@(]tI[pnk][zI][tml][Z92][ze][tn]It[eb]vCxz[ml][nk][jb] [ka] [sl] [xljf5]qet[zyd]i[zvplh]iyt[gec]q[znkc5]qet[yjb]i[xsb]pit[ze]q[b5]nz9cbqryiadgkzc[nV][zx][vB][ZL][bC][zm][cV][nL][xv][mB][ZC][nb][zc][VB][xL][vb][mZ][VC][zn][vc][LB][xC][lb][cZ][kV][zx][vJ][ZL][jC][zl][cH][kL][xh][lJ][ZG][kj][zg][JH][fL][jh][lD][HG][kd][hg][SJ][fG][sj][GD][jgda]hgdaIoadgGjhkzcCbvnzcVbxcLzBnVbxcLzJkHjfgSdPaOpIoOopoPoaosoSodoD| o [f8]uos[xolh]u[xlhf]uosou[f7]uOd[zxOH]u[zxH]uOd[fO]u[f6]opS[xphfL]o[hgcL]opS[pf]o[f92]tIp[xjIG]t[pjG]tyI[yp]t[wp5]y[ia]o[sligd]y[gf]hkixoa[zod]i[s81]uop[olhf]u[tlhf]uopos[f8]wuIos[xolh]u[xlhf]uosou[f7]WyuOd[zxOH]u[zxH]uOd[fO]u[fT6]upS[pf]u[gE5]uPS[fP]u[je$]psf[xslb]p[lbZ]psDsp[W4]yOs[zlOH]y[zkdH]yOaOy[h3]woPd[zvPJ]o[vLJ]oPSPo[Q@]tIP[lJIG]t[sljG]tIpIt[qg2]ips[pljc]i[lcH]iOs[fO]i[f5]iOa[dO]i[rf]ioa[od]iuos18wtuosfhlz[xshf]| [xdaH] [xpjS] [ocSJ] [xoSJ] [lbID]|||[zgdP]| [zsOG] [zoha] [xiaH] [ziaH] [vuSJ]|||[i4][TO]g|||[pid5]t| r o f [wus8]|||[YQ] [wu] 8ros| [ie]| [wu] 8wus ]]
 
@@ -2257,8 +2277,8 @@ Section:NewButton("wild side", "Auto", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 120 -- tempo overides the delay
 
 shared.scr = [[ [IG][oh] [sl] [ak] [PJ] [ts][YD][oh][IG][ig][YD][ig]--
 [Hwiodhk]----
@@ -2404,8 +2424,8 @@ Section:NewButton("moonlight sonata 3rd mouvement", "Auto", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 130 -- tempo overides the delay
 
 shared.scr = [[ [4psgj] ! [%*] 0 [*W] 0 W [!T] [WT] u W u [!O] T [%O] [!S] [%O] S f [%S] f [SH] [SH] % 8 ( W [%(] [1t] ( t Y W [%Y]
 O [%Y] O [1s] [%O] s [OD] s [DH] [DH] * q [WT] q [%W] i W i O i O S [%O] S g [%S] H S g [HL] [HL] * Q T T
@@ -2498,8 +2518,8 @@ Section:NewButton("pirate of caraibes", "Auto", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 100 -- tempo overides the delay
 
 shared.scr = [[ e ee ee eeee
 e ee ee eeee[6e] ee e[6e] e[6e]0w[6e]
@@ -2584,8 +2604,8 @@ Section:NewButton("lilium", "Auto", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 60 -- tempo overides the delay
 
 shared.scr = [[ I S O p p I S O p a p I O u y u I y T y u I O p a p O
 I S O p p I S O p a p I O u y u I y T y a p O I i Y i I
@@ -2625,8 +2645,8 @@ Section:NewButton("World's Smallest Violin", "Auto", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 120 -- tempo overides the delay
 
 shared.scr = [[ [hv] [hv] [toh] h h h h g f [Tph] 
 h h h h g f [ypj] j j j j h g [ypj] j [upj] j [ipj] 
@@ -2709,8 +2729,8 @@ Section:NewButton("moonlight sonata shadow", "Auto", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 200 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 60 -- tempo overides the delay
 
 shared.scr = [[ [6eu] p s u p s
 u p s u p s
@@ -2858,8 +2878,8 @@ Section:NewButton("Unravel Tokyo Ghoul", "Auto", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 100 -- tempo overides the delay
 
 shared.scr = [[ euas h f|||[kd] hh d d| as[ed]uas|hf| sod [ea]yuo| sp|||60rt u o| t y|48we y o p s aop[f6]0ertrw[ed][uoed6] 09[ohd]0|[sqoh4]|[spj]|[yod] [30][uof]|[ura]| [utsp962]|||[yd]| [oh]| [ka]|||p [f6]3[d7][d8] 0s[wd]|fd s|[f4]1[d5][d6] [s8] [s0]| f [d5]2[d5][s8]|[d9][a7]2 [a5]p[w7] op[962]|6 69w[Q62] 6 [e9] p [sf6]0[rd][ted] [ut][sp][utpd]|[up][up][e80][sp] p[sf4]8[wsh][sqhe] [te]j[utsfe]s 0 [860] [sf] [sf5]9[eda][wrda] [ywr]s[yso]|[oa]s[w9][da]|[oea96]| 6 [s9][wp][Q62]| [te9] 6 [pe2] 6[q9] e[tsq9][uf9][yd3] 70[wra0] 7 [pe2] 6[q9] e[tsq9][uf9][yd3] 70[wroh0] 7 [uf2] 69[qe9] [pe] [yqpje]| [ka974]| [ka730] 70rupa[kaWO30] [uf]|[sl]|[ka4]8qet [sl][ka][a5]9wry [sl][ka][a6]0e[tpj][utfe]psf[upjf] [ts] [e860][sl]|[ka4]8qe[tqe]e[usl][tka][a5]9wr[ywroh] [975][pj][uf6] 0e[te]e[ut]e[utp] [ts]|[sl]|[ka4]8qet [sl][zd][d3]70e[rka]| [ka6]0rt[ute] [sl][pj][p5]0rt[uto] [pj] [xf4]8q[ztqed][ztqed] [sl] [qpj4]8qe[tqohe] [pj] [pj3]70rupap[ka0]WruO|[30]| [ke]uas hl[jf]|||[kd] hh d d|||euas h f|||[zd]|||0et[r4]14414[t4][r4]525525[t5][r5]63[e6][60]3680[e80] 8 [860]t|[te4]14414[te4]4[yr5]255[ut2]555[wr6]3[r6]t[u6]o[a3]6[t6]6[e60] 6et[to]|[yr4]14414[ut4]4[wr5]2[t5][yr5][r2]5[yo5]5[ya6]3[a6]s[a6]p[f3]s[a6]p[j6]f[s6]p[l6]j[f3]s[p6]u[y6][y3][u6][e6][t6][yr4]14414[ut4][yr4]4| [y864]uet[y5]25525[t5][o5]5| [yw97]| [ur63] 70eruoa h k| [je]usfd|||[je]oskh|||[je]osfd|||z|||[upf]|[slj]|[kfa4]8q[jeb][tjb] [slf][kfa]59w[rnk][ynk] [slf][kfa][fa6]0[ue]p[spe]f[utje0]lxnbxlj[xtpe]ljf[tso] [e860][slj]|[qkfa4]8qe[tqe]e[uslf][tkfa][w5]9wr[ywrohd] [975][pj][uspfe6] 0e[te]e[ut]e[utp] [tso]|[slj]|[kfa4]8[tq]eut[slfe][zthd][d3]70[e0][rkfa]ur0[kfa6]0[ue]tou[tsl][spojf][utpe]tete0[wspjf5] [xjf4]8q[ztqjed][ztqjed] [sl] [sqpj4]8qe[tsqohe] [spj] [spjf3]70rupap[kfa0]WruO|[30]| [qkfa84] et i[sl][pj]e tu[uka]| [ka730] er[uf] o [zd]| [r70]| euas h f|||[qd]fp| d q| d [wpd]|||f| j| k| fjkx ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
@@ -6206,8 +6226,8 @@ Section:NewButton("chipi chipi chapa chapa", "Auto", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 130 -- tempo overides the delay
 
 shared.scr = [[ [6O] p O p [6O] p [5O] p 
 [4O] p O p [4O] p O p 
