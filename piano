@@ -68,6 +68,25 @@ y p y a y s y u e u i p y e ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
+end)Section:NewButton("another love", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+ 
+shared.scr = [[ y p y p y p y y p
+t o t o t o t t o
+E i E i E i E E i
+e o e o e u e e y i o
+y p y p y p y y p
+u y u o t o t o t t o
+y t E i E i E i E E E t i
+u o o o e i e T u
+y p y a y s y u e u i p y e ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
 end)
 Section:NewButton("trhough the fire and flames", "Auto", function()
     shared.stop = true -- stops the player at any time if true
