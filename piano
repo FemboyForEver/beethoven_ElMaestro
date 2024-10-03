@@ -575,7 +575,7 @@ Section:NewButton("Young girl a", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 110 -- tempo overides the delay
  
 shared.scr = [[ [qti][qti][qti][qti] [qti][qti][qti][qti]–
 [Wtu][Wtu][Wtu][Wtu] [Wtu][Wtu][Wtu][Wtu]–
@@ -2108,7 +2108,7 @@ Section:NewButton("Vampire", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 200 -- tempo overides the delay
+shared.tempo = 300 -- tempo overides the delay
  
 shared.scr = [[ [pj]-[oh][ig][uf][yd][TS][yd]-[ep]-[0u][qi][*T][9y]-
 [6e]-[5w][4q][30][29][!*][29]-2-[*ET0wu]--
