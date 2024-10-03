@@ -1466,7 +1466,7 @@ Section:NewButton("flight of the bumblebee", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 200 -- tempo overides the delay
+shared.tempo = 150 -- tempo overides the delay
  
 shared.scr = [[ xZzLzLlklkJjHhGgfDdSdSsasaPpOoIiuYyTyTtruYyTyTtruYyTtiuYuYyTtTyYuYyTtiuYuYyTtTyYuYyTyTtrtTyYuiuYuYyTyTtrtTyYuIoOpOoIiPpOpOoIiIoOpOoIiPpOpOoIiIoOpOoIoIiuiIoOpPpOpOoIoIiuiIoOpPpOp p P| p p P|
 pPpOpPpOpPpOpPpOpPasSsaPpPasSsaPp d [SD]| d d [SD]|
