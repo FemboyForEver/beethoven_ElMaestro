@@ -3068,20 +3068,19 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 80 -- tempo overides the delay
 
-shared.scr = [[ I S O p p I S O p a p I O u y u I y T y u I O p a p O
-I S O p p I S O p a p I O u y u I y T y a p O I i Y i I
-P a S d p O d S f p S a p O i y T
-P a S d p O d S f p S s p O I p a O
-I S O p p I S O p a p I O u y u I y T y u I O p a p O
-I S O p p I S O p a p I O u y u I y T y a p O I Y i I
-p a S a d S a p O
-p a S D a S
-p a S p a d S a S p O u I O p S f D a S
-G f d S D a S p O u I O p S f D a S
-P a S d p O d S f p S a p O i y T
-P a S d p O d S f p S s p O I p a O
-I S O p p I S O p a p I O u y u I y T y u I O p a p O
-I S O p p I S O p a p I O u y u I y T y a p O I Y i I ]]
+shared.scr = [[ I S [4TO] * [qO]W [*I] e[$Tep]$-
+I S [4yO]4 * [qW] [*rp] [$Tea]$ p 
+[2eI]2 6 [9QT] [6t] I[2rI]-O u y 
+[W70ru] % r[0rTO]O [*W] u[$E] I Q[Qy] T 
+7[7ey] [Qru] e[TI]-[8Y] [TO]( [eyp] [rua] 
+[%*Tp] Q [eT] [$Ip] i[4riWO]W-I S 
+4[iWTO] * [TOqa] [*e] $[rp$IS]-QI [0S] 
+[4i*WTO]-qT [yp*S] $[TIera]$ p [2eQTI]2 6 
+IeT9T 6 [2erI]r-O a[ua] y u[3T] [%r] 
+WT[0u]O *e [$rua]0 I [Qey] [Tu] I[7eyI] a 
+[I3up] [iO] r[4r*I] i [%WTYrp]Y i[iO] [$QTI] p 
+y[yS] [ig] [$IG] d[yd] [TOS]3[3S] a[iadg] T[$SG]O-e
+IpS-I[$Qp]SG ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
