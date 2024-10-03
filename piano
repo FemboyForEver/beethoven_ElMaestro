@@ -228,7 +228,7 @@ Y o [^E259wy] Y i [^E259wy] Y i ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("Me n my cup", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
