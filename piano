@@ -131,22 +131,162 @@ j-J-[Jz]-Z-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("shikanoko", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 182 -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ y I I I I I I y 
+I-I-I--
+[yI] [Ip] [Ip] [Ip] [Ip] [Ip] [Ip] [yI] 
+[Ip]-[Ip]-[Ip]--
+[Iyp] [Ips] [Ips] [Ips] [Ips] [Ips] [Ips] [Iyp] 
+[Ips]-[Ips]-[Ips]--
+[Iyps] [Ipsf] [Ipsf] [Ipsf] [Ipsf] [Ipsf] [Ipsf] [Iyps] 
+[Ipsf]-[Ipsf]-[Ipsf]--
+[rak]-[rak]-[rak] [epj] [woh] [wru]-
+[wro] [ra] [wryud] [uf] [oh] [eI] [roh] 
+[8wtu]-[8wtuo]-[ts] [ra]-[ep] 
+[pj][ak][pj][QIoh] [IG] [9yd] [ts] [6ep] [yQIG]-[ak]-
+[ak]-[ak] [pj] [oh] [pj]-
+[oh] [yd][uf][oh]-[woh] [QIG] [woh] [ep]-
+[wo]--[9y]--[8tpj]
+[ak][pj][oh] [IG] [yd] [ts] [epz]l[IGk]jhG----
+a a a a----
+a a a a----
+a a a a----
+y 
+r 
+r r----
+r 
+r I-a--[Pd]-
+[dz]-[pS][Os][oa]-[dz]--
+[dz]--[oh] [dz] [oh]--
+[dz]--[dz]-I 
+[adz] [ydz][uf][oah]s[PSJ] [PSJ] [Sdz]-[ak][sl][SL]-
+[dz]--[oa] [oadz] [oa]--
+[dz]--[oa] [oadz] [oa] a 
+a [adz] a a a [adz] I IoOp-
+[Gpz]-[Ihz]-t-rEe-
+[hz]-[hz]--[hz]-
+[hz]--[hk]-[hk]-
+vzkh----[epsl]-
+6 [radz]-7 [tsfx]--
+hjkl[QIz] [wo] d [ydh]-
+[dh] [dh]-[dG] [dh]-[yd] [ad] 
+[yd] [tasd] [ts] [rad] [ra] [ep] [Iep] [oak]-
+[oak]-[ak] [pj] [oah] [pj]-
+[oh] [ra] [yodhz] [Iuf] [yuadk] [rpaj] [eroph] [tsl] 
+u [sl] r [tpj] u-uiI[odz]-
+[pdz] o [DZ] I [raDZ] [tsIDZ] [rua]-
+[fh] u [fh] pPas [fh] a [ask] o 
+[oh] [Itpsj] [Iroah]-[wuopj] [9yd] [0tuf]-
+[tsl] [uak]-[sl][pj] o [oph] I----
+lk[rj]h[rG]f[Id]s[oak]-
+[oak]-[ak] [paj] [oah] [paj]-
+[oh] [ra] [yodhz] [Iuf] [yuadk] [rpaj] [eroph] [tsl] 
+u [sl] r [tpj] [uoh] [fx] uiI[odz]-
+[pak] [osl]-y [rpaj] [Its] [ruoah]--
+u-pPas-a s o-
+[Iuf][uf][Iyd] [uf][uf][yud] [ra] IoO[ep] [sl] 
+o [psl] u [usl]--[odz]-
+[pdz] o [dz] o-I u-
+[ydhl] [uf] [ohl]-[ydhl] [uf] [ohl]-
+[ohz] [IG] [ohz] [oh] [ohz] [pj] [ohz] [ak] 
+[ohl] [oh] [hl] [pj] [ydhz] [uf] [ahkz]-
+[kIGZ]-[kIGZ]-[ohkx] [ohkx]--
+[ydhl] [uf] [ohl]-[ydlZ] [uf] [ohlZ]-
+[ohz] [IG] [ohz] [oh] [ohz] [pj] IoO[ep]-
+[tps] [tos]-[Its]-[tus]-[Iydz]-
+[yodz]-I u-u [Iyp] 
+[Ips] [Ips] [Ips] [Ips] [Ips] [Ips] [Iyp] [Ips]-
+[Ips]-[Ips]--[Iyps] 
+[Ipsf] [Ipsf] [Ipsf] [Ipsf] [Ipsf] [Ipsf] [Iyps] [Ipsf]-
+[Ipsf]-[Ipsf]--r 
+r r r r r r r----
+r 
+r 
+r r r r r----
+a 
+a a a y r r r----
+r 
+r I-a--[Pad]-
+[adz] a [pS][Os][oa]a-[dz]--
+[dz]-a [oah] [adz] [oah]--
+[dz]--[Idz] I o 
+[dz] [yodz][uf][oh] [oPJ] [oPJ] [odz] o [ak][sl][SL]r 
+r [rdz] r r r [rdz] r r 
+r [rdz] r r r [rdz] r r 
+r [rdz] r r r [rdz] r r-
+[Grz]-[rhz]--a-
+[shz]-[dhz]-dDfg-[dhz]-
+[shz]-s-[hk]-[dhk]-
+[av]zkh----[epsl]-
+6 [radz]-7 [tsfx]--
+hjkl[QIz] [wo] d [ydh] [yd] 
+[dh] [dh]-[dG] [dh]-[yd]-
+[yd] [ts] [ts] [ra] [ra] [ep]--
+[dz]-[dz] [dz]-[dz]-
+[sl]-[ak]-[oh] [pj] [oh]--
+[uf]-[oh]-[sl]-[ak] 
+[pj]-[oh]-[oh] [pj] [ak]--
+[dz]-[dz] [dz]-[dz]-
+[sl]-[ak]-[oh] [pj] [oh] [ak]--
+[uf]----[sl] 
+[sl]-[oh]--[pj]-u-
+r-w 0-0 u 
+u r y-u----
+u-
+Q-
+9-9 9 u 
+u y-u----
+[uoh] 
+[yIG] [Tig] [tuf] [rYD] [uf] [Tig] [yIG] [uoh] 
+[uIG] [ig] [uf] I [uof] [ipg] [IG] [uoh] 
+[yIG] [Tig] [tuf] [rYD] [tuf] [Tig] [yIG] [uoh] 
+[IG] [rig] [uf] 0 [uf] [ig] [IG] [uoh] 
+[yIG] [Tig] [tuf] [rYD] [uf] [Tig] [yIG] [uoh] 
+[uIG] [ig] [uf] I [uof] [ipg] [IG] [uoh] 
+[yIG] [Tig] [tuf] [rYD] [tuf] [Tig] [yIG] [uoh] 
+[IG] [rig] [uf] 0 [^E] [6e] [%W] [59wryo]--
+d f h j-
+h----[tuoad]----
+[Iypd]--
+[pYID]--[uoad]-
+o-SdD[df] f [dh] [fk] [Irypa] 
+h p p-o-u [shl] 
+u o-s a s [pjz]-
+[jz]-[kz] [jz] r-I [oak]-
+[oak]-[ak] [pj] [oah] [paj]-
+[oh] [ra] [yodhz] [Iuf] [yuadk] [rpaj] [eroph] [tsl] 
+u [sl] r [tpj] u-uiI[odz]-
+[pdz] o [DZ] o [raDZ] [tsIDZ] [rua]-
+[fh] u [fh] pPas [fh] a [ask] o 
+[oh] [Itpsj] [Iroah]-[wuopj] [9yd] [0tuf]-
+[tsl] [uak]-[sl][pj] o [oph] I----
+lk[rj]h[rG]f[Id]s[oak]-
+[oak]-[ak] [paj] [oah] [paj]-
+[oh] [ra] [yodhz] [Iuf] [yuadk] [rpaj] [eroph] [tsl] 
+u [sl] r [tpj] [uoh] [fx] uiI[odz]-
+[pak] [osl]-y [rpaj] [Its] [ruoah]--
+u-pPas-a s o-
+[Iuf][uf][Iyd] [uf][uf][yud] [ra] IoO[ep] [sl] 
+o [psl] u [usl]--uiI[odz]-
+[pdz] a [dz] o-I u-
+[ydhl] [uf] [ohl]-[ydhl] [uf] [ohl]-
+[ohz] [IG] [ohz] [oh] [ohz] [pj] [ohz] [ak] 
+[ohl] [oh] [hl] [pj] [ydhz] [uf] [ahkz]-
+[kIGZ]-[kIGZ]-[ohkx] [ohkx]--
+[ydhl] [uf] [ohl]-[ydlZ] [uf] [ohlZ]-
+[ohz] [IG] [ohz] [oh] [ohz] [pj] IoO[ep]-
+[tps] [tos]-[Its]-[tus]-[Iydz]-
+[yodz]-I u-IoO[plx]-
+[plx] [okz]-[Ijl]-[uhk]-[Iydkz]-
+[yodkz]-I [usf] [sf] IoO[plx]-
+[plx] [okz]-[Ijl]-[uhk]-[Iydkz]-
+[yodkz]-I [uEP] [ep] [uWO] [wo] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
