@@ -120,95 +120,95 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 150 -- tempo overides the delay
  
-shared.scr = [[ [(Y58wto]----
-[5wt@^(Y]----
-[48qt%(WY]----
-[^E259wy]----
-[(Y58wto]----
-[5wt@^(Y]----
-[48qt%(WY]----
-[^E259wy]--[^E259wy]--
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y [^E259wyi] 
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y i 
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y [^E259wyi] 
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y i 
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y [^E259wyi] 
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y i 
-[(Y58wto]----
-[5wt@^(Y]----
-[48qt%(WY]----
-[^E259wy]--[^E259wy]-[^E259wy] 
-[(Y58wto]----
-[5wt@^(Y]----
-[48qt%(WY]----
-[^E259wy]--[^E259wy]--
-[(Y58wto]----
-[5wt@^(Y]----
-[48qt%(WY]----
-[^E259wy]----
-[(Y58wto]----
-[5wt@^(Y]----
-[48qt%(WY]----
-[^E259wy]--[^E259wy]--
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y [^E259wyi] 
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y i 
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y [^E259wyi] 
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y i 
-[(Y58wto]----
-[5wt@^(Y]----
-[48qt%(WY]----
-[^E259wy]----
-[(Y58wto]----
-[5wt@^(Y]----
-[48qt%(WY]----
-[^E259wy]--[^E259wy]--
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y [^E259wyi] 
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y i 
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y [^E259wyi] 
-[(Y58wto]--Y--
-[5wt@^(YO] o i-i--
-[48qt%(WY] o-Y i-Y i 
-Y o [^E259wy] Y i [^E259wy] Y i 
-[(Y58wto]--Y--
+shared.scr = [[ [Yto]----
+[tY]----
+[tY]----
+[Ey]----
+[Yto]----
+[tY]----
+[tY]----
+[Ey]--[Ey]--
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y [Eyi] 
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y i 
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y [Eyi] 
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y i 
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y [Eyi] 
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y i 
+[Yto]----
+[tY]----
+[tY]----
+[Ey]--[Ey]-[Ey] 
+[Yto]----
+[tY]----
+[tY]----
+[Ey]--[Ey]--
+[Yto]----
+[tY]----
+[tY]----
+[Ey]----
+[Yto]----
+[tY]----
+[tY]----
+[Ey]--[Ey]--
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y [Eyi] 
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y i 
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y [Eyi] 
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y i 
+[Yto]----
+[tY]----
+[tY]----
+[Ey]----
+[Yto]----
+[tY]----
+[tY]----
+[Ey]--[Ey]--
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y [Eyi] 
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y i 
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y [Eyi] 
+[Yto]--Y--
+[tYO] o i-i--
+[tY] o-Y i-Y i 
+Y o [Ey] Y i [Ey] Y i 
+[Yto]--Y--
 [5wt@^(YO] o i-i--
 [48qt%(WY] o-Y i-Y i 
 Y o [^E259wy] Y i [^E259wy] Y [^E259wyi] 
