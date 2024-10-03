@@ -69,7 +69,7 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("i play pokemon go", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
@@ -88,12 +88,55 @@ i4 4 4 4 4 4 4 4 ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("playboi", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 116 -- tempo overides the delay
+ 
+shared.scr = [[ [E5y]-(-y-Y-
+[r@QT]-r-E-W-
+[E5y]-(-y-Y-
+[@Qri]-Y-[wT]-r-
+[5ey]-E-y-Y-
+[r@QP]-O-o-i-
+[ET5y]-y-T-r-
+[@QE]-r-[*QE]-W-
+J-D-z-Z-
+L-k-J-H-
+J-D-z-Z-
+Jc-Z-[jL]-k-
+j-J-[Jz]-Z-
+[ZB]-V-[Lv]-c-
+[hL]-z-L-k-
+[fJ]-k-J-H-
+[5yiEP]-Y-d-D-
+[r@(QYS]-a-P-O-
+[5yiEP]-Y-d-D-
+[@(QYrg]-D-[wS]-a-
+[5eyip]-[EP]-d-D-
+[r@(QYJ]-H-h-g-
+[5yiES]-d-S-a-
+[%(QETP]-a-[yP]-O-
+[5yiEP]-Y-d-D-
+[r@(QYS]-a-P-O-
+[5yiEP]-Y-d-D-
+[@(QYrg]-D-[wS]-a-
+[5eyip]-[EP]-d-D-
+[r@(QYJ]-H-h-g-
+[5yiES]-d-S-a-
+[%(QETP]-a-[yP]-O ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("doors elevatort", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 90 -- tempo overides the delay
  
 shared.scr = [[ y p y p y p y y p
 t o t o t o t t o
