@@ -319,7 +319,7 @@ Section:NewButton("playboi", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 160 -- tempo overides the delay
+shared.tempo = 120 -- tempo overides the delay
  
 shared.scr = [[ [E5y]-(-y-Y-
 [r@QT]-r-E-W-
