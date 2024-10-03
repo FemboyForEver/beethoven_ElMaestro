@@ -2845,6 +2845,26 @@ fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e asd [f8] wt ogf [d5] wr ifd [s6] 0e uds
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("Fur Elise fast", "Auto", function()
+    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 200 -- tempo overides the delay
+
+shared.scr = [[ fDfDfads [p6] 0e tup [a3] 0W uOa [s6] 0e u fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e
+fDfDfads [p6] 0e tup [a3] 0W uOa [s6] 0e u fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e
+asd [f8] wt ogf [d5] wr ifd [s6] 0e uds [a3] 0 uufuff x DfDfDfDfDfads [p6] 0e tup [a3] 0W uOa [s6] 0e u fDfDfads
+[p6] 0e tup [a3] 0W usa [p6] 0e fDfDfads [p6] 0e tup [a3] 0W uOa [s6] 0e u fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e
+fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e asd [f8] wt ogf [d5] wr ifd [s6] 0e uds [a3] 0 uufuffx DfDfDfDfads [p6] 0e tup
+[a3] 0W uOa [s6] 0e u fDfDfads [p6] 0e tup [a3] 0W usa [6t0p]
+ ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("bella ciao", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
