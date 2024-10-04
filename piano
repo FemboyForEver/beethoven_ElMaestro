@@ -87,10 +87,63 @@ Section:NewButton("come as you are", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 40 -- tempo overides the delay
+shared.tempo = 80 -- tempo overides the delay
  
-shared.scr = [[ h|j hf|f|f df gf| g|
-d hf| s|p da| ]]
+shared.scr = [[ w w W
+e| t e t e e W
+w y w w| y w W
+e| t e t e e W
+w y w w| y w W
+e| t e t e e W
+w y w w| y w W
+e| t e t e e W
+w y w w| y w W
+[eu]| t e [to] e [ep] [Wu]
+w y w w o y [wp] [Wu]
+e| t e [to] [ep] e [Wa]
+w y w [wp]| y [wo] [Wu]
+[eu]| t e [to] e [ep] [Wu]
+w y w w o y [wp] [Wu]
+e| t e [to] [ep] e [Wa]
+w y w [wp]| y [wo] [Wf]
+e||[yup]| d s s
+[8w] [8w] [8w] [8w] [8wf] [8w] [8wh] [8wf]
+e||[yup]| d s s
+[8w] [8w] [8w] [8w] [8wf] [8w] [8wh] [8wf]
+e||[yup]| d s s
+[8w] [8w] [8w] [8w] [8wf] [8w] [8wh] [8wf]
+e||[yup]| d s s
+[8w] [8w] [8w] [8w] [8w] 5 5 %
+[6u]| 8 6 [8o] 6 [6p] [%u]
+5 9 5 5 o 9 [5p] [%u]
+6| 8 6 [8o] [6p] 6 [%a]
+5 9 5 [5p]| 9 [5o] [%u]
+6| 8 6 [8o] 6 [6p] [%u]
+5 9 5 5 o 9 [5p] [%u]
+6| 8 6 [8o] [6p] 6 [%a]
+5 9 5 [5p]| 9 [5o] [%f]
+[6e]||[yup]| d s s
+[8wt] [8wt] [8wt] [8wt] [8wtf] [8wt] [8wth] [8wtf]
+[6e]||[yup]| d s s
+[8wt] [8wt] [8wt] [8wt] [8wtf] [8wt] [8wth] [8wtf]
+[6e]||[yup]| d s s
+[8wt] [8wt] [8wt] [8wt] [8wtf] [8wt] [8wth] [8wtf]
+[6e]||[yup]| d s s
+[8wt] [8wt] [8wt] [8wt] [8wt] [8wt] [8wt] [8wt]
+9 e y e [9d] [ed] y e
+[4psg] 8 q [8psg] 4 [8g] q 8
+[9f] [ed] y [es] [9p] [es] [yp] e
+4 8 q 8 [4d] [8d] q [8f]
+[9d] e y [es] [9p] [es] [yp] e
+4 8 q 8 [4d] [8d] q [8f]
+[9d] e y [es] [9p] [es] [yp] e
+4 8 q 8 4 [5w] [5w] [%W]
+[6e]| [8t] [6e] [8t] [6e] [6e] [%W]
+[5w] [9y] [5w] [5w]| [9y] [5w] [%W]
+[6e]| [8t] [6e] [8t] [6e] [6e] [%W]
+[5w] [9y] [5w] [5w]| [9y] [5w] [%W]
+[pj]| [sl] [pj] [sl] [pj] [pj] [OH]
+[oh] [dz] [oh] [oh]| [dz] [oh] [OH] [6j] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
