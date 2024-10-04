@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Beethoven_ElMaestro by jxcexploits", "serpent")
+local Window = Library.CreateLib("Beethoven_ElMaestro by jxcexploits", "serpents")
 
 local Tab = Window:NewTab("Auto Piano")
 local Section = Tab:NewSection("Auto Piano")
