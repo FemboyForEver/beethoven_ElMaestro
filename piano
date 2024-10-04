@@ -86,7 +86,7 @@ end)Section:NewButton("halloween", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 100 -- tempo overides the delay
+shared.tempo = 90 -- tempo overides the delay
  
 shared.scr = [[ x j j x j j x j c j
 x j j x j j x j c j
