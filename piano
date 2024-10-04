@@ -7317,13 +7317,3 @@ Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightControl, func
     Library:ToggleUI()
 
 end)
-local Tab = Window:NewTab("Speed")
-local Section = Tab:NewSection("Speed")
-Section:NewSlider("Speed", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-end)
-local Tab = Window:NewTab("AutoPlay Piano MAKER")
-local Section = Tab:NewSection("Click It If you want to make your own Auto Play")
-Section:NewButton("Patched!", "Auto", function()  
-    
-end)
