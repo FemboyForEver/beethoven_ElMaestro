@@ -6670,8 +6670,8 @@ Section:NewButton("Eve- Kaikai kitan / Jujutsu Kaisen Op 1", "Auto", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = 100 -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 132 -- tempo overides the delay
 
 shared.scr = [[ [69epj] [4oh] [4sl] [6tdz]
 4 [4pj] [4qoh] [YD] u i I [48qoh] [hv] [4fx]
