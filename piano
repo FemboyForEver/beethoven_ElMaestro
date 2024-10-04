@@ -81,6 +81,31 @@ d hf| s|p da| ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
+end)Section:NewButton("Five nights at freddy's", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 40 -- tempo overides the delay
+ 
+shared.scr = [[ h|j hf|f|f df gf| g|
+d hf| s|p da| ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
+Section:NewButton("Five nights at freddy's", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 40 -- tempo overides the delay
+ 
+shared.scr = [[ h|j hf|f|f df gf| g|
+d hf| s|p da| ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
 end)
 Section:NewButton("come as you are", "Auto", function()
     shared.stop = true -- stops the player at any time if true
