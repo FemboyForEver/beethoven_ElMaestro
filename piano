@@ -148,15 +148,100 @@ e||[yup]| d s s
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Five nights at freddy's", "Auto", function()
+Section:NewButton("the man who sold the world", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 40 -- tempo overides the delay
+shared.tempo = 120 -- tempo overides the delay
  
-shared.scr = [[ h|j hf|f|f df gf| g|
-d hf| s|p da| ]]
+shared.scr = [[ [6u] u u [6y]|uiu y
+[6u] u u [6y]|uiu y
+[6u] u u [6y]|uiu y
+[6u] u u [6y]|uiu y
+[8u] [8u] [8u] [8y]|[8u]i[8u] [8y]
+[8u] [8u] [8u] [8y]|[8u]i[8u] [8y]
+[6u]||u|
+y|t|r|e r
+3 3 3 3|3 3 [3r]
+[3y] 3 [3y] [3i]|[3y] [3u] 3
+6 6 6 6|6 [6u] 6
+[6y] 6 [6t] 6 r 6 [6e] [6r]
+3 3 3 3|3 3 [3r]
+[3y] 3 [3y] [3i]|[3y] [3u] 3
+8 8 8 8|8 [8u] 8
+[8o] 8 [8o] 8 i 8 [8u] [8y]
+5 5 5 5|5 [5y] 5
+[5p] 5 [5p] 5 o 5 [5i] 5
+[3u] 3 [3u] 3 u 3 [3u] 3
+[3i] 3 u [3t]
+6 6 6 6|6 [6u] 6
+[6y] 6 [6t] 6 r 6 [6e] [6r]
+5 5 5 5 5 5 5 5
+5 5 5 5 5 5 [5p] [5o]
+5 5 5 5 5 5 [5p] [5o]
+8 8 8 8 8 8 [8o] 8
+[%o] i % % [%i] % [%o] [%u]
+8 8 8 8 8 8 [8p] [8o]
+5 5 5 5 5 5 [5p] [5o]
+8 8 8 8 8 8 [8o] [8o]
+[%o]|[%i] [%i] % [%o] [%u] %
+3|||
+6|||
+8 8 8 8|8 8 8
+8 8 8 8|8 8 8
+6||u|
+y|t|r|e r
+3 3 3 3|3 3 [3r]
+[3y] 3 [3y] [3i]|[3y] [3u] 3
+6 6 6 6|6 [6u] 6
+[6y] 6 [6t] 6 r 6 [6e] [6r]
+3 3 3 3|3 3 [3r]
+[3y] 3 [3y] [3i]|[3y] [3u] 3
+8 8 8 8|8 [8u] 8
+[8o] 8 [8o] 8 i 8 [8u] [8y]
+5 5 5 5|5 [5y] 5
+[5p] 5 [5p] 5 o 5 [5i] 5
+[3u] 3 [3u] 3 u 3 [3u] 3
+[3i] 3 u [3t]
+6 6 6 6|6 [6u] 6
+[6y] 6 [6t] 6 r 6 [6e] [6r]
+5 5 5 5 5 5 5 5
+5 5 5 5 5 5 [5p] [5o]
+5 5 5 5 5 5 [5p] [5o]
+8 8 8 8 8 8 [8o] 8
+[%o] i % % [%i] % [%o] [%u]
+8 8 8 8 8 8 [8p] [8o]
+5 5 5 5 5 5 [5p] [5o]
+8 8 8 8 8 8 [8o] [8o]
+[%o]|[%i] [%i] % [%o] [%u] %
+3|||
+6|||
+8 8 8 8|8 8 8
+8 8 8 8|8 8 8
+[6u] [6u] [6u] [6y]|[6u]i[6u] [6y]
+[6u] [6u] [6u] [6y]|6 [6u] 6
+[3a] 3 [3a] [3a]|[3a] [3a] [3a]
+3 3 3 [3a]|3 [3a] 3
+[6u] [6u] [6u] [6y]|[6u]i[6u] [6y]
+[6u] [6u] [6u] [6y]|[6u] [6u] 6
+[8s] 8 [8s] [8s]|[8s] [8s] 8
+[8s] 8 [8s] [8s]|[8s] [8s] [8a]
+[6a] 6 [6p] [6p]|[6p] [6p] 6
+[6p] 6 [6p] [6p]|[6p] [6p] 6
+[3p] [3a] [3a] [3a]|3 [3a] [3a]
+[3a] 3 [3a] [3a]|3 [3a] 3
+[6u] [6u] [6u] [6y]|[6u]i[6u] [6y]
+[6u] [6u] [6u] [6y]|[6y] [6u] 6
+[8s] 8 [8s] [8s]|[8s] [8s] [8s]
+[8s] 8 [8s] [8s]|[8s] [8s] [8a]
+[6a] 6 [6p] [6p]|[6p] [6p] [6p]
+[6p] [6p] [6p] [6p]|[6p] [6p] 6
+[3a] 3 [3a] [3a]|[3a] [3a] [3a]
+[3a] 3 [3a] [3a]|[3a] [3a] 3
+[6u] [6u] [6u] [6y]|[6u]i[6u] [6y]
+[6u] [6u] [6u] [6y]|[6u]i[6u] [6y]
+[8u] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
