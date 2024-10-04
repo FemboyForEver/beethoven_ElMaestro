@@ -246,15 +246,144 @@ y|t|r|e r
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Five nights at freddy's", "Auto", function()
+Section:NewButton("Nothing else matters", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 40 -- tempo overides the delay
  
-shared.scr = [[ h|j hf|f|f df gf| g|
-d hf| s|p da| ]]
+shared.scr = [[ 6 t u p u t
+6 t u p u t
+6 t u p u t
+6 t u p u f
+[f6] 0 e [tf]p[pe] 0
+6 0 [fe] [tg] f gfd[uf] dsp
+[p9] i p app i
+9 i p p [pi9] [pi0]
+[qpi] qipisppi[qpi]
+[wpoa] woaopdpauup
+6 s f j f s
+6 t u p u t
+6 t u p u t
+6 t u p u t
+6 eup[sf]||
+w y [oa] q t [pi]
+6 eup[sf]||
+w y [oa] q t [pi]
+6 eup[sf]||
+w dao q spi
+8 sou 0 aOu
+6 t u p u t
+6 t u p u t
+6 0 [pe] [tp] ep[p0]p
+[a5] [p9] w 4 q 87
+6 0 [pe]p[tp] [pe] [p0]
+[o5] [o9] [wp] 4 q 87
+6 0 es[ts]ses0u
+[o5] [o9]pw 4 [o8]iq
+8 w [uts] [ua0] [uea][us]r
+[ua6][up]0 e t e 0
+6 0 e t e 0
+6 0 [upe][up][utp] [pe] [up0]
+[ya5] [s9] [wtp] [t4] q 87
+6 0 [upe][up][utp] ep[p0]u
+[yo5] [yp9] w 4 q 87
+6 [pf0] [ped] [tsp] [pea] [p0]
+[oa5] [so9] w 4 8 q
+8 w [uts] [ua0] [uea][us]r
+[ua6][up]0 e t e 0
+6 0 e t e 0
+6 [up0] [upe] [utp] ep[p0]
+[ya5] [s9] [wtp] 4 q 87
+6 0 [pfe][pf][tpf] [ped] [up0]
+[ya5] [ys9] [wtso] 4 q 87
+6 0 [use][us][uts] e[ua]0[up]
+[ya5] [ys9] [ywp] 4 8 q
+8 w [uts] [ua0] [uea][us]r
+[ua6][up]0 e t e 0
+[tqpi4] tipt[ypI92] yIpy
+[yoa5] w [yoa]a[ywso5] a pa
+[tqia4] [tp] pt[ypI92] yIpy
+[yoa5] w [ywoa]a[ywso5] a pa
+[tqia4] [si] [pi] [ypI92] yIpy
+[yoa5] w[yoa][yoa]
+[ya6][yp]0 e t e 0
+6 0 e t e 0
+6 0 [pe] [tp] ep[p0]p
+[a5] [p9] w 4 q 87
+6 0 [pe]p[tp] [pe] [p0]
+[o5] [o9] [wp] 4 q 87
+6 0 es[ts]ses0u
+[o5] [o9]ow 4 8 q
+8 w [uts] [ua0] [uea][us]r
+[ua6][up]0 e t e 0
+[tqpi4] tipt[ypI92] yIpy
+[yoa5] w [yoa]a[ywso5] a pa
+[tqia4] [tp] pt[ypI92] yIpy
+[yoa5] w [ywoa]a[ywso5] a pa
+[tqia4] [si] [pi] [ypI92] yIpy
+[yoa5] w[yoa][yoa]
+[ya6][yp]0 e t e 0
+6 0 e t e 0
+[lj6] [jf] 6 [zk6] [jf] 6
+[xl6] [jf] 6 [zc6] [jf] 6
+[g9] [pe] [yi] [ge] [p9] [ie]
+9 [ie] [yp] [ge] [p9] [ie]
+[qp] i t q p i
+[wp] o y w p o
+[p6]f0 e [tf]pe 0
+6 0 e t e 0
+[lj6] [jf] 6 [zk6] [jf] 6
+[xl6] [jf] 6 [zc6] [jf] 6
+[g9] [pe] [yi] [ge] [p9] [ie]
+9 [ie] [yp] [ge] [p9] [ie]
+[qp] i t q p i
+[wp] o y w p o
+[p6]f0 e [tf]pe 0
+6 0 e t e 0
+[tqpi4] tipt[ypI92] yIpy
+[yoa5] w [yoa]a[ywso5] a pa
+[tqia4] [tp] pt[ypI92] yIpy
+[yoa5] w [ywoa]a[ywso5] a pa
+[tqia4] [si] [pi] [ypI92] yIpy
+[yoa5] w [yoa]a[ywso5] a pa
+[tqia4] [tp] pt[ypI92] yIpy
+[yoa5] w [ywoa]a[ywso5] a pa
+[tqia4] [si] [pi] [ypI92] yIpy
+[yoa5] w[yoa][yoa]
+[ya6][ys]0 e t e 0
+[upd6] 0 e t e 0
+[spfe60] [e60] [e60] [sphe60] [e60] [e60]
+[jfe60] [jfe60] [jfe60] [jfe60] [jfe60] j
+[xl6] 0 [xle]z[lj0] e [z0]l
+[k5]l[k9]j[wk]h[jf4] 8l[zq]l
+[z6]x[b0]z[xe]b[v0]x[eZ]x[Z0]z
+[l5]j[zC9] [zwC]L[lj4] 8 q
+[xm6] [n0] [xe] [xm0] [xne]m[z0]
+[m5]nm[n9]x[wm]n[x4] 8l[zq]l
+[z8]zl[wh]l[zt]x[lb5] [v9] [wb]bxl
+[b6] 0 e t e [v0]
+[x6]v[x0] e t e [k0]
+[j6]k[j0] e t e 0
+6 0 [je] [tj] ej[j0]j
+[k5] [j9] w 4 q 87
+6 0 [je]j[tj] [je] [j0]
+[h5] [h9] [wj] 4 q 87
+6 0 el[tl]lel0f
+[h5] [h9]hw 4 8 q
+8 w [tlf] [kf0] [kfe][lf]r
+[kf6][jf]0 e t e 0
+6 0 e t e [f0]
+[f6] 0 e [tf]p[pe] 0
+6 0 [fe] [tg] f gfd[uf] dsp
+[p6] 0 e t e 0
+6 0 e t e [f0]
+[f6] 0 e [tf]p[pe] 0
+6 0 [fe] [tg] f gfd[uf] dsp
+[p6] 0 e t e 0
+6 0 e t e 0
+[e60] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
