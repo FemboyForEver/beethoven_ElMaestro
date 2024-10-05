@@ -73,7 +73,7 @@ end)Section:NewButton("Howl’s Moving Castle Theme", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 120 -- tempo overides the delay
+shared.tempo = 90 -- tempo overides the delay
  
 shared.scr = [[ [sf] [dg] [sf] [dg] [sf] [dg] [ad] [sf] [ad] [sf] [ad] [sf] [ps] [ad] [ps] [ad] [ps] [ad] [Oa] [Ip] [uO]
 7 0 r [Wu] [rO] u p s [9esf] [qt] [pf] [O0d] [0rys] [ya]
