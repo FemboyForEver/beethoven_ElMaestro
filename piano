@@ -5493,7 +5493,7 @@ end)
 Section:NewButton("New Rush E", "Autoplayf", function()
 -- CONFIG:
 shared.ftime = 2*50 + 50 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
+shared.delay = 0 -- delay overides the ftime
 shared.tempo = 200 -- tempo overides the delay
 
 shared.scr = [[ 
