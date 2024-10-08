@@ -88,7 +88,7 @@ Section:NewButton("pokemon theme", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 144 -- tempo overides the delay
+shared.tempo = 100 -- tempo overides the delay
  
 shared.scr = [[ [68] u u u u| u
 [37y]|r w||w
