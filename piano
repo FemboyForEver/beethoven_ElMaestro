@@ -88,7 +88,7 @@ Section:NewButton("minecraft", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 73-- tempo overides the delay
+shared.tempo = 50 -- tempo overides the delay
  
 shared.scr = [[ w e u t u w e u
 t w e u t u w e
@@ -163,7 +163,7 @@ Section:NewButton("gravity fall", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 160 -- tempo overides the delay
+shared.tempo = 150 -- tempo overides the delay
  
 shared.scr = [[ [g92]dpdgdpd
 [qg4]spsgsps
@@ -193,7 +193,7 @@ Section:NewButton("the godfather", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 80 -- tempo overides the delay
+shared.tempo = 60 -- tempo overides the delay
  
 shared.scr = [[ u p s [6a] [0p] [es]
 [0p] [9a] [ep] [yi] [eo] [6uf] |
