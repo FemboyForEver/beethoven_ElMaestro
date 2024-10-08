@@ -83,22 +83,119 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("les lacs du connemara", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 112 -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ [%(o]----Y-
+o----Y-
+[%(o]----Y-
+[q^O]-o-i-
+[%(o]----Y-
+[%(o]----Y-
+o----Y-
+[59O]-o-i-
+[59Y]----t-
+Y----t-
+[48Y]----t-
+[q^Y]-y-Y-
+i----
+[q^O]--i-
+O--i-
+[%(O]--i-
+P-O-o-
+[%(O]--i-
+O--i-
+[59O]--i-
+P-O-o-
+[59O]--i-
+O--i-
+[48O]--i-
+O-o-O-
+[59P]----
+[Ywo]-Y [Ywo]-Y [Ywo]-Y [wYO] o [Ywi] 
+[Ywo]-Y [Ywo]-Y [Ywo]-Y [wYO] o [Ywi] 
+[wY]-t [wY]-t [wY]-t [wY] y [wY] 
+[Ywi]--[wY]--[wY]--[wY]-[wY] 
+[iWO]-i [iWO]-i [iWO]-i [iWP] O [Wio] 
+[iWO]-i [iWO]-i [iWO]-i [iWP] O [Wio] 
+[iWO]-i [iWO]-i [iWO]-i [iWO] o [iWO] 
+[iWP]--[Wi]--[Wi]--[Wi]-[Wi] 
+[QYP]-I [QYP]-I [QYP]-I [QYa] P [QYO] 
+[QYP]-I [QYP]-I [QYP]-I [QYa] P [QYO] 
+[QYI]-Y [QYI]-Y [QYI]-Y [QYI] i [QYI] 
+[QYO]--[QY]--[QY]--[QY]-[QY] 
+[QTa]-O [QTa]-O [QTa]-O [QTS] a [QTP] 
+[QTa]-O [QTa]-O [QTa]-O [QTS] a [QTP] 
+[QTa]-O [QTa]-O [QTa]-O [QTa] P [QTa] 
+[QTS]--[QT]--[QT]--[QT]-[QT] p-[0ed]--S-aSd[Q7p]----I [*wo]--p o-Iuy[9eI]--u-p-[0rG]--h-Gfd[9ef]--G-dS-fd--a S d o [9wI]--y u I p [9eo]--poI-u-[8wu]--t-[9eu]--t-
+[8wu]--t-
+[9ei]-[8wu]-[7qy]-
+[8wu]--t-
+[9eu]--t-
+[8wu]--t-
+[9ei]-[8wu]-[7qy]-
+[60t]--e-
+[7qt]--e-
+[60t]--e-
+[7qt]-[60r]-[7qt]-
+[8wy]----
+[8wi]--y-
+[9ei]--y-
+[8wi]--y-
+[9eo]-[8wi]-[7qu]-
+[8wi]--y-
+[9ei]--y-
+[8wi]--y-
+[9eo]-[8wi]-[7qu]-
+[60i]--y-
+[7qi]--y-
+[60i]--y-
+[7qi]-[60u]-[7qi]-
+[8wo]----
+[Ywo]-Y [Ywo]-Y [Ywo]-Y [wYO] o [Ywi] 
+[Ywo]-Y [Ywo]-Y [Ywo]-Y [wYO] o [Ywi] 
+[wY]-t [wY]-t [wY]-t [wY] y [wY] 
+[Ywi]--[wY]--[wY]--[wY]-[wY] 
+[iWO]-i [iWO]-i [iWO]-i [iWP] O [Wio] 
+[iWO]-i [iWO]-i [iWO]-i [iWP] O [Wio] 
+[iWO]-i [iWO]-i [iWO]-i [iWO] o [iWO] 
+[iWP]--[Wi]--[Wi]--[Wi]-[Wi] 
+[QYP]-I [QYP]-I [QYP]-I [QYa] P [QYO] 
+[QYP]-I [QYP]-I [QYP]-I [QYa] P [QYO] 
+[QYI]-Y [QYI]-Y [QYI]-Y [QYI] i [QYI] 
+[QYO]--[QY]--[QY]--[QY]-[QY] 
+[QTa]-O [QTa]-O [QTa]-O [QTS] a [QTP] 
+[QTa]-O [QTa]-O [QTa]-O [QTS] a [QTP] 
+[QTa]-O [QTa]-O [QTa]-O [QTa] P [QTa] 
+[QTS]--[QT]--[QT]--[QT]-[QT] p-[0ed]--S-aSd[Q7p]----I [*wo]--p o-Iuy[9eI]--u-p-[0rG]--h-Gfd[9ef]--G-dS-fd--a S d o [9wI]--y u I p [9eo]--poI-u-[8wu]--t-[9eu]--t-
+[8wu]--t-
+[9ei]-[8wu]-[7qy]-
+[8wu]--t-
+[9eu]--t-
+[8wu]--t-
+[9ei]-[8wu]-[7qy]-
+[60t]--e-
+[7qt]--e-
+[60t]--e-
+[7qt]-[60r]-[7qt]-
+[8wy]----
+[8wi]--y-
+[9ei]--y-
+[8wi]--y-
+[9eo]-[8wi]-[7qu]-
+[8wi]--y-
+[9ei]--y-
+[8wi]--y-
+[9eo]-[8wi]-[7qu]-
+[60i]--y-
+[7qi]--y-
+[60i]--y-
+[7qi]-[60u]-[7qi]-
+[8wo] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
