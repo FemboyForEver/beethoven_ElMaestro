@@ -83,6 +83,88 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("pokemon theme", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 144 -- tempo overides the delay
+ 
+shared.scr = [[ [68] u u u u| u
+[37y]|r w||w
+[68u]|u|y t y|
+[57]|[57]|[57]|[57]|
+[48] t i|i|i u
+[38] y|t||t
+[38u]|u [$9y]|t [0ru]||
+[%0]|[%0]|[%0]|
+[68]|u u u u|u
+[37y]|r w||
+[68u] u| y|t y
+[57]|[57]|[57]|[57]|
+[48] i i i i| i
+[38u]|y t||t
+[38u]|u [$9y]|t [0ru]||
+[%0]|[37] u o p
+[48]|u u o p|p
+[38] o y t||
+[48]| o p a s a
+[57] p [57] o [57] u [57o] p
+[68]|p||p
+[38o] u|t| t y
+[38u]|u [$9y]|t [0ru]||
+[%0]|[37] u o p
+[48]|u u o p|p
+[57] o [57] p [57]|[57o]|
+[68]|[68] p p a s a
+[57] p [57] o [57]|[57]|
+[26i] s|s|s|o
+[38] s|s||
+[38s]| [$9s]| [%0s] a|
+u u o p|p
+[48]|u [57u] o p|s
+[68p]|[68]|[68]|[68]|
+[50]|[50]|[50]|[50]|
+[68u]|[68]|[68]|[68]|
+[50r]|[50]|[50]|[50]|
+[68] u u u u| u
+[37y]|r w||w
+[68u]|u|y t y|
+[57]|[57]|[57]|[57]|
+[48] t i|i|i u
+[38] y|t||t
+[38u]|u [$9y]|t [%0ru]||
+[%0]|[%0]|[%0]|
+[68]|u u u u|u
+[37y]|r w||
+[68u] u| y|t y
+[57]|[57]|[57]|[57]|
+[48] i i i i| i
+[38u]|y t||t
+[38u]|u [$9y]|t [%0ru]||
+[%0]|[37] u o p
+[48]|u u o p|p
+[38] o y t||
+[48]| o p a s a
+[57] p [57] o [57] u [57o] p
+[68]|p||p
+[38o] u|t| t y
+[38u]|u [$9y]|t [%0ru]||
+[%0]|[37] u o p
+[48]|u u o p|p
+[57] o [57] p [57]|[57o]|
+[68]|[68] p p a s a
+[57] p [57] o [57]|[57]|
+[26i] s|s|s|o
+[38] s|s||
+[38s]| [$9s]| [%0s] a|
+u u o p|p
+[48]|u [57u] o p|s
+p|[3u] [5o] [6p] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("swan lake", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
