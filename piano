@@ -158,31 +158,42 @@ shared.scr = [[ [5w]|||
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("top gun", "Auto", function()
+Section:NewButton("the godfather", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 120 -- tempo overides the delay
+shared.tempo = 80 -- tempo overides the delay
  
-shared.scr = [[ [5w]|||
-[5w]|||
-[wo]|d|d|s a
-[ws] a p|p|o p
-[wa]|p a s|a o
-[wa]|p||9|
-[wo]|d|d|s a
-[ws] a p|p|o p
-[wa]|p a s|a o
-[qd]|||
-[8s]|h|h|g f
-[8g] f d|d|s d
-[8f]|d f g|f s
-[8f]|d||w|
-[8s]|h|h|g f
-[8g] f d|d|s d
-[8f]|d f g|f d
-[wd]|[8s] ]]
+shared.scr = [[ u p s [6a] [0p] [es]
+[0p] [9a] [ep] [yi] [eo] [6uf] |
+[0ig] [euf] [YD] [8uf] [eu] [tp]
+[es] [6a] [0p] [es] [0p] [8a]
+[ep] [tu] [ey] [2y] [6t]
+[9r] [6e] [qt] [6y]
+[9i] [6O] [2ya]
+4 % 7 9 q W r a y i
+O [6tup] 0 e [tu5o] 0 W [5tuo] 9
+w [tu4i] 9 Q [4i] [8u] [qo]
+i [5i] [0u] [wu] W [6e] 8
+0 e t u p s f j j j
+H [5h] 7 9 w r y i k
+k j g [1f] 3 5 8 0 w
+t f f h f [6d] 9
+q E y i P d d g
+D [3f] % 7 0 W r y
+[uf] [pj] [sl] [6ak] [0pj] [esl]
+[0pj] [9ak] [epj] [yig] [eoh] [6uf] |
+[0ig] [euf] [YD] [8uf] [euf] [tpj]
+[esl] [6ak] [0pj] [esl] [0pj] [8ak]
+[epj] [tuf] [YD] [2yd] [6ts] [9ra]
+[6ep] [qts] [6yd] [9ig] [6O] [2ya] 4
+% 7 9 q W r a y i
+O [6tup] 0 e [tu5o] 0 W [5tuo] 9
+w [tu4i] 9 Q [4i] [8u] [qo]
+i [5i] [0u] [wu] W e 1
+3 6 8 0 e t u p s f
+b ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
