@@ -158,22 +158,32 @@ shared.scr = [[ [5w]|||
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("gravity fall", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 160 -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ [g92]dpdgdpd
+[qg4]spsgsps
+[fe6]SpSfSpS
+[fe6]SpS[fe6] j
+[yd2]696q9[uf6]9
+[pig2]6q6q969
+[spj4]8q[oh8]eq[pj8]q
+[ts4]8q8eq8q
+[yd^]qEqyE[uqf]E
+[ig^]qEq[yf]EqE
+[soh8]wtw[upj]tw8
+[oh8]0e0[igT]e06
+26[ig9]6[ig2]6[ig9]6[pj2]6[pj9]6[oh2]6[ig3]6
+48[qpj]8[pj4]8[qpj]8[oh4]8[qpj]8[oh4]8[qig]8
+^q[igE]q[ig^]q[igE]q[pj^]q[pjE]q[oh^]q[igE]q
+8w[tpj]w[pj8]w[pj^]w60[eSL]0[SL6]0[eSL]0
+26[ig9]6[ig2]6[ig3]6[pj4]8[qpj]8[oh4]8[qig]8
+^q[PJE]q[^PJ]q[PJE]q[oh8]wtw[sl8]wtw
+[pjS6]0e0[fSL6]0e [ypge9]dgjfSjLz| 2 ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
