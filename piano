@@ -158,6 +158,35 @@ shared.scr = [[ [5w]|||
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("top gun", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 120 -- tempo overides the delay
+ 
+shared.scr = [[ [5w]|||
+[5w]|||
+[wo]|d|d|s a
+[ws] a p|p|o p
+[wa]|p a s|a o
+[wa]|p||9|
+[wo]|d|d|s a
+[ws] a p|p|o p
+[wa]|p a s|a o
+[qd]|||
+[8s]|h|h|g f
+[8g] f d|d|s d
+[8f]|d f g|f s
+[8f]|d||w|
+[8s]|h|h|g f
+[8g] f d|d|s d
+[8f]|d f g|f d
+[wd]|[8s] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("pokemon theme", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
