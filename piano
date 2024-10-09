@@ -95,22 +95,71 @@ shared.scr = [[ [bI]V[bS]V[bG]V[bS]V[yb]V[pb]V[db]x[pb]z[eL]z[uL]z[xjS]L[zu]L[xu
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("nuvole bianche", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 60 -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ [ute]||[tqie]||
+[wut]||[ywr]||
+[ute]||[tqie]||
+[wto]||[wro]||
+[ued] s|s|s d s|s|s
+[tqd] s|s|s d s|s|s
+[tog] f|f|f g f|f|o
+[ywf] d|d|o g f|d|o
+[ued] s|s|s d s|s|s
+[tqa] p|p|p a p|p|p
+[to] f|f|f g f|f|o
+[ywf] d|d|o g f|d|o
+[ued] s|s|s d s|s|s
+[tqd] s|s|s d s|s|s
+[tog] f|f|f g f|f|o
+[ywf] d|d|o g f|d|o
+[ued] s|s|s d s|s|s
+[tqa] p|p|p a p|p|p
+[to] f|f|f g f|f|o
+[ywf] d|d|o g f|d|o
+[use]||o d f d s
+[tq]||o d f d s
+[tof]||o d f d s
+[ywd]||o d f d s
+[ued] s o||o d f d s
+[tq]|||d f d s
+[tof]|||d f d s
+[ywd]|||o|
+[tqj]|||hgf g
+[toh]| f|d [yw]| s|s
+[tq]|||hgf g
+[toh]| f|f [ywg] f d|s|
+[tsq]|||dsa s
+[ywd]|||d f d s
+[upe]|d f d s p s d f d s
+[tqp]|||d f d s
+[tof] s d f d s f s d f d s
+[ywd]|||s d s
+[uhe] s d f d s h s d f d s
+[tqh] s d f d s h s d f d s
+[toh] s d f d s h s d f d s
+[ywh] s d f d s h s d h s d
+[use] a p s a p f p a s a p
+[tsq] a p s a p g p a s a p
+[tof] d s f d s h s d f d s
+[ywd] s a d s a h a s d s a
+[use] a p s a p f p a s a p
+[tsq] a p s a p g p a s a p
+[tof] d s f d s h s d f d s
+[ywd] s a d s a h a s d s a
+[ule]| k| [tqj]| h|g
+[toh]| h| [ywh]| h|
+[ule]|k|j|[tqj]| h|g
+[toh]| h| [ywh]| h|
+[ule]| k| [tqj]| h|g
+[toh]| h| [ywh]| h|
+[ule]|k|j|[tqj]| h|g
+[toh]| h| [ywh]| h ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
