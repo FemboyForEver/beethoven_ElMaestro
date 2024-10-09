@@ -83,22 +83,32 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("past live", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 100 -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ [8t]—-s-a-[5p]–o–[3O]—-u-
+[4y]-u o-y u y
+5—-u-[4y]-u o-y u y 5—-
+8-s-s–
+[8s] s d d [tf]-h-
+[5a]-a-[wa]–a
+[%a] a s s [%d]-a s
+4-h-[qf]-h-
+[5a]-h-[wf]-d-
+4-h-[qf]-h-
+[5a]-a-[ws]-d f
+1-s-[8s]–ss
+[1s] s d d [wf]-h-
+5-a-[9a]–a
+[%f] f f f [%f]-d sp4-
+h-[tf]-h-
+[5a]-h-[yf]-d-
+4-h-[tf]-h-
+[5a]-h-[yf]-d-[18] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
