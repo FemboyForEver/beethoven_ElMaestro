@@ -224,22 +224,114 @@ q###[eti]###[0eti]###
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("une derniere danse", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 120 -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ 1-[Yto] 1 4-[tiO] 4 
+@-[EYo] @ 2-[ryo]-
+1-[Y2to] @ 4-[tiO] 4 
+@-[EYo] @ 2-! [ryo] 
+1-[Yto] 1 4-[tiO] 4 
+@-[EYo] @ 2-[ryo]-
+1-[Y2to] @ 4-[tiO] 4 
+@-[EYo] @ 2 dd[!d] [5d] 
+[1s]d-[Ytos] [1s] 4-[tiO] 4 
+@ D [oEYD] [@h] [2g]-D[ryo] [5d]d
+[1s] d [Y2to] [@D] 4-[tiO] 4 
+@ DD[oEYD] [@h] [2g]-D[ryod] [5s] 
+[1d]-[Ytos] 1 [4s]-[tiO] 4 
+@ d [EYod] [@s] [2d]-s[ryos]d5s
+[1o]-o[Y2to] [@s] [4d]-[Otis] [4d]s
+[@s] d [EYo] @ 2 dd[ryod] [5s] 
+[1d] s [Yto] [1s] 4-[tiO] 4 
+@ dD [EYo] [@h] [2g] D [ryod] [5s]s
+[1d] s [Y2to] [@d]D 4-[tiO] 4 
+@ DD[EYoh] [@g] 2 DD[ryod]d[5s] 
+[1d]-[Ytos] [1d] [4s]-[tiO] 4 
+@ g [EYo] [@h] [2D]-[ryod] 5 
+[1s]-[Y2to] [@P] [4P]-[tiO] 4 
+@-[EYo] @ 2-[ryo]-
+[18h]-[Ytoh] [1h] [4qH]-[tiOH] 4 
+[@(h]-[EYoh] @ [29g]-[ryo] [5h] 
+[18] h [Y2toh] [@J] [4qH]-[tiO] [4H] 
+[@(h]-[EYoh]g[@D] [29] g [ryoD]g5 
+[18] h [Yto]h[1h] [4qH]-[tiOH] 4 
+[@(h]-[EYoh] @ [29g] D [ryog] 5 
+[18g] D [2toYD] @ [4qD]g-[Otig] 4 
+[@(D]-[oEYD] [@h] [29d]-[ryo] [5s] 
+[18] h [Ytoh] [1h] [4qH]-[tiO] [4H] 
+[@(h] h [EYoh] @ [29] g [ryo] [5h] 
+[18] h [Y2to]h[@h] [4qJ]l-[tiOH] [4h] 
+[@(H]-[EYo] [@H] [29H] J [ryoH] [5h] 
+[18] h [Ytoh] [1h] [4qH]-[tiO] [4H] 
+[@(h]-[EYoh] @ [29g] D [ryod] [5h] 
+[18g] D [2toYD] @ [4qD]g-[Otig] 4 
+[@(D]-[oEYD] @ [29d]-d[ryod] [5s] 
+[1d]-[Y2tos] [@s] 4-[tiO]-
+@ D [oEYD] [@h] [2g]-D[ryo]d[5s] 
+[1d] s [Y2to] [@d]D 4-[tiO]-
+@-D[oEYD] [@h] [2g]-D[ryo]d[5s] 
+[1d]-[Y2tos] @ [4D]-[Otid]-
+[@D]-[EYo] [@h] [2d]-[ryod] [5D]g 
+1-D[Y2tod] [@s] 4-[tiO]-
+@-[EYo] @ 2-[ryo]-h
+[18h]-[Y12toh] [@h] [14qH]-[1tiOH]-
+[@(1h]-[EY1oh] @ [129g]-[1ryo] [5h] 
+[18] h [Y12toh] [@J] [14qH]-[1tiO] H 
+[@(1h]-[EY1oh]g[@D] [129] g [1ryoD]g5 
+[128] h [Y12to]h[@h] [124qH]-[12tiOH]-
+[@(12h]-[EY12oh] @ [129g] D [12ryog] 5 
+[128g] D [12toYD] @ [124qD]g-[O12tig]-
+[12@(D]-[12oEYD] [@h] [129d]-[12ryo] [5s] 
+[18] h [@Y12toh] [@h] [14qH]-[1ti@O] H 
+[@(1h] h [@EY1oh] @ [129] g [@1ryo] [5h] 
+[18] h [@Y12to]h[@h] [14qJ]l-[1ti@OH] h 
+[1@(H]-[@EY1o] [@H] [129H] J [1ryo@H] [5h] 
+[18] h [@Y12toh] [@h] [14qH]-[1ti@O] H 
+[@(1h]-[@EY1oh] @ [129g] D [@1ryod] [5h] 
+[18g] D [12to@YD] @ [14qD]g-[@O1tig]-
+[1@(D]-[1o@EYD] @ [129d]-[@1ryo] 5 
+[8h]-[9sh] ( [qsgOH]--[qH] 
+[(PDoh]-h ( [9adg]--9 
+[8sh]-[9h] ( [qsgOH]--[qH] 
+[(PDoh]-h ( [9iadg]--9 
+[D8osh]-[9h] [(h] [qsgOH]-H [qH] 
+[(PDoh]-h ( [9adg]--9 
+[8sh]-[9h] [(h] [qsgOH]-H [qH] 
+[(PDoh]-h [(l] [19iadJ] [1l]z 1 [12J] 
+[D18osh]-[129h] [@(] [O14qsg]-[14q] [4q] 
+[1o@(PD] l [@(1z] [@(l]z[129ad] Z [129z] [29l] 
+[18sz]Z z [129l] [@(z] [O14qsgl]-[14q] [4q] 
+[1o@(PD] l [@(1l] [@(J] [129iadl]z-[129J]h[29]g
+[D18osh]-[129h] [@(] [O14qsg]-[14q] [4q] 
+[1o@(PD] d [@(1d] [@(D] [129adh]-D[129] [29D] 
+[18sd] s [129] [@(s] [O14qsg]-[14q] [4q] 
+[1o@(PD]-[1@(] [@(] [129iad] [129] [129] [129] 
+h-J H H--H 
+[@(EY1oh]--[@h] [129ryog]--[5h] 
+[18] [1h] [Y12toh] [@J] [14qH] 4 [14tiO] [4H] 
+[@(1h] @ [@EY1oh]g[@D] [129] [2g] [12ryoD]g5 
+[18] [1h] [Y12to]h[@h] [14qH] 4 [14tiOH] 4 
+[@(1h] @ [@EY1oh] @ [129g] [2D] [12ryog] 5 
+[18g] [1D] [12toYD] @ [14qD]g 4 [O14tig] 4 
+[12@(D] @ [12o@EYD] [@h] [129d] 2 [12ryo] [5s] 
+[18] [1h] [@Y12toh] [@h] [14qH] 4 [14ti@O] [4H] 
+[@(1h] [@h] [@EY1oh] @ [129] [2g] [@12ryo] [5h] 
+[18] [1h] [@Y12to]h[@h] [14qJ]l 4 [14ti@OH] [4h] 
+[1@(H] @ [@EY1o] [@H] [129H] [2J] [12ryo@H] [5h] 
+[18] [1h] [@Y12toh] [@h] [14qH] 4 [14ti@O] [4H] 
+[@(1h] @ [@EY1oh] @ [129g] [2D] [@12ryod] [5h] 
+[18g] [1D] [12to@YD] @ [14qD]g 4 [@O14tig] 4 
+[1@(D] @ [1o@EYD] @ [129d] 2 [@12ryo] 5 
+1-[Yo] [1t] 4 t [iO] [4t] 
+@ E [Yo] [@E] 2-[ryo]-
+1-[Y2o] [@t] 4 t [iO] [4t] 
+@ E [Yo] [@E] 2 [2r] [2ryo]-
+[1t] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
