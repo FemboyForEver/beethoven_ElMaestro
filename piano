@@ -88,9 +88,18 @@ Section:NewButton("among us", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 100 -- tempo overides the delay
+shared.tempo = 80 -- tempo overides the delay
  
-shared.scr = [[  ]]
+shared.scr = [[ h j h g f g h|
+d f g|
+f g h|
+h j h g f g h|
+d|h|f s
+h j h g f g h|
+d f g|
+f g h|
+h j h g f g h|
+d|h|f s ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
