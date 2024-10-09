@@ -261,15 +261,7 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 90 -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ [yi]Sd [ip]jJ [uo]dS o lJ [id]jz [of]Jh [id]xc [ep]j S [pg]b [di] B [dou] z L [uop]B b [yip] S d i [ei] j [qy]J [uod] z L [uop]B b [9ipd] ye [6pf] ye [9eyi] iy [8tuo] ot [qtip] pi [0ua] au [epus] te [5aod] y w [8os] [os]Yi [pfsu] t [6sgp] i t [8p] I t [7adh] o y [^PH] O y [6dpj] y e [up6] e T [uopy]e 0 6 [ey] [p8] [yip9] e q 6 [ygp] [epi] [0o] E e 6 [poud] [pofe] [qpif] y e [6dpi] T y [o5] E ( 5 [(PD] [^*YP] [%DYO] Y q 5 y q 6 [dyp6] y e 6 [9ipd] [9fuo] [P^] u E ^ [YP] Q [7yid] y W [70] [9doh] [5qiy] [8dio] t w 8 [8sou] [0s] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
