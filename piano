@@ -83,12 +83,12 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("falling", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 80 -- tempo overides the delay
  
 shared.scr = [[ [0Wr] Q Q W Q Q Q 0 [0Wr] Q Q W Q Q Q 0 [*0Q] Q Q W Q Q Q 0 [*0Q] Q Q W Q Q Q 0 [rYI] Q Q W Q Q Q 0 [rYI%] Q Q W Q Q Q 0 [6*0] Q Q W Q Q Q 0 [6*0] [0Wr] | [0Wr] | [0Wr] | [0Wr] | [*0Q] | [*0Q] | [*0Q] | [*0Q] | [rYI] | [rYI] | [rYI] | [rYI%] | [6*0] | [6*0] | [6*0] | [6*0] | [0Wr] | [0Wr] | [0Wr] | [0Wr] | [*0Q] | [*0Q] | [*0Q] | [*0Q] | [rYI] | [rYI] | [rYI] | [rYI%] | [6*0] | [6*0] | [6*0] | [6*0] [0Wr] | [0Wr] | [0Wr] | [0Wr] | [*0Q] | [*0Q] | [*0Q] | [*0Q] | [rYI] | [rYI] | [rYI] | [rYI%] | [6*0] | [6*0] | [6*0] | [6*0] | [0Wr] Q Q W Q Q Q 0 [0Wr] Q Q W Q Q Q 0 [*0Q] Q Q W Q Q Q 0 [*0Q] Q Q W Q Q Q 0 [rYI] Q Q W Q Q Q 0 [rYI%] Q Q W Q Q Q 0 [6*0] Q Q W Q Q Q 0 [6*0] [0Wr] Q Q W Q Q Q 0 [0Wr] Q Q W Q Q Q 0 [*0Q] Q Q W Q Q Q 0 [*0Q] Q Q W Q Q Q 0 [rYI] Q Q W Q Q Q 0 [rYI%] Q Q W Q Q Q 0 [6*0] Q Q W Q Q Q 0 [6*0] [0Wr] | [0Wr] | [0Wr] | [0Wr] | [*0Q] | [*0Q] | [*0Q] | [*0Q] | [rYI] | [rYI] | [rYI] | [rYI%] | [6*0] | [6*0] | [6*0] | [6*0] | [0Wr] | [0Wr] | [0Wr] | [0Wr] | [*0Q] | [*0Q] | [*0Q] | [*0Q] | [rYI] | [rYI] | [rYI] | [rYI%] | [6*0] | [6*0] | [6*0] | [6*0] [0Wr] | [0Wr] | [0Wr] | [0Wr] | [*0Q] | [*0Q] | [*0Q] | [*0Q] | [rYI] | [rYI] | [rYI] | [rYI%] | [6*0] | [6*0] | [6*0] | [6*0] | [0Wr] Q Q W Q Q Q 0 [0Wr] Q Q W Q Q Q 0 [*0Q] Q Q W Q Q Q 0 [*0Q] Q Q W Q Q Q 0 [rYI] Q Q W Q Q Q 0 [rYI%] Q Q W Q Q Q 0 [6*0] Q Q W Q Q Q 0 [6*0] [pSf] | [pSf] | [pSf] | [*0Q] | [rYI] | [rYI] | [rYI%] | [rYI] [0Wr] Q Q W Q Q Q 0 [0Wr] Q Q W Q Q Q 0 [*0Q] Q Q W Q Q Q 0 [*0Q] Q Q W Q Q Q 0 [rYI] Q Q W Q Q Q 0 [rYI%] Q Q W Q Q Q 0 [6*0] Q Q W Q Q Q 0 [6*0] ]]
  
