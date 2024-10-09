@@ -90,39 +90,7 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
  
-shared.scr = [[ 1 o u y u
-o u y
-4 o u y u
-u i u t
-1 o u y u
-o u y
-4 o u y u
-u i u t
-1 [oh] [oh] [80wuf] 1 [yd][oh] [oh] [oh] [oh] [80wuf] [yd] [yd] [yd]4 [oh] [oh] [468uf] 4 [yd][oh] [oh] [oh] [oh] [468yd] [ts] [ts] [ts]1 [oh] [oh] [80wuf] 1
-[oh] [oh] [oh] [80wuf] [yd]4 [ts] [ts] [ts] [ep][ts] [ep] [ts] [ep] [468uf] [ts]1 [oh] [oh] [80wuf] 1 [yd][oh] [oh] [oh] [oh] [80wuf] [yd] [yd] [yd]4 [oh] [oh] [468uf] 4 [yd][oh] [oh] [oh] [oh] [468yd] [ts] [ts] [ts]1 [oh] [oh] [80wuf] 1
-[oh] [oh] [oh] [oh] [80wuf] [yd]4 [ts] [ts] [ts] [ep][ts] [ep] [ts] [ep] [468uf] [ts]1 y [80wy] t [1y] t
-y y t [80wy] t y
-4 y [468y] t [4y] t
-y y t [468y] u y
-1 y [80wy] t [1y] t
-y y t [80wy] e
-[4y] t y t [468y] 4
-y t y t [468]1 h [80wh] g [1f] g
-f s [80w]4 h [468h] g [4f] g
-f h [468]1 h [80wh] g [1f] g
-f g f g [80wh] f
-4 g [468g] [4g] g
-h h h h [468]1 o [80wo] i [1u]o o u [80wo] u
-[4y] y t [468y] t [4y][468]1 o i [80wu] [1u]o o u [80wo] u
-[4y] t y t [468u] [4t][468t]1 t t [80w] t [1t]t t [80wu] u
-4 t t [468] t [4t]t t t [468u] u
-1 y u [80wy] [1y] t
-y t y t [80wy] t y t
-[4y] y t y t y t
-y y t [468u] t
-[18] [oh] [oh] [80wuf] 1 [yd][oh] [oh] [oh] [oh] [80wuf] [yd] [yd] [yd]4 [oh] [oh] [468uf] 4 [yd][oh] [oh] [oh] [oh] [468yd] [ts] [ts] [ts][18] [oh] [oh] [80wuf] 1
-[oh] [oh] [oh] [80wuf] [yd]4 [ts] [ts] [468ts] 4 [ep][ts] [ep] [ts] [ep] [468uf] [ts][18] [oh] [oh] [80wuf] 1 [yd][oh] [oh] [oh] [oh] [80wuf] [yd] [yd] [yd]4 [oh] [oh] [468uf] 4 [yd][oh] [oh] [oh] [oh] [468yd] [ts] [ts] [ts][18] [oh] [oh] [80wuf] 1
-[oh] [oh] [oh] [80wuf] [yd]4 [ts] [ts] [468ts] 4 [ep][ts] [ep] [ts] [ep] [468uf] [ts] ]]
+shared.scr = [[  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
