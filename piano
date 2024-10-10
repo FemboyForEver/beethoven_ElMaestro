@@ -83,22 +83,81 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("nyan cat", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 280 -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ Y u I-a-Y u 
+I a S D S P a-
+I-Y u I-a-
+S P a S f D f G 
+[IV]-O-T Y-r 
+y T r-r-T-
+y-y T r T Y I 
+O Y I T y r T r 
+Y-I-O Y I T 
+Y r y Y y T r T 
+y-r T Y I T y 
+T r T-r-T-
+I-O-Y Y-r 
+y T r-r-T-
+y-y T r T Y I 
+O Y I T y r T r 
+Y-I-O Y I T 
+Y r y Y y T r T 
+y-r T Y I T y 
+T r T-r-r-
+r-Q W r-Q W 
+r T Y r u Y u I 
+r-r-Q W r Q 
+u Y T r Q ( 0 Q 
+r-Q W r-Q W 
+r r T Y r Q W Q 
+r-r E r Q W r 
+u Y u I r-E-
+r-Q W r-Q W 
+r T Y r u Y u I 
+r-r-Q W r Q 
+u Y T r Q ( 0 Q 
+r-Q W r-Q W 
+r r T Y r Q W Q 
+r-r E r Q W r 
+u Y u I r-T-
+I-O-T Y-r 
+y T r-r-T-
+y-y T r T Y I 
+O Y I T y r T r 
+Y-I-O Y I T 
+Y r y Y y T r T 
+y-r T Y I T y 
+T r T-r-T-
+I-O-Y Y-r 
+y T r-r-T-
+y-y T r T Y I 
+O Y I T y r T r 
+Y-I-O Y I T 
+Y r y Y y T r T 
+y-r T Y I T y 
+T r T-r-r-
+r-Q W r-Q W 
+r T Y r u Y u I 
+r-r-Q W r Q 
+u Y T r Q ( 0 Q 
+r-Q W r-Q W 
+r r T Y r Q W Q 
+r-r E r Q W r 
+u Y u I r-E-
+r-Q W r-Q W 
+r T Y r u Y u I 
+r-r-Q W r Q 
+u Y T r Q ( 0 Q 
+r-Q W r-Q W 
+r r T Y r Q W Q 
+r-r E r Q W r 
+u Y u I r-T ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
