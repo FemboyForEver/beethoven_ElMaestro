@@ -5251,7 +5251,7 @@ shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 130 -- tempo overides the delay
+shared.tempo = 160 -- tempo overides the delay
 
 shared.scr = [[ [4psgj] ! [%*] 0 [*W] 0 W [!T] [WT] u W u [!O] T [%O] [!S] [%O] S f [%S] f [SH] [SH] % 8 ( W [%(] [1t] ( t Y W [%Y]
 O [%Y] O [1s] [%O] s [OD] s [DH] [DH] * q [WT] q [%W] i W i O i O S [%O] S g [%S] H S g [HL] [HL] * Q T T
@@ -5555,7 +5555,7 @@ shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 200 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 60 -- tempo overides the delay
+shared.tempo = 100 -- tempo overides the delay
 
 shared.scr = [[ [6eu] p s u p s
 u p s u p s
