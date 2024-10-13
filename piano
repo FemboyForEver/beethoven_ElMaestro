@@ -88,7 +88,7 @@ Section:NewButton("teste song create ia", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 200 -- tempo overides the delay
+shared.tempo = 68 -- tempo overides the delay
  
 shared.scr = [[ d s f [48] [48] q [48]
 d sq f [9e] [9e] y [9ed]
