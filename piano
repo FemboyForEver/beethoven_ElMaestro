@@ -83,78 +83,46 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("teste ia", "Auto", function()
+Section:NewButton("teste song create ia", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 200 -- tempo overides the delay
  
-shared.scr = [[ [sf] [aD] [6e] [sf] [aD] [6e]
-[sf] [aD] [6e] [pS] [Os] [pS] [P6ed] [aD]
-[sf] [aD] [6e] [sf] [aD] [6e]
-[sf] [aD] [6e] [pS] [Os] [pS] [P6ed] [aD]
-[sf] [aD] [6e] [sf] [aD] [6e]
-[sf] [aD] [6e] [pS] [Os] [pS] [P6ed] [aD]
-[sf] [aD] [6e] [sf] [aD] [6e]
-[sf] [aD] [6e] [pS] [Os] [pS] [P6ed] [aD]
-[qp] pfdso [qp] pfdso [wp] pfdso
-[es] aos ao [es] aodwao
-[qp] pfdso [qp] pfdso [wp] pfdso
-[es]-[es]-[wa]-
-[qp] pfdso [qp] pfdso [wp] pfdso
-[es] aos ao [es] aodwao
-[9p] pfdso [9p] pfdso
-[80sf] [7a(D] [^P9d] [6pS] [%O8s] [6pS] [^P9d] [7a(D]
-[4qp] upf [4qd] so [5wp] upf [5wd] so
-[6es] aos [6e] ao [6es] aod [5w] ao
-[4qp] upf [4qd] so [5wp] upf [5wd] so
-[6eps] [ps] [6ead] [ad] [6esf] [sf] [5wad] [ad]
-[4qp] upf [4qd] so [5wp] upf [5wd] so
-[6es] aos [6e] ao [6es] aod [5w] ao
-[29p] upf [29d] so [29p] upf [29d] so
-[80sf] [7a(D] [^P9d] [6pS] [%O8s] [6pS] [^P9d] [7a(D]
-6 e [6up] [eup] [6ua] [eus] 6 e
-6 e [6up] [eup] [6ua] [eus] 5 [wia]
-4 [qip] [4qip] [4qip] [4q] [4q]
-[4ti] q [4to] q [3ri] [0ru] 3 0
-6 e [6ups] [eups] [6uad] [eusf] 6 e
-6 e [6ups] [eups] [6uad] [eusf] 5 [wiad]
-4 [qips] [4qips] [4qips] [4q] [4q]
-[4ti] q [4to] q [3ri] [0ru] 3 0
-[4ips] q [4ips] q [4ia] [qips] [4ips] q
-[5oad] [woaf] [5oad] [wos] [5oad] [wos] [5w]
-[6tup] e [6tup] e [6tuo] [etup] [6tup] e
-[6tup] [etuo] [6tu] [eryo] 5 [wru] [5ryo] w
-[4ips] q [4ips] q [4ia] [qips] [4ips] q
-[5oad] [woaf] [5oad] [wos] [5oad] [wos] [5w]
-[2yp] 9 [2yp] 9 [2yo] [9yp] [2yp] 9
-[2yp] 9 [3ua] 0 [4ips] q [5oad] w
-[4psf] q [4psf] q [5oad] w [5oad] [woad]
-6 [eups] 6 e 6 e [6p] [es]
-[4ipd] q [4ipd] [qips] [5oad] w [5adh] [wpsf]
-6 e 6 e [6ph] e [6pg] e
-[4psf] q [4psf] q [5oad] w [5oad] [woad]
-6 [eups] 6 e 6 e 6 [eipd]
-[4qips] [4ipd] [qips] [4ipd] q [4ips] [qof]
-5 w 5 w [5oh] w [5og] w
-[4psf] q [4psf] q [5oad] w [5oad] [woad]
-6 [eups] 6 e 6 e [6p] [es]
-[4ipd] q [4ipd] [qips] [5oad] w [5adh] [wpsf]
-6 e 6 e [6ph] e [6pg] e
-[4psf] q [4psf] q [5oad] w [5oad] [woad]
-6 [eups] 6 e 6 e 6 [eipd]
-[4qips] [4ipd] [qips] [4ipd] q 4 [qof]
-5 [wod] [5of] [wod] [%Oaf] W % W
-[4qp] upf [4qd] so [5wp] upf [5wd] so
-[6es] aos [6e] ao [6es] aod [5w] ao
-[4qp] upf [4qd] so [5wp] upf [5wd] so
-[6eps] [ps] [6ead] [ad] [6esf] [sf] [sf] [5wad] [ad]
-[4qp] upf [4qd] so [5wp] upf [5wd] so
-[6es] aos [6e] ao [6es] aod [5w] ao
-[29p] upf [29d] so [29p] upf [29d] so
-[80sf] [7a(D] [^P9d] [6pS] [%O8s] [6pS] [^P9d] [7a(D]
-6 e p j 6 e p j ]]
+shared.scr = [[ d s f [48] [48] q [48]
+d sq f [9e] [9e] y [9ed]
+[8qep] s [8qep] s d [8qe] f
+d sy f [60] [60] e [60]
+d f7 d 8|7 d
+[80e] s a [9qep] g [9qe] f
+
+d sq f [9e] [9e] y [9ed]
+[6d] s5 f [48] [48] q [48]
+d sq f [9e] [9e] y [9ed]
+[9wr] a [9wr] s [9wr] p
+d f9 d [60] [60s] [ep] [60s]
+
+[8qe] p [8qei] p [8qei] p
+d s [7p] d 8|7 d
+[6d] d [5d] s [48d] [48d] 0 [48s]
+d sq f [9e] [9e] y [9e]
+d d [qs] d [9ed] [9e] y [9e]
+
+[80e] s a [9qep] g [9qe] f
+d s [9s] d [60] [60] [ed] [60s]
+d f 7 d 8|7 d
+[80e] s s [80e] d [80e] a
+
+[6d] d5 d [48] [48] q [48s]
+[9wr] a [9wr] s [9wr] p
+s hq f [9e] [9e] y [9e]
+[8qe] p [8qei] p [8qei] p
+
+d d [9s] d [60] [60] [ed] [60]
+d f 7 d 8|7 d
+[6d] d5 d [48] [48] q [48s]
+s hq f [9e] [9e] y [9e] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
