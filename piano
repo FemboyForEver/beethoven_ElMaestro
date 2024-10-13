@@ -4606,43 +4606,166 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 136 -- tempo overides the delay
  
-shared.scr = [[ 7 7 7 6 7 9 7 $
-6 7 7 7 6 7 q 0
-9 6 7 7 7 6 7 9
-7 $ 6 7 7 7 6 7
-q 0 9 6 7 7 7 6
-7 9 7 $ 6 7 7 7
-6 7 q 0 9 6 7 7
-7 6 7 9 7 $ 6 7
-7 7 6 7 r r r e
-r y r Q e r r r
-e r i u y e r r
-r e r y r Q e r
-r r e r i u y e
-r r r e r y r Q
-e r r r e r i u
-y e r r r e r y
-r Q e r r r e r
-7 * 9 0 Q 7 9 e
-W Q 0 Q 7 * 9 0
-Q 7 9 e W e r W
-Q 7 * 9 0 Q 7 9
-e W Q 0 Q 7 * 9
-0 Q 7 9 e r e W
-Q 9 * 7 6 7 7 $
-6 7 * 6 7 9 * 7
-6 7 7 $ * 9 * 6
-3 y T r e r r Q
-e r T e r y T r
-6 9 Q 0 ( 7 e W
-Q 9 * 7 6 7 6 7
-6 7 6 7 7 * 9 0
-Q 9 9 0 q 0 9 *
-9 0 Q Q r 7 * 9
-0 9 * e w Q 9 9
-0 q 0 9 * 9 0 Q
-Q r 7 * 9 5 $ 4
-9 ^ 7 ]]
+shared.scr = [[ 7 7 76 7 9 7 $6 
+7 7 76 7 q 0 96 
+7 7 76 7 9 7 $6 
+7 7 7679 q 0 96 
+[7r] [7r] [7r][6e] [7r] [9y] [7r] [$Q][6e] 
+[7r] [7r] [7r][6e] [7r] [qi] [0u] [9y][6e] 
+[7r] [7r] [7r][6e] [7r] [9y] [7r] [$Q][6e] 
+[7r] [7r] [7r] [6e][7r]-d I p 
+[7r] [7r] [7r]e [7r] [7y] [7r] [7Q]e 
+[7r] [7r] [7r]e [7r] [7i] [7u] [7y]e 
+[7r] [7r] [7r]e [7r] [7y] [7r] [7Q]e 
+[7r] [7r] [7r]er[7y] [7i] [7u] [7y]e 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7ig] [7uf] [7yd][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra] [ep][ra]k-[ak]Sdf
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[rafH] E eQ 0 %G%6 [^f] 
+[7adG] 9 0q Q e Qe E 
+r % 6^ 7 % %[6a]S[^d]f
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[rafH] E eQ[afj]0 % %[H6afk] ^ 
+[7afH] 9[adG]0q Q e Qe E 
+r 7 % W 6e6 [^a]S[Ed]f
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[rafH] E eQ 0 %G%6 [^f] 
+[7adG] 9 0q Q e Qe E 
+r % 6^ 7 % %[6a]S[^d]f
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[Hrafk] E eQ[afj]0 % %[6afH] ^ 
+[7adG] 9 0q Q e Qe E 
+r 7 % W 6e6 [^d]S[Ea] 
+[I7yp]-[QIrya]-[QIrya]-I p a 
+[7yIS]-[QIryp]-[QIrya]--dSa 
+[I7yp]-[QIrya]-[QIrya]-I S d 
+[7yIS]-[QIryp]-[QTru]--dSa 
+[I7yp]-[I7ya]-[QIrya]-[7I] [Qrp] [7a] 
+[7yIS]-[I7yp]-[QIrya]-7 [Qrd]S[7a] 
+[6ep][29yd][$QIG][30uf][@(YD][7ra][6epj][%WOH][$QIG][29yd][!*TS][7ra]
+[6ep][7ra] [6ep][7ra] [6ep][7ra] [6ep][7ra] [6ep][7ra][29yd] 
+[7adIG]-[Qr] [%iadg]--[9W] df
+[!*iadg]-[wrf]-d [uo$S]-[*0d]-f 
+[7adIG]-[Qr] [%adgk]--[W9a] S 
+[!*uad]-[wrf]-d [uo$S]-[*0j]-h 
+[7adIG]-[Qr] [%iadg]--[9W] df
+[!*iadg]-[wrf]-d [uo$S]-[*0d]-f 
+[7adIG]-[Qr] [%adgk]--[W9k] L 
+[!*fhz]-[wrh]-G [$iadg]-[*0z]-J 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7ig] [7uf] [7yd][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra][ep][ra][7yd] [7ig] [7uf] [7yd][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7ig] [7uf] [7yd][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra] [ep][ra]k-[Ik]dG 
+[7dIG] 9 0q Q efQe [Ed] 
+[raf] ESeQp0 %I%[6a] [^I]u
+7y[9r] [0y]qiQu[ey] Qe E 
+r [%a] 6[^p] [7I]p%a%[6d] [^f] 
+[7dIG] 9 [0a][qd]G[Qj] e Qe E 
+[rf]d[Ea] [ed]Qf0 %y[%d][6y]d[^y]d
+[7y]d9y[0d]qy[Qd] [ef] [Qd][ef]d[Ea] 
+[rd]a7 [%a] W 6e6 ^ [Ea]G
+[G7aj] 9 [G0aj]q Q e Qe E 
+r E eQ[afH]0 % %6G^f
+[7afH] 9[adG]0q Q e Qe [Ey]d
+[ry]d[%y]d[6y][^d]y[7d] [%yd] [%yd][6yd] [^yd] 
+[G7dkz] 9[Gdkz]0q Q e Q[ek] [Ej] 
+[rf]d[Ea] [ep]Qa0 % %6 [^a] 
+[7yad] 9 [0uaf]q QGejQ[ek] [EGdkz] 
+r 7 % W 6e6 ^ E 
+[7f] 9 0qS[Qd]fe Qe [ES]d
+[rf] [Ed] [eS][Qd] [0S] % %6 [^S]d
+[7S] [9a] [0p]qaQ e Q[ep] [Eu] 
+[ry] % [6T][^y] [7T] % %6 ^ 
+[7r] [9y] [0u]qiQue Q[ey]r[Ey] 
+[rI] [Ep]ae[Qd]a0d[%a] [%d][6a] ^ 
+[7G]d[9S]a[0f][qS]p[Qa]a[eO] [QT][er]T[Er]O
+[rp] [7a] [%f]S[Wk]j[6H]e[6G] [^j]k[Ek]L
+[7z] 9 0q Q e Q[ez] [Ek] 
+[rz] E eQ 0k% %6 [^L]z
+[7z] [9L]z[0L]qk[QL]kej[Qk][ej] [EH]j
+[rH] [%G]H[6f]^G[7f]d%f[%d][6S]d[^S]a
+[7a] 9 0qp[QI]ieayQ[eu]IEy
+[ru] [EI] eQ 0 % %6 ^ 
+7 9 [0r]q Q e Qe E 
+ry[7I]a[%d]G[Wk]z[6C][ez][6k]G[^d]a[EI] 
+[%WIDG]--[$QSuf]----
+[$QSuf]--[30yad]----
+[*TGpj]--[7rfOH]----
+[7rfOH]--[6eofh]----
+[5afhk]-[29]-[5w]-[7r]-
+[5oaf]-[29]-[5woaG]-[7r]-
+[$SGk]-[!*]-[$Q]-[7r]-
+[$SGJ]-[!*]-[$Q]-[^E]-
+[7r]-[^T]-[6y]-[%I]-[5i] I 
+[7ra]-[^TS]-[6yd]-[%YD]-[5IG][ig][IG] 
+[7ak]-[^SL]-[6dz]-[%GC]-[5gc][fx][gc] 
+[k$GC]----
+J----aSdf
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[rafH] E eQ 0 %G%6 [^f] 
+[7adG] 9 0q Q e Qe E 
+r % 6^ 7 % %[6a]S[^d]f
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[rafH] E eQ[afj]0 % %[H6afk] ^ 
+[7afH] 9[adG]0q Q e Qe E 
+r 7 % W 6e6 [^a]S[Ed]f
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[rafH] E eQ 0 %G%6 [^f] 
+[7adG] 9 0q Q e Qe E 
+r % 6^ 7 % %[6a]S[^d]f
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[Hrafk] E eQ[afj]0 % %[6afH] ^ 
+[7adG] 9 0q Q e Qe E 
+r 7 % W 6e6 [^d]S[Ea] 
+[I7yp]-[QIrya]-[QIrya]-I p a 
+[7yIS]-[QIryp]-[QIrya]--dSa 
+[I7yp]-[QIrya]-[QIrya]-I S d 
+[7yIS]-[QIryp]-[QTru]--dSa 
+[I7yp]-[I7ya]-[QIrya]-[7I] [Qrp] [7a] 
+[7yIS]-[I7yp]-[QIrya]-7 [Qrd]S[7a] 
+[6pj][29dz][$QGC][30fx][@(DZ][7ak][6ejb][%WHV][$QGC][29dz][!*SL][7ak]
+[6pj][7ak] [6pj][7ak] [6pj][7ak] [6pj][7ak] [6pj][7ak][29dz] 
+7----
+7-7--77[29][29][29] 
+[7radIG]--[%Wiadg]--df
+[*Tiadg]-f-d [uo$QS]-d-f 
+[7radIG]--[%Wadgk]--a S 
+[*Tuad]-f-d [uo$QS]-j-h 
+[7radIG]--[%Wiadg]--df
+[*Tiadg]-f-d [uo$QS]-d-f 
+[7radIG]--[%Wadgk]--k L 
+[*Tfhz]-h-G [$Qiadg]-z-x 
+[7kzGC]-[Qr] [%gkzc]--[9W] zx
+[!*gkzc]-[wrx]-z [fh$L]-[*0z]-x 
+[7kzGC]-[Qr] [%kzcn]--[W9k] L 
+[!*fkz]-[wrx]-z [fh$L]-[*0b]-v 
+[7kzGC]-[Qr] [%gkzc]--[9W] zx
+[!*gkzc]-[wrx]-z [fh$L]-[*0z]-x 
+[7kzGC]-[Qr] [%kzcn]--[W9n] L 
+[!*zxv]-[wrv]-C [$gkzc]-[*0z]-B 
+[C7kzn] 7 76 7 9 7 $6 
+7 7 76 7 q 0 96 
+7 7 76 7 9 7 $6 
+7 7 7679 q 0 96 
+[7r] [7r] [7r][6e] [7r] [9y] [7r] [$Q][6e] 
+[7r] [7r] [7r][6e] [7r] [qi] [0u] [9y][6e] 
+[7r] [7r] [7r][6e] [7r] [9y] [7r] [$Q][6e] 
+[7r] [7r] [7r] [6e][7r]-d I p 
+[7r] [7r] [7r]e [7r] [7y] [7r] [7Q]e 
+[7r] [7r] [7r]e [7r] [7i] [7u] [7y]e 
+[7r] [7r] [7r]e [7r] [7y] [7r] [7Q]e 
+[7r] [7r] [7r]er[7y] [7i] [7u] [7y]e 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7ig] [7uf] [7yd][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra][ep][ra][7yd] [7ig] [7uf] [7yd][ep]----
+[7upTS] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
