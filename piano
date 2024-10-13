@@ -2489,39 +2489,70 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 60 -- tempo overides the delay
  
-shared.scr = [[ [is] s s s
-[ys] s s s
-[es] s s s
-s s t s t t u y t r
-[qts] y s r [ts] y [ts] r
-[9ts] y s r [ts] y [ts] r
-[ets] y s t t [ts] y [ts] r
-[ts] y s t s t t [us] y t r
-[qts] y s r [ts] y [ts] r
-[9ts] y s r [ts] y [ts] r
-[ets] y s t t [ts] y [ts] r
-[ts] y s t s t t u y t r
-[qts] y s t t [ts] y u u s y t
-[9ts] t s t t [ts] y u u s y t
-[ets] t s t t [ts] y u u s y t
-[ts] s t s s e w
-[qts] t s t t [ts] y u u s y t
-[9ts] t s t t [ts] y u u s y t
-[ets] t s t t [ts] y u u s y t
-[ts] t s t s t t u y t r
-[qts] y s r [ts] y [ts] r
-[9ts] y s r [ts] y [ts] r
-[ets] y s t t [ts] y [ts] r
-[ts] y s t s t t [us] y t r
-[qts] y s r [ts] y [ts] r
-[9ts] y s r [ts] y [ts] r
-[ets] y s t t [ts] y [ts] r
-[ts] y s t s t t [us] y t r
-[qts] y s r [ts] y [ts] r
-[9ts] y s r [ts] y [ts] r
-[ets] y s t t [ts] y [ts] r
-[ts] y s t s t t [us] y t r
-t y ]]
+shared.scr = [[ [0rua]--a--
+a--a--
+[*WTa]--a--
+a--a--
+[WYOa]--a--
+a--a--
+[%WYa]--[Ya]--
+[Wa]-[ra] a [YD] [TS] [ra] [EP] 
+[130rua]-S-2r-P-
+[1ra]-S-[2ra]-1P-
+[!*WT1a]-S-2r-P-
+[1ra]-S-[2a]r-P-
+[1%O][Wa]-S-2r-[1P] P 
+[1ra]-S-[2r]-P-
+1[WYa]-S-2r-[Oa]-
+[17]r-a-2[rDZ] [SL] [1ak] [PJ] 
+[1ua][30r]-S-2r-P-
+[1a]r-S-[2a]r-$P-
+[!*WT1a]-S-2r-[1P]-
+[1a]r-S-[2a]r-@P-
+[1%][WYa]-S-2r-P P r
+[W1a]-S-[2a]r-1P-
+[1%][WYa]-S-2r-a-
+[%1r]-a a [27][rDZ] [SL] [ak] [PJ] 
+[13a][0r]-S-2r-1a-
+1r S D D-2r-S S 
+[1!][*WT]--2r-a-
+1r S D D 2r-1S S 
+[1%][WY]--2r-a-
+[1a]r S D D 2r S S S 
+1[WY]--2r-1a-
+1r-a a 2[rD] S a P 
+[1a][30r]-S-2r-a a 
+1r S D [0D] 2r S 1S S 
+[1!][*WT]--2r-a a 
+[1a]r S D D 2r-S S 
+[1%][WY]--2r-1a a 
+[1a]r S D D 2r-S S 
+[%W]--r-a-
+r-a-[%WD]-S [$Qa] P 
+[O3ua]0-[uO]S-0[Wr]-P-
+[O0a]3-[OS]-[Oa][W0r]-@[(YP]-
+![*Oua]-[uO]S-[0*WT]-P-
+[!*][Oa]-OS-[*WO0a]T-[@(P]-
+[%WYOa]-[OS]Y-[Wr]Y-P P 
+[Oa][%W]-OS-[WYOra]-P-
+Y[%WOa]-[YO]S-[rWY]-[Ya][%O]-
+W%-aO [Oa] [WODZ][rY] [SL] [$Qak] [PJ] 
+[O3uak]0-[uO][SL]-[W0r]-[PJ]-
+[30ak]O-[OSL]-[Oak][W0r]-[@(PJ]-
+[!*Ouak]-[uOSL]-[0W]*-[PJ]-
+[!*Oak]-O[SL]-[Oak][0*W]-[@(PJ]-
+[%WYOak]-[OSL]Y-[Wr]Y-[PJ] [PJ] 
+[Oak][%W]-O[SL]-[WYOrak]-[PJ]-
+Y[%WOak]-[YO][SL]-[rWY]-[Yak][%O]-
+W%-[ak]O [Oak] [WODZ][rY] [SL] [$Qak] [PJ] 
+[0rua]--a--
+a--a--
+a[WT]*--a--
+a--a-k-
+[WYO]a--a--
+a-k k [ak] k k k 
+[%WYO]a--a--
+a ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
