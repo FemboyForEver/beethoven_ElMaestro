@@ -83,6 +83,37 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("revenge", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 70 -- tempo overides the delay
+ 
+shared.scr = [[ e--[tu]--
+q--[et]--
+w--[ry]--
+0--[Wr]--
+e-p-[tup]-p-
+[qp]-u u [et] i-u 
+w-u-[ryu]-u-
+[0u]-y t [Wr] y-u 
+e-p-[tup]-p-
+[qp]-u u [et] i-u 
+w-u-[ryu]-u-
+[0u]-y-[Wrt] y--
+e-p-[tup]-p-
+[qp]-u u [et] i-u 
+w-u-[ryu]-u-
+[0u]-y-[Wrt] y-u 
+e-p-[tup]-p-
+[qp]-u u [et] i-u 
+w-u-[ryu]-u-
+[0u]-u u [Wru] i-u ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("teste song create ia", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
