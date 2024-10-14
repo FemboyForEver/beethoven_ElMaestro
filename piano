@@ -4635,7 +4635,7 @@ Section:NewButton("jojo aventure", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 136 -- tempo overides the delay
+shared.tempo = 200 -- tempo overides the delay
  
 shared.scr = [[ 7 7 76 7 9 7 $6 
 7 7 76 7 q 0 96 
@@ -6790,8 +6790,8 @@ Section:NewButton("Giorno Theme", "Autoplayf", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 138 -- tempo overides the delay
 
 shared.scr = [[  [r7] r r e r y r Q e [r7] r r e r i u y e [r7] r r e r y r Q e [r7] r r e r y  i u y e G d dfgfdSdf G k a S dfdSjh G d dfgfdSdf G k k L zhGgzj[akr] ]]
 
