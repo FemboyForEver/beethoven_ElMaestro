@@ -167,6 +167,125 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("Rush E 2", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 180 -- tempo overides the delay
+ 
+shared.scr = [[ u0u0u0u0[uf]0[uf]0[uf]0[uf]0
+[0f][ug][0f][uD][0d][uD][0d][uS][0s][ud][0S][us][0a][us][0a][uP]
+[6p] [tu]e[tu] 8 0 [tu]e[tu] 9klz
+[8x]c[3x]z[7l]z[0l]k[6j]-37[W0yu]-
+[6u]t[80e]t[%u]t[80e]t[5u]t[80e]t[$u]t[80e]t
+[4u]t[380e]t[%u]i[790u]Y[680u] [3p]4[5s]678
+[29d]pipds[9qa]d[60s]pupsa[68p]s
+[7a]Y[!7a]Y[27I] [@7a] [37O]-37[W0ru]-
+[6u]t[80e]tut[780e]t[8u]t[0e]tut[680e]t
+[3u]i[80u]Y[1u] [80p]s[6f] [68j] l [18] 
+[29z]l[4qk]z[30l]k[18j]l[7k]j[29H]k[18j]f[6s]p
+[4g]fds[3a]pOa[6p]-[6psfj?]-
+[29] [dg][!*p][29dg] [30] [4q] [30pdg] [29] [4qpdg] 
+[30] [sf][29p][18sf] [29] [30] [psf]-[18fjl] 
+[H7dk] 7J[H3dk] [3fjl] [%gkz] [%fjl] [H7dk] [7gkz] 
+[6fjl] [6sfj] [8fjl] [0jlx] [elxb] [0jlx] [8fjl] [6sfj] 
+[4qgjz]-L[gjz] [30hx] [29jzc] [hx] [4qgjz] [jzc] 
+[30jlx]-z[18fjl] z [6jlx]-[lxb] [18] 
+7 [zn]-[4zc] [3xm] [lbm] [zn] [V7kn] 
+[6jlb]-[3xV]-[6bm?]-3[O3udf]-
+u0u0u u0u0u [!@$%^1234567]-
+[EYu]w[EYu]w[EYu] [EYu]w[ryu]W[ryu] [!@$%^1234567] [!@$%^1234567] 
+[80] [7W]r[^u] [6O]a[%f] [5H]k[$x] [4V]n
+[30x]c[29x]Z[18x] [7C]V[6b]-37[O0uadf]-
+6-[fjl] 0 [et]-[6psf] 3-
+[et] [0fjl]-[et]-[3psf] 5 
+6-[fjl] 0 [et]-[6psf] 3-
+[et] [0fjl]-[et]-[0psf]-
+[etus]fj[etu] [etus]fj[etu] sfj[etu] sfjW[etu] 
+sfj[etu] sfj[Wtu] sfj[Wtu] sfj[wru] 
+afh[wru] afh[wru] afh[eru] [wrua]fh[Qru] 
+[wrua]fh-[ruoa]fh-[uoaf]hk-fhk-
+[yipd]gj [yip]dgj[yip]-[yipd]gj [tip]dgj[rip][yip]
+[tups]fj [tup]sfj[tup]-[tups]fj [rup]sfj[eup][tup]
+[erYD]gk [erY]Dgk[erY]-[qrYD]gk-[erYD]gk-
+[H30adgk][Hadgk][H4qadgk]-[H30adgk][Hadgk][H29adgk]-[H18adgk][Hadgk][H7adgk]-
+[6psfj] [psfj] [psfj] [0psfj] [et] [psfj] 6 [3psfj]-
+[Wtpsfj] 0 [sfOH] [Wt] [sfOH] 0 [oafh] 
+5 [pj] [oh] [0IG] [wroafh]-[5ak] [3fx] 
+[hkxv] [wr] [0kxvn]-[wrxvn]-0-
+[7zcn] [xbm] [Vqeyzn] [zcn] [18xbm] [Vzn] [0etlxb] [xbm] 
+[30zcn] [lxb] [0rkzWV] [zcn] [6lxb] [jlx] [80efjl] [sfj] 
+[7jzc] 7 rtyu[7i]O[7p]asdfg
+[4G]jJl[4L]ZcC[4b]BmL[4Z]cCb
+[^B] [qE] [*g]S[qEP]S[qg]S[ETP]S[^g]S[qEP]S
+[6g]s[(4qp]s[5g]G[(6qg]f[^g] [q*J] [4L] [*q] 
+[@Z]JGJ[QEYZ][QEYL]lZ[^L]JgJ[qETL][ETql]JL
+[1l][8f]l[1f][8h] [1l] [4qj]klzxcvbnmzxc[4v]?nbvcxzmnbvc
+[Eg]S[rP]S[tg]S[TP]S[qyg]S[QYP]S[wug]S[iWP]S
+[Ieg]G[Eog]f[Org] [tpJ]L[TPc] [iB] [TL] E 
+[QZ]L[EYm]Z[qL]m[ETB]L[(m]B[Qtb]m[*B]c[qEL]J
+[4qC]c[@(Z]L[!*l]J[18j]l[^J]-BLc[q^*EB]-
+[^?] [ETi] 4 [ETi] 456[123456!@$%^] [ETi] 4 [ETi] 
+[4!^?] [ETi] [468] [ETi] 456[123456!@$%^*] [ETi] [468] [ETi] 
+[4!^?] [ETi] [468] [ETi] 456[123456!@$%^*] [ETi] [468] [ETi] 
+[7?] [eYI] $ [eYI] 7 [Ypa] $ [Ypa] 
+[3a]o[0wu]o[7a]o[0wu]o[3a]o[0wu]o[7a]o[0wu]o
+[3a]o[0wu]o[5a]s[0wa]P[7a] [0wf] [3h] [0w] 
+[6j]f[80s]f[1j]h[80G]j[3h]f[70a]f[5h]G[70f]h
+[$G]P[3G]P[@S] [!G] [7D]-aPa[(7ers] a 
+[0a]o[wru]o[(a]o[wru]o[9a]o[wru]o[*a]o[wru]o
+[8a]s[7era]P[(a] [Qerf]h[0k] [wrx] [7v] [wr] 
+[$b]v[80C]b[5v]C[70x]v[6C]x[(QZ]C[7x]k[0wh]f
+[YIj]hGj[uoh]Gfh[pIG]fDG[oaf]aou
+[$sj]hGj[5ah]Gfh[6pG]fDG[7of]aou
+[$us]a[5p]o[6I]u[7Y]I[30wu]-uoa[3f]-hH
+[6sj] yYoH[sj] [yodk] [fl] [todk] [sj] [6fl]jJ
+[3fk] eEu[Gj][fh] [Geuj] [hk] [wu]-[5fh] 
+[7pDG]-g[pDG] [7afh] [Gsj] [afh] [7pDG] [afh] 
+[Gsj] 7H[Gsj] [Hdk] [D7jl] [Hdk] [G7sj] [Djl] 
+[30hk]f[hk]f[30hk]f[hk]f[30hk] [GJ] [30hk] [jl] 
+[3hk] [fh]3[af]3[fh] [3hk]-3-3-
+[tup] z[Zv]Op [azv] [ups] [alv] p s 
+[uoa] j[Jx]po [pjx] [uoa] [hx] [oaf]-
+8 [$jlxb]-[5lm] [6kxvn] [7hv] [!*jb] [@(GC] 
+[30fhkx]-Cvb[7kn]-nLZ[3x]-uIop
+[oa]u[oa]u[oa] [oa]u[oa]u[oa] 7-
+[oa]u[oa]u[oa] [oa]u[oa]u[oa] 7 7 
+[YZtm]x[YZtm]x[Zryn]x[Zryn]x[ETZB]x[ETZB]x[Zetb]x[Zetb]x
+[Zerb]x[Zerb]x[Z7b]x[7C]Z[30xv]-3-
+[W3yu]0[Wyu] [Wyu] [W3yu] [Wyu]0[Wyu] [W3yu] [Wyu] 
+[etu]0[3etu] [etu] [etu] [3etu]0[etu] [3etu]0[3etu] 
+[O3df]u[Odf] [Odf] [O3df] [Odf]u[Odf] [O3df] [Odf] 
+[psf]u[3psf] [psf] [3psf] [@psf]u[2psf] [!psf]u[1psf] 
+[G7kx?]f[Gkx] [Gkx] [G7kx?] [Gkx]f[Gkx] [G7kx?] [Gkx] 
+[kGZ]D[7kGZ?] [kGZ] [7kGZ?] [7kGZ?]D[k!GZ] [2kGZ]D[k@GZ] 
+[3jlx]f[jlx] [3jlx]f[jlx] [3jlx]f[jlx] [3jlx]f[jlx] 
+[H3fzx][Hfzx][H4fzx]-[H3fzx][Hfzx][H2fzx]-[H1fzx][Hfzx][H7fzx?]-
+[6jlxb] [tu] 0 [tu] e [tu] 0 [tu] 
+e [tu] 0 [tu] e [tu] 0 [tu] 
+[ef]s[tup]s[0f]s[tup]s[ef]s[tup]s[0f]s[tup]s
+[ef]s[tup]s[0f]g[tuf]D[Of]p[Yj]u[rl]tWe
+[9z]j[yig]j[qz]l[yik]z[el]j[tuf]j[0l]k[tuj]l
+[Z7n]k[Z7n]k[7ZC] [Z7n] [30xV]-xVnz[3x]-
+[6f]sps[%f]sps[5f]sps[$f]sps
+[4f]g[3f]D[%f] [7j]l[6jx] [lb] [3xm]-
+[29zc]m[4qn]z[30xm]n[18b]m[7zn]b[29V]n[18lb]x[6l]j
+[@(cv]Z[$QL]c[Z4qv]L[!*m]Z[L18c]m[@(B]L[!*Zm]b[4c]l
+[^c]L[^J]L[6c]L[6J]L[%c]L[%J]L[5c]L[5J]L
+[$c]L[4J]L[6c]C[18c]x[^c] [^LB] [L4c] 4 
+[@Z]B[@C]B[$Z]L[$m]Z[^L]B[^c]B[4L]m[4B]L
+[18m]x[29m]x[@(v] [30m] [$%^Z134567b] [$%^134567] [$%^D134567psg] [$%^134567] 
+[^g]S[q*P]S[6g]S[q*P]S[%g]S[q*P]S[5g]S[q*P]S
+[$g]G[*4qg]f[6g] [8q(J]L[^Jc] [q*LB] [L4c] [*q] 
+[4Z]LmZ[5L]mBL[6m]Bbm[^B]cLJ
+[qiZ]LlZ[wiL]lJL[Yel]Jjl[ETJ]gSP
+[4Z]LmZ[5L]mBL[6m]Bbm[^B]cLJ
+[4qC]c[@(Z]L[!*l]J[18j]l[^J]-BLc[12345678!@$%^B?] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("LA LA LANDS", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
