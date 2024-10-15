@@ -83,6 +83,53 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("chopstick", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 150 -- tempo overides the delay
+ 
+shared.scr = [[ [whg] [hg] [hg]
+[rhg] [hg] [hg]
+[whf] [hf] [hf]
+[thf] [hf] [hf]
+[wkd] [kd] [kd]
+[kid] [kd] [kd]
+[ul] l l [ul] [yk] [tj]
+[ihg] [hg] [hg]
+[whg] [hg] [hg]
+[uhf] [hf] [hf]
+[whf] [hf] [hf]
+[ykd] [kd] [kd]
+[wkd] [kd] [kd]
+[tl] l l [tl]|
+x [zr]| l [wk]|
+j [th]| [wl]|
+h [rg]| [zw]|
+g [tf]| [wl]|
+x [zr]| l [wk]|
+j [th]| [wl]|
+h [yg]| [zr]|
+k [tl]| r| e
+[whg] [hg] [hg]
+[rhg] [hg] [hg]
+[whf] [hf] [hf]
+[thf] [hf] [hf]
+[wkd] [kd] [kd]
+[ykd] [kd] [kd]
+[tl] l l [tl] [yk] [uj]
+[ihg] [hg] [hg]
+[whg] [hg] [hg]
+[uhf] [hf] [hf]
+[whf] [hf] [hf]
+[ykd] [kd] [kd]
+[wkd] [kd] [kd]
+[tl] [tl] [tl] [tl] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("revenge", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
