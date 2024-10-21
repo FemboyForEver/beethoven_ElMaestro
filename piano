@@ -2781,20 +2781,20 @@ shared.tempo = 300 -- tempo overides the delay
  
 shared.scr = [[ [7a] [8s] 
 [*S] [9d] [(D] 
-[6sf] [sf] [et] [sG] [etsG] 
-[6sf] [sf] [et] [sG] [etsG] 
-[0af] [af] [ru] [aG] [ruaG] 
-[waf] [af] [ru] [aG] [ruaG] 
-[aQD] [aD] [eY] [aG] [eaYG] 
-[7aD] [aD] [eY] [aG] [eaYG] 
+[6s] [f] [e] [t] [s] [G] [et sG] 
+[6s] [f] [e] [t] [s] [G] [et sG] 
+[0a] [f] [r] [u] [a] [G] [ru aG] 
+[w] [a] [f] [r] [u] [a] [G] [ru aG] 
+[a] [Q] [D] [a] [D] [e] [Y] [aG eY] 
+[7a] [D] [a] [D] [e] [Y] [aG eY] 
 [30af] [7ak] [18sl] 
 [!*SL] [29dz] [@(DZ] 
-[6jlx] [jlx] [etu] [jlC] [etujlC] 
-[6jlx] [jlx] [etu] [jlC] [etujlC] 
-[30hkx] [hkx] [wru] [hkC] [wruhkC] 
-[7rhkx] [hkx] [wru] [hkC] [wruhkC] 
-[jk$QZ] [jkZ] [erY] [jkC] [erjkYC] 
-[7jkZ] [jkZ] [erY] [jkC] [erjkYC] 
+[6j] [l] [x] [etu jlC] [etu jlC] 
+[6j] [l] [x] [etu jlC] [etu jlC] 
+[30h] [k] [x] [wru hkC] [wru hkC] 
+[7r] [h] [k] [x] [wru hkC] [wru hkC] 
+[jkQZ] [jkZ] [erY] [jkC erYC] 
+[7jkZ] [jkZ] [erY] [jkC erYC] 
 [3hkx] 7 5 
 3 a a 
 [3f] [0wr] f [0wrf] G 
@@ -2876,7 +2876,7 @@ S d D
 [jk$QZ] [jkZ] [erY] [jkC] [erjkYC] 
 [7jkZ] [jkZ] [erY] [jkC] [erjkYC] 
 [30hkx] f [@(D] [30f] [5wh] [7rk] 
-[3hkx]  ]]
+[3hkx] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
