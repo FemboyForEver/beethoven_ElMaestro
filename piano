@@ -51,6 +51,151 @@ shared.scr = [[ u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("Rush A", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 200 -- tempo overides the delay
+ 
+shared.scr = [[ p 
+p 
+p 
+p 
+p 
+p 
+p 
+p 
+p 
+p p p p p p p p 
+p p p p p p p p [pj] [pj] [pj] [pj] [pjb] [pjb] [pjb] [pjb] 
+[epjb] [epjb] [epjb] [epjb] [6epjb] [6epjb] [6epjb] [6epjb] [6epjb] [6epjb] [6epjb] [6epjb] [6epjb?] [6epjb?] [6epjb?] [6epjb?] 
+2 [46] 6 [46] 
+6 7 [!*] [29] [46] 6 [46] 
+[2p] p [46p] p [6p] p [46p] p [2p] p [46p] p [6p] p [46p] p 
+[2p] P [46p] O [6p] [46d] [2g] [46] 6 [46j] 
+[!h] [36g] [6f] [36h] [2g] [46f] [6d] [46g] 
+[3f] [7%G] [7H] [%7f] [6ej] [6e] 
+[6p] 7 ! 2 p [46p] p [6p] p [46p] p [2p] P [46p] O [6p] P [46p] O 
+[2p] P [46p] O [6p] [46d] g [2j] [46] 6 [46h] 
+[^J] [25h] [1j] [46g] [3h] [*6f] [4g] [69d] 
+[6f] [7d] [!*S] [6f] [29d] [6e] 
+[6p] 7 ! [2p] [46p] p [6p] p [46p] p [2p] p [46p] p [6p] p [46p] p 
+[2p] P [46p] O [6p] [46d] [2g] [46] 6 [46j] 
+[!h] [36g] [6f] [36h] [2g] [46f] [6d] [46g] 
+[3f] [7%G] [7H] [%7f] [6ej] [6e] 
+[6p] 7 ! [2p] [46p] p [6p] p [46p] p [2p] P [46p] O [6p] P [46p] O 
+[2p] P [46p] O [6p] [46d] g [2j] [46] 6 [46h] 
+[^J] [25h] [1j] [46g] [3h] [*6f] [4g] [69d] 
+[6f] [7d] [!*S] [6f] [29d] [29] 
+[5dJ] [^P9h] [2dJ] [^P9h] [5dJ] [^P9h] [2dJ] [^P9h] 
+[5dJ] [^P9h] [2dj] [9h^J] [5dj] [^9] [P2h] [^9dj] 
+[4dj] [68dh] [1dj] [68PJ] [4dj] [68] [1sg] [68gj] 
+[6fh] [*0dg] [S3f] [*0fh] [6efj] [6ep] 
+[5dJ] [^P9h] [2dJ] [^P9h] [5dJ] [^P9h] [2dJ] [^P9h] 
+[5dJ] [^P9h] [2dJ] [^G9l] [5dJ] [^9] [P2h] [9d^J] 
+4 [68sj] 1 [P68h] [6pj] [5oh] [4ig] [3uf] 
+[2yd] [*S60epfj] [29dgjz] 6 
+[6pj] 7 ! [2pj] [46pj] [pj] [6pj] [pj] [46pj] [pj] [2pjb] [pjb] [46pjb] [pjb] [6pjb] [pjb] [46pjb] [pjb] 
+[2pj] [PJ] [46pj] [OH] [6pj] [46dz] [2gc] [46] 6 [46jb] 
+[!hv] [36gc] [6fx] [36hv] [2gc] [46fx] [6dz] [46gc] 
+[3fx] [7%GC] [7HV] [%7fx] [6ejb] [6ep] 
+[6pj] 7 ! [2pj] [46pj] [pj] [6pj] [pj] [46pj] [pj] [2pjb] [PJb] [46pjb] [OHb] [6pjb] [PJb] [46pjb] [OHb] 
+[2pj] [PJ] [46pj] [OH] [6pj] [46dz] [gc] [2jb] [46] 6 [46hv] 
+[^JB] [25hv] [1jb] [46gc] [3hv] [*6fx] [4gc] [69dz] 
+[6fx] [7dz] [!*SL] [6fx] [29dz] [29y] 
+2 [46] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [46] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+6 7 ! 2 [46] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [469] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+2 [469q] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [469q] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+2 [469qe] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [469qe] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+2 [469qey] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [469qey] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+2 [469qeyi] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [469qeyi] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+2 [469qeyip] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [469qeyip] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+2 [469qeyipd] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [469qeyipd] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+2 [469qeyipdg] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [469qeyipdg] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+2 [469qeyipdg] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [469qeyipdgj] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+2 [469qeyipdgjz] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [469qeyipdgjzc] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+2 [469qeyipdgjzc] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [469qeyipdgjzcb] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+2 [469qeyipdgjzc] [178qwertyiopasdklvb] [167qwtydfklvb] [1567qwtydfklvb] [123457qwtypasdfklzxcvb] [1567qwtyopklvb] [1567qwtyopklvb] [1457qwtyopklvb] [12347qwtyopasdfklvb] 6 [469qeyipdgjzcb] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+[6pj] 7 * [123459pj?] [qepj?] [pj] [234567pj] [pj] [1qepj] [pj] [123459pjb?] [pjb] [qepjb?] [pjb] [234567pjb] [pjb] [1qepjb] [pjb] 
+[123459pj?] [PJ] [qepj?] [OH] [234567pj] [1qedz] [123459gc?] [qe?] [234567] [1qejb] 
+[*12345hv?] [0egc?] [234567fx] [10ehv] [123459gc?] [qefx?] [234567dz] [1qegc] 
+[123450fx?] [rWGC] [12347HV?] [W1234567rfx] [6ejb] [6ep] 
+[6pj] 7 * [123459pj?] [qepj?] [pj] [234567pj] [pj] [1qepj] [pj] [123459pjb?] [PJb] [qepjb?] [OHb] [234567pjb] [PJb] [1qepjb] [OHb] 
+[123459pj?] [PJ] [qepj?] [OH] [234567pj] [1qedz] [gc] [123459jb?] [qe?] [234567] [1qehv] 
+[12345*JB?] [0ehv] [12349jb?] [1234567qegc] [123450hv?] [T1234567efx] [1234qgc?] [1234567eydz] 
+[6fx] [7dz] [!*SL] [6fx] [29dz] [29y] 
+[5dJ] [^P9h] [2dJ] [^P9h] [5dJ] [^P9h] [2dJ] [^P9h] 
+[5dJ] [^P9h] [2dj] [9h^J] [5dj] [^9] [P2h] [^9dj] 
+[4dj] [68dh] [1dj] [68PJ] [4dj] [68] [1sg] [68gj] 
+[6fh] [*0dg] [S3f] [*0fh] [*S123456790qwertyuiopadfghjklzxcvbnm?] [*S123456790qwertyuiopadfghjklzxcvbnm?] [*S123456790qwertyuiopadfghjklzxcvbnm?] [*S123456790qwertyuiopadfghjklzxcvbnm?] 
+[12345wdJ?] [EPyh] [12345679dJ] [EPyh] [12345wdJ?] [EPyh] [12345679dJ] [EPyh] 
+[12345wdJ?] [EPyh] [12345679dJ] [EGyl] [12345wdJ?] [Ey] [P12345679h] [ydEJ] 
+[1234567q] [etsj] [1234567q] [Pyih] [6pj] [5oh] [4ig] [3uf] 
+[2yd] [*S60epfj] [29dgjz] 6 
+[6pj] 7 * [123459pj?] [qepj?] [pj] [234567pj] [pj] [1qepj] [pj] [123459pjb?] [pjb] [qepjb?] [pjb] [234567pjb] [pjb] [1qepjb] [pjb] 
+[123459pj?] [PJ] [qepj?] [OH] [234567pj] [1qedz] [123459gc?] [qe?] [234567] [1qejb] 
+[*12345hv?] [0egc?] [234567fx] [10ehv] [123459gc?] [qefx?] [234567dz] [1qegc] 
+[123450fx?] [rWGC] [12347HV?] [W1234567rfx] [6ejb] [6ep] 
+[6pj] 7 * [123459pj?] [qepj?] [pj] [234567pj] [pj] [1qepj] [pj] [123459pjb?] [PJb] [qepjb?] [OHb] [234567pjb] [PJb] [1qepjb] [OHb] 
+[123459pj?] [PJ] [qepj?] [OH] [234567pj] [1qedz] [gc] [123459jb?] [qe?] [234567] [1qehv] 
+[12345*JB?] [0ehv] [12349jb?] [1234567qegc] [123450hv?] [T1234567efx] [1234qgc?] [1234567eydz] 
+[6fx] [7dz] [!*SL] [6fx] [29dz] [29y] 0 q Q w W e E r t T y Y u i I o O p P a s S d D f g G h H j 
+[^PJ] 8 9 [14!@$%(PJ] [QEPJ?] [PJ] [14@$%^PJ] [PJ] [!QEPJ] [PJ] [14!@$%(PJB] [PJB] [QEPJB?] [PJB] [14@$%^PJB] [PJB] [!QEPJB] [PJB] 
+[14!@$%(PJ] [ak] [QEPJ?] [pj] [14@$%^PJ] [!QEDZ] [14!@$%(GC] [QE?] [14@$%^] [!QEJB] 
+[149!@$%HV] [qEGC?] [@$%^14gc] [q!EHV] [14!@$%(GC] [QEgc?] [14@$%^DZ] [!QEGC] 
+[!@$%14qgc?] [ethv] [!@$148jb?] [!@$%^14etgc] [^EJB] [^EP] 
+[^PJ] 8 9 [14!@$%(PJ] [QEPJ?] [PJ] [14@$%^PJ] [PJ] [!QEPJ] [PJ] [14!@$%(PJB] [akB] [QEPJB?] [pjB] [14@$%^PJB] [akB] [!QEPJB] [pjB] 
+[14!@$%(PJ] [ak] [QEPJ?] [pj] [14@$%^PJ] [!QEDZ] [GC] [14!@$%(JB] [QE?] [14@$%^] [!QEHV] 
+[!@$%149kn?] [qEHV] [14!@$(JB?] [14!@$%^QEGC] [14q!@$%HV?] [!@$%^E14ygc] [14!@$QGC?] [14!@$%^EYDZ] 
+[^gc] [18DZ] [29dz] [^gc] [@(DZ] [iopasdklvb] [dfklvb] [dfklvb] [pasdfklzxcvb] [opklvb] [opklvb] [opklvb] [opasdfklvb] [@(Y] [0qui] [0qui] [0qyu] [0qwertyu] [qwty] [wert] [wert] [er] 
+[ZVkn] [kHZV] [cJLB] [GJLC] [cHLV] [JLgc] [GJZC] [DGJZ] 
+[^gc] [18DZ] [29dz] [^gc] [@(DZ] [@(Y] 
+[1234567890qwertyuiopasdfghjklzxcvbnm?]  ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
+Section:NewButton("doors elevatort", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 90 -- tempo overides the delay
+ 
+shared.scr = [[ y p y p y p y y p
+t o t o t o t t o
+E i E i E i E E i
+e o e o e u e e y i o
+y p y p y p y y p
+u y u o t o t o t t o
+y t E i E i E i E E E t i
+u o o o e i e T u
+y p y a y s y u e u i p y e ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
+Section:NewButton("doors elevatort", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 90 -- tempo overides the delay
+ 
+shared.scr = [[ y p y p y p y y p
+t o t o t o t t o
+E i E i E i E E i
+e o e o e u e e y i o
+y p y p y p y y p
+u y u o t o t o t t o
+y t E i E i E i E E E t i
+u o o o e i e T u
+y p y a y s y u e u i p y e ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("dragon ball theme", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
