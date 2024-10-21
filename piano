@@ -674,22 +674,175 @@ w 0 [k7] [h0] [wf] 0 [k7] 0 [je6] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("Spooky Scary Skeletons", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 225 -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ [5h] j k [79wk] h 
+[$G] H J [^*QJ] G 
+[7z] k z [Q79k] G k 
+[2G] d G [Q79k] a d 
+[5h] j k [79wz] k h 
+[$S] G J [^*QL] 
+[7k] [279QG] 
+[$Qk] [Q79r] G 
+[5hk] [jL] [kz] [79wjL] [hk] 
+[$GJ] [Hk] [JL] [^*QJL] [GJ] 
+[7zC] [kz] [zC] [Q79kz] [Gk] [kz] 
+[G2k] [dG] [Gk] [Q79ad] k 
+[5hk] [jL] [kz] [79wzC] [kz] [hk] 
+[$SG] [GJ] [JL] [^*QLC] 
+[QG79rk] [9rd$QG] 
+[Q79rad] 
+[5o] [79wo] 
+[$I] [^*QI] 
+[7r] [Q79y] r 
+2 [Q79r] 
+[5o] o [79w] 
+[$I] [^*QI] 
+[7r] [279Q] 
+[$Q] [Q79r] 
+[5o] [79wo] 
+[$I] [^*QI] 
+[7r] [Q79y] 
+[2r] [79Q] 
+[5y] [79wu] 
+[$T] [^*Qy] 
+[Q79r] [$Q9r] 
+[Q79r] 
+[5oh] [79woh] 
+[$IG] [^*QIG] 
+[7ra] [Q79yd] [ra] 
+2 [79Q] 
+[5o] [79wo] 
+[$I] [^*QI] 
+[7r] [279Q] 
+[$Q] [79rQIG] 
+[5oh] [79woh] 
+[$IG] [IG] [^*Q] 
+[7ra] [Q79yd] [ra] 
+2 [Q79r] r 
+[5y] [79wu] 
+[$T] [^*Qy] 
+[Q79r] [$Q9r] 
+[Q79r] 
+[9I] [Q9eo] 
+[9I] [Q9eo] 
+[*p] [*0ea] p 
+* [*0eo] 
+[7I] [Q79o] 
+[7I] [Q79u] y 
+5 [^9w] 
+5 [^9w] [4y] 
+[3u] [70WI] 
+[3u] [70WI] 
+[1o] [80wp] o 
+1 [80w] y 
+[!u] [0w*I] 
+[!o] [*0wa] 
+[$P] [$^*Q] 
+[$^*Q] [IG] 
+[5oh] [79woh] 
+[$IG] [^*QIG] 
+[7ra] [Q79yd] [ra] 
+2 [Q79r] 
+[5o] [79wo] 
+[$I] I [^*Q] 
+[7r] [279Q] 
+[$Q] [79rQIG] 
+[5oh] [79woh] 
+[$IG] [^*QIG] 
+[7ra] [Q79yd] [ra] 
+2 [Q79r] 
+[5y] [79wu] 
+[$T] [^*Qy] 
+[Q79r] [$Q9r] 
+[Q79r] 
+[8l] z x [0wtx] l 
+[7k] L Z [r(QZ] k 
+[0v] x v [0wrx] k x 
+[5k] h k [0wrx] f h 
+[8l] z x [0wtv] x l 
+[7G] k Z [r(QC] 
+[30x] [50wrk] 
+[7rx] [0wru] k 
+[5hk] [jL] [kz] [79wjL] [hk] 
+[$GJ] [Hk] [JL] [^*QJL] [GJ] 
+[7zC] [kz] [zC] [Q79kz] [Gk] [kz] 
+[G2k] [dG] [Gk] [Q79ad] k 
+[5hk] [jL] [kz] [79wzC] [kz] [hk] 
+[$SG] [GJ] [JL] [^*QLC] 
+[QG79rk] [9rd$QG] 
+[Q79rad] 
+[9I] [Q9eo] 
+[9I] [Q9eo] 
+[*p] [*0ea] p 
+* [*0eo] 
+[7yI] [Q79uo] 
+[7yI] [Q79ru] [Ey] 
+5 [^9w] 
+5 [^9w] [4y] 
+[3u] [70WI] 
+[3u] [70eWI] 
+[E1o] [tp] [80w] [Eo] 
+1 [80wI] 
+[!u] I [*0w] 
+[*o] [*0wa] P 
+$ [$^*Q] 
+[$^*Q] 
+[5oh] [79woh] 
+[$IG] [^*QIG] 
+[7ra] [Q79yd] [ra] 
+2 [Q79r] 
+[5o] o [79w] 
+[$I] [^*QI] 
+[7r] [279Q] 
+[$Q] [79rQIG] 
+[5oh] [79wpj] 
+[$IG] [^*QIG] 
+[7ra] [Q79yd] 
+[2ra] [Q79r] 
+[5y] [79wu] 
+[$T] [^*Qy] 
+[Q79r] [$Q9r] 
+[Q79r] 
+[5oh] [79woh] 
+[$IG] [^*QIG] 
+[7ra] [Q79yd] 
+[2ra] [Q79r] 
+[5o] [79wo] 
+[$I] [^*QI] 
+[7r] [79Q] 
+7 [79Q] 
+[5oh] [79woh] 
+[$IG] [^*QIG] 
+[7ra] [Q79yd] [ra] 
+2 [Q79ra] 
+[5yd] [79w] 
+[5uf] [79w] 
+[$TS] [^*Q] 
+[$yd] [^*Q] 
+[Q79ra] [$Q9r] 
+[Q79r] 
+[5h] j k [79wk] h 
+[$G] H J [^*QJ] G 
+[7z] k z [Q79k] G k 
+[2G] d G [Q79k] a d 
+[5h] j k [79wz] k h 
+[$S] G J [^*QL] 
+[7k] [279QG] 
+[$Qk] [Q79r] k 
+[5hk] [jL] [kz] [79wjL] [hk] 
+[$GJ] [Hk] [JL] [^*QJL] [GJ] 
+[7zC] [kz] [zC] [Q79kz] [Gk] [kz] 
+[G2k] [dG] [Gk] [Q79ad] k 
+[5hk] [jL] [kz] [79wzC] [kz] [hk] 
+[$SG] [GJ] [JL] [^*QLC] 
+[QG79rk] [9rd$QG] 
+[Q79rad]  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
