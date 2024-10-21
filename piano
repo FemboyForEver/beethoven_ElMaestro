@@ -1994,25 +1994,136 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
  
-shared.scr = [[ [8t]—-s-a-[5p]–o–[3O]—-u-
-[4y]-u o-y u y
-5—-u-[4y]-u o-y u y 5—-
-8-s-s–
-[8s] s d d [tf]-h-
-[5a]-a-[wa]–a
-[%a] a s s [%d]-a s
-4-h-[qf]-h-
-[5a]-h-[wf]-d-
-4-h-[qf]-h-
-[5a]-a-[ws]-d f
-1-s-[8s]–ss
-[1s] s d d [wf]-h-
-5-a-[9a]–a
-[%f] f f f [%f]-d sp4-
-h-[tf]-h-
-[5a]-h-[yf]-d-
-4-h-[tf]-h-
-[5a]-h-[yf]-d-[18] ]]
+shared.scr = [[ [%0ru]----
+W--[Of]-D-
+[7uOS]--[Oua]--
+[IO8s]----O-
+[6eQI]-[rO] [ra]-[eI] [rO] [YI] 
+7----O-
+[6eI]-[rO] [ra]-[eI] [rO] [YI] 
+7----
+[30]-[af]-[Of]--
+[0uaf] [Wrf] [uWG] G [fOH]-k-
+[(YID] [Qr] [rQD]-[aID]--D 
+[7raWOD] D f f [8tsOG]-D f 
+[6OS] [*0] [0ek]-[fSH]-k-
+[7aID] [(Q] [Qrk]-[aDH]-G-
+[O6a] [*0] [0ek]-[fSH]-k-
+[7aID] [(Q] [rQD]-[Oaf]-G H 
+0 [Wr] [Wuaf]-[Ouf]--ff
+[O3uaf] [7f] [0G] [WG] [7raQDH]-k-
+[7aYID] $ [7D] ( [a$(QYID]--D 
+[7r%H] H [rH] H [18tH]-[tG] fS
+[6uTO] 0 [ek] T [0eufSH]-k-
+[7aID] Q [rk] Y [raQIDH]-G-
+[O6a] 0 [ek] T [0eufSH]-k-
+[7aID] Q [rk] Y [rQYIH]-G-
+[30]----
+[%0] W [ra] [WO] [7ra] W [rO] W 
+[30] W [ra] [WO] [%ra] [WO] [rI] [WO] 
+[%0] W [ra] [WO] [7ra] W [rO] W 
+[30] W [ra] [WO] [%ra] [WO] [rI] [Wu] 
+[6!T] * [0T] [*O] [30] * 0 * 
+6 * [0O] [*O] [!0p] [*O] [0I] [*u] 
+[6!T] * 0 * [30] * 0 * 
+6 * 0 [*u] [0!Y] [*u] [0a] [*O] 
+[%0] [WO] [ra] [WO] [7ra] W [rO] W 
+[30] W [ra] [WO] [%ra] [WO] [rI] W 
+[%0] [Wa] [ra] [WS] [7ra] W [rO] W 
+[30] [Wa] [ra] [WO] [%ra] [WO] [rI] [Wu] 
+[6!T] * [0T] [*O] [30] * 0 * 
+6 * 0 * [!0p] [*O] [0I] [*u] 
+[!6] [*T] 0 * [30] * 0 * 
+6 * 0 [*u] [0!Y] [*u] [0a] [*O] 
+[!%] [%0] * u [0WY] u a I 
+[$7] [$(] 7 u [(Qu] I u I 
+[30uO] [7W][uO]0 [uO] [Wr] r-[eT] 
+6 [3*] 6 [uf] [0*YD] [uf] [ak] [OH] 
+[!%] [%0] * [uf] [0WYD] [uf] [ak] [0WIG] 
+[7(Q]----Q ( [7u] 
+[37uS] 7 [0ua] W [ru%S] W[ua]r [uWO] 
+[37] 7 0 [WI] [r%I] [WO] [rI] [Wu] 
+[36uS] 3 [6ua] * [0u!S] *[ua]0 [*YO]I
+[36u] 3 6 * [!0] * 0 * 
+[37] [7I] [0I] [WO] [r%I] [WO] [rI] [WT] 
+[37ru] 7[ru]0 [WI] [%ra] W [rO] W 
+[36] [3I] [6I] [*O] [0!I] [*O] [0I] [*T] 
+[36ru] 3[ru]6 [*T] [!0u] * [0T] [*r] 
+[30f]--uu uu--
+u uuOrIru-r-
+[%0] W [rak] [WOH] [7rak] W [rOH] W 
+[30] W [rak] [WOH] [%rak] [WOH] [rIG] [Wuf] 
+[%0] [Wa] [ra] [WS] [7ra] W [rO] W 
+[30] [Wa] [ra] [WO] [%ra] [WS] [rD] [Wf] 
+[6a!G] *[aH]0 [*OS] [30] * 0 * 
+6 * 0 [*j] [!0j] *H[0G] [*f] 
+[!6] [*OS] 0 * [30] * 0 * 
+6 * 0 [*uf] [0!YD] [*uf] [0ak] [*OH] 
+[%0] W [rak] [WOH] [7rak] W [rOH] W 
+[30] [Wak] [rak] [WOH] [%rak] [WOH] [rIG] W 
+[%0] [Wak] [rak] [WSj] [7raH] W [Orf] W 
+[30] [Wa] [ra] [WO] [%ra] O [eT]-
+[!6] * 0 [*u] [30Y] [*u] [0a] [*I] 
+6 * 0 [*u] [!0u] [*I] [0u] [*I] 
+[6u!O] *[uO]0 [u*O] [30] [*r] 0 [e*T] 
+[%0] W r [Wu] [7rY] [Wu] [ra] [WO] 
+[30] W r [Wu] [r%Y] [Wu] [ra] [WI] 
+[%0] W r W [7r] W r [Wu] 
+[37uS] 7 [0ua] W [ru%S] W[ua]r [uWO] 
+[37] 7 0 [WI] [r%I] [WO] [rI] [Wu] 
+[36uS] 3 [6ua] * [0u!S] *[ua]0 [*YO]I
+[36u] 3 6 * [!0] * 0 * 
+[37] [7I] [0I] [WO] [r%I] [WO] [rI] [WT] 
+[37ru] 7[ru]0 [WI] [%ra] W [rO] W 
+[36] [3I] [6I] [*O] [0!I] [*O] [0I] [*T] 
+[36ru] 3[ru]6 [*T] [!0u] * [0T] [*r] 
+[37uS] 7 [0ua] W [ru%S] W[ua]r [uWO] 
+[37] 7 0 [WI] [r%I] [WO] [rI] [Wu] 
+[36uS] 3 [6ua] * [0u!S] *[ua]0 [*YO]I
+[36u] 3 6 * [!0] * 0 * 
+[37] [7I] [0I] [Wu] [r%I] WOr [WT] 
+[37ru] 7[ru]0 [WI] [%ra] W [rO] W 
+[36] [3I] [6I] [*O] [0!I] [*O] [0I] [*T] 
+[36ru] 3[ru]6 [*T] [!0u] * [0T] [*r] 
+[30f]--uu uu--
+u uuOrIru-r-
+[3f]f[0f] 3 [0u]u3u[0u] 3 0 
+[3u] [0u]u[3O] [0I] [3ru] 0 3 0 
+[37uS] 7 [0ua] W [ru%S] W[ua]r [uWO] 
+[37] 7 0 [WI] [r%I] [WO] [rI] [Wu] 
+[36uS] 3 [6ua] * [0u!S] *[ua]0 [*YO]I
+[36u] 3 6 * [!0] * 0 * 
+[37] [7I] [0I] [WO] [r%I] [WO] [rI] [WT] 
+[37ru] 7[ru]0 [WI] [%ra] W [rO] W 
+[36] [3I] [6I] [*O] [0!I] [*O] [0I] [*T] 
+[36ru] 3[ru]6 [*T] [!0u] * [0T] [*r] 
+[37uS] 7 [0ua] W [ru%S] W[ua]r [uWO] 
+[37] 7 0 [WI] [r%I] [WO] [rI] [Wu] 
+[36uS] 3 [6ua] * [0u!S] *[ua]0 [*YO]I
+[36u] 3 6 * [!0] * 0 * 
+[37] [7I] [0I] [Wu] [r%I] WOr [WT] 
+[37ru] 7[ru]0 [WI] [%ra] W [rO] W 
+[36] [3I] [6I] [*O] [0!I] [*O] [0I] [*T] 
+[36ru] 3[ru]6 [*T] [!0u] * [0T] [*r] 
+[30rf]--uu uu--
+[Wu] uuOrIru-r-
+[30ruO]----
+[30]-[af]-[Of]--
+[0uaf] [Wrf] [uWG] G [fOH]-k-
+[(YID] [Qr] [rQD]-[aID]--D 
+[7raWOD] D f f [8tsOG]-D f 
+[6OS] [*0] [0ek]-[fSH]-k-
+[7aID] [(Q] [Qrk]-[aDH]-G-
+[O6a] [*0] [0ek]-[fSH]-k-
+[7aID] [(Q] [rQD]-[Oaf]-G H 
+0 [Wr] [Wuaf]-[Ouf]--ff
+[O3uaf] [7f] [0G] [WG] [7raQDH]-k-
+[7aYID] $ [7D] ( [a$(QYID]--D 
+[7r%H] H [rH] H [18tH]-[tG] fS
+[6uTO] 0 [ek] T [0eufSH]-k-
+[7aID] Q [rk] Y [raQIDH]-G-
+[O6a] 0 [ek] T [0eufSH]-k-
+[7aID] Q [rk] Y [rQYIH]-G ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
