@@ -2772,26 +2772,111 @@ w dao q spi
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("edit piaf", "Auto", function()
+Section:NewButton("edith piaf", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 206 -- tempo overides the delay
  
-shared.scr = [[ 7a-8s-*S-[9d]-
-[(D]-x[6f] fx-G GC-
-6[fx] fx-[GC] CG-3xf 
-xf-GC G-5fx [fx]-
-CG GC-ZD$ ZD-CG 
-GC-[DZ]7 [DZ]-[GC] CG-r
-f[3x]-r-t-T-
-y-Y-u6-tu-t
-u-6--tu-tu-3-
-ru-ru-5-r
-u-ru--$-rY-r
-Y--7-rY-rY-
-3-txu7cCvVb5tBun-3tu ]]
+shared.scr = [[ [7a] [8s] 
+[*S] [9d] [(D] 
+[6sf] [sf] [et] [sG] [etsG] 
+[6sf] [sf] [et] [sG] [etsG] 
+[0af] [af] [ru] [aG] [ruaG] 
+[waf] [af] [ru] [aG] [ruaG] 
+[aQD] [aD] [eY] [aG] [eaYG] 
+[7aD] [aD] [eY] [aG] [eaYG] 
+[30af] [7ak] [18sl] 
+[!*SL] [29dz] [@(DZ] 
+[6jlx] [jlx] [etu] [jlC] [etujlC] 
+[6jlx] [jlx] [etu] [jlC] [etujlC] 
+[30hkx] [hkx] [wru] [hkC] [wruhkC] 
+[7rhkx] [hkx] [wru] [hkC] [wruhkC] 
+[jk$QZ] [jkZ] [erY] [jkC] [erjkYC] 
+[7jkZ] [jkZ] [erY] [jkC] [erjkYC] 
+[3hkx] 7 5 
+3 a a 
+[3f] [0wr] f [0wrf] G 
+[8h] [0wt] G [0wtf] D 
+[6f] [etus] [etu] 
+3 [etuf] [etuG] 
+[2j] [Qeyh] [eyQG] 
+[6j] [Qeyd] [Qeyf] 
+[5d] [wry] [wry] 
+5 [wrya] [wrya] 
+[7D] D [erY] D [erY] D 
+[7G] [Yerf] [erYD] 
+[3oaf] [wru] [wru] 
+5 [wrua] [wrua] 
+[8s] s [wtus] s [wtus] s 
+[6f] f [Qetf] f [Qetf] f 
+[7f] [erYD] [erY] 
+[7erY] a s a P a 
+[3f] [0wr] f [0wrf] G 
+[8h] [0wt] G [0wtf] D 
+[6f] [etus] [etu] 
+3 [etuf] [etuG] 
+[2j] [Qeyh] [eyQG] 
+[6j] [Qeyd] [Qeyf] 
+[5d] [wry] [wry] 
+5 [wrya] [wrya] 
+[7D] D [erY] D [erY] D 
+[7G] [Yerf] [erYD] 
+[3oaf] [wru] [wru] 
+5 [wrua] [wrua] 
+[8s] s [wtus] s [wtus] s 
+[7a] [Yerh] [erYG] 
+[3f] [0wr] [0wr] 
+3 d f d S d 
+[6G] [Qey] f [Qeyf] d 
+[2G] f [Qey] f [Qey] d 
+[5h] [wry] f [wryf] d 
+[2h] f [wry] f [wry] d 
+[6G] [Qey] f [Qeyf] d 
+[2G] d [Qey] d [Qey] s 
+[5a] [wry] [wry] 
+5 a s a P a 
+[$D] [rQY] [QYrf] 
+[7G] [QYrf] [rQYD] 
+[3f] h [wruk] f [wruh] k 
+[2f] [wrua] [wrua] 
+[8f] f [wtuf] f [wtuf] f 
+[6f] [etuh] [etuh] 
+[7h] j h [erYG] [erY] 
+7 d f d S d 
+[6G] [Qey] f [Qeyf] d 
+[2G] f [Qey] f [Qey] d 
+[5h] [wry] f [wryf] d 
+[2h] f [wry] f [wry] d 
+[6G] [Qey] f [Qeyf] d 
+[2G] d [Qey] d [Qey] s 
+[5a] [wry] [wry] 
+5 a s a P a 
+[$D] [rQY] [QYrf] 
+[7G] [QYrf] [rQYD] 
+[3f] h [wruk] f [wruh] k 
+[2f] [wrua] [wrua] 
+[8f] f [wtuf] f [wtuf] f 
+[7D] [QYrh] [rQYG] 
+[3f] a s 
+S d D 
+[6sf] [sf] [et] [sG] [etsG] 
+[6sf] [sf] [et] [sG] [etsG] 
+[0af] [af] [ru] [aG] [ruaG] 
+[waf] [af] [ru] [aG] [ruaG] 
+[aQD] [aD] [eY] [aG] [eaYG] 
+[7aD] [aD] [eY] [aG] [eaYG] 
+[0uoaf] [7ak] [18sl] 
+[!*SL] [29dz] [@(DZ] 
+[6jlx] [jlx] [etu] [jlC] [etujlC] 
+[6jlx] [jlx] [etu] [jlC] [etujlC] 
+[30hkx] [hkx] [wru] [hkC] [wruhkC] 
+[7rhkx] [hkx] [wru] [hkC] [wruhkC] 
+[jk$QZ] [jkZ] [erY] [jkC] [erjkYC] 
+[7jkZ] [jkZ] [erY] [jkC] [erjkYC] 
+[30hkx] f [@(D] [30f] [5wh] [7rk] 
+[3hkx]  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
