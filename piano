@@ -864,7 +864,7 @@ Section:NewButton("symphony no5 p 67", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 160 -- tempo overides the delay
+shared.tempo = 120 -- tempo overides the delay
  
 shared.scr = [[ [3u][3u][3u][1t]|
 [2y][2y][2y][7r]|||
@@ -892,6 +892,30 @@ iiiyrrrWqqq93336iiiyrrrWqqq93336uppp666
 [3a][3O][3O][3O][6p]|
 [3yO][3yO][3yO][6tp]|
 [3dH][3dH][3dH][6sj]  ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
+Section:NewButton("The force", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 110 -- tempo overides the delay
+ 
+shared.scr = [[ u| [tpe0]| |
+[rqea9]| [wr90]|s d
+[tse0]| u| |u|
+[tqpe]||a|s|p|s p f [yqed]|||[ywrf0]|
+[utje0]||k l|j x|l
+[tqieb]| |j| l k j
+[xute0]||l j [wurf0]| f|k|[utje0]|||e|
+[yq96]| |[u9750]| [8650]|i o
+[qi96]| e| |e|
+[yq97]||u|i|y|i y p [wo97]|||[wp860]|
+[qed96]||f g|d j|g
+[zq^E9]| |d| g f d
+[qje96]||g d [pe860]| p|f|[qed96] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
