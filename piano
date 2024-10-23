@@ -575,7 +575,7 @@ Section:NewButton("doors elevatort", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 110 -- tempo overides the delay
  
 shared.scr = [[ y p y p y p y y p
 t o t o t o t t o
