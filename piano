@@ -570,12 +570,12 @@ t T y T t T y T t T y Y u i I o O p P a  ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("virtual love", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 110 -- tempo overides the delay
+shared.tempo = 90 -- tempo overides the delay
  
 shared.scr = [[ y p y p y p y y p
 t o t o t o t t o
@@ -586,6 +586,70 @@ u y u o t o t o t t o
 y t E i E i E i E E E t i
 u o o o e i e T u
 y p y a y s y u e u i p y e ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
+Section:NewButton("doors elevatort", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 110 -- tempo overides the delay
+ 
+shared.scr = [[ [@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*a] a [WTqa] a 
+[@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*Y] T [qWY] T 
+[@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*a] a [WTqa] a 
+[@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*Y] T [qWY] T 
+[@Y] Y [(QEI] Y [^P] [qETI] Y [7Y] Y [r(QI] Y Y [*S] a [qWTP] O 
+[@Y] Y [(QEI] Y [^P] [qETI] Y [7Y] Y [r(QI] Y Y [*S] a [qWTP] O 
+[@Y] Y [(QEI] Y [^D] [qETS] P [7O] I [r(QO] I [*O] I [WTqi] Y 
+[@I] Y [(QEi] Y [^P] [qET] I [7Y] T [r(QY] T [*Y] T [qWY] T 
+[@Y] Y [(QEI] Y [^P] [qETI] Y [7Y] Y [r(QI] Y Y [*S] a [qWTP] O 
+[@Y] Y [(QEI] Y [^P] [qETI] Y [7Y] Y [r(QI] Y Y [*S] a [qWTP] O 
+[@Y] Y [(QEI] Y [^D] [qETS] P [7O] I [r(QO] I [*O] I [WTqi] Y 
+[@I] Y [(QEi] Y [^P] [qET] I [7Y] T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] ^ [qET] 7 T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] ^ [qET] 7 T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] ^ [qET] 7 T [r(QY] T [*Y] [qWY] T 
+[@Y] I [(QE] ^ [qET] 7 T [r(QY] T [*Y] T [qW] Y 
+[@Y] Y [(QEI] Y [^P] [qETI] Y [7Y] Y [r(QI] Y [*S] a [qWTP] O 
+[@Y] Y [(QEI] Y [^P] [qETI] Y [7Y] Y [r(QI] Y [*S] a [qWTP] O 
+[@Y] Y [(QEI] Y [^D] [qETS] P [7O] I [r(QO] I [*O] I [WTqi] Y 
+[@I] Y [(QEi] Y [^P] [qET] I [7Y] T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] ^ [qET] 7 T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] ^ [qET] 7 T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] ^ [qET] 7 T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] ^ [qET] 7 T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] ^ [qET] 7 T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*a] a [WTqa] a 
+[@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*Y] T [qWY] T 
+[@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*a] a [WTqa] a 
+[@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*Y] T [qWY] T 
+[@Y] Y [(QEI] Y [^P] [qETI] Y [7Y] Y [r(QI] Y Y [*S] a [qWTP] O 
+[@Y] Y [(QEI] Y [^P] [qETI] Y [7Y] Y [r(QI] Y Y [*S] a [qWTP] O 
+[@Y] Y [(QEI] Y [^D] [qETS] P [7O] I [r(QO] I [*O] I [WTqi] Y 
+[@I] Y [(QEi] Y [^P] [qET] I [7Y] T [r(QY] T [*Y] T [qWY] T 
+[@Y] Y [(QEI] Y [^P] [qETI] Y [7Y] Y [r(QI] Y Y [*S] a [qWTP] O 
+[@Y] Y [(QEI] Y [^P] [qETI] Y [7Y] Y [r(QI] Y Y [*S] a [qWTP] O 
+[@Y] Y [(QEI] Y [^D] [qETS] P [7O] I [r(QO] I [*O] I [WTqi] Y 
+[@I] Y [(QEi] Y [^P] [qET] I [7Y] T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] ^ [qET] 7 T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] ^ [qET] 7 T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] ^ [qET] 7 T [r(QY] T [*Y] [qWY] T 
+[@Y] I [(QE] ^ [qET] 7 T [r(QY] T [*Y] T [qW] Y 
+[@Y] Y [(QEI] Y [^P] [qETI] Y [7Y] Y [r(QI] Y [*S] a [qWTP] O 
+[@Y] Y [(QEI] Y [^P] [qETI] Y [7Y] Y [r(QI] Y [*S] a [qWTP] O 
+[@Y] Y [(QEI] Y [^D] [qETS] P [7O] I [r(QO] I [*O] I [WTqi] Y 
+[@I] Y [(QEi] Y [^P] [qET] I [7Y] T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] [^P] [qET] [7i] T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] [^P] [qET] [7I] T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] [^P] [qET] [7I] T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] [^P] [qET] [7I] T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] [^P] [qET] [7I] T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] [^P] [qET] [7I] T [r(QY] T [*Y] [qWY] T 
+[@Y] [(QE] [^P] [qET] [7I] [(Qr] * [qWT] 
+[@(]  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
