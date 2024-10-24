@@ -649,7 +649,7 @@ shared.scr = [[ [@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*a] a [WTqa] a
 [@Y] [(QE] [^P] [qET] [7I] T [r(QY] T [*Y] [qWY] T 
 [@Y] [(QE] [^P] [qET] [7I] T [r(QY] T [*Y] [qWY] T 
 [@Y] [(QE] [^P] [qET] [7I] [(Qr] * [qWT] 
-[@(]  ]]
+[@(] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
