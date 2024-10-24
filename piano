@@ -570,12 +570,12 @@ t T y T t T y T t T y Y u i I o O p P a  ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("virtual love", "Auto", function()
+Section:NewButton("doors", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 110 -- tempo overides the delay
  
 shared.scr = [[ y p y p y p y y p
 t o t o t o t t o
@@ -590,12 +590,12 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("virtual love", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 110 -- tempo overides the delay
+shared.tempo = 160 -- tempo overides the delay
  
 shared.scr = [[ [@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*a] a [WTqa] a 
 [@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*Y] T [qWY] T 
