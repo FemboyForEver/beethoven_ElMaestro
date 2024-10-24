@@ -1,5 +1,34 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
-local Window = Library.CreateLib("Beethoven_ElMaestro", "Orion")
+
+local Window = Library:MakeWindow({
+    Name = "Beethoven_ElMaestro",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "OrionConfig"
+})
+
+local Tab = Window:MakeTab({
+    Name = "Main",
+    Icon = "rbxassetid://6648443507",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Print Hello",
+    Callback = function()
+        print("Hello World!")
+    end
+})
+
+Tab:AddToggle({
+    Name = "Toggle Example",
+    Default = false,
+    Callback = function(Value)
+        print(Value)
+    end
+})
+
+Library:Init()
 
 local Tab = Window:NewTab("Auto Piano")
 local Section = Tab:NewSection("Auto Piano")
