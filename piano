@@ -595,7 +595,7 @@ Section:NewButton("virtual love", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 160 -- tempo overides the delay
+shared.tempo = 200 -- tempo overides the delay
  
 shared.scr = [[ [@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*a] a [WTqa] a 
 [@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*Y] T [qWY] T 
