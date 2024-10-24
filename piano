@@ -3,7 +3,7 @@ local Window = Library.CreateLib("Beethoven_ElMaestro", "Synapse")
 
 local Tab = Window:NewTab("Auto Piano")
 local Section = Tab:NewSection("Auto Piano")
-Section:NewButton("Faded", "Autoplayf", function()
+Section:NewButton("Faded", "Autoplay", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
