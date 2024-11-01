@@ -71,6 +71,129 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("test rush e", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 120 -- tempo overides the delay
+ 
+shared.scr = [[ u u u u u u u 
+u u u u u u u u u u u u [uf] [uf] [uf] [uf] 
+[0uf] [0uf] [0uf] [0uf] [0uf] [0uf] [0uf] [0uf] [30uf] [30uf] [30uf] [30uf] [30uf] [30uf] [30uf] [30uf] [3fx] 3 [fx] 3 [fx] 3 [fx] 3 [fx] 3 [fx] 3 [fx] 3 [fx] 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 
+6 [80] 3 [80] 3 $ % 6 [80] 3 [80] 
+[6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u 
+[6u] u [80u] u [3u] i [80u] Y [6u] [80p] [3s] [80] 
+[%d] d [90d] d [3d] s [90a] d [6s] s [80s] s [3s] a [80p] s 
+[7a] a [(ra] a [$I] [(ea] [70WO] [30] $ % 
+[6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u 
+[6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] 
+[9z] l [qrk] z [8l] k [0tj] l [7k] j [9WH] k [6j] f [8es] p 
+[30g] f [$Qd] s [%Wa] p [30O] a [6ep] 3 $ % 
+[6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u 
+[6u] u [80u] u [3u] i [80u] Y [6u] [80p] [3s] [80] 
+[%d] d [90d] d [3d] s [90a] d [6s] s [80s] s [3s] a [80p] s 
+[7a] a [(7a] a [$I] [(ea] [70WO] [30] $ % 
+[6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u 
+[6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] 
+[9z] l [qrk] z [8l] k [0tj] l [7k] j [9WH] k [6j] f [8es] p 
+[3g] f [$d] s [%a] p [3O] a [6p] 6 7 [!*] 
+[29d] [qe] S [6d] [qef] [9g] [qef] [6d] [qeg] 
+[8f] [0e] d [6s] [0ed] [8f] [0e] 6 [0es] 
+[7a] [9W] P [3a] [W9s] [7d] [W9s] [3a] [W9d] 
+[18s] [6p] [18s] [30f] [6ej] f [6s?] p 
+[9d] [qe] S [6d] [qef] [9g] [qef] [6d] [qeg] 
+[8f] [0e] d [6s] [0ed] [8f] [0e] [6j] [0e] 
+7 [9qd] 9 [qeg] [W30f] [18s] [29d] [7a] 
+[6p] [WO70ruf] [60tpsj] 3 $ % 
+[6uf] [uf] [80uf] [uf] [3uf] [uf] [80uf] [uf] [6fx] [fx] [80fx] [fx] [3x] x [80x] x 
+[6fx] [fx] [80fx] [fx] [3uf] [ig] [80uf] [YD] [6uf] [80pj] [3sl] [80] 
+[%dz] [dz] [90dz] [dz] [3dz] [sl] [90ak] [dz] [6sl] [sl] [80sl] [sl] [3sl] [ak] [80pj] [sl] 
+[7ak] [ak] [(rak] [ak] [$IG] [(eak] [70WOH] [30] $ % 
+[6uf] [uf] [80uf] [uf] [3uf] [uf] [80uf] [uf] [6fx] [fx] [80fx] x [3x] x [80fx] [fx] 
+[6uf] [ig] [80uf] [YD] [3uf] [80pj] [sl] [6fx] [80jb] [3lm] [80] 
+[29zc] [lxm] [7qkzn] [zc] [18lxm] [kzn] [80jlb] [lxm] [7kzn] [jlb] [9k%HV] [kzn] [6jlb] [flx] [68sfl] [psj] 
+[3gjc] [fhx] [$dgz] [sfl] [%adk] [psj] [3aOH] [adk] [6psj] 
+6 [80] [2345890qwuiopasjkcv] [235678wesdjkcv] [12378wesdjkcv] [1235678weiopasjklzxcv] [234578weuijkcv] [234578weuijkcv] [1235678weiopasdjkcv] 3 [80] [wertyui] [we] [we] [wertyui] [we] [we] [wertyui] 
+6 [80] [2345890qwuiopasjkcv] [235678wesdjkcv] [12378wesdjkcv] [1235678weiopasjklzxcv] [234578weuijkcv] [234578weuijkcv] [1235678weiopasdjkcv] 3 [80] [wertyui] [we] [we] [wertyui] [we] [we] [wertyui] 
+6 [80etu] [2345890qwuiopasjkcv] [235678wesdjkcv] [12378wesdjkcv] [1235678weiopasjklzxcv] [234578weuijkcv] [234578weuijkcv] [1235678weiopasdjkcv] 3 [80etu] [wertyui] [we] [we] [wertyui] [we] [we] [wertyui] 
+6 [80etu] [2345890qwuiopasjkcv] [235678wesdjkcv] [12378wesdjkcv] [1235678weiopasjklzxcv] [234578weuijkcv] [234578weuijkcv] [1235678weiopasdjkcv] 3 [80etu] [wertyui] [we] [we] [wertyui] [we] [we] [wertyui] 
+[6e] [80etupsf] [2345890qwuiopasjkcv] [235678wesdjkcv] [12378wesdjkcv] [1235678weiopasjklzxcv] [234578weuijkcv] [234578weuijkcv] [1235678weiopasdjkcv] [30] [80etupsf] [wertyui] [we] [we] [wertyui] [we] [we] [wertyui] 
+[6e] [80etupsf] [2345890qwuiopasjkcv] [235678wesdjkcv] [12378wesdjkcv] [1235678weiopasjklzxcv] [234578weuijkcv] [234578weuijkcv] [1235678weiopasdjkcv] [30] [80etupsf] [wertyui] [we] [we] [wertyui] [we] [we] [wertyui] 
+[6e] [0etupsfj] [2345890qwuiopasjkcv] [235678wesdjkcv] [12378wesdjkcv] [1235678weiopasjklzxcv] [234578weuijkcv] [234578weuijkcv] [1235678weiopasdjkcv] [30] [etupsfjl] [wertyui] [we] [we] [wertyui] [we] [we] [wertyui] 
+[6e] [tupsfjlx] [2345890qwuiopasjkcv] [235678wesdjkcv] [12378wesdjkcv] [1235678weiopasjklzxcv] [234578weuijkcv] [234578weuijkcv] [1235678weiopasdjkcv] [30] [upsfjlxb] [wertyui] [we] [we] [wertyui] [we] [we] [wertyui] 
+[!@$%123456uf?] [uf] [80uf] [uf] [!@^12367uf] [uf] [80uf] [uf] 
+[!@$%123456fx?] [fx] [80fx] [fx] [!@^12367x] x [80x] x 
+[!@$%123456fx?] [fx] [80fx] [fx] [!@^12367uf] [ig] [80uf] [YD] 
+[!@$%123456uf?] [80pj] [!@^12367sl] [80] 
+[!@$%123456dz?] [dz] [90dz] [dz] [!@^12367dz] [sl] [90ak] [dz] 
+[!@$%123456sl?] [sl] [80sl] [sl] [!@^12367sl] [ak] [80pj] [sl] 
+[!@$%1234567ak?] [ak] [(7ak] [ak] [12367!@$^IG] [(7ak] 
+[123670!@^OH] [30u] $ % 
+[!@$%123456uf?] [uf] [80uf] [uf] [!@^12367uf] [uf] [80uf] [uf] 
+[!@$%123456fx?] [fx] [80fx] x [!@^12367x] x [80fx] [fx] 
+[!@$%123456uf?] [ig] [80uf] [YD] [!@^12367uf] [80pj] [sl] 
+[!@$%123456flx?] [80jlb] [!@^12367lxm] [80] 
+[!@$%1234569zc?] [lxm] [9qkzn] [zc] [!@^123678lxm] [kzn] [80jlb] [lxm] 
+[!@$%1234567kzn?] [jlb] [79kHV] [kzn] [!@^12367jlb] [flx] [68sjl] [psj] 
+[!@$%1234560gjc?] [fhx] [$Qdgz] [sfl] [!@%^W12367adk] [psj] [30aOH] [adk] 
+[!@$%^1234567epsj] 6 7 [!*] 
+[29dgz] [9qe] [fSL] [dgz] [9qefhx] 
+[gjc] [9qefhx] [29dgz] [gjc] [18] 7 
+[6flx] [80e] [dkz] [sjl] [80edkz] 
+[flx] [80e] 6 [7sjl] [18] [29] 
+[H30ak] [W0r] [hPJ] [Hak] [W0rsjl] 
+[dkz] [W0rsjl] [H30ak] [29dkz] [18] 7 
+[6sjl] [6pfj] [18sjl] [30flx] 
+[!@$%^*(QWETYIOPSDGHJLZCVB1234567890qwertyuiopasdfghjklzxcvbnm?] [!@$%^*(QWETYIOPSDGHJLZCVB1234567890qwertyuiopasdfghjklzxcvbnm?] [!@$%^*(QWETYIOPSDGHJLZCVB1234567890qwertyuiopasdfghjklzxcvbnm?] [!@$%^*(QWETYIOPSDGHJLZCVB1234567890qwertyuiopasdfghjklzxcvbnm?] 
+[!@$%1234569dgjz?] [9qe] [fjSL] [!@^12367dgjz] [L9qefhx] 
+[!@$%1234569gjzc?] [L9qefjx] [!@^12367dgjz] [9qegjzc] 
+[!@$%1234568fjlx?] [80e] [dkz] [!@^12367sfjl] [80edkz] 
+[!@$%1234568fjlx?] [80e] [!@^12367jlxb] [80e] 
+[!@$%123456q?] [9qezcb] [!@^123679] [9qezcb] 
+[1234560x!@$%V?] [W70lxm] [!@^12367zc] [W70kzn] 
+[!@$%12345680ejlxb?] [V370xn] 
+[36xbm] [2345890qwuiopasjkcv] [235678wesdjkcv] [12378wesdjkcv] [1235678weiopasjklzxcv] [234578weuijkcv] [234578weuijkcv] [1235678weiopasdjkcv] [wertyui] [we] [we] [wertyui] [we] [we] [wertyui] 
+[!@$%123456upsf?] [upsf] [80upsf] [upsf] [!@^12367upsf] [upsf] [80upsf] [upsf] 
+[!@$%123456upsf?] [upsf] [80upsf] [upsf] [!@^12367upsf] [upsf] [80upsf] [upsf] 
+[!@$%123456upsf?] [upsf] [80upsf] [upsf] [!@^12367usf] [idg] [80usf] [aYD] 
+[!@$%123456upsf?] [80psfj] [!@^12367sfjl] [80] 
+[!@$%123456dgkz?] [dgkz] [790dgkz] [dgkz] [!@^12367dgkz] [sfjl] [H790adk] [dgkz] 
+[!@$%123456sfjl?] [sfjl] [80sfjl] [sfjl] [!@^12367sfjl] [Hadk] [80psfj] [sfjl] 
+[!@$%DG1234567ak?] [DGak] [(QDG7ak] [DGak] [1267a!@$^IDG] [(QDG7ak] 
+[123670af!@^WOH] [30] $ % 
+[!@$%123456upsf?] [upsf] [80upsf] [upsf] [!@^12367upsf] [upsf] [80upsf] [upsf] 
+[!@$%123456upsf?] [upsf] [80upsf] [upsf] [!@^12367upsf] [upsf] [80upsf] [upsf] 
+[!@$%123456usf?] [idg] [80usf] [aYD] [!@^12367usf] [80psfj] [sfjl] 
+[!@$%123456fjlx?] [80jlxb] [!@^12367lxbm] [80] 
+[!@$%1234569zcn?] [lxbm] [V9qkzn] [zcn] [!@^123678lxbm] [Vkzn] [80jlxb] [lxbm] 
+[!@$%V1234567kzn?] [jlcb] [79kxHV] [Vkzn] [!@^12367jlxb] [fjlx] [68sfjl] [psfj] 
+[!@$%1234560gjzc?] [fjlx] [$Qdgkz] [sfjl] [!@%^WH12367adk] [psgj] [1234567890qwertyuiaf!@$%^*(QWETYOH?] [Hafk] 
+[!@$%^*(QWETY1234567890qwertyuipsfj?] ? ? ? 1 ! 2 @ 3 4 $ 5 % 6 ^ 7 1 ! 2 @ 3 4 $ 5 % 6 ^ 7 8 * 9 ( 0 q Q w W e E r t T y Y u i I o O p P a s S d D f g G h H j J k l L z Z x c C v V b B n m L z Z x c C v V b B n 
+[!@$%^JL123456gc?] [JLgc] [*JLqgc] [JLgc] [!@^JL123467gc] [JLgc] [*JLqgc] [JLgc] 
+[!@$%^JL123456gc?] [JLgc] [*JLqgc] [JLgc] [!@^JL123467gc] [JLgc] [*JLqgc] [JLgc] 
+[!@$%^JL123456gc?] [JLgc] [*JLqgc] [JLgc] [!@^JL123467gc] [lGZC] [*JLqgc] [fjlx] 
+[!@$%^JL123456gc?] [qc*JLB] [123467c!@^LB] [*q] 
+[!@$%ZC123456m?] [ZCm] [(ZC8qm] [ZCm] [!@^ZC123467m] [cLB] [(Z8qlbm] [ZCm] 
+[123456c!@$%^LB?] [cLB] [qc*LB] [cLB] [123467c!@^LB] [lcbm] [qc*JLB] [cLB] 
+[!@$%1234568lxvm?] [lxvm] [80wlxvm] [lxvm] [!@^123567hlxv] [80wlxvm] 
+[!@^1234678qejlcb] 4 5 6 
+[!@$%^JL123456gc?] [JLgc] [*JLqgc] [JLgc] [!@^JL123467gc] [JLgc] [*JLqgc] [JLgc] 
+[!@$%^JL123456gc?] [JLgc] [*JLqgc] [JLgc] [!@^JL123467gc] [JLgc] [*JLqgc] [JLgc] 
+[!@$%^JL123456gc?] [lGZC] [*JLqgc] [fjlx] [!@^JL123467gc] [qg*PSJ] [gSJL] 
+[!@$%^JL123456gc?] [qc*JLB] [123467c!@^LB] [*q] 
+[!@$%(ZC123456m?] [cLB] [(QZlbm] [ZCm] [12367c!@^*LB] [Zlbm] [qc*JLB] [cLB] 
+[!@$%Z1234568lbm?] [JLCB] [(8jlcb] [Zlbm] [12367c!@^JLB] [JLgc] [g^*SJL] [gPSJ] 
+[123456q!@$%GJZC?] [JLgc] [5wlDGZ] [gSJL] [!@^D12367esjl] [PSGJ] [4qpsgj] [sgjl] 
+[1234567g!@$%^EPSJ] [2345890qwuiopasjkcv] [235678wesdjkcv] [12378wesdjkcv] [1235678weiopasjklzxcv] [234578weuijkcv] [234578weuijkcv] [1235678weiopasdjkcv] [wertyui] [we] [we] [wertyui] [we] [we] [wertyui] 
+D S s D S s P S 
+s P p s P i T E 
+[48qC] c [59wZ] L [60elm] [JB] [48qjb] [lm] 
+[qc^*EJLB] [!@$%^*(QWETYIOPSDGHJLZCVB1234567890qwertyuiopasdfghjklzxcvbnm?]  ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("virtual love", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
