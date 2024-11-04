@@ -5878,6 +5878,161 @@ e t u p u t
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("Bach toccata", "Auto", function()
+    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 200 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 100 -- tempo overides the delay
+
+shared.scr = [[ [pj] [oh] [pj] [oh] [ig] [uf] [yd] [TS] [yd] [ep] [wo] [ep] [0u] [qi] [*T] [9y] 
+[6e] [5w] [6e] [5w] [4q] [30] [29] [!*] [29] 2 ^ * 0 w E T u 
+[9wey] 0 Q [*T] 
+[9y] [0u] [*T] [9y] [0u] [*T] [9y] [0u] [*T] [9y] [0u] [qi] [wo] [0u] [qi] [wo] [0u] [qi] [wo] [0u] [qi] [wo] 
+[ep] [EP] [wo] [ep] [EP] [wo] [ep] [EP] [wo] [ep] [TS] 
+[yd] [uf] [TS] [yd] [uf] [TS] [yd] [uf] [TS] [yd] [uf] [ig] [oh] [uf] [ig] [oh] [uf] [ig] [oh] [uf] [ig] [oh] 
+[pj] [PJ] [oh] [pj] [PJ] [oh] [pj] [PJ] [oh] [pj] [pj] 
+[oh] [PJ] [uf] [oh] [PJ] [uf] [ig] [pj] [yd] [ig] [pj] [yd] [uf] [oh] [ts] [uf] [oh] [ts] [yd] [ig] [EP] [yd] [ig] [EP] 
+[ts] [uf] [ep] [ts] [uf] [ep] [EP] [yd] [wo] [EP] [yd] [wo] [ep] [ts] [qi] [ep] [ts] [qi] [wo] [EP] [0u] [wo] [EP] [0u] 
+[qi] [ep] [9y] [qi] [ep] [9y] [0u] [wo] [*T] [0u] [wo] [*T] 2 * 0 w E 
+T u o P p o i u y T r T e T u o i o i u 
+[2qeyi] p d p f p g p d p f p g p h p f p 
+g p h p j p g p h p j p J p h p j p g p h p f p g p d p f p S p 
+d p p p P p o p p p i p o p u p i p y p o p u p i p y p u p T p 
+y p e p E p w p e p q p w p 0 p q p 9 p w p 0 p q p 9 p 0 p * p 
+9 y i P i t u p u E y o y e T u p [29] [yiP] [18] [eup] ^ [Eyo] 
+[T6eup] y i P i t u p u E y o y e T u p [29] [yiP] [18] [eup] ^ [Eyo] 
+[T6eup] o i u y T r T e r T y u i o p o i u i y i p S 
+d p a S d f g h j J [29] [gPJ] [18] [pfj] ^ [odh] [S6pfj] d g J g 
+s f j f P d h d p S f j [29] [dgPJ] [18] [psfj] ^ [odh] [S6pfj] [%Oyiad] 
+[5upTS] a p S f h J j h g f g f d S d s P p o i u y 
+[PS5uof] [of] [uS] [TP] [uS] [TP] [uS] [of] [uS] [TP] [uS] [TP] 
+[uS] [of] [uS] [TP] [uS] [TP] [uS] [of] [uS] [TP] [uS] [TP] [Eo] [TP] [Eo] [wu] [Eo] [wu] [Eo] [TP] [Eo] [wu] [Eo] [wu] 
+[Eo] [TP] [Eo] [wu] [Eo] [wu] [Eo] [TP] [Eo] [wu] [Eo] [wu] [0T] [wu] [0T] [*E] [0T] [*E] [0T] [wu] [0T] [*E] [0T] [*E] 
+[0T] [wu] [0T] [*E] [0T] [*E] [0T] [wu] [0T] [*E] [0T] [*E] [0T] [wu] [0T] [wu] [Eo] [wu] [0T] [wu] [0T] [wu] [Eo] [wu] 
+[0T] [wu] [0T] [wu] [Eo] [wu] [0T] [wu] [0T] [wu] [Eo] [wu] [0o] [wP] [0o] [wP] [0o] [wP] [Eo] [TP] [Eo] [TP] [Eo] [TP] 
+[uS] [TP] [uS] [Tf] [uS] [Tf] [uS] [Tf] [uS] [Tf] [uS] [Tf] [5w] [TS0eupfj] [4q] [qeyipdgj] 
+[^E] [E9wyodh] [6e] [5w] [6e] [TS0eupfh] [30] [4q] [29] [30] [!*] 
+2 [7?] ! [6?] [^?] [%?] [6?] [5wupS] [4qypd] [269qeyi] [360eyu] T w 
+[29wey] q 0 q p o p i p u p 
+y p T p y p u p i p e p r p T p 
+y p T p y p u p i d [Is] d [oP] d [tp] d 
+[Eo] d [eI] d [Eo] d [tp] d [yP] d [Qy] d [wu] d [eI] d 
+[Eo] d [eI] d [Eo] d [Qp] d [wP] o [wd] o [yP] o [yd] o 
+[tD] Y [to] Y [tD] Y [to] Y [ts] i [tp] i [ts] i [tp] i 
+[Ed] y [Ei] y [Ed] y [Ei] y [EP] u [Eo] u [EP] u [Eo] u 
+[eS] T [eu] T [eS] T [eu] T [qp] y [qi] y [qp] y [qi] y 
+[0o] E [0T] E [0o] E [0T] E [9i] e [9y] e [9i] e [9y] e 
+[0u] w [0E] w [0u] w [0E] w [qe] j [0eh] j [9eg] j [wef] j 
+[qed] j [0eS] j [qed] j [*ef] j [9eg] j [*ep] j [9ea] j [0eS] j 
+[qed] j [0eS] j [qed] j [*ef] j [9eg] j f j [qyd] j s j 
+[wyP] j s j d h P h [8tf] h d h [0ts] h P h 
+[qtp] h P h s g p g [^Ed] g s g [9EP] g p g 
+[E0o] g p g P f o f [6eS] f P f [*ep] f o f 
+[9ei] f o f p d [qyi] d [ETu] f [ETu] f [eyi] d [eyi] d 
+[wuP] S P S p d [eyi] d [ETu] f [ETu] f [eyi] d [eyi] d 
+[Wu] d S d a d S a [eS] p o p u o i u 
+i d S d [yg] d S a [eS] p o p [Tf] o i u 
+i y [Td] y [eu] e [wS] e [Qys] y [Tp] y [wP] i [Yo] y 
+[Tp] u e T [I9p] Y y t [rio] y w r [Y8o] y t E 
+[eI] t [Qyp] e [9I] t [sED] e [Ed] p [oP] [Ip] [oP] E [Peh] w 
+[yph] 2 [1G] 2 [^dh] 2 [6ys] 2 [5yP] 2 [$ypd] 2 [P5yd] 2 [I6td] 2 
+[^Eod] 2 [I2yd] 2 [3yod] 2 [$tpd] 2 [EP5d] 2 [$ypd] 2 [P5yd] 2 [I6td] 2 
+[^od] [Ph] [Pg] [Ph] [of] [pg] [7id] [of] [18us] [sj] [Ph] [sj] [pg] [Ph] [!*of] [pg] 
+[29id] [dJ] [sj] [dJ] [Ph] [sj] [29pg] [Ph] [30of] [fl] [dJ] [fl] [sj] [dJ] [P30h] [sj] 
+[4qpg] D [6id] s [^Pd] [ps] [29oP] [ip] [5oP] [Pd] [oP] [ip] [uo] [oP] [^uo] [yi] 
+[tu] [yi] [6uo] [ip] [5oP] d [18us] P [4ip] t E t [es] t [wP] t 
+[qp] t [0o] t [qp] t [wP] t [es] t [8u] t [9i] t [0o] t 
+[qp] t [0o] t [qp] t [wP] t [es] P p o i Y y t 
+[Ed] s P p o i u y [tf] d s P p o i u 
+[yg] f d s P p o i [uh] g f d s P p o 
+[ij] g f g s g f g [ij] g f g s g f g 
+[uh] f d f s f d f [uh] f d f s f d f 
+[ij] g f g s g f g [ij] g f g s g f g 
+[uh] f d f s f d f [uh] f d f s f d f 
+[yg] h g f d s a p a o a d g j g d 
+a o a d g j g d P o P s f h f s 
+P o P s f h f s p i p s d g d P 
+p i p s d g d P o u o P S f S P 
+o u o P S f S P p j [Sh] j [dg] j [of] j 
+[id] j [pS] j [ad] j [Sf] j [dg] j [pS] j [ad] j [Sf] j 
+[dg] j [Sf] j [dg] p [Sof] p d I [ups] I [oP] y [Itp] y 
+[oEP] [tp] [Eo] [ei] [wu] [qy] [0T] [9r] [6*T] 6 * 0 w E w 0 
+[6*] 6 * 0 w E w 0 [69] 6 9 q e y e q 
+[69] 6 9 q e y e q [6*] 6 * 0 w E w 0 
+[6*] 6 * 0 w E w 0 [69] 6 9 q e y e q 
+[69] 6 9 q e y e q [!0] * 0 w E T E w 
+[!0] * 0 w E T E w [2q] 9 q e y i y e 
+[2q] 9 q e y i y e [!0] * 0 w E T E w 
+[!0] * 0 w E T E w [2q] 9 q e y i y e 
+[2q] 9 q e y i y e [3w] 0 w E T u T E 
+[3w] 0 w E T u T E [4e] q e T y i y e 
+E y E w q e q 9 6 9 6 4 2 9 * 7 
+* E e w q w q 0 9 E e w q w q 0 
+9 0 q w e r T y i u y [ep] r T y u i o p [of] [id] [uS] 
+[id] D d s P p o I Y [yp] t [Ep] 5 [4qro] 5 [@(tos] 5 [29yoa] 5 
+[18oYD] 5 [7yod] 5 [18oYD] 5 [29roa] 5 [@(tos] 5 [5roa] 5 [6tos] 5 [7yod] 5 
+[18oYD] 5 [7yod] 5 [18oYD] 5 [29iog] 5 [@(oh] H [wh] H [9ih] H [wh] H [Y8h] H [wh] H [7yh] H [wh] H 
+[8th] H [wh] H [9rh] H [wh] H [(th] H [wh] H [qyh] H [wh] H [Ywh] H [wh] H [5rh] H [wh] H [6th] H [wh] H [7yh] H [wh] H 
+[Y8oh] H [wh] H [7yh] H [wh] H [Y8h] H [wh] H [9ih] H [wh] H [(o] h [7dg] h [18oD] [Og] [29id] [oD] 
+[@(Ys] g [6sD] g [^id] [oD] [Y18s] [id] [29yP] D [P5d] D [Y6s] [id] [y^P] [Ys] 
+[18tp] d [I29s] d [5woP] [ps] [29ip] [oP] [@(Yo] [oP] [^Ip] [oP] [6ps] [oP] [I18p] [uo] 
+[2I] y [tp] y [Ed] [yo] [es] [yI] [wP] [yo] [Qd] [yp] [wP] [yo] [ep] [yI] 
+[Eo] [yd] [9I] [yd] [0o] [yd] [Qp] [yd] [wP] [yo] [Qd] [yp] [wP] [yo] [es] [yp] 
+[Ed] s [eP] p [wP] p [5P] o [8p] P [6s] d [9QD] d [2s] d 
+[5wP] s [ep] P [Eo] e [5wa] q [(8s] D [Yg] h [yH] h [7g] h 
+[8tD] g [yd] D [Ys] i [yP] Y [tp] Y [yP] i o i [Yp] i 
+y E [Yo] y T e [yI] t [ri] w [tY] E e q [Ey] [yP] 
+[tp] [yP] [tp] [Eo] [eI] [tD] [Ed] [es] [wP] [tj] [Eh] [eG] [Eh] t E [eg] 
+[wD] [eg] [qd] [wD] [0S] P p o [Qpd] Y y t [I9ys] t E e 
+[woP] i Y y [Tep] E [euS] w [qid] w [0of] q [9pg] o [pd] i 
+[odf] p o p [PS] p o p [ipd] [oP] [uo] [ip] [yi] t [Epg] e 
+[Eoh] e [wpd] q [0oS] q [0id] 9 [*of] 6 [9id] 6 [0uS] 6 [qpd] 6 
+[Pwf] 6 [qpd] 6 [0oS] 6 [9id] 6 [*pf] e [6fh] e [9dg] e [qpd] y 
+[woP] y [0of] T [qpd] y [9id] y [6euS] p o p [id] p [uf] p 
+[yg] p [Tf] p [yg] p [uS] p [id] p [eS] p [rd] p [Tf] p 
+[yg] p [Tf] p [yg] p [uh] p [ij] J [uh] j [yg] h [of] g 
+[id] p [uS] p [id] p [Tf] p [yg] p [Tf] p [yg] p [rh] p 
+[Tj] p [of] p [ig] p [yh] p [Tj] 6 [5w] 6 [4q] 6 [30] 6 
+[29] 6 [!*] 6 [29] 6 [30] 6 [4q] 6 6 6 7 6 [!*] 6 
+[29] 6 [!*] 6 [29] 6 [30] 6 [4q] [of] [id] [uS] [id] T [qy] g 
+[wyf] g [0h] j [eTJ] j [6h] j [9yg] p [af] S d f [6sg] D 
+[^id] s [5P] p [8o] p [1YP] s [4p] t e q e t [Y6s] t 
+[^y] E [qP] 9 w E [^yh] o [8tD] [yg] [Ed] [tD] [es] [wP] [Q6p] [0o] 
+[9Q] 9 Q w e y e w [2Q] 9 Q w e y e Q 
+[2w] 9 w e E y E e [2w] 9 w e E y t E 
+[2e] Q e E t Y t E [29e] Q e E t Y t E 
+[2e] E y I o P o y [29E] w E y o P o y 
+[2t] e t Y I p I Y [29t] e t Y I p I Y 
+[Qy] 2 [18] 2 [^yod] 2 [I6ys] 2 [5oEP] 5 [4q] 5 [@(tos] 5 [29oad] 5 
+[18osD] 1 ^ 1 [6isg] 1 [P5fh] 1 [4pgj] 4 [@(] 4 [P29ig] 4 [18ipD] 4 
+[^Pid] [oD] [@(id] [Ys] [4qyP] [Ys] [4yP] [tp] [E5o] [Ys] [18yP] [tp] [E29o] [tp] [E2o] [eI] 
+[E5o] [ei] [wu] [qy] [0T] 6 [5wu] 6 [4ei] [ro] [T2p] [ya] [6uS] [id] [of] [pg] 
+[P2h] [pg] [of] [id] p [uS] p [ypd] p [Tf] p [yg] p [uh] p 
+[ij] p [eS] p [rd] p [Tf] p [yg] p [Tf] p [yg] p [9rd] p 
+[S6ef] [4qypd] [P5wod] [6eupS] [4qipd] [2pdg] [P5df] [6ps] 
+[^Pyid] g h j J p P s d s d D g i o p 
+P p P s d p o i Y o p P s o i Y y i o p P e E t y t y Y i q w e 
+E e E t y t E e w E t y Y y t E e t y u I Y y t E I o p P s [wd] o 
+[!u] [*o] [wP] [Ef] T [4q] [eyipd] [29] 
+[%y] [%i] [7O] [9a] [qd] W [%W] [7r] [4q] [%W] [29] [4q] 7 
+[29] % 6 3 [WO0ryuad] [0etups] o i 
+[wu] o i o u u y u t p o p i i u i 
+y a p a o o i o u s a s p d s d a f d f s g f g d h g h f s a s 
+p d s d a O I O u s a s p i u i y a p a t p o p r O I O u t r e 
+W y t r e u y t r i u y t o i u y p o i u [wo] [ep] [ra] [ts] [30tuo] 
+[50wup*TS] 5 [5e] [*T] [0u] [wp] [wupfjTSL] [qeypdgjz] 4 [4e] [6y] [9i] [qp] [qeypdgjz] 
+[qryoadhk] 4 [4w] [7r] [9y] [qo] [qryoadhk] [0wtosfhl] 3 [3w] [5t] [8u] [0o] [0wtosfhl] 
+[0etipsgj] 3 [3q] [6e] [8t] [0i] [0etipsgj] [9qidgEPJ] 2 [2q] [4E] [^y] [9i] [9qidgEPJ] 
+[wufh*EPJ] ! [!0] [5w] [^E] [*u] [wufh*EPJ] [QG8eypdj] 1 [19] [$Q] [6e] [8y] [QG8eypdj] 
+[P5pdj] [^oh] [PS3f] [4ipdg] 
+[36updf] [ets] [^qtysd] 5 [EP90yud] 2 
+[9eyipd]  ]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("Unravel Tokyo Ghoul", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
