@@ -3,8 +3,124 @@ local Window = Library.CreateLib("Beethoven_ElMaestro", "Synapse")
 
 local Tab = Window:NewTab("Auto Piano")
 local Section = Tab:NewSection("Auto Piano")
+
+local noteMapping = {
+  ["q"] = "C",
+  ["2"] = "D",
+  ["w"] = "E",
+  ["3"] = "F",
+  ["e"] = "G",
+  ["r"] = "A",
+  ["5"] = "B",
+  ["t"] = "C'",
+  ["6"] = "D'",
+  ["y"] = "E'",
+  ["7"] = "F'",
+  ["u"] = "G'",
+  ["i"] = "A'",
+  ["9"] = "B'",
+  ["o"] = "C''",
+  ["0"] = "D''",
+  ["p"] = "E''",
+  ["-"] = "F''",
+  ["["] = "G''",
+  ["="] = "A''",
+  ["\\"] = "B''",
+  ["a"] = "C'''",
+  ["s"] = "D'''",
+  ["d"] = "E'''",
+  ["f"] = "F'''",
+  ["g"] = "G'''",
+  ["h"] = "A'''",
+  ["j"] = "B'''",
+  ["k"] = "C''''",
+  ["l"] = "D''''",
+  [";"] = "E''''",
+  ["'"] = "F''''",
+  ["z"] = "G''''",
+  ["x"] = "A''''",
+  ["c"] = "B''''",
+  ["v"] = "C'''''",
+  ["b"] = "D'''''",
+  ["n"] = "E'''''",
+  ["m"] = "F'''''",
+  [","] = "G'''''",
+  ["."] = "A'''''",
+  ["/"] = "B'''''"
+}
+
+local notesEnCours note
+local function playNote(note)
+  
+  print("Playing note:", note)
+end
+
+
+local function releaseNote(note)
+  
+  print("Releasing note:", note)
+end
+
+local function onKeyPressed(key)
+  local note = noteMapping[key]
+  if note then
+    
+    table.insert(notesEnCours, note)
+    
+    playNote(note)
+  end
+end
+
+
+local function onKeyReleased(key)
+  local note = noteMapping[key]
+  if note then
+
+    local index = table.find(notesEnCours, note)
+    if index then
+      
+      table.remove(notesEnCours, index)
+      
+      releaseNote(note)
+    end
+  end
+end
+
+local function playPartition(partition)
+  local delay = 60 / shared.tempo
+  
+  for _, note in ipairs(partition) do
+    -- Si la note est un tiret ("-"), attendre le délai
+    if note == "-" then
+      wait(delay)
+    
+    else
+      playNote(note)
+      wait(delay)
+      releaseNote(note)
+    end
+  end
+end
+
+local partitionFaded = {
+  "C", "D", "E", "F", "G", "A", "B", "C'", "D'", "E'", "F'", "G'", "A'", "B'", "C''", "D''", "E''", "F''", "G''", "A''", "B''", "C'''", "D'''", "E'''", "F'''", "G'''", "A'''", "B'''", "C''''", "D''''", "E''''", "F''''", "G''''", "A''''", "B''''", "C'''''", "D'''''", "E'''''", "F'''''", "G'''''", "A'''''", "B'''''"
+}
+
 Section:NewButton("Faded", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+  playPartition(partitionFaded)
+end)
+
+game.Players.LocalPlayer.PlayerGui.InputBegan:Connect(onKeyPressed)
+game.Players.LocalPlayer.PlayerGui.InputEnded:Connect(onKeyReleased)
+
+shared.ftime = 120
+shared.tempo = 120
+
+while not shared.stop do
+  wait(1)
+end
+
+shared.stop = false
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
