@@ -251,12 +251,12 @@ shared.scr = [[ [4qg] h j [qetj] g [30f] G H [WH0r] f
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("waltz in mirror", "Auto", function()
+Section:NewButton("silent voice", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 60 -- tempo overides the delay
+shared.tempo = 96 -- tempo overides the delay
  
 shared.scr = [[ u [6p] a [etus] [etu] [2d] f [eyig] [eyi]
 [5a] s [wrid] j [wrih] g [fg] [8f] D [wtuf] [wtu]
