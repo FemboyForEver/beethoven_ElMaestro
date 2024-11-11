@@ -164,7 +164,7 @@ Section:NewButton("pooky scary", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 60 -- tempo overides the delay
+shared.tempo = 155 -- tempo overides the delay
  
 shared.scr = [[ [4qg] h j [qetj] g [30f] G H [WH0r] f
 [6el] j l [0etj] f j [18f] s f [0etj] p s
