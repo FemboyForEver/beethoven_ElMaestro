@@ -51,6 +51,18 @@ shared.scr = [[ u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("nocturne op. 9 no, 2", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 60 -- tempo overides the delay
+ 
+shared.scr = [[  ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("doors elevatort", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
