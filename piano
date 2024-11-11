@@ -258,30 +258,60 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 96 -- tempo overides the delay
  
-shared.scr = [[ u [6p] a [etus] [etu] [2d] f [eyig] [eyi]
-[5a] s [wrid] j [wrih] g [fg] [8f] D [wtuf] [wtu]
-[6p] a [etus] [etu] [2d] f [eyig] [eyi]
-[5a] s [wrid] j [wyih] a [8s] [wtu]
-u [6p] a [etus] [etu] [2d] f [eyig] [eyi]
-[5a] s [wrid] j [wrih] g [fg8f] D [wtuf] [wtu]
-[6s] d [etuf] [etu] [2g] h [eyij] [eyi]
-[5h] [wriG] h [wriz] g [8f] [wtu] [wtu] [3f] G [0ryH] j [0yk] l [kl6k] j [0etf] k [0etj]
-[jk][3j] H [0ryf] g [0ryf] f [fg] [6f] s [0etp] a [0etp]
-[3u][Oa][0ryf]Hkxv[0yn] mnm[6n] b [0etx] n [0etb]
-[bn][3b] V [0ryx] n [0ryn] [6b] [0et] [0et] [6p] a [etus] [etu] [2d] f [eyig] [eyi]
-[5a] s [wrid] j [wrih] g [fg] [8f] D [wtuf] [wtu]
-[6s] d [etuf] [etu] [2g] h [eyij] [eyi]
-[7D] f [erG] [er] [3H] j [0ryk]
-[3k] L [0yz] C [0yx] z [6L] k [0eTL] H [0ej]
-G [3f] d [0ryO] G [0ryf] [fG] [6f] S [0ep] G [0ef]
-[3k] L [0yz] C [0yx] z [6L] k [0eTL] H [0ej]
-G [3f] d [0ryO] G [0ryf] O [6p] [0T] u [6p] a [etus] [etu] [2d] f [eyig] [eyi]
-[5a] s [wrid] j [wrih] g [fg] [8f] D [wtuf] [wtu]
-[6p] a [etus] [etu] [2d] f [eyig] [eyi]
-[5a] s [wrid] j [wyih] a [8s] [wu]
-u [6p] a [etus] [etu] [2d] f [eyig] [eyi]
-3 [fgf] [0yWD] f [0yk] d [6s] [0et] [0et]
-8 l [0euk] j h g [9f] d [eriS] d f g [3f]gfgfg[0tD] f [0ryg] O [6p] [0t] ]]
+shared.scr = [[ [8u] w y w i u
+[7u] w y w i u
+[^u] w y w i u
+[4qe]| [5wr]| [6et]|
+[8u] w y w i u
+[7u] w r w i u
+[^u] w y w i u
+[4qe]| [5wr]| [6et]|
+[7qeu]| |
+[2qe]| |
+[3wr]| [we]| [wr]|
+[4qet]| |
+4| |
+[2qe]| |
+[3wr]| [we]||[wr]
+[4qet]| |s|
+l||111111111111
+[14qeu] w y w i [14]u
+[25ru] w y w i [25]u
+[36etu] w y w i [36]u
+[37wy] w t w [37wr] t
+[14qeu] w y w i [14]u
+[25ru] w y w i [25]u
+[36etu] w y w i [36]u
+[37wy] w t w [37wr] t
+[14ipf] [8o] [qd] [8o] [eg] 8f
+[25af] [9o] [wd] [9o] [rg] 9f
+[36psf] [0o] [ed] [0o] [tg] 0f
+[37sd] [7o] [0s] [7o] [woa] [7s]
+[14i]pf[8o] [qd] [8o] [eg] 8f
+[25af] [9o] [wd] [9o] [rg] 9f
+[36psf] [0o] [ed] [0o] [tg] 0f
+[37sd] [7o] [0s] [7o] [woa] [7s]
+[48qip]||[48q]| [48q]
+[59woa]| [op] [59w]| [oa]
+[60eos]||[60e]| [60e]
+[370]||[370]| [370]
+[48qip]||[48q]| [48q]
+[59woa]| [op] [59w]| [od]
+[60eos]||[60e]| [60e]
+[370]||[370]| [370]
+[4ep] 1 4 1 6 [1ep]
+[5ra] 2 [5ep] 2 7 [2ra]
+[6ts] 3 6 3 8 [3yd]
+[3uf] 7 [3yd] 7 5 [7ts]
+[4ep] 1 4 1 6 [1ep]
+[5ra] 2 [5ep] 2 7 [2yd]
+[6ts] 3 6 3 8 3
+3 7 3 7 5 8 l|||
+[8u] w y w i u
+[7u] w y w i u
+[^u] w y w i|
+u| |[1580wt]| |
+1 ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
