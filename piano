@@ -71,15 +71,63 @@ y p y a y s y u e u i p y e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("again kimiuso", "Auto", function()
+Section:NewButton("wild side", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 92 -- tempo overides the delay
+shared.tempo = 110 -- tempo overides the delay
  
-shared.scr = [[ P a S G|S G H J G S k G S O I [rJG] H J Z|Z J H [TJ] H J c|c J H [HE] G H L|L H G [gY] G H L T HG|[rJG] H J Z|Z J H [TJ] H J c|c C L [VTE] C c C|c L H [YIH] [JG] T J||H|[rJI] H J Z|Z J H [iTJ] H J c|c J H [iHE] G H L|L H G [gE(] G H L|HG|[rYJ] H J Z|Z J H [iTJ] H J c|c C L [VTE] C c C|c [L] H [HE(] J|J||H|[PI7]| |[iP]| |[i^O]| |[PI(]| |[SP]| |[PD7]| |[gS]| |[i^SO]| |[SH]| |[JGD(]| |[QI7] S g G g S [qOI] S g G g S [q^I] S g G g S [QI(] S g G[Q] g S [Q7] S g G g S [qOI] S g G g S [q^I] S g G g S [QI(] S g G g S [JG7] [QH] J Z|Z J H [J] [qH] J c|c J H [^HE] [qG] H L|L H G [g(] [QIG] H L * [QOH]G|[J7] [QH] J Z|Z J H [J] [qH] J c|c C L [^V] [qC] c C|c L H [H(] J|J $|H|[J7] [QH] J Z|Z J H [J] [qH] J c|c J H [^HE] [qG] H L|L H G [g(] G H L * HG|[J7] [QH] J Z|Z J H [J] [qH] J c|c C L [^V] [qC] c C|c L H [H(] J|J $|H|[rI] S g G g S [TI] S g|G|g|S|[IE] S g G|g|S [YI] S g|GT g|S|[rI] S g|G|g|S|[TI] S g G g S [IE] S g G g S [YI] S g GT g S [J7] [QH] J Z|Z J H [J] [qH] J c|c J H [^H] [qG] H L|L H G [g(] [QG] H L * [QH]G|[J7] [QH] J Z|Z J H [J] [qH] J c|c C L [^V] [qC] c C|c L H [H(] J|J $|H|[J7] [QH] J Z|Z J H [J] [qH] J c|c J H [^H] [qG] H L|L H G [g(] G H L * HG|[J7] [QH] J Z|Z J H [J*] [qH] J c|c C L [^V] [qC] c C|c L H [H(] J|J $|H|[rI] S g G g S [TI] S g|G|g|S|[IE] S g|G|g|S|[YI] S g|G T g|S|r ]]
- 
+shared.scr = [[ [GC] [hv] [lm] [kn] [JB] [sl] [DZ] [hv] [GC] [gc] [DZ] [gc] 
+1 8 1 8 1 8 k z c b n [qry] r W w q ( 9 8 ^ % 5 
+[Yos] [Yoa] [oYP] [Yoa] [Yos] 
+[Yos] [Yoa] [oYP] [Yoa] [Yos] 
+[Yos] [Yoa] [oYP] [Yoa] [Yos] 
+[Yos] [Yoa] [oYP] [Yoa] [Yos] 
+[18] [Y1os] @ [@Yoa] 4 [oYP] 5 [Yoa] @ [Yos] 
+1 [Y1os] @ [@Yoa] 4 [oYP] 5 [Yoa] @ [Yos] 
+1 [Y1os] @ [@Yoa] 4 [oYP] 5 [Yoa] @ [Yos] 
+1 [Y1os] @ [@Yoa] 4 [oYP] 5 [Yoa] @ [Yos] 
+[18] [Y1os] @ [@Yoa] 4 [oYP] 5 [Yoa] @ [Yos] 
+1 [Y1os] @ [@Yoa] 4 [oYP] 5 [Yoa] @ [Yos] 
+1 [Y1os] @ [@Yoa] 4 [oYP] 5 [Yoa] @ [Yos] 
+1 [Y1os] @ [@Yoa] 4 [oYP] 5 [Yoa] @ 
+[18hlv] 1 [sl] @ [@hv] [sl] [4GC] 5 [gc] @ @ [sl] 
+[1DZ] [1sl] [@PJ] [sl] @ 4 5 @ @ 
+[1hlv] 1 [sl] @ [@hv] [sl] [4GC] 5 [gc] @ @ [sl] 
+[1DZ] [1sl] [@PJ] [sl] @ 4 5 @ @ 
+[4lm] 4 [gc] % [%lm] [HV] [^kn] 8 [JB] % % [gc] 
+[4HV] [4gc] [%DZ] [gc] % ^ 8 % % 
+[H5dz] [5SL] [dz] 7 [H7dz] [2SL] [dz] 2 4 4 
+[25glc] 5 [4DZ] 4 [@(dz] [@(] [29DZ] [29] 
+[D18shl] 1 @ [@Yoa] 4 [oYP] 5 [Yoa] @ [Yos] 
+1 [Y1os] @ [@Yoa] 4 [oYP] 5 [Yoa] @ [Yos] 
+1 [Y1os] @ [@Yoa] 4 [oYP] 5 [Yoa] @ [Yos] 
+1 [Y1os] @ [@Yoa] 4 [oYP] 5 [Yoa] @ 
+[158] [8wt] [18] [8wt] t 8 [8HL] [1l] [18J] [18H] [gh] [18] [8wtH] J [^f] 
+4 [%s] [5ios] [@s] [Y5ia] [1o] [7s] [^d] 
+[18osD] 1 % [1d] d [7dh] [5g] [8aD] d 5 
+[4qiOD] 8 4 [$s] s [Y5ia] [1o] [^d] 7 
+[18osD] @ 5 @ [18os] 5 [8dg] 5 
+[4qiOD] [8s] [$s] [4s] [5wyia] [@o] o [%Yia] d ^ 
+[18osD] 5 8 [^s] s [@Pgh] [(g] [@PD] d ^ 
+[%D] 1 ! [2s] [@ios] [4s] [$sg] [%g] 
+[7iaOD] 2 5 2 8 9 [(ig] [qoh] 
+[4ODH] [Wqt] [O4is] [Wqt] [Oia] 5 [wry] [5YD] [wryig] 
+[@odh] [(Ews] [@Yos] [w(E] [Yos] @ [w(E] @ [(EYws] 
+[4isg] [qtWOD] [4id] [Wqtis] [5oa] [wryoa] [5oa] [wry] 
+[Y1os] [(8w] [1ad] [(8w] [s@D] [w(E] [@ig] [(Ewoh] 
+[4ODH] [Wqt] [O4is] [Wqt] [Oia] 5 [wry] [5YD] [wryig] 
+[@odh] [w(ED] [@Ood] [od] [w(E] [os] @ [w(E] @ [(Ews] 
+[4isg] [qtWYD] [4yd] [Wqts] [2ra] [W9qra] [ra] [2hODH] [9qW] 
+[25] [odgh] [48q] [%(W] [59w] 
+[Yos] [Yoa] [oYP] [Yoa] [Yos] 
+[Yos] [Yoa] [oYP] [Yoa] [Yos] 
+[18] [Y1os] @ [@Yoa] 4 [oYP] 5 [Yoa] @ [Yos] 
+1 [Y1os] @ [@Yoa] 4 [oYP] 5 @ 
+s D h l [158] [@(DJZ] [5whv] [z$QGC] [4qgc] [@(DZ] [18sl] 
+[H7dhkz] ]]
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
