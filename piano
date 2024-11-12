@@ -461,22 +461,60 @@ O O O I a O
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("etude d'execution", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 160 -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ [W0ru] [ruWO] [Orua] [Ouaf] [Ouaf] [Orua] [ruWO] [W0ru] [7rQY] [eQYI] [YIra] [paYG] [paYG] [YIra] [eQYI] [7rQY] [W0ru] [ruWO] [Orua] [Ouaf] [Ouaf] [Orua] [ruWO] [W0ru] [7rQY] [QYra] [raID] [IDak] [IDak] [raID] [QYra] [7rQY] 
+[W0ru] [ruWO] [Orua] [Ouaf] [Ouaf] [Orua] [ruWO] [W0ru] [7rQY] [eQYI] [YIra] [paYG] [paYG] [YIra] [eQYI] [7rQY] [W0ru] [ruWO] [Orua] [Ouaf] [Ouaf] [Orua] [ruWO] [W0ru] [7rQY] [QYra] [raID] [IDak] [IDak] [raID] [QYra] [7rQY] 
+[W37yu] [90rO] [O0rf] [yuaH] [yuaH] [QOrf] [90rO] [W37u] [*6eu] [T0ep] [Tepf] [Supj] [pfSL] [SLfx] [u$*EI] [0QTP] [QTPG] [uISJ] [uISJ] [QTPG] [0QTP] [$*EI] [7r(I] [QYra] [raYG] [IDak] [aDGZ] [DGZC] 
+[r(YI] [aQYD] [aYDG] [kIDZ] [kIDZ] [aYDG] [aQYD] [rQYI] [0uTO] [Wuaf] [ufSH] [Ofkx] [Ofkx] [ufSH] [Wuaf] [0ruO] [QYIa] [rIDG] [IDGk] [aGZC] [aGZC] [IDGk] [rIDG] [QYIa] [WOua] [rfOH] [OHfk] [xSHV] [xSHV] [OHfk] [rfOH] [QOua] 
+[eupS] [Tpfj] [pfjL] [Sjxb] [Sjxb] [pfjL] [Tpfj] [eupS] [TPuh] [ofEL] [SJfv] [Pjx] [Pjx] [SJfv] [ofEL] [TPuh] [uoSJ] [TPGx] [fHLB] [SJC] [SJC] [fHLB] [TPGZ] [uoSJ] [TPuh] [ofEL] [SJfv] [Pjx] [Pjx] [SJfv] [ofEL] [TPuh] 
+[ETPh] [wufL] [PSJv] [ofxB] [ofxB] [PSJv] [wufL] [ETPh] [wuES] [TP0h] [ofPL] [SJuv] [SJuv] [ofPL] [TP0h] [wuES] [0wTP] [*Eof] [uoSJ] [TPhx] [TPhx] [uoSJ] [*Eof] [0wTP] [r(QI] [QYra] [aYIG] [IDak] [aDGZ] [kDGC] 
+6 [(Q] [rGC] [YI] [YIsl] r [(Qak] 6 [%ak] [0W] r [uOSL] [DZ] [Oafx] [afHV] [er] [YI] [Ipa] [DG] [6tDG] [pa] ( [rYI] Q r [%r] [uO] 0 a [fTH] Y [Ouk] [Oax] 
+[6e?] [0ejTSL] [7r?] [WHrufx] [!*T] [TLeufjx] [18t] [ujxQEIGC] [7r?] [rukxWOHV] [7r?] [YIZCrajkn] [%W370ru] [OVuafxn] 
+[37wru] 5 [ruo] [3uoa] 5 [oaf] [oaf] [uoa] [9ruo] 8 [wru] [7rQY?] @ $ [rYI] [Ypa?] @ $ [paG] [paG] [Ypa] [7rYI] [rQY] [37wru] [ruo] 5 [wuoa] [oaf] [Qoaf] [uoa] [0ruo] [wru] [r$(QY?] [rYI] [8ID] [Dk] [D7k] [ID] [rYI] [rQY] 
+[37wru] 5 [ruo] [3uoa] 5 [oaf] [oaf] [uoa] [9ruo] 8 [wru] [7rQY?] @ $ [rYI] [Ypa?] @ $ [paG] [paG] [Ypa] [7rYI] [rQY] [357wru] [ruo] [wruoa] [oaf] [Qeoaf] [uoa] [0wruo] [wru] [r(QY] [Ya] [8ID] [Dk] [D7k] [ID] [$Ya] [rY] 
+[9ry?] Q [Ia] [79ad] [Gk] [Gk] [ad] [Iea] w [ry] [Q6ty] 8 9 [Is] [6sd] 8 9 [Gl] [Gl] [sd] [QIs] [ty] [Q2ey] [Ip] [tupd] [Gj] [G9ryj] [pd] Q [Ietp] [ey] [59ry] [oa] [^Qad] [hk] [8ehk] [ad] [7woa] [ry] 
+[4wry] 7 9 [oa] [4hk] 7 9 [kv] [kv] [hk] [roa] e [ry] [2qwry] 5 7 [oa] [2ad] 5 7 [hk] [hk] [ad] [roa] e [ry] [wry?] [oa] 5 [rdh] q e [kz] [479wkz] [dh] [roa] e [ry] [3wtu] 8 [os] [0tsf] w [hl] [50e*T] [pfTL] r 
+[59eyI] [Id] [eydQG] [hz] [6r(QY] [yaGZ] t [60ruo] [of] [wrufh] [hx] [8eyQI] [Id] j u C [7wyo] [Id] k u v [QI6typ] [IG] z u b [7wyoa] [oh] z n [8wuos] [oh] x 
+[8wuETS] [ofh] [PLx] [hTJ] [uxv] [wJL] [vEB] [8!T] [29y] [27zC] [28lx] [29kzn] [Q9jlb] [9whkv] [9ejGC] [9rfhx] [G9tdz] [9ysfl] [9uadk] [I9psj] [5oah] 7 9 w w r y o [yahz] o w r [9dk] w 5 7 
+[58pG] [(Q] [wtsjZ] [YI] [YIDGpk] [wt] [(Qsjl] [58] [57wah] h z [zn] [lb] [ykvn] [Cjb] [hxv] [9zGC] Q [flx] e y t [dkz] [ysjl] I u [ahk] y [Gpj] [5ahk] 7 9 w w r y o [yaz] o h w r [9dk] w 5 7 
+[5pG] 8 ( Q [wsjZ] t Y I [YDGpk] I w t [(sjl] Q 5 8 [5az] 7 h w [zn] [lb] [ykvn] [Cjb] [hxv] [9zGC] Q [flx] e y t [dkz] [ysjl] I u [ahk] y [Gpj] [5ahk] 7 9 w w r y o [yaz] o h w r [9dk] w 5 7 
+[P5h] ^ 9 w [Jwdz] E y o [yhPL] o w E [J9dz] w 5 ^ [5gc] ^ * w [DZ] [YLB] [LB] [lV] [wyv(JB] [vJB] Y [cHV] [YZhv] o [Ligc] [lYDZ] [SJL] [%Hsl] 8 ( W W t Y O [sYZ] O h W t [(Dl] W % 8 
+[a%H] 7 ( W [kWDZ] r Y O [YHaz] O W r [k(DZ] W % 7 [%GC] 7 9 W [fx] [uzn] [zn] [Lb] [W0ykvn] [ukvn] [OCjb] I [Huxv] [zGC] d [Lfx] O [dkz] [6jSL] * 0 e e T u p [Sux] p j e T [0fL] e 6 * 
+[6sjx] 8 0 [flx] e e t [sjZ] u p [uflx] p e [sjZ] t 0 e [flx] 6 8 [6hv] 8 ( e [gc] [iZ] Z [zB] [qetlYV] [ilV] [pvJB] o [ijcV] [Zhv] g [gzc] i [lDZ] [^Jdz] 9 q E E y i P [$2i?] P E y q E ^ 9 
+[!^?] * q E [$E] T i P [!3i?] P E T [$q] E ^ * [!$^?] * Q E E T I P [Ix] P E x T Q E [Zn] ^ * [L6b] * Q [Lb] E T u [Vkn] I S [IJCb] S [xTHV] u [QGZC] E [L6fx] * [7kDZ] ( Q r r Y I a [@$I?] a r Y Q r 7 ( 
+[27?] 9 Q r [$r] y I a [24I?] a r y [$Q] r 7 9 [257?] 9 w r r y o a [oc] a r c y w r x 7 9 [7zn] 9 w [zn] r r y [lb] o d [olvn] d [rjcb] y [whxv] r [7gzc] 9 [8flx] 0 w t t u o s [135o] s t u w t 8 0 
+[@18] ( w t [5t] Y o s [@$1o] s t Y [5w] t 8 ( [258?] ( W t t Y O s [OC] s t C Y W t c 8 ( [8Z] ( W Z t t Y [LB] O s [lOV] s t [lV] Y W t [JCB] 8 ( [1cHV] % [cHV] [hxv] [YIDGZC] [YIDGZC] [TSLigc] 
+[tslYDZ] [tslYDZ] [ETPSJL] [WOHtsl] [WOHtsl] [QEIPGJ] [qigWOH] [qigWOH] [0wuofh] [(QYIDG] [(QYIDG] [*TSqig] [8ts(YD] [8ts(YD] [^*ETPS] [%WO8ts] [%WO8ts] [$^QEIP] [4qi%WO] [4qi%WO] [350uoWO] [@$(WYIO] [@$(WYIO] [249yiWO] 
+[3u!*WTO] [18t@WYO] [27erTO?] [!^WETO?] [6e!WTO?] [t@%WO?] [tl%(OGHV] 
+[q!T] % * [Wi] [iOS] [Og] [Og] [iS] [Wi] [qT] [Qt?] % ( [WY] [IOs] [OG] [OG] [Is] [WY] [Qt] [q!T] % * [Wi] [iOS] [Og] [Og] [iS] [Wi] [qT] [(t?] 1 % [WY] [YOs] [sH] [sH] [PD] [WY] [(t] 
+[q!T] % * [Wu] [uOS] [Of] [Of] [uS] [Wu] [qT] [Qt?] % ( [WY] [IOs] [OG] [OG] [Is] [WY] [Qt] [q!T] % * [Wu] [uOS] [Of] [Of] [uS] [Wu] [qT] [(t?] 1 % [WY] [YOs] [sH] [sH] [PD] [WY] [(t] 
+[0!T] % * [Wu] [Ous] [Of] [Of] [us] [Wu] [WT] [%0y] 7 q [Wu] [Ous] [Of] [Of] [ud] [Wu] [0y] [0T?] 3 6 [eu] * [Yps] [sj] [sj] [af] [eY] [0T] [0T?] 5 * [wu] [oTP] [fL] [fL] [Sf] [5wo] [^E?] 
+[7r?] [QYIDrk] [6e?] [QYIDrk] [%W?] [ruaWOH] [6e?] [TSeupj] [7r?] [Oruafk] [7r?] [YIDrak] 
+[%370] [ruWO] [Orua] [Hfkx] [Hfkx] [Orua] [ruWO] [%370] [@$7?] [erYI] [YIra] [jkDC] [jkDC] [Yrua] [rQYI] [@$7?] [%370] [ruWO] [Orua] [Hfkx] [Hfkx] [Orua] [ruWO] [%370] [@$7?] [rWYI] [YIra] [ZCkn] [ZCkn] [YIra] [rWYI] [@$7?] 
+[%370] [ruWO] [Orua] [Hfkx] [Hfkx] [Orua] [ruWO] [%370] [@$7?] [erYI] [YIra] [jkDC] [jkDC] [Yrua] [rQYI] [@$7?] [%370] [ruWO] [Orua] [Hfkx] [Hfkx] [Orua] [ruWO] [%370] [@$7?] [rWYI] [YIra] [ZCkn] [ZCkn] [YIra] [rWYI] [@$7?] 
+[%3790] [ruWO] [Orya] [kxHV] [kxHV] [Orya] [ruWO] [%3790] [*60] [Teup] [rYISL] [YIajb] [upSL] [Spfx] [0$^*Q] [eTIP] [uTPS] [JLCB] [JLCB] [Orya] [eTIP] [%3790] [7(Q] [YIra] [rYIDZ] [YIakn] [aIDZ] [aDGC] 
+[@$79] [rQYI] [YIra] [kDGZ] [kDGZ] [YIra] [rQYI] [@$79] [%370] [ruWO] [Orua] [Hfkx] [Hfkx] [Orua] [ruWO] [%370] [7$(Q] [YIra] [aYID] [kGZC] [kGZC] [aYID] [YIra] [7$(Q] [70%W] [Orua] [Ouaf] [kxHV] [kxHV] [Ouaf] [Orua] [70%W] 
+[*60e] [upTS] [Supf] [Ljxb] [Ljxb] [Supf] [upTS] [*60e] [6w*E] [uoTS] [Suof] [Lxv] [Lxv] [Suof] [uoTS] [6*WE] [0*ET] [Puof] [Pofh] [vCB] [vCB] [ofPH] [Puof] [0e*T] [6w*E] [uoTS] [Suof] [Lxv] [Lxv] [Suof] [uoTS] [6*WE] 
+[560w] [uETP] [uTPS] [xJLB] [xJLB] [uTPS] [uETP] [560w] [*350] [ETwo] [oETP] [JLhv] [JLhv] [oETP] [ETwo] [(wyu] [3!^*] [E0wu] [wuEO] [Jfhx] [Jfhx] [wuEO] [T0wu] [5!^?] [@$7?] [rQYI] [rQYI] [DGak] [kDGZ] [kGZC] 
+6 [(Q] [rGC] [YI] [YIsl] r [(Qak] 6 [%ak] [0W] r [uOSL] [DZ] [Oafx] [afHV] [er] [YI] [Ipa] [DG] [6tDG] [pa] ( [rYI] Q r [%r] [uO] 0 a [fTH] Y [Ouk] [Oax] 
+[6e?] [0ejTSL] [7r?] [WHrufx] [!*T] [TLeufjx] [18t] [ujxQEIGC] [7r?] [rukxWOHV] [7r?] [YIZCrajkn] [%W370ru] [OVuafxn] 
+[390u] % 7 [Oaf] [3f] % 7 [Hkx] [Hkx] f [Owaf] q u [30u] 6 8 [psf] [3f] 6 8 [jlx] [jlx] f [0psf] u [^*350u] [Pof] [0uf] [Jhx] [(YJhx] f [*TPof] u [3ru] [Oaf] 7 f [Hkx] [Wx] a [Vn] Q p [Vn] 0 x O 
+[Lex] S [fG] W a [fG] Q [Lx] p [L0x] O b ( I b * [Lx] u [H7k] 0 [af] W [af] r [Hk] [Wk] u [Vxn] O [Vxn] k [@D67k?] [aG] [epaG] [Dk] [T8jk] [ZCn] [(YZCn] [jk] 0 W r u [ruO] [Oua] [OHafkx] [afkxHV] [HVkxn] 
+[%O37uaf] [90] [WO0ra] [yu] [yu] [W0r] [90oh] [ig] [%37] [O368uaf] 0 [O0eta] u u [0et] [0uf] [368] [^*P3uof] 0 [ET0fx] u [uhDJZ] [0wE] [0SL] [35^] [%H37ak] 0 [W0r] u [3H] [Wn] [$G] [eb] [%f] [rV] 
+[*j] T [(H] [Yn] [0G] [ub] [Qf] [IV] [WD] [OC] [eS] [px] [WH70ak] r [ruO] a [aH] k [ruO] x r V [70W] [Q7e] r [Irpjb] a [aSL] [Irp] [rDZ] [Q7e] [WH0ufx] [0u] [0u] [0u] [0u] [wo] [qi] [0u] 
+[3680etu] [tup] [ups] [fjlx] [fjlx] [ups] [tup] [etu] [370r%WO] [0u] [0u] [0u] [0u] [wo] [qi] [0u] [3680etu] [tup] [upsf] [lxb] [lxb] [upsf] [tup] [3680etu] [370r%WO] [0u] [0u] [0u] [0u] [wo] [qi] [0u] 
+[3680etu] [tup] [psfj] [lxb] [lxb] [psfj] [tup] [*360] [3680] [Teup] [sfjl] [fjxb] [fjlxb] [sfjl] [Teup] [3680] [3680] [Teup] [sfjl] [sfjlxb] [sfjlxb] [sfjl] [Teup] [3680] [370] [Wr] [Oua] [HVkxn] 3 ( Q r [YIa] [ZCkn] 
+3 * 0 e [Tup] [Ljxb] 3 7 ( W [rYO] [kHZV] 3 6 * Q Q [jGLC] [%37] 0 0 [Hfkx] [$368] ( [Qet] [DGZ] [DGl] [Qet] ( [368] [%37] 0 [Wr] [Hafk] [3(] Q r [DGak] 
+[3*] 0 e [Spfj] [37] ( W [aODH] [36] * Q [pISG] [3%] 7 0 [Ouaf] [$36] 8 Q [YID] [YIs] Q 8 [$36] [3%] [%7] [70] [0W] [Wr] [ru] [uO] [Oa] 
+[47r] 6 [Yp] [4a] 6 [Dj] k [Dj] [8a] [Yp] [37r] % [uO] [3a] % [fH] k [kWV] ? @ $ 7 [L7b] ( Q r [erSL] [7Q] [67DZ] [$?] [*35fhx?] [ESuoxv] 
+[3580wtu?] [Euosxv] [48qeti?] [etiscb] 
+[@$(Q7r?] [YIZCrpakn] [!%W30r] [0rkxWOHV] [0rkxWOHV]  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
