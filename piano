@@ -2140,7 +2140,7 @@ Section:NewButton("prelude", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 100 -- tempo overides the delay
+shared.tempo = 126 -- tempo overides the delay
  
 shared.scr = [[ [tYW] OoO s Y O [wYE] POP S Y P s Ww[sWHD] t ( [sWD] [SP] EW[hE] T ( [hSPE] [OHD] tE[tD] Y W [tPD] [qOD] Hh[iH] g s D [SP] EW[HE] T w [SOE] [oS(] JH[YJ] h S [oSJ] [sO] WwWD[tg]h[qH]g[dW]g[P9] wqwd[ED]g[h(]D[ws]D[O8]P[qo][P(][qO]s[dW]D[g9]d[qP]d[o^]O[i(][O9][o(]P[ws]d[D8]s[O(]s[i%]D[qd][D(][qO]D[dW]D[i9]D[qd]D[o^]D[wd][qD][wP]D[dE]D[o(]D[wd]D[O8]D[WS][wD][sW]D[tP]D[qO]D[oW]D[i9]D[qo]D[^O]d[D9]g[o(]P[O8]s[P5]D[d4]s[P5]O[P%]s[yo^]ioi YY (9[oPD(] w ^ [oP(] [iO] q([qd] W ^ [qidO] [woYPD] YyY [o(]q[wE]q[wY](E [i^]Yi [^O]8[E9]8[i9]^[o(] [P@]OP [TD]t[oE]t[WP]E[wY]W[qo][wi][o(]q[P]([Y8][o^]8[t%] YTY [OG]g[tD]g[YS]D[sW]S[tP][sE][tO]P[YI]O[iW]I[tY]i[qT] SsSW[gE]t[TP]E[wS]E[o(] sPsw[WD]E[tO]W[sq]W[i]([P8][O(][P]q[wS]W[oE]w[P(]w[Y8][^O][o][O8]([sq]w[iW]q[O]q[^T]W[wP][WO][P]W[wS]W[o^]W[wP]W[Y8]W[ws][WP][s(]W[wD]W[O8]W[ws]W[i]W[SQ][sW][qS]W[g(]W[P]W[S8]W[o^][P8]([Y]q[o(][O8](q(o[qO][P][so(]PsP[s]PsP( [O@] [O%] DS[WD] s o P [iO]POq([qD] W I[qi]Y[^T] Ss[WS] P i O [oY]Oo([S(] w 8i[Y(]T[t%][sW][wP][sW][qO][sW][o(][sW][i][sW][Y8][sW][^T][SE][sW][SE][wP][SE][qO][SE][o(][SE][i][SE][Y8] [tP]OPOoO [sq]w[iW]w[WO]q[SE] [^O]oOoio [P(]q[wY]q[wo]([sW] [iTO*] [YOE(] * [o(] @ [tYO%] ]]
  
