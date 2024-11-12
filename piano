@@ -411,7 +411,7 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 80 -- tempo overides the delay
  
-shared.scr = [[ [3D] 3 [0D] 7 [@D] @ [(D] ^ 
+shared.scr = [[ [3D?] 3 [0D] 7 [@D?] @ [(D] ^ 
 [a%OD] ( [WS] [Ya] [Oa] S D D 
 [!OS] % a * P [@a] ^ ( a a 
 [%G] ( f W f [a$D] * [(QES] 
@@ -448,7 +448,7 @@ O O O I a O
 [%Z] ( [WL] [Yk] [Ok] L Z Z 
 [!L] % k * J [@k] ^ ( k 
 [%L] [(Z] [WL] Z [$L] * [(QEk] 
-[3D] 3 [0D] 7 [@D] @ [(D] ^ 
+[3D?] 3 [0D] 7 [@D?] @ [(D] ^ 
 [a%OD] ( [WS] [Ya] [Oa] S D D 
 [!OS] % a * P [@a] ^ ( a a 
 [%G] ( f W f [a$D] * [(QES] 
@@ -456,7 +456,7 @@ O O O I a O
 [%D] ( [WS] [Ya] [Oa] S D D 
 [!S] % a * P [@a] ^ ( a 
 [%S] D [%S] D [$S] [$a] 
-[%O]  ]]
+[%O]   ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
