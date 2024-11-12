@@ -2073,45 +2073,137 @@ a ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Me n my cup", "Auto", function()
+Section:NewButton("toxic", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 140 -- tempo overides the delay
+shared.tempo = 180 -- tempo overides the delay
  
-shared.scr = [[ [30T] [0!W] [Qe] [0W] [7] 3 [%W] [!3e] 
-[3!WT] [3!] 0 r [!$e] [3] [0$W] [3(] 
-[30T] [0!W] [Qe] [0W] [7] 3 [%W] [!3e] 
-[3!WT] [3!] 0 r [!$e] [3] [0$W] [3(] 
-[30T] [0!W] [Qe] [0W] [7] 3 [%W] [!3e] 
-[3!WT] [3!] 0 r [!$e] [3] [0$W] [3(] 
-[30T] [0!W] [Qe] [0W] [7] 3 [%W] [!3e] 
-[3!WT] [3!] 0 r [!$e] [3] [0$W] [3(]-
-b V b j H G j 
-H G H O y T O T-
-b V b j H G j 
-H G H W 9 * W -
-b V b j H G j 
-H G H O y T O T-
-b V b j H G j 
-H G H W 9 W -
-b V b j H G j 
-H G H O y T O T-
-b V b j H G j 
-H G H W 9 W -
-b V b j H G j 
-H G H O y T O T-
-b V b j H G j 
-H G H W 9 W * 
-[30T] [0!W] [Qe] [0W] [7] 3 [%W] [!3e] 
-[3!WT] [3!] 0 r [!$e] [3] [0$W] [3(] 
-[30T] [0!W] [Qe] [0W] [7] 3 [%W] [!3e] 
-[3!WT] [3!] 0 r [!$e] [3] [0$W] [3(] 
-[30T] [0!W] [Qe] [0W] [7] 3 [%W] [!3e] 
-[3!WT] [3!] 0 r [!$e] [3] [0$W] [3(] 
-[30T] [0!W] [Qe] [0W] [7] 3 [%W] [!3e] 
-[3!WT] [3!] 0 r [!$e] [3] [0$W] [3(] ]]
+shared.scr = [[ P P P P 
+[%a] [WO] [rD] D 
+[$S] [Qa] [EP] P 
+[3a] [0O] [WP] a 
+[@P] [(O] [5o] [(o] 
+[%O] [WO] [rD] D D 
+[$S] [Qa] [EP] P 
+[3a] [0O] [WP] a 
+[@P] [(a] [5P] [(a] 
+[0rWO] [W0r] a [0rWG] G [W0r] H 
+[(Qr] [r(QD] [r(QD] D [(Qr] S 
+[w(E] [w(ED] S [w(ED] S [w(ED] S 
+[rWYD] S [rWYD] S [QETD] S [QETD] S 
+[W0r] a [W0r] a [0rWG] G [W0r] H 
+[(Qr] [r(QD] D [(Qr] D [(Qr] S 
+[w(E] [w(ED] S [w(ED] S [w(ED] S 
+[rWYD] S [rWYD] S [QETD] S [QETD] S 
+[W0r] [W0ra] [0rWI] [0rWD] S 
+[(Qr] a [(Qr] [(Qrf] [r(QD] S 
+[w(E] [(Ewa] S [w(E] a [w(E] f 
+[rWY] D [rWY] [QETS] [QETa] 
+[0rWO] [0rWD] S [W0r] a [W0r] 
+[r(QI] [r(QD] S [(Qr] a [(Qr] 
+[(Ewf] [w(ED] [w(E] [w(E] 
+[5wh] [@(] [!*] [7?] 
+[WOa] Y [Oa] 
+D H k Z 
+[QIP] T [IP] J 
+J k J k 
+[H0kx] f [Hkx] 
+[Oua] [GC] [fx] [DZ] 
+r D [kZ] [ak] 
+[oEYPJ] [ak] [PJ] [ak] 
+[%Oa] [(Y] [WOa] r 
+[YD] H k Z r W r 
+[$IP] [*T] [QIP] [EPJ] 
+[TPJ] [Eak] [QPJ] [Eak] 
+[3f] H k x 7 0 W 
+r [WGC] [0fx] [WDZ] 
+7 Q r [Yak] 
+[5PJ] [(ak] [wPJ] [Eak] 
+[%WOH] O D D D 
+[rWYS] a a D D D 
+[$QS] a a D D D 
+[QETD] D D D D D 
+[30S] a D D D 
+[0rWS] a a D D D 
+[7S?] a a D D D 
+[@(D] D D [5wD] D D 
+[%WS] ( a [rD] D D 
+[rWYS] a a D D D 
+[$QS] a * a [ED] D D 
+[QETD] D D D D D 
+[30S] 7 a [WD] D D 
+[0rWD] a D D D 
+[7rD] Q a [YD] D D 
+[5wYD] [YD] [@(YD] [!*YD] [YD] [7YD?] 
+[0rWO] [W0r] a [0rWG] G [W0r] H 
+[(Qr] [r(QD] [r(QD] D [(Qr] S 
+[w(E] [w(ED] S [w(ED] S [w(ED] S 
+[rWYD] S [rWYD] S [QETD] S [QETD] S 
+[W0r] a [W0r] a [0rWG] G [W0r] H 
+[(Qr] [r(QD] D [(Qr] D [(Qr] S 
+[w(E] [w(ED] S [w(ED] S [w(ED] S 
+[rWYD] S [rWYD] S [QETD] S [QETD] S 
+[W0r] [W0ra] [0rWI] [0rWD] S 
+[(Qr] a [(Qr] [(Qrf] [r(QD] S 
+[w(E] [(Ewa] S [w(E] a [w(E] f 
+[rWY] D [rWY] [QETS] [QETa] 
+[0rWO] [0rWD] S [W0r] a [W0r] 
+[r(QI] [r(QD] S [(Qr] a [(Qr] 
+[(Ewf] [w(ED] [w(E] [w(E] 
+[5wh] [@(] [!*] [7?] 
+% [(Y] [WT] [(Y] 
+[rI] [(Y] [WT] [(r] 
+$ [(Y] [QT] [(Y] 
+[wo] ( O * [7Y] 
+3 [7Y] [0T] [7Y] 
+[WI] [7Y] [0T] [7r] 
+[7T] [QY] [rY] [QY] 
+[^Y] ( Y w [(Y] 
+% [(YD] [WTS] [(YD] 
+[rIG] [(YD] [WTS] [(ra] 
+$ [(YD] [QTS] [(YD] 
+[woh] ( [OH] * [7YD] 
+3 [7YD] [0TS] [7YD] 
+[WIG] [7YD] [0TS] [7ra] 
+[7TS] [QYD] [rTS] [QYD] 
+[^YD] ( [YD] w [EYD] 
+[HV] [GC] 
+[SL] [ak] 
+[Ouafx] k C C V 
+[YIa] Z Z Z L 
+[oYP] Z L Z L Z L 
+[aODZ] L Z L [IPSZ] L Z L 
+[Oua] k k C C V 
+[YIa] Z Z Z L 
+[oYP] Z L Z L Z L 
+[aODZ] L Z L [IPSZ] L Z L 
+[Oua] k [uaOG] Z L 
+[YIa] k [YIax] Z L 
+[oYP] k L [oYP] k x 
+[aOD] Z [IPSL] k 
+[uaOH] Z L [Oua] k 
+[aYIG] Z L [YIa] k 
+[YPofx] [YDZ] Y Y 
+[wohv] [(Y] [*T] [7r] 
+[W0rfx] [W0r] a [0rWG] G [W0r] H 
+[(Qr] [r(QD] [r(QD] D [(Qr] S 
+[w(E] [w(ED] S [w(ED] S [w(ED] S 
+[rWYD] S [rWYD] S [QETD] S [QETD] S 
+[W0r] a [W0r] a [0rWG] G [W0r] H 
+[(Qr] [r(QD] D [(Qr] D [(Qr] S 
+[w(E] [w(ED] S [w(ED] S [w(ED] S 
+[rWYD] S [rWYD] S [QETD] S [QETD] S 
+[W0r] [W0ra] [0rWI] [0rWD] S 
+[(Qr] a [(Qr] [(Qrf] [r(QD] S 
+[w(E] [(Ewa] S [w(E] a [w(E] f 
+[rWY] D [rWY] [QETS] [QETa] 
+[0rWO] [0rWD] S [W0r] a [W0r] 
+[r(QI] [r(QD] S [(Qr] a [(Qr] 
+[(Ewf] [w(ED] [w(E] [w(E] 
+[5wh] [@(] [!*] [7?] 
+[YH] [Ok] a  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
