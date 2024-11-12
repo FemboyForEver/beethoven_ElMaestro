@@ -338,7 +338,7 @@ Section:NewButton("given", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 80 -- tempo overides the delay
+shared.tempo = 60 -- tempo overides the delay
  
 shared.scr = [[ [Etyig] [Ewtuf] [Ewt] [Tweuf] g 
 [eyih] t [wryig] [wyi] d f 
