@@ -374,9 +374,9 @@ q i [5e] [ip] 9 E [qw] t [Ei] P P s [qw] s
 e [yd] E 6 [us] w g [etu] g w o h [etu] [pdh] 
 [os] g [tp] f g o g ^ [pj] q h [tyi] d ^ 7 p 
 e d [yi] [pf] g 7 [osg] 8 w [tu] 1 f [od] f 
-6 w [eyu] 6 [Tei] [Teo] J ^ [dj] q [ey] p c 
-^ x l w h j [uo] [sh] g f g 6 f 0 [osh] [osh] [wtu] [osh] 
-[psj] [usf] [29] [odh] e [pg] [qtu] p i 5 [Pg] 9 s 
+[6?] w [eyu] ? [Tei] [Teo] J [^?] [dj] q [ey] p c 
+[^?] x l w h j [uo] [sh] g f g [6?] f 0 [osh] [osh] [wtu] [osh] 
+[psj] [usf] [29] [odh] e [pg] [qtu] p i [5?] [Pg] 9 s 
 [qeE] [yd] f g [18P] h w [Eyu] g h 4 [pfj] 8 
 [we] [tu] o [we] [ps] l c v b [Pdj] B 
 v c v [Pfh] c x c v [psh] b 
@@ -386,12 +386,12 @@ x z c [psfg] l s c v b [Pipd] [jz] B
 p v c v [Puos] [hl] c x c v [opg] [hL] b 
 c x c [uoP] [gj] j z x c w [gJ] E v 
 [yi] x z x 8 [shJ] w [Eu] c 4 [Jgc] 8 s 
-[Ewt] i 8 o 4 [ip] 8 [os] 6 [ipg] s j ^ [pdgj] 9 p d 
-[qey] d j ^ [dj] 0 o [wtu] h h 6 [fh] 6 u s 
-[0wt] s [up] h 2 [dh] 6 i q [pg] t g 5 [Pog] 5 P 
+[Ewt] i 8 o 4 [ip] 8 [os] ? [ipg] s j ? [pdgj] 9 p d 
+[qey] d j ? [dj] 0 o [wtu] h h ? [fh] 6 u s 
+[0wt] s [up] h 2 [dh] 6 i q [pg] t g ? [Pog] 5 P 
 [wE] [yP] 9 g 1 [of] 5 [pg] [E0u] [Ph] g 1 [PDh] 5 9 ( g 
-w [Ph] ( w E g 4 [Dph] 8 ( E j 4 [Dpj] i w t e 7 [gj] 7 p d 
-[qey] d 7 j ^ [fj] ^ s [Ewu] h h 6 [odh] 6 w y S 
+w [Ph] ( w E g 4 [Dph] 8 ( E j ? [Dpj] i w t e ? [gj] 7 p d 
+[qey] d 7 j ? [fj] ^ s [Ewu] h h ? [odh] 6 w y S 
 0 [oTS] 6 e [up] h 2 [pdh] 6 i q [pg] T g 5 [Pog] [9e] 
 [Ey] [et] h d 1 [qE] w [80] [Ey] u [fx] i [gc] c 
 [Ety] g [Ewt] f [Ewt] 
@@ -399,7 +399,7 @@ w [Ph] ( w E g 4 [Dph] 8 ( E j 4 [Dpj] i w t e 7 [gj] 7 p d
 z x 5 [Jc] z [Eey] J c 6 [lv] 0 x 
 [wtu] l v ^ [zb] q [eyp] 8 c w z 
 u c o [lv] l [jb] 
-[Etuop] b   ]]
+[Etuop] b    ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
