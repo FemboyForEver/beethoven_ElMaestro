@@ -409,7 +409,7 @@ Section:NewButton("touch you yarichin b club", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 110 -- tempo overides the delay
+shared.tempo = 80 -- tempo overides the delay
  
 shared.scr = [[ [3D] 3 [0D] 7 [@D] @ [(D] ^ 
 [a%OD] ( [WS] [Ya] [Oa] S D D 
