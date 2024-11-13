@@ -76,9 +76,96 @@ Section:NewButton("eminen mokingbird", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 85 -- tempo overides the delay
  
-shared.scr = [[  ]]
+shared.scr = [[ [6eu] s s [4qi] s a a|
+[5wyoa]||[6etup]| |
+[6eup] 0 e [4qy]| |
+[5wry]||[6etu]| |
+[6eu] s s [4qs]ds a a|
+[5wyoa]||[6etup]| |
+[6eup] 0 [eu] [4qy]||t|
+[5wry]| tr[60e]||ppp
+[6u]s[0s]d[es] 4sa[8u]s[qs]d[es] [qs]aa
+5sa[9a]a[wa]a[6a]a[0a]a[ea]s[tp] [ep]p
+[6a]s[0p] [ep]p[4a]s[8p] [qp]p[ea]s[qp]
+[5a]a[9a]a[wa]s[6p] [0a]a[ea] a[ta]s[ep]
+[6a]s[0p] [ea]s[4d] [8a]a[qa]a[ea]s[qp]
+[5a]s[9p] [wa]s[6p] [0a]a[es]s[ta]s[ep]
+[6a]s[0p]p[ea]a[4p]p[8a]a[qp]p[ea]p[qa]p
+[5d]a[9a]a[ws]p[6p]a[0s]p[ep]p[ta]s[ep]p
+[6s] [0a]a[ea]s[4p] [8a]s[qa] [ea]s[qp]
+[5a]s[9p] [wa]s[6p] [0s]a[ea]a[ta]s[ep]
+[6a]s[0p]p[ea]s[4p] [8d]s[qa]a[ea]s[qp]
+[5a]a[9a]a[wa]s[6d] [0s]s[es]s[ts]d[ef] s
+[6f]d[0a]a[ea]s[4p]p[8a]a[qa]s[ep]p[qa]a
+[5a]a[9a]s[wp]p[6p]a[0a]a[ea]s[tp] [ea]s
+[6p] [0a]s[ep]p[4a]a[8a]a[qa]s[ep] [qa]a
+[5a]d[9p]p[wp]p[6a]a[0a]a[ea]s[tp]p[ef]d
+[6a]a[0a]s[ep]p[4p] [8a]a[qa]s[ep]p[qp]p
+[5a]a[9a]s[wp]p[6p]a[0a]a[ea]s[tp]p[ep]a
+[6a]a[0a]s[ep] [4p]p[8a]a[qa]a[ea]s[qa]s
+[5p]p[9p]p[wa]a[6a]s[0p]p[ep]p[ta]a[ea]s
+[6p] [0p]p[ea]a[4a]s[8p]p[qp] p[ea]a[qa]a
+[5a]a[9a]s[wp]p[6p]p[0a]a[ea]s[tp]pe
+6p[0a]s[ep]p[4a]a[8a]a[qa]s[ep] [qp]p
+[5a]a[9a]s[wp]p[6p]p[0a]a[ea]s[tp] [eu]
+[6es] [0s]s[es] [4qd] [8s] [qa] [ea] [qu]u
+[5wa] [9a]a[ws]a[6ep] 0 [eu]u[tu]u[eu]u
+[6ep] [0u]t[ey] [4qu]t[8y] [qu] [eu]u[qu]t
+[5wy] [9u] [wt]r[6e] 0 [eu]u[tu]u[eu]
+[6eu] [0s] [es] [4qs]d[8s] [qa] [ea] qu
+[5wa] [9a]a[ws]a[6ep] 0 [eu]u[tu]u[eu]u
+[6ep] [0u] [eu]t[4qy] [8u] [qu]t[ey] [qu]
+[5wy] [9u]y[wt]r[6e] 0pep[ts]pe
+[6u]a[0a]a[es]p[4p]p[8a]a[qa]s[ep]p[qp]p
+[5a]a[9s]p[wp]p[6p]a[0a]a[ea]s[tp]p[ep]p
+[6a]a[0a]s[ep]p4p[8a]a[qa]s[ep]p[qp]a
+[5a]a[9a]a[wp]p[6p]p[0a]a[ea]s[tp]p[ep]a
+[6a]a[0a]s[ed] 4a[8s]a[qa]s[ed] a[qa]a
+[5a]a[9a]a[ws]p[6p]p[0p]p[ep]a[ts] p[ep]p
+[6a] 0 [ea]a[4s]p[8p]s[qp]p[ep]a[qa]s
+[5a]a[9s]p[wa]s6p[0s]a[ep]a[ts] [ep]p
+[6s] 0p[ep]p[4a]a[8a]a[qa]s[ep] [qp]p
+[5a]a[9a]s[wp]p[6p]p[0a]a[ea]s[tp]p[ep]p
+[6a]a[0a]s[ep]p4 [8s]p[qp]p[ep]p[qa]p
+[5s]p[9p]p[wa]s[6p]p[0a]a[ea]s[tp] epp
+[6a]a[0a]s[ep] [4p]p[8a]a[qa]a[es]pq
+[5s]p[9p]p[ws]a[6p]a[0s] ep[tp]p[ep]p
+[6p]p[0s]a[ep]a[4s] [8s]a[qp]a[es] [qp]p
+[5a]a[9a]pp[wa]a[6a]p[0a]a[ea]p[ts] [ep]p
+[6a]a[0a]s[ep]p[4p]p[8a]a[qa]a[es]p[qp]p
+[5a]s[9p] [wp]p[6a]a[0a]a[ea]p[ts]pep
+[6a]a[0a]s[ep] [4p]p[8a]a[qa]s[ep]p[qp]p
+[5s]a[9p]a[ws]a[6p]a[0s] [ep]p[ts]a[ep]a
+[6s]p0 s[ep]a[4s]p[8p]p[qa]a[ea]s[qp]p
+[5a]a[9a]a[wa]s[6p] [0a]a[ea]a[ta]s[ep]p
+[6p]p[0s]a[ep]a[4s]p[8p]p[qa]a[ea]s[qp]p
+[5p]a[9s]a[wp]a[6s]a[0p]a[es]a[tp]a[ep]p
+[6a]a[0a]s[ep]p[4p]p[8a]a[qa]s[ep] q
+[5p]p[9s]s[wp]p[6a]s[0p] ep[ta]s[ep]p
+[6p]s[0a]p[ea]s[4a]p[8a]a[qa]s[ep] p[qp]p
+[5a]a[9a]s[wp]p[6p]p[0a]a[ea]s[tp] e
+6 [0s] [ep]p[4a]s[8p]pq [ep]a[qa]s
+[5p] [9s]ap[wp]p[6a]s[0p] e [ta]aes
+[6p] 0pp[ep]a[4s]p[8a] [qp]p[ep]a[qs]p
+[5a]s9 [ws]p[6p]p[0a] a[ep]s[tp] [eu]
+[6es] [0s]s[es] [4qd] [8s] [qa] [ea] [qu]u
+[5wa] [9a]a[ws]a[6ep] 0 [eu]u[tu]u[eu]u
+[6ep] [0u]t[ey] [4qu]t[8y] [qu] [eu]u[qu]t
+[5wy] [9u] [wt]r[6e] 0 [eu]u[tu]u[eu]
+[6eu] [0s] [es] [4qs]d[8s] [qa] [ea] qu
+[5wa] [9a]a[ws]a[6ep] 0 [eu]u[tu]u[eu]u
+[6ep] [0u] [eu]t[4qy] [8u] [qu]t[ey] [qu]
+[5wy] [9u]y[wt]r[6e] 0 [ef]f[tf] [ek]l
+[6esf]l[tl]l[ul] [4ql]z[el] [tk] [ik] t
+[5wdhk] [rk]k[yl]k[6esfj] t [uf]f[pf]f[uf]f
+[6esfj] [tf]f[uf]s[4qd] [ef]f[tf]s[id] [tf]
+[5wad] [rf]f[ys]a[6eup] t uf[pf]f[uf]f
+[6esf] [tfjl] [ufjl] [4ql]z[el] [tk] [ik] [tf]f
+[5wdhk] [rdhk] [yl]k[6esfj] t [uf]f[pf] [uf]f
+[6esfj] [tf]f[uf]s[4qd] [ef] [tf]f[if]f[tf]f
+[5wad] [rf]f[ys]a[6eup] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
