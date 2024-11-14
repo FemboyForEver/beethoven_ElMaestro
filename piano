@@ -4187,12 +4187,12 @@ shared.scr = [[ [$ETI]-[ET] [ET] [ETI] T E T
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("wa clylce", "Auto", function()
+Section:NewButton("wa clycle", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 136 -- tempo overides the delay
+shared.tempo = 60 -- tempo overides the delay
  
 shared.scr = [[ [jb]|[nk]|[qmlcb] t i o p i [tmlcb] q [xnk0] r [mlO] r [cbW] u [xva] u e u p a s p [xvu] e [zwc] y [xoml] p [znka] [xml] q t i o p i [tjb] q [kVH0] r O r [kWVH] u [ljba] u e u p a s p u t [pje] 6 e 0 [ka3] 7 w 7 [sljg4] 8 q w e q [sl8] 4 [kda3] 7 [slfW] 7 [jgc%] 0 [xrhf] 0 6 0 e r t e [xhf0] 6 [zgd5] 9 [wslf] e [rkda] [slf] 4 [kda8] [sqpj] w e [spj] [spj] [aOH3] 7 [pjW] 7 [ka%] 0 [rka] 0 [spj6] 0 e r t y u o p| |[u81] y [wu80] i u [w80]|[w80] [y7] y [t6] y 6 [te0] y [te] r e 0 [w5] w [e4] e 4 [q8] 4 t t [r5] w 5 [wi9] 5 [wu] [81] o 8 [wtsf] o 8 [ywsg] o 8 [wusf] [oh] [pj%] [OH0] [rpj] [OH] [pj] 3 [ka7] W [ka] [slf6] [kfa0] [tslf] [zd] [sl$] [ka] [pj9] e [pj] [pj] [oh4] 8 [qoh] w e t [ohe] w [sql] [toh] e [sql] 4 [zqhd] 8 [zhd5] 9 w 9 7 5 5 5 [pj5]|[ka3]|[slhf4] 4 q [tpe] q [slf8] 4 [kda3] [sl0] r [ugc] [xf%] 6 6 e [uts] e [sl0] 6 [zd5] [sl5] 9 [wka] e [srlf] 4 4 q [tpe] q [pj8] 4 [aOH3] [pj3] 7 [kaW] [ka%] [pj6] 6 e [uts] e 0 8 [pj6] e 0 8 [ka6] 6 6 3 [slhf4] 4 q [tpe] q [sl8] 4 [ka3] [sl3] 7 [gc0] [xf%] 6 6 e [uts] e [xf0] 8 [zhd5] [slh5] 9 [wka] e [srlf] 4 [ka] [pj4] 8 [tqe] e [qpj] [aOH3] 3 7 [aWOH] [pj%] 6 6 e [uts] e 0 6 [pje] 0 8 [ka5]|[slf4] 4 q [tse] q [ts8] 6 [ra3] [ts3] 7 [ig%] [uf3] 6 6 e [ut] e [uf0] 8 [yd5] [ts5] 9 [wra] 9 [uts7] 4 4 q [te] q [pe8] 4 [rWO3] [pe3] 7 [ra0] [73] [ra%] 3 [pe6] 6 e t e 0 6 [pje6] 0 8 6 [ka5] 9 [sljg4] 4 q [te] q [sl8] 4 [kfa3] [sl0] r [ugc] [xf%] [xhf6] 6 e [uts] e [xf6] e [zhd5] [sl5] 9 [wka] e [srlf] 4 [kfa] [pj4] q e q [pj8] 4 [aOH3] 0 r [uaOH] [spj%] [spj6] 6 e [uts] e 0 6 [yod7] 7 [ywrod]|[u81] y [wu8] i u w|w [y7] [t6] y 6 [te0] y [t0] r e 0 [w5] w [e4] e [q4] t t [r5] w [y95]|[wti1]|1 5 t i o s g h l c v m c v m b|[xvsmhf]  ]]
  
