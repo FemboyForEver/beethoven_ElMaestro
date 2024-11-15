@@ -2506,26 +2506,106 @@ i--o--O-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("la seine", "Auto", function()
+Section:NewButton("Je Te Laisserais Des Mots", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 120 -- tempo overides the delay
  
-shared.scr = [[ [^e] [6e] [^e] [8t] 9 y 9yy
-y9 y 9yyy9 y 9yy
-y[^e] [6e] [^e] [8t] 9 e 9e 
-e[9i]-9 8 ^ e ^e 
-e[^i]-^ 6 [4t] t 4-
-[6t] t 6-[^y] y ^te 
-4-4 3 9 e 9e 
-e[9i]-9 8 ^ ee^e 
-e[^i]-^ 6 [4t] t 4-
-[6t] t 6-[^y] y ^te 
-4-[4i] [3u] y e e y--
-i u e q q e--
-i u-t t ]]
+shared.scr = [[ [4p]|[8e]|[8e] o
+[8i]|[qe]|[qe] y
+[4t]|[8e]|[8e]|
+[8p]|[qed]|[qes] a
+[4s]|[8e]|[8e]|
+8|[qe]|[qe]|
+4|[8e]|[8e]|
+[8p]|[qed]|[qea]|
+[6s]|[0t]|[0ta] s
+[5a]|[9r]|[9r] p
+[4a] p [8e]|[8e]|
+[4p]|[8ed]|5 p
+[6s]|[0t]|[0ta] s
+[5a]|[9r]|[9r] p
+[4a] p [8e]|[8e]|
+[4p]|[8es]|[5d]|
+[6f]|[0t]|[0td] s
+[5d] f [9rd]|[9rs]|
+[4d] s [8e]|[8e]|
+4|[8es]|[8e] d
+[1s]|[50]|[50]|
+5|[0w]|[0w]|
+3|[7W]|[7W]|
+4|[8e]|[8e]|
+[6eo] [tu] [80eo] [tu] [80eo] [tu]
+[5wo] [ru] [70wo] [tu] [70wo] [tu]
+[4eo] [tu] [80eo] [tu] [80eo] [tu]
+[4wo] [ru] [80wo] [tu] [80wo] [tu]
+[6eo] [tu] [80eo] [tu] [80eo] [tu]
+[5wo] [ru] [70wo] [tu] [70wo] [tu]
+[4eo] [tu] [80eo] [tu] [80eo] [tu]
+[4wo] [ru] [80wo] [tu] [80wo] [tu]
+[1wo] [tu] [580wo] [tu] [580wo] [tu]
+[1wo] [tu] [580wo] [tu] [580wo] [tu]
+[3WO] [tu] [70%WO] [tu] [70%WO] [tu]
+[4wp] [ti] [68qwp] [ti] [68qwp] [ti]
+6|[etu]||
+5|[wry]||
+4|[qet]||
+4|[qet]|5|
+[180w]|||
+[W30r]|||
+i o
+[4p]|[8e]|[8e] o
+[8i]|[qe]|[qe] y
+[4t]|[8e]|[8e]|
+[8p]|[qed]|[qes] a
+[4s]|[8e]|[8e]|
+8|[qe]|[qe]|
+4|[8e]|[8e]|
+[8p]|[qed]|[qes] a
+[6s]|[0t]|[0ta] s
+[5a]|[9r]|[9r] p
+[4a] p [8e]|[8e]|
+[4p]|[8ed]|5 d
+[6d]|[0t]|[0td] s
+[5d]|[9r]|[9r] d
+4|[8e]|[8e]|
+[4p]|[8es]|[5d]|
+[6f]|[0t]|[0t] d
+5 d [9r] d [9r] s
+[4d]|[8e]|[8e]|
+[4p] s [8e] d [8e] s
+[6f]|[0t]|[0t] d
+5 d [9r] d [9r] s
+[4d]|[8e]|[8e]|
+p d f d|s
+1|[50]|[50]|
+5|[0ws]|[0ws] a
+3|[7W]|[W7s]|
+4|[8ed] f [8ed]|
+1 s [50d] s [50]|
+5|[0ws]|[0ws] d
+[3d]|[7W] d [7W]|
+[4d]|[8ed] f [8ed]|
+1 s [50d] s [50]|
+5|[0ws]|[0ws] a
+[3d]|[7W] d [7W]|
+[4d]|[8ed] f [8ed]|
+1 s [50d] s [50]|
+5|[0ws]|[0ws] a
+3|[7W]|[7W]|
+[4s]|[8e]|[8e]|
+[6eo] [tu] [80eo] [tu] [80eo] [tu]
+[5wo] [ru] [70wo] [tu] [70wo] [tu]
+[4eo] [tu] [80eo] [tu] [80eo] [tu]
+[4wo] [ru] [80wo] [tu] [80wo] [tu]
+[6eo] [tu] [80eo] [tu] [80eo] [tu]
+[5wo] [ru] [70wo] [tu] [70wo] [tu]
+[4eo] [tu] [80eo] [tu] [80eo] [tu]
+[4wo] [ru] [80wo] [tu] [80wo] [tu]
+[180w]|||
+[W30r] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
