@@ -5755,8 +5755,8 @@ Section:NewButton("Rick Astley- Never Gonna Give You Up", "Auto", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = 100 -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 120 -- tempo overides the delay
 
 shared.scr = [[ [SQP*$] [sWD(%]       %   [W(%]       % [sWD(%] [qg^SE]       ^ 
  [q^HE]       G    [g^]       D [SQP*$] [sWD(%]       %   [W(%] 
