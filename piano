@@ -2037,21 +2037,97 @@ $ [(YD] [QTS] [(YD]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("i play pokemon go", "Auto", function()
+Section:NewButton("WOLF AND RABBIT", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 120 -- tempo overides the delay
+shared.tempo = 100 -- tempo overides the delay
  
-shared.scr = [[ [4s] 4 [4s] 4 [1P] [1p] [1o] 1 
-[2i] 2 [2o] [2p] [^d] [^P] ^ ^ 
-[8s] 8 [8s] 8 [8P] [8p] [8o] 8 
-i4 4 4 4 4 4 4 4
-[4s] 4 [4s] 4 [1P] [1p] [1o] 1 
-[2i] 2 [2o] [2p] [^d] [^P] ^ ^ 
-[8s] 8 [8s] 8 [8P] [8p] [8o] 8 
-i4 4 4 4 4 4 4 4 ]]
+shared.scr = [[ 2| [utqe]| |
+5| [utqe]| |
+1| [ywr0]| |
+[ywr90]| 8| 7|
+2| [tqe0]| 9|
+5| [utqe]| |
+1| [uoa]| o|
+[wur]| 8| 1|
+5| [yqE]| |
+1| [yE0]| u|
+4| [te0]| e|
+[t^W0]| 9| 8|
+[wti5]|||[tsh0]| |
+[tsqh]| |[ywsh]|||
+[tsh0]| |[tqhd]| |
+[ywsh]| |a| |
+[tsh0]| o| s|
+[tsqh]||a p|
+[ywsoh]| |a| |
+[tsh0]| o| s|
+[tsqh]||a s|
+[ywshd]| |a| |
+[tsh0]| s| h|
+[tsqh]||g f|
+[ywshd]| |[uaW]| |
+[ka]| [sl]| [zd]|
+[xf5]| [utqe]| [spf]|||
+5| [ywr0]| [oda]| |[zd]| [vh]| [sl5]| [utqe]| [spf]|||
+5| [ywr0]| [oda]| [ka]| [sl]| [zd]| [xf5]| [utqe]| [spf]|||
+5| [ywr0]| [oda]| |[zd]| [vh]| [sl5]| [utqe]| [spf]|||
+[spif]| [uoda]| |[utspi]|||
+[uo80]| w| t| [70]| [wp]| [ra]|
+[us60]| w| e| [a50]| w| [rp]|
+[oe84]| [qi]| [ue]| [83]| [o0]| [wi]|
+[ie82]| 9| w| [ro75]| [tp0]| [ywa]|
+[ud51]| [s8]| [a0]| [3%]| [s0]| [yrO]|
+[ya84]| [tqp]| [re]| [t9$]| Q| [pe]|
+[uto85]| 0| w| [85]| 0| [wi]|
+[yto75]| 9| w| [r5]| |
+[uo80]| w| t| [70] p [wo] I [ro] f
+[upd60]| [ws]| e a [s50]| w| [ro]|
+[po84]| [qi]| [ue]| [83] P [p0] O [wpi] g
+[if82]| [d9]| w S
+[od75]| [pf0]| [wga]|
+[hd51]| [ts8]| [ra0]|
+[ts3%]| [sl0]| [rdH]|
+[kd84]| [sqj]| [kea]|
+[sl9$]| [kQ]| [pje]|
+[oh85]| [uf0]| [wts]|
+[wo85]| [ts0]| [wuf]|
+[ywsd85]| |[s8]| |
+[a75]| |a| s| d|
+[f2]| [tqe]| |
+[d3]| [hW9]| g|
+[f6]| [yoea]| s|
+[yuea]| p O p a
+[s2]| [upi]| |
+[a3]| [todW]| [si]|
+[a6]| [wutr]| y| [wutp]| |
+[p6]| [eT0]| |
+5 P [peT0] O p S
+[f4]| [edT0]| w S
+[d2]| [qeT]| 0|
+[a@]| [eQ(]| |
+7 s [eaYQ(] P a D
+[G3]| [rfQI9]| I|
+[yra730]| [uts0]75[yid3]75
+[uf2] [ut4] [yi6] [ut9] [yr6] [ut4]
+[ydO3] 7 [p0] [oh7] [igda%] 3
+[uspf6] [t0] [yoe] [t0] [ri8] [t3]
+[u6] 0 [tpe] [rO0] [tp8] [ya6]
+[usp7] [te3] [rW%] [qe7] [W0%] [730]
+[aO3] 0 [riW] [d0] [usrW] 0
+[ya6] 8 [yr0] [TE8] [te0] [rW8]
+[tp6] [80] [te0] [80] [te0] [80]
+[peT6] [30] [eT6] [0*] [eT6] [30]
+5 [P0] [upeT*] [O0] [poeT6] [S0]
+[pif4] * [yqpd] * 6 [f4]
+[ohd2] 6 [qige] 6 [q9] [f6]gfd
+[f3] 8 [use] 8 [ue] 8
+[tp3] 8 e 8 e 8
+3 7 [yaW] 7 [yW] 7
+[rO3] 7 r 7 W 7
+[tspjif]| |lx ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
