@@ -2655,15 +2655,57 @@ O [TOS] s a [IP] p [PI] Y [YI] [EY] P [5yo] [EY] P [5yo] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("mario", "Auto", function()
+Section:NewButton("deadman wonderland", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 100 -- tempo overides the delay
+shared.tempo = 120 -- tempo overides the delay
  
-shared.scr = [[ 59we r y[o5]9w[hd]| 48qe r y[o4]8q[hd]|8 59we r y[o5]9w[hd]| 48qe r y[o4]8q[hd]| @^(e E y[o@]^([hd]| 48qe t y[o4]8q[hd]|8 5[y9][wo]pas[wa][p9][o4]8[yq] t o [y@]^(w|(w48q|t8[tq][r5][y9][wo]|e [wr]59wy [ro]|5[y9][wo]pas[wa][p9][o4]8[yq] t o [y@]^(w|(w48q|t8[tq][r5][y9][wo]|e [wr]59wy [ro]|8wtofdsf[d7]wro wr 60euds[a0]s[a5]9wo|9 8wtofdsf[d7]wro|w ^wE sd[s^]a6eo [u9]e|[yr5][y9]opas[wa][p9][toe4]8[yq] t o [ywE@]^(w|(w[qe]8qt t8[tq][wr][y9][wo]|e [wr]59wy [ro]|[yr5][y9]opas[wa][p9][toe4]8[yq] t o [ywE@]^(w|(w[qe]8qt t8[tq][wr][y9][wo]|e [wr]59wy [ro]|48q[ie] [ie][ie][ie]4[ie][ie][ie]8[ie][qie][ie]@^([oE] [oE]([oE]@[oE] [oE][oE][oE][oE][oE]269[to] [to]9[to]2[tp]9[tp] [tp] [p9][ya5]9we r y[o5]9w[hd]|y [t4]8qe r y[o4]8q[hd]o 8 [y5]9we r y[o5]9w[hd] apo48qe r y[o4]8q[hd]| [yE@]^(e E y[oE@]^([hd]w| [t4]8qe t y[ywo]8q[hd]|8 [yr5] ]]
- 
+shared.scr = [[ [utea] s [uted] a [utse] d
+[ywra] s [ywrd] a [ywsr] d
+[tqea] s [tqed] a [tsqe] d
+[ywra] s [ywrd] s [ywrd] f
+[utea] s [uted] a [utse] d
+[ywra] s [ywrd] a [ywsr] d
+[tqea] s [tqed] a [tsqe] d
+[ywra] s [ywrd] s [ywrd] f
+[pea6] s [utd] a [uts] d
+[woa5] s [yrd] a [ysr] d
+[qia4] s [ted] a [tse] d
+[woa5] s [yrd] s [yrd] f
+[pea6] s [utd] a [uts] d
+[woa5] s [yrd] a [ysr] d
+[qia4] s [ted] a [tse] d
+[woa5] s [yrd] s [yrd] f
+[xute] z [utje] x [zute] j [ywr]|[ywr]|[ywr]|
+[tqle] k [tqfe] l [tqke] f [ywr]|[ywr]|[ywr]|
+[utfe] j [uthe] f [utje] h [ywr]|[ywr]|[ywr]|
+[tqed] j [tqle] d [tqje] l [ywr]|[ywr]|[ywr]|
+[ywJE]|[ywjE]|[ywhE]|[tqed]|[tqe]|[tqe]|
+[wsE(]|[wgE(]|[wED(]|[tqed]|[tqe]|[tsqe]|
+[ywPE]|[ywdE]|[ywgE]|[tqeJ]|[tqje]|[tqhe]|
+[wlE(]|[wE(]|[wE(]|[ztqe]|[tqe]|[tqe]|
+[w5]|[yE]|[yE]|[q4]|[te]|[teJ]|
+[c@(]|[wE]|[wE]|[ql4]|[te]|[te]|
+[zw5]|[yE]|[yE]|[q4]|[te]|[te]|
+[j@(]|[wE]|[wE]|[qJ4]|[te]|[te]|
+[xute] z [utje] x [zute] j [ywr]|[ywr]|[ywr]|
+[tqle] k [tqfe] l [tqke] f [ywr]|[ywr]|[ywr]|
+[utfe] j [uthe] f [utje] h [ywr]|[ywr]|[ywr]|
+[tqed] j [tqle] d [tqje] l [ywr]|[ywr]|[ywr]|
+[xe6] z [utj] x [zut] j [w5]|[yr]|[yr]|
+[ql4] k [tfe] l [tke] f [w5]|[yr]|[yr]|
+[fe6] j [uth] f [utj] h [w5]|[yr]|[yr]|
+[qd4] j [tle] d [tje] l [w5]|[yr]|[yr]|
+[c^E] Z [iTJ] c [iZT] J [W%]|[tY]|[tY]|
+[QL$] l [gTE] L [lTE] g [W%]|[tY]|[tY]|
+[g^E] J [iTH] g [iTJ] H [W%]|[tY]|[tY]|
+[QD$] J [TLE] D [TJE] L [W%]|[tY]|[tY]|
+[c^E] Z [iTJ] c [iZT] J [W%]|[tY]|[tY]|
+[QL$] l [gTE] L [lTE] g [W%]|[tY]|[tY]|
+[g^E] J [iTH] g [iTJ] H [W%]|[tY]|[tY]|
+[QD$] J [TLE] D [TJE] L [W%]|[tY] [tY] [tY] [tY%](W ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
