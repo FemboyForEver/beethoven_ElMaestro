@@ -4291,15 +4291,105 @@ shared.scr = [[ C|x b C|||z|L z j f d p S d p| |p j f d d||o I y r e u e r y u o
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("haikyuu", "Auto", function()
+Section:NewButton("death parade", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 100 -- tempo overides the delay
+shared.tempo = 120 -- tempo overides the delay
  
-shared.scr = [[ O| |p| |[a%] 0 W 0 W 0 W 0 [T6] 0 e 0 e 0 e 0 [Y7] Q r Q r Q r Q [O*] W T W [pT] W T W [a%] 0 W 0 W 0 W 0 [T6] 0 e 0 e 0 e 0 [Y7] Q r Q [rp] Q r Q [O7] Q r Q [rp] Q r Q [a%] 0 W 0 W 0 [WD] 0 [D6] 0 e 0 [fe] 0 e 0 [a7] Q r [fQ] r Q [rG] Q [G] W T W [TH] W T W [f%] 0 W 0 W 0 [aW] 0 [D6] 0 e 0 [fe] 0 e 0 [G7] Q r Q r Q r Q 7 Q r Q r Q r Q| |r u I [O3] 7 0 W|u I O [p6] 0 e O| |Iu[I7] Q r T|u I p [rO0] p O [rI(]|a|[u*] W T||u a S [a7] Q [rp]|O||uI[O6] 0 I|[p^] 0O I [u7] Q r IuI| |[O3] 7 0 W|u I O [p6] 0 e O| |Iu[I7] Q r T|u I p [rO0] a S [ra(] S D [f] W T u| |DS[a7] Q [rO]|a|S D [f6] 0 e|S|f|f| |S|f|[f7] Q r DfG| |7 Q r I a G k C [rn]| |a f G [H%] 0 W 0 W [f0] [WG] [H0] [j6] 0 e [H0] e 0 e [G0]f[G7] Q r Q r [fQ] [rG] [jQ] [H0] rjuHr [G(] r [kY] r [f*] W T W T [fW] [kT] [WL] [k7] Q [rj] Q [rH] Q r [fQ]G[H6] 0 [eG] 0 [j^] 0HEG0 [f7] Q r [QG]f[rG] Q r Q [H%] 0 W 0 W [f0] [WG] [H0] [j6] 0 e [H0] e 0 e [G0]f[G7] Q r Q r [fQ] [rG] [jQ] [H0] rkuLr [k(] rLYZr [x] W T W T W T [ZW]L[k7] Q [rH] Q [rk] Q [rL] [ZQ] [x6] 0 e 0 [eL] 0 [xe] 0 [x6] 0 e 0 [eL] 0 [xe] 0 [x7] Q r [ZQ]x[rC] Q r Q r Q r Q r Q r Q [pfS6] 0 e T u p S f j| |j|k|[spf6] 0 e t u p s f j|||G| |D| |[f3] % 7 0 W r u O a f H k [xufVH]| |[W30] ]]
- 
+shared.scr = [[ 0 r a r I r p r o r u r I r y|||
+0 r a r I r p r o r u r I r y|||
+[uf] o a o f o a o
+[uf] o a o f o a f
+[yd] o p I d o p I
+[yd] o p I d o a d
+[tf] o a o f o a o
+[tf] o a o f o f G
+[rd] I p I d I p I
+[rd] I p I d I [iO] d
+[se] u o u s u o u
+[se] Y I Y s Y s d
+[wa] Y I Y a Y I Y
+[wa] u o u a u o a
+[pQ] T u T p T u T
+[pQ] t Y t p t a|
+[a(] r I r o r p r [a7] Q f Q G|||7||
+[uf0] o a o f o a o
+[uf0] o a o f p f G
+[yd9] I p I d I p I
+[yd9] I p I d I p d
+[tf8] o a o f o a o
+[tf8] o a o f o f G
+[rh7] I [pG] I d I o I
+[rp7] I [pd] I a I [iaO] d
+[se6] u o u s u s d
+[eD6] Y I Y a Y G h
+[wj5] y h y [IG] y h y
+[wf5] u o u f u [ok] u
+[kQ$] T f u f T j [uk]
+[hQ$] t j u G t h u
+[G(] r I r f [rI] a I [kaQD7]|||
+[uok] G h [ka] G h [uok] l k [uja] h j
+[rkI] G h [rkI] G h [rIG] l k [rjI] h G
+[utof] G h [tID] G h [roG] h j [zro] l k
+[tohe] G h [toje] h j [rkYI] G k [rYID] j G
+[urok] G h [uoka] G h [urok] l k [uoja] h j
+[rkI] G h [rkI] G h [rkI] Z k [rjI] h G
+[utof] G h [tID] G h [uroG] h k [xutp] z l
+[utspk] j k [utspl]|l [zraI] l k [rjaI] k G
+3| 3| [uofa3]| 3|
+[yda3]| 3| 3| 3|
+[aTS3]| 3| 3| 3|
+[tsoa3]| 3| 3| 3|
+[aTS3]| 3| 3| [S3] j S
+[f3]| 3| 3| 3|
+[tsoa3]| 3| 3| [a3] s h
+[f3]| 3| [tpe3]| 3|
+[uroa3]| 3| 3| 3|
+[xkhf3]| 3| 3| 3|
+[zkd3]| 3| 3| 3|
+[khSL3]| 3| 3| 3|
+[utsp3]| 3| 3| [a3] s h
+[d3]| 3| [s3]| 3|
+[khfa3] a [f3] k [spjf3] p [d3] f
+[ofa3]| 3| 3| 3| [uod]||s||
+[tpeIG]|||h|
+[wrjI]||h||
+[wurfa]|||k|
+[ukeQ] l j j k h h j G G h f
+[wufE] G S P h G S| f| [rfQ0]|||f D f
+[QG7]||G h| j|
+[ha3] [G7] [d0] [aQ] w r u r w Q 0 7
+3 7 0 [aQ] [wd] [rG] [uh] r [wk] Q [G0] 7
+[ph2] [G6] [d9] [p0] Q e y e Q 0 9 6
+2 6 9 [p0] [dQ] [eG] [yh] e [jQ] 0 [G9] 6
+[h1] [G5] [d8] [o0] Q w t w Q 0 8 5
+1 5 8 [o0] [dQ] [wG] [th] w [jQ] 0 [k8] 5
+[daG7] $ 7 * 9 Q [rdaI] Q 9 * 7 $
+[a7] $ [d7] 9 [G7] $ [YD@] 7 [IG0] Q [pj]|
+[ha3] [G7] [d0] [aQ] w r [uo] r w [QI] [o0] [p7]
+[o3] 7 0 [aQ] [wd] [rG] [uh] r [wk] Q [G0] 7
+[ph2] [G6] [d9] [p0] Q e [yp] e Q 0 [o9] [I6]
+[y2] 6 9 [p0] [dQ] [eG] [yh] e [jQ] 0 [G9] 6
+[h1] [G5] [d8] [o0] Q w t w Q [o0] [p8] [a5]
+[f1] 5 8 [a0] [dQ] [wG] [th] w [jQ] 0 [k8] 5
+[daG7] $ 7 * 9 Q [rdaI] Q 9 * 7 [a$]p
+[a7] $ [d7] 9 [G7] $ [pj@] 7 [ka0] Q [IG]|||
+[xuoa]hjkxhjkxhjkxhjk[xuoa]||
+k x C [zypI]GhjzGhjzGhjzGhjz||
+k z [xuaT]hjkxhjkxhjkxhjk[xuT]||
+k|x C [vuta]|C|z|h|j|z|k|k z
+[tole]fGhlfGhlfGhl z
+[xtoe]hjkxhjkxhjkC v
+[ywrb]|v|C|v|
+[xwur]hjkxhjkxhjkn|
+[uneQ] xbnlxbnlxbb n
+[vueQ]|b|C|v|
+[rYQGC(]||[ZD]||[rnkQ7]|||
+3| v C [zQ] [rj] [yh]
+[zQ] jrGyf [hQ] Grdya
+[fQ] d [rp] I [ya] p u y I y e|7Qey] ]] 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
