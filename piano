@@ -1537,7 +1537,7 @@ Section:NewButton("If I Am With You Jujutsu Kaisen", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 156 -- tempo overides the delay
+shared.tempo = 159 -- tempo overides the delay
  
 shared.scr = [[ ipasapipasapipasapipasap
 uoa[sk]aouoadaouoa[dk]aouoafao
@@ -2610,14 +2610,31 @@ p d f d|s
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("SAO", "Auto", function()
+Section:NewButton("", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 79 -- tempo overides the delay
  
-shared.scr = [[ d [wh] yo y[ka] [oj] [yh] [wj] ip i[zs] i [pd] [wh] yo y[ha] [oj] [yk] [wj] ip i[zs] i [pd] [wh] yo y[ka] [oj] [yh] [wj] ip i[zs] i [pl] [wk]j[yh]o ya o y w ip is|[zd] [wvkh] yo y[okh] [yj] [oh] [wjg] i[sp] i[zsjd] [if] [plg] [wkh] yo y[okhd] [yj] [oh] [wjgd] i[sp] i[zsjd] [if] [plg] [tskf] us o[khf] [sjG] [ohf] [yjdG] pd p[zG]|[lf] [wtkhd] [oj]sho[od] y s yoa| |z [xu]oaf x [zy]pd lk [yj]oa k| |[th]osG f [yd]pdG j [yl]oa k w y [zo] [xt]uos x [yC]pd xz [zw] u [ok] [uha] I [oh]G[uf]pS|u [pG] [hS] [yk] h p [jG]||h pd ph d Gf[fG]G|d|[zd] [wvoh] y[oa] yo [yj] [ok] [wojh] i[sp] i[zsg] [ih] [pjd] [woh] y[oa] yo [yj] [ok] [woj] i[sp] i[zsg] [ih] [pjd] [woh] y[oa] y[okd] [yj] [oh] [wojg] i[sp] i[zsg] [if] [plg] [wok] [yj][oa]hyo y [zo] [wol] [ki][sp]ji[hg] s [zpd] [wvkh] yo y[okh] [yj] [oh] [wjg] ip i[zsjd] [if] [plg] [wkh] yo y[okd] [yj] [oh] [wjgd] i[sp] i[zjgd] [sf] [plg] [tskf] us o[khf] [sjG] [ohf] [yjdG] pd p[zjG]|[lG] [tskf] [uj]shof s o t us of s o [yskd] [pj]dhph d p h ph pd p y [wohda]y ]]
+shared.scr = [[ 4 7 ^% 4 7 ^%
+[g4] [k7] [^J][H%] [g4]| |
+q [tW] 8 [tW] q [tW] 8 [tW]
+q [tW] 8 [tW] q [tW] 8 [tW]
+[qi] [tW] 8 [tW] [qO] [tW]s8 [tgW]
+[wh] [yr] 9 [yr] w [yrH] [J9] [yrk]
+[ql] [tW]k8 [tWH] qg[tW] [s8] [tlW]
+[wk] [yr] 9 [yr] w [yr] Q [TE]
+[qi] [t8] [Y(][u0] [qi] [t8] [Y(] [u0]
+[qg] [s8] [D(][f0] [qg]| [utPD]|
+[qig] [tW] 8 [tW] [qOH] [tW][sl]8 [tgcW]
+[wvh] [yr] 9 [yr] w [yrVH] [JB9] [yrnk]
+[qml] [tW][nk]8 [tWVH] q[gc][tW] [sl8] [tmlW]
+[wnk] [yr] 9 [yr] w [yr] 9 [yr]
+4 7 ^% [i4] [a7] [^P][O%]
+[g4] [k7] [^J][H%] [c4]| |
+4eYo ]]
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
