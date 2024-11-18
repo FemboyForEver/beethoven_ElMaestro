@@ -5413,47 +5413,77 @@ shared.scr = [[  m n v l h f d s
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Great Fairy Mountain (Zelda)", "Autoplayf", function()
+Section:NewButton("FUR ELISE X RIVER FLOWS TEST", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
-shared.tempo = nil -- tempo overides the delay
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 90 -- tempo overides the delay
 
-shared.scr = [[ [^b] [Ez] [yJ] [ph] v z J h
-C [yz] [pJ] [oh] [sv] [pz] [oJ] [yh]
-[6v] [el] [tj] [og] c l j g
-[6x] [el] [oj] [ig] [sc] [ol] [ij] [tg]
-[5c] [wJ] [Eh] [uf] x J h f
-[5Z] [wJ] [ih] [uf] [ox] [uJ] [th] [Ef]
-[4x] [qj] [eg] [ud] z j g d
-[4L] [ej] [ug] [yd] [pz] [oj] [sg] [Pd]
-[^b] [Ez] [yJ] [ph] v z J h
-[^C] [yz] [pJ] [oh] [dv] [pz] [oJ] [yh]
-[6B] [eZ] [tl] [sIG] b Z l G
-[6V] [YZ] [sl] [pIG] [Db] [dZ] [sl] [pIG]
-[^m] [Ez] [yJ] [Poh] B z J h
-[^b] [Ez] [PJ] [ph] [sB] [Pz] [oJ] [yoh]
-[8b] [tJ] [oh] [Pf] v J h f
-[8c] [tJ] [Ph] [of] [fx] [dJ] h f
-[^b] [Ez] [yJ] [ph] v z J h
-C [yz] [pJ] [oh] [sv] [pz] [oJ] [yh]
-[6v] [el] [tj] [og] c l j g
-[6x] [el] [oj] [ig] [sc] [ol] [ij] [tg]
-[5c] [wJ] [Eh] [uf] x J h f
-[5Z] [wJ] [ih] [uf] [ox] [uJ] [th] [Ef]
-[4x] [qj] [eg] [ud] z j g d
-[4L] [ej] [ug] [yd] [pz] [oj] [sg] [Pd]
-[^b] [Ez] [yJ] [ph] v z J h
-[^C] [yz] [pJ] [oh] [dv] [pz] [oJ] [yh]
-[6B] [eZ] [tl] [sIG] b Z l G
-[6V] [YZ] [sl] [pIG] [Db] [dZ] [sl] [pIG]
-[^m] [Ez] [yJ] [Poh] B z J h
-[^b] [Ez] [PJ] [ph] [sB] [Pz] [oJ] [yoh]
-[8b] [tJ] [oh] [Pf] v J h f
-[8c] [tJ] [Ph] [of] [fx] [dJ] h f ]]
+shared.scr = [[ f D f D f a d 
+s [6p] 0 e t u 
+p [3a] 0 W u O 
+a [6s] 0 e u f 
+D f D f a d 
+s [6p] 0 e t u 
+p [3a] 0 W u s 
+a [6p] 0 e f 
+D f D f a d 
+S [6p] 0 e T u 
+p [3a] 0 W u O 
+a [6S] 0 e u f 
+D f D f a d 
+S [6p] 0 e T u 
+p [3a] 0 W u S 
+a [6p] 0 e r T u p a [6upS] 0 e u d S [O3ua] 7 0 u S a [$Tup] * Q T a p [3ruO] 0 u u f u f f x D f D f D f D f D f D f a d S [Qpj] [TH] j I p H j 9 p [ef] j y p [ed] p [6u] p S [0d] [Tpf] S [0af] D [rf] D [uf] a d S [Qp] T I u p a [9S] e y u S d [6f] 0 T u d S [0af] D [rf] D [Of] a d S [Qpj] [TH] j I p H j 9 p [ef] j y p [ed] p [6u] p S [0d] [Tf] L [0k] [rf] [uk] L k j H [Qj] T I p a [9S] e y S d [6f] 0 T d S [0a] r [uj] k j H [Qj] p [Tf] p [Ij] k [Tj] H [9j] p [ef] p [yj] k [ej] H [6j] k [0L] z 
+[Tx] L [0k] j [0H] [ra] [uj] k [rj] H [Qj] p [Tf] p 
+[Ij] k [Tj] H [9j] p [ef] p [yj] k [ej] H [6j] k [0L] z 
+[Tx] L [0k] j [0H] [ra] [uj] j k [rj] H [$j] p [*f] p 
+[ej] j k [*j] H [9j] p [ef] p [yj] j k [ej] H [6j] k [0L] z 
+[Tx] L [0k] j [3H] [7a] [0j] j k [7j] H [$j] p [*f] p 
+[ej] j k [*j] H [9j] p [ef] p [yj] j k [ej] H [6j] k [0L] z 
+[Tx] L [0k] j [3H] [7a] [0O] u 
+f D f D f a d S [Qp] T 
+I T u p [9a] e y u O a [6S] 0 
+T u [0f] D [rf] D [uf] a d S [Qp] T 
+I T u p [9a] e y u S a [6p] 0 
+T u [0f] D [rf] D [Of] a d S [Qpj] [TH] j 
+I p H j 9 p [ef] j y p [ed] p [6u] p S [0d] 
+[Tpf] S [I0ua] r u p O [QTp] T 
+I u p a [9S] u [ep] a [yS] u S d [6f] u [0S] d 
+[Tf] u d S [0af] D [rf] D [Of] a d S [Qpj] [TH] j 
+I p H j 9 p [ef] j y p [ed] p [6u] p S [0d] 
+[Tf] L [0k] [rf] [Ok] L k j H [QSj] T 
+I p a [9S] u [ep] a [yS] u S d [6f] u [0S] d 
+[Tf] u d S [0a] u [rO] a [uj] j k [rj] H [$j] p [*f] p 
+[ej] j k [*j] H [9j] p [ef] p [yj] j k [ej] H [6j] k [0L] z 
+[Tx] L [0k] L k j [3H] a [7f] a [0j] j k [7j] H [$j] p [*f] p 
+[ej] j k [*j] H [9j] p [ef] p [yj] j k [ej] H [6j] k [0L] z 
+[Tx] L [0k] L k j [3fH] D [7f] D [0f] a d S [$p] * 
+e T [*u] p [9a] e y u [eO] a [6S] 0 
+T [0u] [3f] D [7f] D [0f] a [7d] S [$p] * 
+e T [*u] p [9a] e y u [eS] a [6p] 0 
+T [0u] [3f] D [7f] D [0f] D f D f D 
+f D f a d S [QTIp] 
+T u p [9eya] u O a [60eS] 
+u [0ruf] D f D f a d S [QTIp] 
+T u p [9eya] u S a [60ep] 
+u [0ruf] D f D f u p a [6upS] 0 
+e u [0d] S [O3ua] 7 0 u [7S] a [$Tup] * 
+Q T [*a] p [3ruO] 0 u u f u f f x D f D 
+f D f D f D f D f f j k [ek] [uL] 
+[aL] u p u S j k L [Tfk] [Ox] 
+[Sfx] O S O f x C V [QGLV] [Tb] 
+[Lpjb] T O [Tn] [In] ? n b [0V] T 
+[uH] T [uL] [Tb] [uV] [0x] [2jx] [6C] 
+[ujC] e [yG] e [uj] [9x] z [!kz] [6x] 
+[ukx] e [Tj] e T f j k [7GL] z 
+e G [3dj] 7 [0dH] [6aj] 0 
+r y T k L [rpL] [Iz] 
+p G [udj] H [6aj] 0 
+r u 0 e T  ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
