@@ -4618,29 +4618,186 @@ shared.scr = [[ w [u8]osfsouosfso[u7]OdfdO Odf[ud]O[u6]oSf[uS]oioSf[uS]o[u2]Isfs
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("wild side", "Auto", function()
+Section:NewButton("death waltz impossible song", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 300 -- tempo overides the delay
+shared.tempo = 140 -- tempo overides the delay
 
-shared.scr = [[ [IG][oh] [sl] [ak] [PJ] [ts][YD][oh][IG][ig][YD][ig]--
-[Hwiodhk]----
-[Yos]-[Yoa]-[oYP]-[Yoa] [Yos]-
-[Yos]-[Yoa]-[oYP]-[Yoa] [Yos]-
-[Yos]-[Yoa]-[oYP]-[Yoa] [Yos]-
-[Yos]-[Yoa]-[oYP]-[Yoa] [Yos]
-1 [Yos] @ [Yoa] 4 [oYP] 5[Yoa]@[Yos]
-1 [Y1os] @ [@Yoa] 4 [oYP] 5[Yoa]@[Yos]
-1 [Yos] @ [Yoa] 4 [oYP] 5[Yoa]@[Yos]
-11[Y1os] @ [@Yoa] 4 [oYP] 5[Yoa]@[Yos]
-[1oh] 8[ts]@ [oh]^ [oh][IG]-[ig]-[YD] 
-[ts] [EP][ts]----
-[oh]-[ts]-[oh] [oh][IG]-[ig]-[YD] 
-[ts] [EP][ts] ]]
+shared.scr = [[ ? ? ? ? S 
+[269eypd?] 2 9 2 2 2 9 2 
+2 2 9 2 2 9 [269eypd?] 9 
+[@^(EYPD?] @ ( @ @ @ ( @ 
+@ @ ( @ @ ( [@^(EYPD?] ( 
+[148qtisg?] 4 q 4 4 4 q 4 
+[4?] 4 q 4 4 q [148qtisg?] q 
+[@^(EYPD?] @ ( @ [@?] @ ( @ 
+[148qtisg?] ? ? [4?] [q?] ? [4?] ? [@^(EYPDJZ?] ? ? [@?] [(?] ? [@?] ? 
+[2yip?] [26i] [uTO?] ! [!%u] [ua] 
+[3O?] a [37O] [oYP?] @ [@^P] 
+[9eypj?] [ejcb] [269qipj] [ejcb] [*WTOH?] [xWHV] [0u!%*OH] [ruxWHV] 
+[0ak?] [Vruakn] [WO370ak] [Vrkn] [wo(YPJ?] [vEJB] [@^(PJ] [vEJB] 
+[eypdgj?] 2 [26qi] [f!WTOSH?] [!%0u] [rua] 
+[Hfk?] 3 [rua] [37WO] [wohYPDJ?] @ [@^EP] 
+[69eypj?] [ejcb] [29qipj] [ejcb] [%*WTOH?] [xWHV] [0u!*OH] [0ruaH] 
+[7ak?] [Vruakn] [WO3a?] [rkxV] [^YPZwov?] E [@w?] 
+[2eyidj?] [269yip] [2qypg?] [269yip] [u!WTSH?] [u!%*TO] [!TO0f?] [!%*TOrufk] 
+[3?] [O370ruafk] [3uaWH?] [O370ua] [@YPwh?] [o@^(YP] [o@EDJ?] [o@^(YP] 
+[9eypdj?] [26egjcb] [9qpdj?] [26egjcb] [*WTOSH?] [fx!%WHV] [0*OSH?] [rufx!%WHV] 
+[0afk?] [HV37rukn] [W0afk?] [HV37rkn] [w(YPDJ?] [hv@^EJB] [(PDJ?] [hv@^EJB] 
+[2eyidj?] [269dgj] [2qypg?] [269dgj] [u!WTSH?] [f!%*SH] [!TO0f?] [!%*OSHrufk] 
+[3?] [OH370rufk] [3uaWH?] [H370fk] [@YPwh?] [h@^(DJ] [o@EDJ?] [h@^(DJ] 
+[9eypdj?] [26egjcb] [9qpdj?] [26egjcb] [*WTOSH?] [fx!%WHV] [0*OSH?] [rufx!%WHV] 
+[0afk?] [HV37rukn] [W0afk?] [HV37rkn] [w(YPDJ?] [hv@^EJB] [(PDJ?] [hv@^EJB] 
+[3wruafhk?] [37] [30wo?] [37] [@QEYPDGJ?] [@^] [@(QI?] [@^ETIS] 
+[$GJL?] [$*ETIS] [$QEP?] [$*] [4qeipgjl?] [48] [4ets?] [48] 
+[0ruoafk?] [37rkxvn] [0wuoafk?] [37rkxvn] [(EYIPDJ?] [@^EJZCB] [(QYIPDJ?] [@^ETIPJZCB] 
+[QSGL?] [$*TIPSLCB] [QEIPSGL?] [$*TLCB] [qeipsgl?] [48tlcb] [qsgl?] [48tlcb] 
+[2eyipgjzb?] [26] [2qyg?] [26] [uf!WTOHLV?] [!%] [!T0f?] [!%Oruk] 
+[H3axn?] [O37ruk] [3uWH?] [37] [woh@YPZB?] [@^] [o@EJ?] [@^] 
+[9eyipdj?] [26ejzcb] [9qeyipdj?] [26ejzcb] [u*WTOSH?] [x!%WHLV] [0u*TOSH?] [ruax!%WOHLV] 
+[0fk?] [OV37ruakxn] [WO0ruafk?] [V37rkxn] [45wv^(EYPDJB?] o [ryiadg%WPHV?] [ETPS5wuopfhv?] [etops$QYIODGC?] [WO4qryioadgc?] [ETIPS30wuofx?] Y [etips@(QYIDZ?] 
+[29qeyd?] [6e] q [ipj] e 9 q [!*WTuf?] 0 W [ipj] 0 [ig] 
+[1380et?] 0 [ig] e 0 [oh] 8 0 [pj] e 0 [Q7ryoh?] [$?] 9 7 9 [Iak] Q 9 7 9 
+[^P2qeydz?] 9 [pj] q [pdz] 9 ^ [dgc] 9 q [E138wusfx?] 0 [gc] w [fx] [dz] 0 8 [sl] 0 w 
+[29qeyipj?] [sl] [9q] [!T30wuoh?] w [pj] 0 w [24qeyig?] [249qey?] [uf] [YD] 
+[2qeyd?] 9 [6e] q [ipj] e 9 q [!*WT0uf?] 0 W [upj] 0 [ig] 
+[180et?] [3?] 0 [ig] e 0 [oh] 8 0 [pj] e 0 [Q7ryoh?] [$?] 9 [ya] 7 s d f 9 g h j [ICkzbn] Q 9 7 9 
+[^P2qeyidjz?] 9 [pgj] q [pdjz] ^ [dgzc] 9 q [E138wuosflx?] 0 [gzc] E [flx] y [Jdz] 0 w [shl] t T 
+[249eyipdgjz?] 0 [9q] w [!T350eo?] e 0 [146qeyip?] ? [ey] [2469eip?] q i ? [9eip] [yoS] 
+[^Eqyidz?] 2 i [^9] p [^Eqyipdjb?] 2 g [89] 6 j [0wtuosfx?] [13?] u 8 5 p [80wtipsjb?] 1 f [89ugc] 5 j 
+[qeyd?] [24?] i [9ygc] 6 p [9qeyishv?] 2 g [9pjb] 6 [7wryoadhv?] [25?] y 7 o [7wryoakn?] 2 d 7 G 
+[^29qeyipdz?] y [^pjb] i [^9qeypdz?] 2 d [^8c] g [EP13wtuofx?] u [^8gc] o [fx] [E18wusdz?] f [89sl] h 
+[4qeyipdgjb?] 2 i [69sl] p [!*ETS5wuofhv?] 3 f [0pb] j [18etyigjc?] i [6q] p [7qryipd?] [24] p [ufx] i [YDZ] 
+[^Eqyidz?] 2 i [^9] p [^Eqyipdjb?] 2 g [89] 6 j [0wtuosfx?] [13?] u 8 5 p [80wtipsjb?] 1 f [89igc] 5 j 
+[qeyd?] [24?] i [9ygc] 6 p [9qeyoshv?] 2 g [9pjb] 6 [7wryoadhv?] [25?] y [7akcn] [slC] [dzV] o [fxB] [gcn] [Lhv] [Zjb] [C7wryoakzcn?] 2 d 7 G 
+[^9qeyipdjz?] 2 y [^pgjb] i [^9qeyipdjz?] 2 d [^8pzc] g [EP13wtuoflx?] u [^8gzc] o [flx] [EJ19wuosdz?] f [8sl] h 
+[24eyipdgjzcb?] i [69] p [50uo!ETS?] 3 f [^0] j [2qeyip?] 4 i 6 y p u [6qeyipd?] 4 g [69] i d [yp] 
+[29eyidgjzcb?] [69qeyipdgzc] [26eyipdz?] [69qeyidgjzcb] [2eyipdgzc?] [69qeyipdz] [29eyidgjzcb?] [69qeyipdgzc] 
+[ohv@(EYPDJZB?] [^(EYwo] [ozv@EYZB?] [wohv^(EYPDJB] [@EYo?] [^(EYwo] [ohv@(EYPDJB?] [^(EYwo] 
+[29eyidgjzcb?] [69qeyipdgzc] [26eyipdz?] [69qeyidgjzcb] [2eyipdgzc?] [69qeyipdz] [29eyidgjzcb?] [69qeyipdgzc] 
+[wuofhxv!*ETSJB?] [^ET0wuo] [wuozxv!ETB?] [0wuofhv^*ETSJB] [!ETwuo?] [^*ET0wuo] [0wuofhv!ETSJB?] [^*ET0wuo] 
+[29eyidgjzcb?] [69qeyipdgzc] [26eyipdz?] [69qeyidgjzcb] [2eyipdgzc?] [69qeyipdz] [29eyidgjzcb?] [69qeyipdgzc] 
+[ohv@(EYPDJZB?] [^(EYwo] [ozv@EYZB?] [wohv^(EYPDJB] [@EYo?] [^(EYwo] [ohv@(EYPDJB?] [^(EYwo] 
+[29eyidgjzcb?] [69qeyipdgzc] [26eyipdz?] [69qeyidgjzcb] [2eyipdgzc?] [69qeyipdz] [29eyidgjzcb?] [69qeyipdgzc] 
+[uofhxv!*ETSJB?] [^ET0uo] [uozxv!ETB?] [0uofhv^*ETSJB] [!ETuo?] [^*ET0uo] [0uofhv!ETSJB?] [^*ET0uo] 
+[^EPJqydgzc?] [^EPJ49qyidz] [4qyiEPJ?] [^EPJ49qydgzc] [EPJqyidz?] [49qyi^EPJ] [^EPJqydgzc?] [^EPJ49qyidz] 
+[18wtuosfhlxv?] [580wtu] [1wtulzv?] [580wtuosfhv] [1wtu?] [580wtu] [1wtusfhv?] o [580wtu] 
+[6qeypdgjzc?] [249qeyipdjz] [2qeyipj?] [469qeypdgjzc] [qeyipdjz?] [469qeyipj] [qeypdgjzc?] [469qeyipdjz] 
+[!^ETPSLwuofhxv?] [ET50wu] [wuzv!ETB?] [^ETPS50wuofhv] l [!ETwu?] [^ET50wu] [!ETPS0wufhv?] o [^ET50wu] 
+[29eyidgjzcb?] [69qeyipdgzc] [26eyipdz?] [69qeyidgjzcb] [2eyipdgzc?] [69qeyipdz] [29eyidgjzcb?] [69qeyipdgzc] 
+[ohv@(EYPDJZB?] [^(EYwo] [ozv@EYZB?] [woh^(EYPDJB] [@EYo?] [^(EYwo] [oh@(EYPDJB?] [^(EYwo] 
+[29eyidgjzcb?] [69qeyipdgzc] [26eyipdz?] [69qeyidgjzcb] [2eyipdgzc?] [69qeyipdz] [29eyidgjzcb?] [269qeyipdgzc] 
+[13580wtuosfhlxv?] 2 [5z] [47qriagkzc!*WTOSHLV?] 2 [4z] [13680etupsfjlzxb?] [1t] T ! 
+[eyipdgjz?] c [246] [tb] [9qe] [yz] [qwgb?] [246] [9qe] [WTOSHufz?] c [3!%] b [0*W] [yz] [0wfb?] [3!%] [erk] [0*W] 
+[Ouafz?] c [%37] [tkb] [W0r] [yz] [WHb?] [%37] e [W0r] [YPDwohz?] c [5@^] [tb?] [w(E] [yz] [EJwb?] [5@^] e [w(E] 
+[9eyipdgz?] j [246] [szcb] l [9qe] [djz] [6qozc?] h [246] [pzb] j [9qe] c [*WTOSugz?] d j [3!%] [zcb] l [0*W] [dz] [%0jzc?] h [3!%] [rpzb] j [0*W] c 
+[Ouadfgz?] j [%37] [szcb] l [W0r] [dz] [W7jzc?] h [%37] [pzb] j [W0r] c [^YPDwogz?] d j [5@^] [YPDoszcb?] l [w(E] [dz] [YPDojzc?] h [5@^] [pzb] [w(E] c 
+[eyipdgjz?] c [246] [tb] [9qe] [yz] [qwgb?] [246] [9qe] [WTOSHufz?] c [3!%] b [0*W] [yz] [0wfb?] [3!%] [erk] [0*W] 
+[Ouafz?] c [%37] [tkb] [W0r] [yz] [WHb?] [%37] e [W0r] [YPDwohz?] c [5@^] [tb?] [w(E] [yz] [EJwb?] [5@^] e [w(E] 
+[9eyipdgz?] j [246] [szcb] l [9qe] [djz] [6qozc?] h [246] [pzb] j [9qe] c [*WTOSugz?] d j [3!%] [zcb] l [0*W] [dz] [%0jzc?] h [3!%] [rpzb] j [0*W] c 
+[Ouadfgz?] j [%37] [szcb] l [W0r] [dz] [W7jzc?] h [%37] [pzb] j [W0r] c [^YPDwogz?] d j [5@^] [YPDoszcb?] l [w(E] [dz] [YPDojzc?] h [5@^] [pzb] [w(E] c 
+[eyipdgjz?] c [246] [tb] [9qe] [yz] [qwgb?] [246] [9qe] [WTOSHufz?] c [3!%] b [0*W] [yz] [0wfb?] [3!%] [erk] [0*W] 
+[Ouafz?] c [%37] [tkb] [W0r] [yz] [WHb?] [%37] e [W0r] [YPDwohz?] c [5@^] [tb?] [w(E] [yz] [EJwb?] [5@^] e [w(E] 
+[9eyipdgz?] j [246] [szcb] l [9qe] [djz] [6qozc?] h [246] [pzb] j [9qe] c [*WTOSugz?] d j [3!%] [zcb] l [0*W] [dz] [%0jzc?] h [3!%] [rpzb] j [0*W] c 
+[Ouafgz?] d j [%37] [szcb] l [W0r] [dz] [W7jzc?] h [%37] [pzb] j [W0r] c [^YPDwogz?] d j [5@^] [YPDoszcb?] l [w(E] [dz] [YPDojzc?] h [5@^] [pzb] [w(E] 
+c [eyipdgjz?] c [246] [tb] [9qe] [yz] [qwgb?] [246] [9qe] [WTOSHufz?] c [3!%] b [0*W] [yz] [0wfb?] [3!%] [erk] [0*W] 
+[Ouafz?] c [%37] [tkb] [W0r] [yz] [WHb?] [%37] e [W0r] [YPDwohz?] c [5@^] [tb?] [w(E] [yz] [EJwb?] [5@^] e [w(E] 
+[eipdjz?] c [246] [sb] l [9qe] [dz] z [qogb?] h [246] p j [9qe] [EYIPJz?] d c [379] [sb] l [0wr] [dz] z [QGob?] h [379] [rk] j [0w] 
+[O1uadz?] c [47e] [rskb] l [Wqt] [dz] z [WOH29uab?] h 5 p j [Wqt] [O130ruakz?] d c [Ouasb] l e [dz] [TISLqopb?] h j [4^] p j [^E] 
+[2qyd?] 9 4 e ^ q 9 [pj] e 6 4 9 2 q [!WT0uf?] 0 3 W 6 * [pj] 6 3 [ig] 0 
+! q [10et?] ? 3 0 [ig] e 6 0 8 [oh] 6 0 3 [pj] e 1 0 [Qryoh?] ? 9 2 6 $ 9 [PJ] 7 [ak] Q $ 9 2 6 
+? 9 [qeydz?] ^ 2 9 [pj] q 4 ^ [fx] 9 4 ^ 2 [gc] 9 ? q [E1wufx?] 8 0 3 [gc] w 5 [fx] ^ [dz] 0 5 8 3 [sflx] 0 
+1 w [EJ29qypgjzc?] [40] [Jsglzc] [9q] 6 * [ETwoh?] [JLgc] q 6 E 3 [pj] L ! [EJ2yigzc?] 4 6 9 [Eqy?] 6 4 [uf] 0 
+? [YD] [2qeyd?] 9 4 e 6 0 9 [pj] e 6 4 9 2 q [!WT0uf?] q 3 w 6 * [oh] q 6 3 [ig] 0 
+! q [10et?] ? 3 0 [ig] e 6 0 8 [oh] 9 6 0 3 [pj] e 1 0 [Qryoh?] ? 9 2 [ra] 6 [$s] y d 9 g [7h] j [Ckzbn] Q $ 9 2 6 
+? 9 [qeyidjz?] ^ 2 9 [pgj] q 4 ^ [djz] ^ 4 2 [gzc] 9 ? q [E1wuoflx?] 8 0 3 [gzc] E 5 [flx] y ^ [Jdz] 0 5 w 3 [shl] t 
+1 T [29eyidgjz?] 4 0 [9q] 6 w * [Teuo?] q 6 e 3 0 ! [2eyip?] q t 4 [qey] 6 u 9 [eip?] q 6 u 4 [0ei] 
+[ypd] [2qeydjz?] i [29qey?] 6 p [2qeypdzcb?] g j [29qey?] 6 z [!WTL0ufx?] [*?] u [0!*WT?] % p S [!WT0upfjxb?] 3 ? g j [!*WTL0igc?] % 
+L q [10et?] [38?] 0 [180etigc?] 6 p s [10etohxv?] ? [38] f 0 j [180etpcb?] 6 l 0 [Qryohxv?] [2$?] 9 y [Q7ry?] $ I 9 a [QCrykn?] [IG] 2 ? d a 9 G [Q7ry?] $ 
+k 9 [qeydzb?] [2^] y 9 [^qeypjcb?] i P [qeydzb?] [29] ^ [^qeyglc?] 9 J q [E13wtufxn?] 8 0 u [E18wuglc?] o [fxn] s [E1wudzb?] [30] f h [E18uslv?] 0 
+l w [249qeypjxb?] [0i] [2eyslv?] [69q] p [!T35weohzv?] q f e [T30wepjxb?] 6 L [24eyiglc?] p [4qey?] 6 i d [2qey?] 4 g j [29qeyufkx?] 6 
+g [YDJZ] [qeydjz?] i [29qey?] 6 p 0 [qeypdzcb?] g j [29qey?] 6 z q [!WTL0ufx?] [3?] q u [0!*WT?] % p S [!WT0upxb?] ? f j [!*WTiglc?] [%0] 
+L q [10et?] [48?] u 0 [180etiglc?] 6 p s [10etohxv?] ? 8 f 0 [180etpjcb?] 6 l 0 [QIryohxv?] [25?] 9 y [Q7rykn?] [Il] s [dz] [fx] 9 [gc] [hv] a v [jb] [QICrykzn?] 2 ? d 9 G [7ryQI?] 
+k 9 [Eqeyidjzb?] [2^] y 9 [^eyipgjcb?] q P [qeyidjzb?] 2 [^qeyigzc?] 9 J q [E13wtuoflx?] [28] 0 u [18wuogzc?] E [flx] y s [1wuodzEJB?] [20] f [E18wuoshlv?] t 
+l T [24eyidjzc?] 9 [ypgzb] i 0 [29eyidjc?] [6q] [ypgzb] w S [!T35iodjc?] q f [ypgzb] e [T30eiodjc?] 6 L [ypgzb] [14eyipdjc?] [ypgzb] t i [4qipdjc?] 6 [ypgzb] u [2eyipdjc?] 4 [ypgzb] u [!9qyipdjc?] 
+[ypgzb] [26e?] t y [24qw?] e [2^E?] t y [$Q2w?] [7er] 
+[2?] [7rt] y [25w?] e [28t?] t y [2%W?] e 
+[2*T?] d s l d z [26eo?] h p j [29y?] d s l d z [^E2o?] h [(Yp] j 
+[2d?] [(Ys] l d z [27ro?] h p j [20u?] d s l d z [28to?] h p j 
+[26eyp?] t y [E24qwi?] e [2^EYP?] t y [2wr$QI?] [7erua] 
+[2?] [7rtua] y [25wto?] e [28tis?] t y [2%WTO?] e 
+[*TIS2d?] s l d z [26eyop?] h p j [29yod?] s l d z [2o^EYP?] h [p(YOD] j 
+[2?] [s(YOD] l d z [27ruoa?] h p j [20upf?] d s l d z [28tios?] h p j 
+[269eypdgj?] [2?] [E24qi?] [12?] [!@^(EYPDGJ?] ? [2?] ? [r@$QI?] ? [2370rua?] 
+? [24fhk?] ? [$2370rua?] 1 [!25wto?] 2 [@%?] 3 [H2468qtisgl?] $ [25^?] % [267%WTO?] ^ [278?] 
+8 [2j$*QTIGL?] d [29s?] d z [(26eyop?] h [20p?] j [J259qwyodhz?] [QW2s?] l [ed] z [2wo^EYP?] h r [2tp%(WYOD?] j 
+T [2ekHZ?] Y [2us%(WEOD?] l [id] z [I27rua?] h o [2tO?] p [TP260eupfjlx?] d a [2ys?] l [Sd] z [Y28tiosd?] h D [2upf?] j 
+g [qic^EPGJLB] [4?] h [tIGH] [yj] [woh*TISJ] ? k ? [OHel] ? [L?] [QIGC7rpajkzn] ? [$?] [Z?] [Ptx] ? y ? [9wyoadkC] v [8wetoshlV] 
+b [lvSLZB?] [@15?] n ? [8wtosdhlz] ? [yL] ? [wz(YODZ] ? [Z?] [efx] ? [c?] [gxc*WTOSHLV] [3!%?] [tGCV] [yb] [0wupfhB?] n ? [eHV?] 
+? [9eypdjzcb] c [sJB] l [dz] z [Pqiogk] h n b [pl] j v [(EYPDJLZCVB] [@$^?] Z [szB] l [dn] z [oalQIGZ] h [GL] [0rupafkzx] j 
+x Z [xcvn?] [357?] a c [C0ruasfkn] l [dv] z [wosxvV?] n h x b [pvVB] j V n [WOSHigc?] 1 c c l l c [8tsglcV?] V h t % j 
+8 [E9ydz] ? ^ [ipjb?] ^ [10tufx] 8 [1ipjb] [8yigc] 
+[2q] [9yigc] [2ohv] [9pjb] [wyohv?] 7 [woakn?] 7 
+[P9dz?] [^pjb] [sfx?] [^dgc] [10sfx] [8gc] [fx] [1dz] [8sl] 
+[2qipjb] [9sl] [3uohv] [0pjb] [4yigc] q 1 [8ufx] 
+[YDZ] [E9ydz?] ^ [ipjb?] ^ [10tufx] 8 [1uohv] [8yigc] 
+[2q] [9yigc] [2ohv] [9pjb] [wyohv?] [7yakn] [sl] [dz] [fx] [gc] [hv] j [Cwokzbn?] 7 
+[EPqyidjzb?] [2^] 9 [Eqyipgjcb] ^ [Eqyipdjzb?] ? 2 ? [Eqyidgzc?] [^9] ? q [wtuosflx?] ? [138] ? 0 [wtuogzc] ? [8E] [flx?] y [wtuodzJB?] [130] [wtuoshlv] 8 
+T [eyipdgjzb?] 9 0 [eyip] 2 [69q] w [Teup?] [3q] e [Teup] [!60] * ? [eyip?] ? t [eyip?] 6 ? u [eyp?] [9i] u [qe] i 
+[ypd] [2469qeydz?] [2469qeyi?] [2469qeyp?] [2469qeyd?] [2469qeypgjb?] ? [2469qeyj?] ? [2469qeyz?] [2469qeyc?] ? [!*T360eufx?] [!*T360eu?] ? [!*T360ep?] ? [360e!*TS?] ? [!*T360epfjb?] [!*T360ej?] [!*TL360eigc?] 
+[360e!*T?] [13680et?] ? [13680eti?] ? [13680etipgc?] ? [13680ets?] ? [13680etofhv?] [13680etj?] ? [13680etpjlb?] [13680etx?] ? [$Q279ryohv?] [$Q279ry?] [279ry$QI?] [$Q279ryd?] [$Q279ryakn?] ? [279ry$QG?] [$Q279ryk?] ? 
+[$Q279ryz?] ? [^E249qydz?] [^E249qy?] [^E249qyipjb?] [249qy^EP?] [^E249qydz?] [249qy^EJ?] ? [^E249qygc?] ? [^E249qyz?] ? [13580wtufx?] ? [13580wtu?] [13580wtuogc?] ? [13580wtusfx?] [13580wtudhz?] [13580wtuf?] [13580wtusl?] 
+[13580wtux?] [2469qeypjb?] [2469qeyi?] ? [2469qeypsl?] [2469qeyd?] ? [!*T360weofhv?] ? [360we!*TL?] ? [!*T360wepjb?] ? [!*T360wex?] [2469qeyigc?] [2469qeyp?] [2469qeyi?] [2469qeyd?] [2469qeyg?] ? [2469qeyd?] ? [2469qeyupfx?] 
+[2469qeyiYDZ?] ? [2469qeydz?] [2469qeyi?] [2469qeyp?] [2469qeyd?] [2469qeypgjb?] ? [2469qeyj?] [2469qeyz?] ? [2469qeyc?] [!%*WT30ufx?] ? [!%*WT30u?] ? [!%*WT30p?] ? [30!%*WTS?] ? [!%*WT30pfjb?] [!%*WT30j?] [!%*WTL30igc?] 
+[30!%*WT?] [13580wt?] ? [13580wti?] ? [13580wtipgc?] ? [13580wts?] [13580wtofhv?] ? [13580wtj?] [13580wtpjlb?] ? [13580wtx?] ? [$Q279ryohv?] [$Q79ry?] [$QI279kn?] l s [dz] x [$Q279ryf?] [gc] [hv] v [jb] [$QC279rykzbn?] [279ry$QG?] [$Q279ryk?] ? 
+[$Q279ryz?] ? [^249qyidjzb?] [^E249qyi?] [^E249qyipgjcb?] [249qyi^EP?] [^E249qyidjzb?] [249qyi^EJ?] ? [^E249qyigzc?] ? [^E249qyiz?] ? [13580wtuoflx?] ? [13580wtuo?] [13580wtuogzc?] ? [13580wtuosflx?] [13580wtuodhzJB?] [13580wtuof?] [13580wtuoshlv?] 
+[13580wtuox?] [2469qeyidgjzcb?] [2469qeyiz?] ? [2469qeyi?] c [2469qeyid?] ? [!*T350wuof?] ? b [!*T350wuo?] ? [!*T350wuo?] ? [!*T350wuozx?] [2469qeyip?] [2469qeyip?] t [2469qeyip?] [2469qeyipd?] u [2469qeyipg?] ? [2469qeyipd?] ? u [2469qeyip?] 
+[2469qeyd?] ? [7r(QYDZ?] [r(QY?] [r@Y?] 7 [r@(I?] [7r(QYIJ?] [PB] ^ ? [r@(QYID?] $ [r@*(QYG?] ^ 7 [r@(QYIPJ?] [*Wqgc?] i ? [q*WT?] [!WT?] % [!*i?] [q*WIPJB?] % ? [!*WTqd?] 4 [q!*(WTIGC?] % 
+[!*WTqz?] [(QEY?] ? [@QE?] $ [@YIGC?] ^ [@(I?] [(QEYOHV?] ^ ? [@(QEYIS?] 4 [g@(QEYPJ?] ^ [@(QEYIJ?] B [8tWOHV?] ? ? [1tWY?] @ [1tY?] 5 [18Y?] [W18ol?] O 5 ? [WY18ts?] [Dl] @ [WY18ts?] 5 
+l [WY18toh?] l [7r(QDZ?] [7r(QY?] [7rQYPJB?] $ [7rY?] [7r(Z?] I $ ? [7ra(QYPZ?] @ [7r*(QYDG?] $ C [7ra(QYIG?] C [Wqrgc?] ? [Wqri?] [47ri$GC?] % [4qgc?] [4qr@*WDZ?] O % ? [W4qria?] [4qri!(WSL?] % 
+L [WO4qriag?] [(QEPJB?] I [(QEP?] [!@ESL?] ^ [@I?] 9 [4qriWPV?] O ^ ? [W4qryid?] [4qrygWPB?] ^ 2 [4qryiWH?] [@$*QETIGC?] ? [$QET?] G [$QET?] ^ [$QETPC?] ( [8t(QY?] I ^ ? [t@(QY?] $ [@(QYtigc?] ^ 
+? [@(QYtufx?] [r(QYDZ?] [r(QY?] [r@Y?] 7 [r@(I?] [7r(QYIJB?] P ^ ? [r@(QYID?] $ [r@*(QYG?] ^ 7 [r@(QYIPDZ?] [*WTqigc?] ? [q*WET?] [!WT?] % [!*i?] [q*WIPJB?] % ? [!*WTqd?] 4 [q!*(WTIGC?] % 
+[!*WTPqdz?] [(QEY?] ? [@QE?] $ [@YIGC?] ^ [@(I?] [(QEYOHV?] ^ ? [i@(QEYS?] 4 [g@(QEYPJ?] ^ [i@(QEYL?] B [8tWYOHV?] ? [1?] @ [Y1tl?] [!L] S 5 L @ D [4c] [18Y?] [GC] % [HV] J [18olvWZB?] O 5 ? [18tWY?] D @ [WY18ts?] 5 
+l [WYD18th?] l [7r(QDJZ?] [(Q7r?] [7rPGJB?] $ [7?] [7r(QYJZ?] $ ? [(QYI7ra?] @ [7r(QYIDGC?] $ [7ra(QYIZ?] C [WLqrigc?] ? [Wqri?] 4 [ri$GZC?] % [L4qgc?] 7 [4qrik@WDZ?] % ? [WOqria?] 4 [qri!WOSHL?] % 
+[WO4qriag?] [q^EYPDGZB?] [*(EYIJC?] [@EYPGZB?] ^ [4@(YIJ?] 9 [4qr!^QZB?] Z ? [4qryid*IOC?] [47qryig!QOPGZ?] 2 [4qry*IOPJC?] [q!@$^IGZB?] ? [$PJC?] [!$^YIPGB?] [QIPJC?] [q^QEGZB?] ? [4@*(EJC?] $ [q@^QEG?] 
+[4@(IJC?] P [7r(QDZ?] ? [r@QY?] $ [r@Y?] 7 [@(r?] [7r(QYIP?] ^ ? [r@(QYID?] J $ [r@*(QYG?] ^ 7 [r@(QYIPJ?] [*Wqgc?] ! ? [q*WE?] i [!WT?] % [!WTi?] [q*WIJ?] P % ? [!*WTqd?] 4 [q!*(WTIGC?] % 
+[q!*WT?] [(QY?] [@(QE?] [@(EYIGC?] [@(I?] [@(QYOHV?] P ^ ? [@(QEYIS?] 4 [@(QEYPg?] ^ [@(QEYI?] [18WOHV?] [8W?] [1tWY?] [18WY?] [WO18l?] o 5 ? [18tWY?] D @ [WY18ts?] 5 
+[WY18toh?] [7@DZ?] [7(Q?] [rQYPJB?] [7Y?] [7(PZ?] [IZ] $ ? [7r(QY?] @ [7r*(QYD?] $ C [7ra(QYIG?] [Wqgc?] ? [Wqr?] [47ri$TGC?] % [4qrgc?] [4qr@*WDZ?] O % ? [W4qria?] [4qri!(WS?] % 
+[WO4qriag?] [LB] [@(QPJCB?] [(QE?] [@EYSLCB?] [@I?] 9 [4qrxcWHV?] ^ ? [W4qryi?] [4qryxWPV?] ^ 2 [4qryiWH?] B [@$*QTGZC?] ? [$QETI?] [$QETYZC?] ^ G [$QETP?] ( [@(QY8tzc?] ^ ? [t@(QYI?] $ [@(QYtizc?] ^ 
+[@(QYtufx?] [r(QDJZB?] ? [@r?] $ [@(r?] 7 [r@(QI?] [7r@(QYIP?] ^ ? [r@(QYIDJ?] $ [r@*(QYGZ?] ^ 7 [r@(QYIPD?] Z [*Wqgc?] ! ? [q*WE?] [!WT?] % [!*WT?] i [q*WTIP?] % ? [qd!*WTB?] J 4 [q!*(WTIGC?] % 
+[!*WTPqd?] J [@(QYB?] ? [@(QE?] [@(YIGC?] ^ [@(?] I [@(QEYOPHV?] ^ ? [i@(QEYS?] 4 [g@(QEYPJ?] ^ [i@(QEYB?] J [18OV?] ? ? [1Y?] [WY1tl?] ! S 5 L @ [4gc] [18Y?] [GC] $ % H [18tolWYOZB?] @ v 5 ? [18tWYD?] @ [WY18tsl?] 5 
+[WY18to?] [7(DJZ?] ? [(Qr?] [rYPJB?] $ [7I?] [7r(QYPJZ?] Z $ ? [(QYI7ra?] @ [7r(QYIDG?] $ [ZC] [(QYI7ra?] [WLqgc?] ? [Wr?] 4 [ri$GZC?] % [4qrgc?] 7 [4qrik@WODZ?] % ? [WOqria?] 4 [qri!WOSHL?] % 
+[4qriagWOL?] [^PDGZB?] [*(EYJC?] [@EYPZB?] [^D] [4@(YI?] 9 [4qr!^QZ?] P ? [4qryid*WIDC?] Z [47qryi!QOPGZ?] 2 [4qry*WIOPHJC?] [q!@$^GZB?] ? [$*JC?] [!$^IPDB?] [IPJ?] [q^QGZ?] ? [4@*(EJC?] Y $ [q@^QEZ?] 
+[4@(I?] [@$^(QYPDGZB?] [@$^(QEIJC?] [@$^(QYPDGZB?] [@$^(QEIJC?] [@$^(QYPDGZB?] [@$^(QEIJC?] [@$^(QYPDGZB?] [@$^(QEIJC?] [@$^(QYPDGZB?] [@$^(QEIJC?] [@$^(QYPDGZB?] [@$^(QEIJC?] [@$^(QYPDGZB?] [@$^(QEIJC?] [@$^(QYPDGZB?] 
+[@$^(QEIJC?] [%WHZ37uafkn?] [37r%WO?] [%W37u?] [37r%WO?] [%WV37uxn?] [37r%WO?] [%WHV37uafkxn?] [37r%WO?] [%W37u?] [37r%WO?] [%W37u?] [37r%WO?] [%WH37uafkn?] [xV] [37r%WO?] [%W37u?] 
+[37r%WO?] [0?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] [@$^(QEI?] [@$^(QYPDZ?] [@$^(QEI?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] [@$^(QEI?] [@$^(QYPDZ?] [@$^(QEI?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] 
+[@$^(QEI?] [HZ247qridgkn?] [247qyWO?] [247qri?] [247qyWO?] [V247qricn?] [247qyWO?] [HV247qridgkcn?] [247qyWO?] [247qri?] [247qyWO?] [247qri?] [247qyWO?] [HV247qridgkcn?] [247qyWO?] [247qri?] 
+[247qyWO?] [9?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] [@$^(QEI?] [@$^(QYPDZ?] [@$^(QEI?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] [@$^(QEI?] [@$^(QYPDZ?] [@$^(QEI?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] 
+[@$^(QEI?] [%WHZ37uafkn?] [37r%WO?] [%W37u?] [37r%WO?] [%WV37uxn?] [37r%WO?] [%WHV37uafkxn?] [37r%WO?] [%W37u?] [37r%WO?] [%W37u?] [37r%WO?] [%WH37uafkn?] [xV] [37r%WO?] [%W37u?] 
+[37r%WO?] [0?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] [@$^(QEI?] [@$^(QYPDZ?] [@$^(QEI?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] [@$^(QEI?] [@$^(QYPDZ?] [@$^(QEI?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] 
+[@$^(QEI?] [HZ247qridgkn?] [247qyWO?] [247qri?] [247qyWO?] [V247qricn?] [247qyWO?] [HV247qridgkcn?] [247qyWO?] [247qri?] [247qyWO?] [247qri?] [247qyWO?] [H247qridgkn?] [cV] [247qyWO?] [247qri?] 
+[247qyWO?] [9?] [7rak@$QIDGZC?] [7@$QY?] ( [7rak@$QIDZ?] [7@$QY?] ( [@$QI7rak?] [7@$QY?] ( [7rak@$QIDGZC?] [7@$QY?] ( [7rak@$QIDZ?] [7@$QY?] ( [@$QI7rak?] [7@$QY?] ( [7rak@$QIDGZC?] [7@$QY?] ( [7rak@$QIDZ?] 
+[7@$QY?] ( [4qg!%TOSHLZV?] [!%W4qi?] [4q!%T?] [!%W4qi?] [*?] [4qc!%TLZV?] [!%W4qi?] [4qgc!%TOSHLV?] [!%W4qi?] [4q!%T?] [!%W4qi?] [4q!%T?] [!%W4qi?] [4qg!%TOSHV?] [Lc] [!%W4qi?] [4q!%T?] 
+[!%W4qi?] [*?] [$^EIPDGJZC?] @ ( [$^QY?] @ ( [$^EIPDJZ?] @ ( [$^QY?] @ ( [$^EIPJ?] @ ( [$^QY?] @ ( [$^EIPDGJZC?] @ ( [$^QY?] @ ( [$^EIPDJZ?] @ ( [$^QY?] @ ( [$^EIPJ?] @ ( [$^QY?] @ ( [$^EIPDGJZC?] @ ( [$^QY?] @ ( [$^EIPDJZ?] @ ( 
+[$^QY?] @ ( [49riadg%WOHZV?] z q 2 [%49y?] W q 2 [%49ri?] W q 2 [%49y?] W q 2 [%V49ricn?] W q 2 [%49y?] W q 2 [49riagzc%OHV?] [WL] q 2 [%49y?] W q 2 [%49ri?] W q 2 [%49y?] W q 2 [%49ri?] W q 2 [%49y?] W q 2 [49riadg%OHV?] [zc] W q 2 [%49y?] W q 2 [%49ri?] W q 2 
+[%49y?] W q 2 [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] [@$^(QEI?] [@$^(QYPDZ?] [@$^(QEI?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] [@$^(QEI?] [@$^(QYPDZ?] [@$^(QEI?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] 
+[@$^(QEI?] [%WHZ37uafkn?] [37r%WO?] [%W37u?] [37r%WO?] [%WV37uxn?] [37r%WO?] [%WHV37uafkxn?] [37r%WO?] [%W37u?] [37r%WO?] [%W37u?] [37r%WO?] [%WH37uafkn?] [xV] [37r%WO?] [%W37u?] 
+[37r%WO?] [0?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] [@$^(QEI?] [@$^(QYPDZ?] [@$^(QEI?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] [@$^(QEI?] [@$^(QYPDZ?] [@$^(QEI?] [@$^(QYPDGJZCB?] [@$^(QEI?] [@$^(QYPDGZC?] 
+[@$^(QEI?] [igc*WTOSHZV?] % [@HZV] ( % W [$QIGZC8ypdjb?] 6 @ ( [$HZV] Q [4qigc^ETPSJZB?] q [!l] 
+* 
+[!@$%^*(QWETYIOPSDGHJLZCVB1237890rtyuasdfklzxn?] 
+z 
+b 
+x 
+b 
+c 
+v b v n 
+z B x c x c x z L 
+z c b z [2?]  ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
