@@ -4888,22 +4888,127 @@ fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e asd [f8] wt ogf [d5] wr ifd [s6] 0e uds
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Fur Elise fast", "Auto", function()
+Section:NewButton("given Fuyu no Hanashi", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 200 -- tempo overides the delay
+shared.tempo = 100 -- tempo overides the delay
 
-shared.scr = [[ fDfDfads [p6] 0e tup [a3] 0W uOa [s6] 0e u fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e
-fDfDfads [p6] 0e tup [a3] 0W uOa [s6] 0e u fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e
-asd [f8] wt ogf [d5] wr ifd [s6] 0e uds [a3] 0 uufuff x DfDfDfDfDfads [p6] 0e tup [a3] 0W uOa [s6] 0e u fDfDfads
-[p6] 0e tup [a3] 0W usa [p6] 0e fDfDfads [p6] 0e tup [a3] 0W uOa [s6] 0e u fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e
-fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e asd [f8] wt ogf [d5] wr ifd [s6] 0e uds [a3] 0 uufuffx DfDfDfDfads [p6] 0e tup
-[a3] 0W uOa [s6] 0e u fDfDfads [p6] 0e tup [a3] 0W usa [6t0p]
- ]]
+shared.scr = [[ [Eyi?] [Eyi?] [1tuo] 
+[1tuo] [E1uo] [tuo] [!Tip] [u?] i 
+[2eto] [2eto] [2etyi] 
+[E5ti] [E5ti] [5ryio] y 5 u 
+[E5qyi] y [5qE] [yi] [5q] E [5qy] y 
+[60et] o [60u] [ei] [60] u [60et] 
+[^ETqi] T [q^E] [Ti] [^q] E [^Tqo] i 
+[E18ti] [E18ti] [E18tu] e t 
+[4e] q e q [4e] q e q 
+[4e] q e q [4e] q e [qt] 
+[6eT] 0 e [0y] [T6eu] 0 e [0e] 
+[T6ep] [0TP] e [0p] [T6eo] 0 e [0u] 
+[9eyi] q e q [9e] q e q 
+[9e] q e q [9e] q [9e] [qi] 
+[6wtu] 0 w [0y] [6wt] 0 w [0e] 
+[6wy] 0 w [0t] [6wt] 0 w [0e] 
+[^Et] q E q [^E] q E q 
+[^E] q E q [^E] q E [qp] 
+[^ETP] q E [qp] [^ETo] q E [qi] 
+[^ET] * q [*q] [^qw] * q [*q] 
+[5qe] 9 q 9 [5q] 9 q [9wE] 
+[5q] 9 q [9t] [5qt] 9 q [9y] 
+[6wet] 0 w [0i] [6wti] 0 w [0o] 
+[6wto] 0 w [0i] [6wtu] 0 [ti] w [0to] 
+[^Eeyp] q e [qo] [^Eey] q e q 
+[7r] w r [wy] [7ryu] w [yi] r [wyi] 
+[E8yi] w E w [8E] [wu] [Ey] [Twu] 
+[6*] 9 0 [6e] p [Eyip] 
+? ^ ? [^y] [Ey?] ^ ? [^p] 
+[tup?] ^ ? [^o] i [tuo?] ^ ? [^o] 
+[etuo?] 6 ? [6t] [et?] 6 ? [6o] 
+[2eto] 9 2 [9i] u [2eti] 9 2 [9i] 
+[Ewyi?] 5 ? [5E] [wE?] 5 ? [5i] 
+[E1wu] 8 1 [8i] [E1to] 8 1 [8i] 
+[E4to] q 4 [qi] [E4to] q 4 [qo] 
+[4eto] q 4 [qp] [4etp] q 4 [qp] 
+[Eyip?] ^ ? [^y] [Ey?] ^ ? [^p] 
+[tup?] ^ ? [^o] i [tuo?] ^ ? [^o] 
+[etuo?] 6 ? [6t] [eT?] 6 ? [6o] 
+[2eto] 9 2 [9i] u [2eti] 9 2 [9i] 
+[Eqyi?] 5 ? 5 ? 5 [i?] 5 
+[E10wy] 8 1 8 1 8 [1u] 8 
+[48ei] [8e] [8e] [48w] 8 [48q] [8q] 
+[48q] w [48] q [48w] 
+[^*W?] [*W] [*W] [^*w?] q [^*W?] [*W] 
+[*W] [^*w?] [*w] [*w] [^*q?] [q*E] t 
+[4e] q e q [4e] q e q 
+[4e] q e q [4e] q e [qt] 
+[6eT] 0 e [0y] [T6eu] 0 e [0e] 
+[T6ep] [0TP] e [0p] [T6eo] 0 e [0u] 
+[9eyi] q e q [9e] q e q 
+[9e] q e q [9e] q e [qi] 
+[6wtu] 0 w [0y] [6wt] 0 w [0e] 
+[6wy] 0 w [0t] [6wt] 0 w [0e] 
+[^Et] q E q [^E] q E q 
+[^E] q E q [^E] q E [qp] 
+[^ETP] q E [qp] [^ETo] q E [qi] 
+[^ET] * q [*q] [^qw] * q [*q] 
+[5qe] 9 q 9 [5q] 9 q [9wE] 
+[5q] 9 q [9t] [5qt] 9 q [9y] 
+[6wet] 0 w [0i] [6wti] 0 w [0o] 
+[6wto] 0 w [0i] [6wtu] 0 [ti] w [0to] 
+[^Eeyp] q e [qo] [^Eey] q e q 
+[7r] w r [wy] [7ryi] w [yi] r [wyi] 
+[E8yi] w E w [8E] [wu] [Ey] [Twu] 
+[6*] 9 0 [6e] P 
+[Eyip?] ^ ? [^Eyi] ? ^ [Eyi?] ^ 
+[Etuo?] ^ ? [^Etuo] ? ^ [Etuo?] ^ 
+[etuo?] 6 ? [6etuo] ? 6 [etuo?] 6 
+[2etyi] 9 2 [9etyi] 2 9 [2etyi] 9 
+[Eyi?] 5 ? [E5yi] ? 5 [Eyi?] 5 
+[E1tu] 8 1 [E8tu] 1 8 [E1tu] 8 
+[E4to] q 4 [Eqto] 4 q [E4to] q 
+[4eti] q 4 [qi] [4i] q o 4 [qp] 
+P o i o 
+i u i o 
+p i u i 
+y y u [Ei] 
+? 5 ? [5o] [Ewu?] 5 [Ewy] ? [5weT] 
+? 6 ? [6T] [weT?] [6weu] ? [6weu] 
+[2qeu] 9 2 [9y] [2qeu] 9 [qey] 2 [9eyi] 
+1 8 1 [8i] [1yi] 8 [yo] 1 [E8yip] 
+? ^ ? [^P] [yo?] ^ [yi] ? [^Euo] 
+[tuo?] ^ ? [^i] [tu?] ^ [ti] ? [^tuo] 
+? 6 ? [6p] [ti?] 6 [tu] ? [6ti] 
+2 9 2 [9y] [2y] 9 [tu] 2 [E9i] 
+? 5 ? [5o] [Ewu?] 5 [Ewy] ? [E5wu] 
+1 8 1 8 1 8 [1i] [8i] 
+[E48i] t i [48E] t y [48tP] [T6up?] 
+[6u?] [6y?] [6T?] p [Eyip] 
+? ^ ? [^y] [Ey?] ^ ? [^p] 
+[tup?] ^ ? [^o] i [tuo?] ^ ? [^o] 
+[etuo?] 6 ? [6t] [et?] 6 ? [6o] 
+[2eto] 9 2 [9i] u [2eti] 9 2 [9i] 
+[Ewyi?] 5 ? [5E] [wE?] 5 ? [5i] 
+[E1wu] 8 1 [8i] [E1to] 8 1 [8i] 
+[E4to] q 4 [qi] [E4to] q 4 [qi] 
+[4eto] q 4 [qp] [4etp] q 4 [qp] 
+[Eyip?] ^ ? [^y] [Ey?] ^ ? [^p] 
+[tup?] ^ ? [^o] i [tuo?] ^ ? [^o] 
+[etuo?] 6 ? [6t] [eT?] 6 ? [6o] 
+[2eto] 9 2 [9i] u [2eti] 9 2 [9i] 
+[Eqyi?] 5 ? 5 ? 5 [o?] 5 
+[E10wy] 8 1 8 1 8 [1u] 8 
+[Eyi?] [Eyi?] [1tuo] 
+[1tuo] [1tuo] [!Tip] [u?] i 
+[2eto] [2eto] [2etyi] 
+[5tyi] [tyi] 5 [5ryio] y 5 u 
+[E4qyi] y [4qE] [yi] [4q] E [4qy] y 
+[60et] o [60u] [ei] [60] u [60et] 
+[^ETqi] T [q^E] [Ti] [^q] E [^Tqo] i 
+[E18ti] [E18ti] [E18tu] t [^qey?] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
