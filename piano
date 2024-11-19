@@ -5363,7 +5363,7 @@ Section:NewButton("Omori Final Duet", "Autoplayf", function()
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
-shared.delay = 0 -- delay overides the ftime
+shared.delay = nil -- delay overides the ftime
 shared.tempo = 167 -- tempo overides the delay
 
 shared.scr = [[  m n v l h f d s 
