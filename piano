@@ -5827,7 +5827,7 @@ shared.scr = [[  [r7] r r e r y r Q e [r7] r r e r i u y e [r7] r r e r y r Q e 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("UUUU", "Autoplayf", function()
+Section:NewButton("El Sol Se Recuesta", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
