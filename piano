@@ -1651,68 +1651,14 @@ x j j x j j x j c j x ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("come as you are", "Auto", function()
+Section:NewButton("titanic song", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 80 -- tempo overides the delay
  
-shared.scr = [[ w w W
-e| t e t e e W
-w y w w| y w W
-e| t e t e e W
-w y w w| y w W
-e| t e t e e W
-w y w w| y w W
-e| t e t e e W
-w y w w| y w W
-[eu]| t e [to] e [ep] [Wu]
-w y w w o y [wp] [Wu]
-e| t e [to] [ep] e [Wa]
-w y w [wp]| y [wo] [Wu]
-[eu]| t e [to] e [ep] [Wu]
-w y w w o y [wp] [Wu]
-e| t e [to] [ep] e [Wa]
-w y w [wp]| y [wo] [Wf]
-e||[yup]| d s s
-[8w] [8w] [8w] [8w] [8wf] [8w] [8wh] [8wf]
-e||[yup]| d s s
-[8w] [8w] [8w] [8w] [8wf] [8w] [8wh] [8wf]
-e||[yup]| d s s
-[8w] [8w] [8w] [8w] [8wf] [8w] [8wh] [8wf]
-e||[yup]| d s s
-[8w] [8w] [8w] [8w] [8w] 5 5 %
-[6u]| 8 6 [8o] 6 [6p] [%u]
-5 9 5 5 o 9 [5p] [%u]
-6| 8 6 [8o] [6p] 6 [%a]
-5 9 5 [5p]| 9 [5o] [%u]
-6| 8 6 [8o] 6 [6p] [%u]
-5 9 5 5 o 9 [5p] [%u]
-6| 8 6 [8o] [6p] 6 [%a]
-5 9 5 [5p]| 9 [5o] [%f]
-[6e]||[yup]| d s s
-[8wt] [8wt] [8wt] [8wt] [8wtf] [8wt] [8wth] [8wtf]
-[6e]||[yup]| d s s
-[8wt] [8wt] [8wt] [8wt] [8wtf] [8wt] [8wth] [8wtf]
-[6e]||[yup]| d s s
-[8wt] [8wt] [8wt] [8wt] [8wtf] [8wt] [8wth] [8wtf]
-[6e]||[yup]| d s s
-[8wt] [8wt] [8wt] [8wt] [8wt] [8wt] [8wt] [8wt]
-9 e y e [9d] [ed] y e
-[4psg] 8 q [8psg] 4 [8g] q 8
-[9f] [ed] y [es] [9p] [es] [yp] e
-4 8 q 8 [4d] [8d] q [8f]
-[9d] e y [es] [9p] [es] [yp] e
-4 8 q 8 [4d] [8d] q [8f]
-[9d] e y [es] [9p] [es] [yp] e
-4 8 q 8 4 [5w] [5w] [%W]
-[6e]| [8t] [6e] [8t] [6e] [6e] [%W]
-[5w] [9y] [5w] [5w]| [9y] [5w] [%W]
-[6e]| [8t] [6e] [8t] [6e] [6e] [%W]
-[5w] [9y] [5w] [5w]| [9y] [5w] [%W]
-[pj]| [sl] [pj] [sl] [pj] [pj] [OH]
-[oh] [dz] [oh] [oh]| [dz] [oh] [OH] [6j] ]]
+shared.scr = [[ s d [ed] [uf] p s f d f d s [wd] [rh] y o a g f [qd] s t [ip] s g i w r y o a [ts] [yd] [6yd] [0uf] e 0 t i u y t [5y] [9o] w 9 r 9 [wuf] [9oh] [4pj] 8 q 8 [eoh] 8 q 8 [5yd] 9 w 9 r w y r [6t] [0o] [es] [0s] e o t [5t] [9o] [ws] [9s] w o t [4t] [8o] [qs] [8s] q o t [5t] [9o] [wts] 9 [wts] 9 [wra] [6t] [0o] [es] [0s] e o t 6 [5t] [9o] [ws] [9s] w o t [4t] [8o] [qs] [8s] q o t 4 [5t] [9o] [wts] 9 [wts] 9 [wra] 5 [1ts] 5 8 [wt] t w t w [9r] w t w w t w [8r] q [et] q e q e [qy] [8u] w t w [ry] w 9 w [8t] w t [wt] t w t w [9r] w t w t w t w [4w] 8 q 8 q 8 4 8 q w e t i o p a [1ts] 5 8 [wts] [ts] w [ts] w [9ra] w [ts] w t w t [wts] [8ra] q [ets] q e q [eyd] q [8uf] w t w [ryd] w 9 w [8ts] w t [wts] [ts] w [ts] w [9ra] w [ts] w r w 9 [wts] [4wo] 8 q 8 e 8 q 8 4 8 q 8 [30ep] [ra] [ts] 3 6 0 e 0 6 0 [5yd] 9 w 9 r 9 [wo] 9 [4oh] 8 q 8 [eig] 8 [quf] [8yd] 5 9 w 9 [ruf] 9 [wig] 9 [6uf] 0 e 0 [ryd] 0 [ets] 0 [5wra] 9 [wts] 9 r 9 w [9ra] [4ep] 8 q 8 e 8 q 8 q w e t [qi] [wo] [ep] [ra] [6ts] 0 e 0 t 0 e 0 [5yd] 9 w 9 r 9 [wo] 9 [4oh] 8 q 8 [eig] 8 [quf] [8yd] 5 9 w 9 [ruf] 9 [wig] 9 [6uf] 0 e 0 [ryd] 0 [ets] 0 [5wra] 9 [wts] 9 r 9 [wra] 9 [4ra] 8 [qts] 8 e 8 [qyd] 8 [5uf] 9 w 9 [7yd] 9 r 9 [6ts] 0 e 0 t i u y t [5y] [9o] w 9 r 9 [wuf] [9oh] [4pj] 8 q 8 [eoh] 8 q 8 [5yd] 9 w r y o a d [ts] u o s s o s o [ya] o s o o s o [ta] i [ps] i p i [pd] i [tf] o s o [ad] o y o [ts] o s [os] s o s o [ya] o s o s o s s [qo] t i t i t q t i o p s g h j k [1sl] 5 8 [wts] [ts] w [ts] w [9ra] w [ts] w t w [ts] w [8ra] q [ets] q e q [eyd] q [8uf] w t w [5yd] 9 w 9 [6ts] 0 e [0ts] [ts] 0 [ets] 0 [5ra] 9 [wts] 9 r 9 w [9yd] [4wo] 8 q 8 e 8 q 8 4 8 q 8 [30ep] [30ra] [tups] 3 6 0 e 0 6 0 [5yad] 9 w 9 r 9 [wo] 9 [4oh] 8 q 8 [eisg] 8 [quf] [8yad] 5 9 w 9 [ruf] 9 [wig] 9 [6usf] 0 e 0 [ryd] 0 [ets] 0 [5woa] 9 [wtos] 9 r 9 w [9ra] [4eip] 8 q 8 e 8 q 8 q w e t [qi] [wo] [ep] [ra] [6tps] 0 e 0 r 0 t 0 [5yad] 9 w 9 e 9 [wro] [9oh] [4oh] 8 q 8 [wisg] 8 [euf] [8yad] 5 9 w 9 [ruf] 9 [wig] 9 [6usf] 0 e 0 [ryd] 0 [ets] 0 [5woa] 9 [wtos] 9 r 9 [wroa] 9 [4roa] 8 [qtps] 8 w 8 [eyd] 8 [5wsf] [wyad] [6tps] 0 e t u d f d s [5d] [7h] 9 w r g f [4d] s 8 q t i p [5o] 7 9 w r [ts] [yd] [6yd] [0uf] e 0 t 0 [ei] u [0y] t [5y] [9o] w 9 r 9 [0wu] [9wo] [4ep] 8 q 8 e 8 [qra] 8 [3ts] 8 0 8 [2yd] 6 9 6 [1suf] % * % 0 % * % [IDG] $ 7 $ ( $ [7ra] $ [ak] 3 6 3 [8pj] 3 [OH^] [IG@] $ 7 $ [(OH] $ [7pj] $ [!OH] % [*HD] % [IDG] % [8suf] % [YD] $ [7uf] $ ( $ [YD] $ [TS] 3 6 3 * 3 6 3 [6e] r T u [ep] [ra] [TS] [YD] [!OSD] % * % ( % 0 % [IDG] $ 7 $ * $ [(ra] [4ak] [ak] 3 6 3 [7pfj] 3 [*OH] [IDG] $ 7 $ [*OH] $ [(PJ] $ [!OSH] % * % [(IG] % [8uf] % [YID] $ [7uaf] $ ( $ [YD7] $ [YD] 3 [6upf] 3 * 3 [IG] 3 [OH] $ 7 $ [IDG] $ ( $ [3uf] 7 0 W r W 0 7 3 7 Q r Y r Q 7 3 6 e 0 r 0 e 0 [3f] Q r [QD] S T Q I Q 3 7 [0u] W r W [i0] O I [7u] [i3] 7 [qa] r [yf] r [qa] 7 [3u] 6 e 0 r 0 e 0 7 Q r Q [TI] Q Y Q [w3] [0r] u ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
