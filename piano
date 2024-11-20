@@ -922,92 +922,59 @@ shared.scr = [[ [ute]||[tqie]||
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("time", "Auto", function()
+Section:NewButton("Yarichin B club Touch Me", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 60 -- tempo overides the delay
+shared.tempo = 120 -- tempo overides the delay
  
-shared.scr = [[ [29eyi]|||
-[6tups]|||
-[18tu]|||
-[5yoa]|||
-[29eyui]|||
-[6upsf]|||
-[18yu]|||
-[5yopa]|||
-[29eyi]| [9u]| [9i]| [9a]|2|[6tups]| 6| 6| 6|
-[18tu]| [8y]| [8u]| [8o]|1|[5yoa]| 5| 5| 5|
-y u [2eyi]|9|[2u]|9|[2i]|9|[2a]|9|[6upsf]|6|6|6|6|6|6|6|
-[1tu]|8|[1y]|8|[1u]|8|[1o]|8|[5yoa]|5|5|5|5|5|5|
-[5y] u [2eyi] 6 9 6 [2u] 6 9 6 [2i] 6 9 6 [2a] 6 9 6
-[6tups] 0 e r t r e 0 6 0 e r t r e 0
-[8tu] w t w [8y] w t w [8u] w t w [8o] w t w
-[5yoa] 9 w e r e w 9 5 9 w e r e w 9
-[9yi] e y e 9 e y e [9u] e y e 9 e y e
-[6upsf] 0 e r t r e 0 6 0 e r t r e 0
-[8tu] w t w [8y] w t w [8u] w t w [8s] w t w
-[5yoa] 9 w e r e w 9 5 9 w e r e w 9
-[9ipdg] e y e [9uf] e y e [9ig] e y e [9ak] e y e
-[6sfjl] 0 e r t r e 0 6 0 e r t r e 0
-[8uosf] w t w [8yd] w t w [8uf] w t w [8oh] w t w
-[5adhk] 9 w e r e w 9 5 9 w e r e w 9
-[9ipdg] e y e 9 e y e [9uf] e y e 9 e y e
-[6fjlx] 0 e r t r e 0 6 0 e r t r e 0
-[8uosf] w t w [8yd] w t w [8uf] w t w [8sl] w t w
-[79wadhk] [79w] [79w] [79w]
-[9wr] [9wr] [9wr] [9wr]
-[wry] [wry] [wry] [wry]
-[ryo] [ryo] [ryo] [ryo]
-[9g] [eyi] [eyp] [eyi]
-[9f] [eyi] [eyp] [eyi]
-[9g] [eyi] [eyp] [eyi]
-[9k] [eya] [eyd] [eya]
-[6l] [0es] [0ef] [0es]
-[6j] [0es] [0ef] [0es]
-[6l] [0es] [0ef] [0es]
-[6j] [0es] [0ef] [0es]
-[8f] [wtu] [wto] [wtu]
-[8d] [wtu] [wto] [wtu]
-[8f] [wtu] [wto] [wtu]
-[8h] [wto] [wts] [wto]
-[5k] [9wa] [9wd] [9wa]
-[5h] [9wa] [9wd] [9wa]
-[5k] [9wa] [9wd] [9wa]
-[5h] [9wa] [9wd] [9wa]
-[9g] [eyi] [eyp] [eyi]
-[9f] [eyi] [eyp] [eyi]
-[9g] [eyi] [eyp] [eyi]
-[9k] [eya] [eyd] [eya]
-[6x] [0ef] [0ej] [0ef]
-[6l] [0ef] [0ej] [0ef]
-[6x] [0ef] [0ej] [0ef]
-[6l] [0ef] [0ej] [0ef]
-[8f] [wtu] [wto] [wtu]
-[8d] [wtu] [wto] [wtu]
-[8f] [wtu] [wto] [wtu]
-[8h] [wto] [wts] [wto]
-[5k] [9wa] [9wd] [9wa]
-[5h] [9wa] [9wd] [9wa]
-[5k] [9wa] [9wd] [9wa]
-[5h] [9wa] [9wd] [9wa]
-[9eyipdg]|||
-[60esfjl]|||
-[8wtosf]|||
-[59wadhk]|||
-[9ypdg]|||
-[6efjlx]|||
-[8tsf]|||
-[5wdhk]|||
-[dg]|||
-[fl]|||
-[sf]|||
-[dk]|||
-[dg]|||
-[sx]|||
-[sf]|||
-[dk] ]]
+shared.scr = [[ [3D] 3 [0D] 7 [@D] @ [(D] ^ 
+[a%OD] ( [WS] [Ya] [Oa] S D D 
+[!OS] %a* P [@a] ^ ( aa
+[%G] (fW f [a$D] * [(QES]-
+[3D] 7 [0D]-[@D] ^ [(D]-
+[%D] ( [WS] [Ya] [Oa] S D D 
+[!S] %a* P [@a] ^ ( a 
+[%S] [(D] [WS] D [$*QS]-[$*Qa]-
+[%O] [(a] W-[^D] [(a] E-
+[7O] [Qa] [rD] a [*O] [Wa] T-
+[%O] [(a] W-[^D] [(a] E-
+[7O] [Qa] [rD] a [*O] [Wa] T-
+O-O-O I a O 
+[%O] (OW O [^I] (oE O 
+7 Q r-* W T-
+[%O] [(O] [WO] O [^I] (oE O 
+7 Q r-* W T-
+[%O]O[(O]OW-^O[(O]O[EO]-
+[7O] [QO] rO-[*O] [WO] [TD] S 
+[%O] O O O [^I]-o-O 
+7--a a S a 
+[!D] % *-[@D] [^S] [(D] G 
+% [(D] [WS] [YD] O D S a 
+[!P] [%P] [*a] a [@S] [^S] [(D] D 
+[%a] [(O] [WI] O $ * [(QE]-
+[!D] % *-[@D] [^S] [(D] G 
+% [(D] [WS] [YD] O D S a 
+[!P] % [*a]-[@G] ^ [(D]-
+[(WE]-[(WE]-[(WE] [(WE]--
+[3Z]70-Z-[@Z]^(-Z-
+[k%HZ](W-L k k L Z Z 
+[!HL]%* k-J [@k]^(--kk
+[%C](W x-x [k$Z]*Q-L-
+[!Z] % [*Z]-[@Z] ^ [(Z]-
+[%Z] ( [WL] [Yk] [Ok] L Z Z 
+[!L] %k* J [@k] ^ ( k 
+[%L] [(Z] [WL] Z [$L] * [(QEk]-
+[3D] 3 [0D] 7 [@D] @ [(D] ^ 
+[a%OD] ( [WS] [Ya] [Oa] S D D 
+[!OS] %a* P [@a] ^ ( aa
+[%G] (fW f [a$D] * [(QES]-
+[3D] 7 [0D]-[@D] ^ [(D]-
+[%D] ( [WS] [Ya] [Oa] S D D 
+[!S] %a* P [@a] ^ ( a 
+[%S] D [%S] D [$S]-[$a]-
+[%O] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
