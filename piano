@@ -505,81 +505,89 @@ $| Q| $|
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("nyan cat", "Auto", function()
+Section:NewButton("my alchoolic friend", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 280 -- tempo overides the delay
+shared.tempo = 110 -- tempo overides the delay
  
-shared.scr = [[ Y u I-a-Y u 
-I a S D S P a-
-I-Y u I-a-
-S P a S f D f G 
-[IV]-O-T Y-r 
-y T r-r-T-
-y-y T r T Y I 
-O Y I T y r T r 
-Y-I-O Y I T 
-Y r y Y y T r T 
-y-r T Y I T y 
-T r T-r-T-
-I-O-Y Y-r 
-y T r-r-T-
-y-y T r T Y I 
-O Y I T y r T r 
-Y-I-O Y I T 
-Y r y Y y T r T 
-y-r T Y I T y 
-T r T-r-r-
-r-Q W r-Q W 
-r T Y r u Y u I 
-r-r-Q W r Q 
-u Y T r Q ( 0 Q 
-r-Q W r-Q W 
-r r T Y r Q W Q 
-r-r E r Q W r 
-u Y u I r-E-
-r-Q W r-Q W 
-r T Y r u Y u I 
-r-r-Q W r Q 
-u Y T r Q ( 0 Q 
-r-Q W r-Q W 
-r r T Y r Q W Q 
-r-r E r Q W r 
-u Y u I r-T-
-I-O-T Y-r 
-y T r-r-T-
-y-y T r T Y I 
-O Y I T y r T r 
-Y-I-O Y I T 
-Y r y Y y T r T 
-y-r T Y I T y 
-T r T-r-T-
-I-O-Y Y-r 
-y T r-r-T-
-y-y T r T Y I 
-O Y I T y r T r 
-Y-I-O Y I T 
-Y r y Y y T r T 
-y-r T Y I T y 
-T r T-r-r-
-r-Q W r-Q W 
-r T Y r u Y u I 
-r-r-Q W r Q 
-u Y T r Q ( 0 Q 
-r-Q W r-Q W 
-r r T Y r Q W Q 
-r-r E r Q W r 
-u Y u I r-E-
-r-Q W r-Q W 
-r T Y r u Y u I 
-r-r-Q W r Q 
-u Y T r Q ( 0 Q 
-r-Q W r-Q W 
-r r T Y r Q W Q 
-r-r E r Q W r 
-u Y u I r-T ]]
+shared.scr = [[ r t r e w e r t r e w Q 
+[0wra] [0wr] 0 [eth] [0etG] 0 
+[wra] [0wr] [0a] [eth] h [0etG] [0G] 
+[wra] [0wr] [0a] h [th] [eG] [tG] 
+[0wra] [0wr] [(d] [Qra] [(Qr] [0d] 
+[wta] d [0wta] [(d] [Qra] [r(QI] 0 
+[wra] [0wr] 0 h [th] [eG] [tG] 
+[0wra] [0wr] 0 h [th] [eG] [tG] 
+[5a] [9wr] d [6a] [Q8e] d 
+[8a] d [0wta] d [9a] [Qeyp] 
+[5a] [9wr] d [6a] [Q8e] d 
+[8a] d [0wta] d [9a] [Qeyp] 
+[9wra] [9wr] d [Q8eo] [Q8e] d 
+[0wta] d [0wta] d [Qeya] [Qeyp] 0 
+[wra] [0wr] 0 [eth] [0etG] 0 
+[wra] [0wr] [0a] [eth] h [0etG] [0G] 
+[wra] [0wr] [0a] h [th] [eG] [tG] 
+[0wra] [0wr] [(d] [Qra] [(Qr] [0d] 
+[wta] d [0wta] [(d] [Qra] [r(QI] 0 
+[wra] [0wr] 0 h t [eG] t 
+[0wra] [0wr] [0a] h [th] [eG] [tG] 
+[5yoa?] [9wr] d [6uoa?] [Q8e] d 
+[18uoa] [ud] [0wtua] [ud] [I29a] [QIeyp] 
+[5yoa?] [9wr] d [6uoa?] [Q8e] d 
+[18uoa] [ud] [0wtua] [ud] [I29a] [QIeyp] 
+[9wra] [9wr] d [Q8eo] [Q8e] d 
+[0wta] d [0wta] d [Qeya] [Qeyp] 
+[5a] 9 r h [$j] 8 e G 
+[1h] 5 8 0 [2s] 6 9 Q 
+[3uoa?] [0wr] 0 [et] [0et] 0 
+[wr] [0wr] 0 [6et] 7 8 [60et] 7 8 
+[0wr] [0wr] 0 [et] [0et] 0 
+[7?] [7?] [(Qr] [7?] [7jkGZ?] [(Qr] 
+[0wra] [0wr] 0 [eth] [0etG] 0 
+[wra] [0wr] 0 h [th] [eG] [tG] 
+[0wra] [0wr] 0 h [th] [eG] [tG] 
+[5yoa?] [9wr] d [6uoa?] [Q8e] d 
+[18uoa] [ud] [0wtua] [ud] [I29a] [QIeyp] 
+[5yoa?] [9wr] d [6uoa?] [Q8e] d 
+[18uoa] [ud] [0wtua] [ud] [I29a] [QIeyp] 
+[9wra] [9wr] d [Q8ea] [Q8e] d 
+[0wta] d [0wta] d [Qeya] [Qeyp] 
+[9wra] [9wr] d [Q8eo] [Q8e] d 
+[0wta] d [0wta] d [Qeya] [Qeyp] 
+[0wra] 0 [wrh] [(Qr] G [(Qr] p 8 
+[0wo] 8 [0wh] [7(Q] G [7(Q] p 0 
+[0wra] 0 [wrh] [(Qr] G [(Qr] p 8 
+[0wo] 8 [0wh] [7(Q] G [7(Q] p 0 
+[0wra] 0 [wrh] [(Qr] G [(Qr] p 8 
+[80wo] 8 [0wh] [7(Q] G [7(Q] p 0 
+[0wra] h [r(QG] p 
+[80wo] h [7(QG] p 
+r t r e w e r t r e w e 
+r t r e r e w e w Q w Q 
+[3?] [0wr] 0 [et] [0et] 0 
+[wr] [0wr] 0 [6et] 7 8 [60et] 7 8 
+[0wr] [0wr] 0 [et] [0et] 0 
+[7a?] [7?] [r(QD] [7?] G [7?] [(Qrk] [7?] 
+[5yoa?] [9wr] d [6uoa?] [Q8e] d 
+[18uoa] [ud] [0wtua] [ud] [I29a] [QIeyp] 
+[5yoa?] [9wr] d [6uoa?] [Q8e] d 
+[18uoa] [ud] [0wtua] [ud] [I29a] [QIeyp] 
+[9wra] [9wr] d [Q8eo] [Q8e] d 
+[0wta] d [0wta] d [Qeya] [Qeyp] 
+[9wra] [9wr] d [Q8ea] [Q8e] d 
+[0wta] d [0wta] d [Qeya] [Qeyp] 
+[5oa?] [5wah] 5 [6sj?] [6epG] 6 
+[18ah] [8t] 8 [I29s] [9y] 9 
+[5oa?] [5wah] 5 [6sj?] [6epG] 6 
+[18ah] [8t] 8 [I29s] [9y] 9 
+[5oa?] [5wah] 5 [6sj?] [6epG] 6 
+[18ah] [8t] 8 [I29s] [9y] 9 
+[5oa?] [5wah] 5 [6sj?] [6epG] 6 
+[18ah] [8t] 8 [I29s] [9y] 9 
+[I30a] 
+7 5 [3?]  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
