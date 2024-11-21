@@ -1033,15 +1033,110 @@ h-[tf]-h-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("happy birthday", "Auto", function()
+Section:NewButton("experience", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 60 -- tempo overides the delay
+shared.tempo = 94 -- tempo overides the delay
  
-shared.scr = [[ t t [qy] [et] [eti] [0u] [wt] [wt] t [8y] [Ewt] [Ewto] [qi] [et] [et] t [qs] [etip] [eti] [^u] [Eqy] [qyEP] P [8p] [qeti] [E0to] [qeti] d [woaf] y r [yd] w y [rh] y [pdQG] y e y Q y [ed] y [QIpf] y e [yd] Q y [ej] y [wadh] y r y w y [rd] y [whkz] y r [yk] w y [rh] y [0osG] t w [tf] 0 t [wl] t [9dhk] r w [rh] 9 t [Gesj] t [radh] w 9 w 5 [ah] [1sj] [0wtah] [tuofl] [5dk] [9qwr] [ryiah] [5sj] [9qwrah] [ryigz] [18fl] [0wt] [wtush] [18lv] [hx] [^fl] [6dk] [4sj] [2jc] [5hx] [fl] [5gz] [18fl] [8o] [wtup] [wtuo] [wtus] [wtuo] [wtu] [9a] [wrio] [wri] [wrio] y r [9p] [wrio] [wrip] [wrio] [wri] [wrid] [8s] [wtuo] [wtu] [wtu] u o [8th] G h [7rf] s o [^Ea] p O [6ep] i [pg] [5wof] [us] [us] [5id] [ya] [ya] [1us] o u t [$TIPD] [!TIPS] [$IPSG] [!OSig] [iTOS] [i!TOD] [4iTOS] [g%OSH] [!$IPSG] [TIPS] [$SGJL] [$PSGJ] [$IPSG] [D7iag] [7iaD] [DG7ak] [!*PSGJ] [!IPSG] [4agOH] [$IPSG] ]]
- 
+shared.scr = [[ [ef] u [pf] u [eg] u [pf] u
+[tf] u [pf] u [tg] u [pf] u
+[0f] r [of] r [0g] r [of] r
+[qf] t [pd] t [qf] t [pg] t
+[ef] u [pf] u [eg] u [pf] u
+[tf] u [pf] u [tg] u [pf] u
+[0f] r [of] r [0g] r [of] r
+[qf] t [pd] t [qf] t [pg] t|||
+[ef]susfsusfsusfsus
+[tf]susfsusfsusfsus
+[0f]auafauafauafaua
+[qf]sisdsisfsisgsis
+[ef]susfsusfsusfsus
+[tf]susfsusfsusfsus
+[0f]auafauafauafaua
+[qf]sisdsisfsisgsis
+[60ts]ufusufusufusufu
+[8wts]ufusufusufusufu
+[0wrus]afusafusafusafu
+[qetis]ufusufusufusufu
+[60ts]ufusufusufusufu
+[8wts]ufusufusufusufu
+[0wrus]afusafusafusafu
+[qetis]ufusufusufusufu
+[60ts]uapsuapsuapsuap
+[8qts]uapsuapsuapsuap
+[0wrs]uapsuapsuapsuap
+[qets]iapsiapsiapsiap
+[60ts]uapsuapsuapsuap
+[8qts]uapsuapsuapsuap
+[0wrs]uapsuapsuapsuap
+[qets]iapsiapsiapsiap
+[6f][0u][td][0s][6f][0u][td][0s][6f][0u][td][0s][6f][0u][td][0s]
+[8f][0u][td][0s][8f][0u][td][0s][8f][0u][td][0s][8f][0u][td][0s]
+[0f][wu][rd][ws][0f][wu][rd][ws][0f][wu][rd][ws][0f][wu][rd][ws]
+[qf][ei][td][es][qf][ei][td][es][qf][ei][td][es][qf][ei][td][es]
+[6s][0u][ta][0p][6s][0u][ta][0p][6s][0u][ta][0p][6s][0u][ta][0p]
+[8s][0u][ta][0p][8s][0u][ta][0p][8s][0u][ta][0p][8s][0u][ta][0p]
+[0s][wu][ra][wp][0s][wu][ra][wp][0s][wu][ra][wp][0s][wu][ra][wp]
+[qs][eu][ta][ep][qs][eu][ta][ep][qs][eu][wa][qp][0s][9u][8a][7p]
+[6u][0t][0t][0t][6u][0t][0t][0t][6i][0t][0t][0t][6u][0t][0t][0t]
+[8u][0t][0t][0t][8u][0t][0t][0t][8i][0t][0t][0t][8u][0t][0t][0t]
+[3u][7r][0w][7r][3u][7r][0w][7r][3i][7r][0w][7r][3u][7r][0w][7r]
+[4u][8t]q[8t][4y][8t]q[8t][4u][6t]q[0t][9i][8t][7q][6t]
+[6u][0t][0t][0t][6u][0t][0t][0t][6i][0t][0t][0t][6u][0t][0t][0t]
+[8u][0t][0t][0t][8u][0t][0t][0t][8i][0t][0t][0t][8u][0t][0t][0t]
+[3u][7r][0w][7r][3u][7r][0w][7r][3i][7r][0w][7r][3u][7r][0w][7r]
+[4u][8t]q[8t][4y][8t]q[8t][4u][6t]q[0t][9i][8t][7q][6t]
+[6s] u sau sau sau
+[18s]au sau sau sau
+[30s]au sau sau sau
+[4qs] u s i s u s i
+[6s] u sau sau sau
+[18s]au sau sau sau
+[30s]au sau sau sau
+[4qs] u s i s u s i
+[6s]ufusufusufusufu
+[18s]ufusufusufusufu
+[30s]afusafusafusafu
+[4qs]ufusufusufusufu
+[6s]ufusufusufusufu
+[18s]ufusufusufusufu
+[30s]afusafusafusafu
+[4qs]ufusufusufusufu
+[6s][0p][tu][0p][6s][0p][tu][0p][6s][0p][tu][0p][6s][0p][tu][0p]
+[8s][wp][tu][wp][8s][wp][tu][wp][8s][wp][tu][wp][8s][wp][tu][wp]
+[3a][7p][wu][7p][3a][7p][wu][7p][3a][7p][wu][7p][3a][7p][wu][7p]
+[4s][8p][qu][8p][4s][8p][qu][8p][4s][8p][qu][8p][4s][8p][qu][8p]
+[6s][0p][tu][0p][6s][0p][tu][0p][6s][0p][tu][0p][6s][0p][tu][0p]
+[8s][wp][tu][wp][8s][wp][tu][wp][8s][wp][tu][wp][8s][wp][tu][wp]
+[3a][7p][wu][7p][3a][7p][wu][7p][3a][7p][wu][7p][3a][7p][wu][7p]
+[4s][8p][qu][8p][4s][8p][qu][8p][4s][8p][qu][8p][4s][8p][qu][8p]
+[6f]sus[0f]sus[tf]sus[0f]sus
+[8f]sus[wf]sus[tf]sus[wf]sus
+[0f]aua[wf]aua[rf]aua[wf]aua
+[qef]sisdsisf[es][wi][qs][0g][9s][8i][7s]
+[6f]sus[0f]sus[tf]sus[0f]sus
+[8f]sus[wf]sus[tf]sus[wf]sus
+[0f]aua[wf]aua[rf]aua[wf]aua
+[qef]sisdsisf[es][wi][qs][0g][9s][8i][7s]
+[6x][0l][tf][0l][6x][0l][tf][0l][6c][0l][tf][0l][6x][0l][tf][0l]
+[8x][0l][tf][0l][8x][0l][tf][0l][8c][0l][tf][0l][8x][0l][tf][0l]
+[3x][7k][wf][7k][3x][7k][wf][7k][3c][7k][wf][7k][3x][7k][wf][7k]
+[4x][8l][qg][8l][4z][8l][qg][8l][4x][6l][qg][0l][9c][8l][7g][6l]
+[6x][0l][tf][0l][6x][0l][tf][0l][6c][0l][tf][0l][6x][0l][tf][0l]
+[8x][0l][tf][0l][8x][0l][tf][0l][8c][0l][tf][0l][8x][0l][tf][0l]
+[3x][7k][wf][7k][3x][7k][wf][7k][3c][7k][wf][7k][3x][7k][wf][7k]
+[4x][8l][qg][8l][4z][8l][qg][8l][4x][6l][qg][0l][9c][8l][7g][6l]
+[ef] u [pf] u [eg] u [pf] [us]d
+[tf] u [pf] u [tg] u [pf] u
+[0f] r [of] r [0g] r [of] r
+[qf] t [pd] t [qf] t [pg] t
+[ef] u [pf] u [eg] u [pf] [us]d
+[tf] u [pf] u [tg] u [pf] u
+[0f] r [of] r [0g] r [of] r
+[qf] t [pd] t [qf] t [pg] t ]]
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
