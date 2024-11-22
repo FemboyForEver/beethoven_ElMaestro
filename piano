@@ -4761,16 +4761,65 @@ shared.scr = [[ w [u8]osfsouosfso[u7]OdfdO Odf[ud]O[u6]oSf[uS]oioSf[uS]o[u2]Isfs
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("HERE WITH YOU-MIRAI NIKKI", "Auto", function()
+Section:NewButton("sonatina in G Major", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 78 -- tempo overides the delay
+shared.tempo = 132 -- tempo overides the delay
 
-shared.scr = [[ [fT] [xO] [ZS] [fO] [eL] u [pf]|r I [aG]f D[uaO]||Y T [xufO] [ufZS] [fO] [eL] u [pf]|r I a f [aD]||[aT]uO f|[eG]Tup H|[aW]ruO||D f k [aQ] T [jI] p [ea]fHu [pf] H[rG] I [fa]|D||[aT]uO f|[eG]Tup H|[aW]ruO nn||D f k [a$] * [fQ]j e [fH6] 0 [feH]jH[f0]H[fG7] Q [rf] I [raYD]||6 0 [peS] u [aD] u [fS] u [aO%] 0 W r u||6 0 [peS] u [aD] u [fS] u [f*]G [kW] [TH] u O S [raID] [urfaO] 6 0 [peS] T [uaD] p [fS] [ueT] [fG%] 7 0 W [fH!] % *G0[fH][fH$] * Q [jfe] [jfTI]|e [jfL] [jfL%] 8 ( [ZW]L[tslYO]||[aT]uO f|[eG]Tup H|[aW]ruO nn||D f k [ea] u [pf]j S [fTH] O [fS] H[YGD] p [fSD]|D||[u]OaW [fTS] W [GD6] 0 [feSH] uf[a%] 0 W [ura0] [ura%] [W0] [rWS]DfGHj[urkfa] [kfa$] [j] [faQH] [jT] [a6]fH0 [feH]jH[uf]H[aG7] Q [urfaQ] u [aQD]rY||[fT] [xO] [ZS] [fO] [eL] u [pf]|r I [aG]f D[uaO]||Y T [xufO] [ufZS] [fO] [eL] u [pfa]|r I [ufa] I[aD][uf0] u [ufa0] [Y(] [T] [xukfO] [fZTSH] [ufSOH] [jfeL] u [pfS] u r I [uaG]f I[aD][a0] u [fa30] [@(] [!] [xukfO] [fZTSH] [ufSOH] [jfeL] u [pfS] u r I [aG][fa] I [aD]||[u6][ea][rf]6 0 [u0]af f k j [xr]ua f j x xbnLx ]]
+shared.scr = [[ [tus]||[rif]ds d f
+[tus]|l h h f f s
+[wyg]||[wtg]fd f g
+[wrd]|h j h f g d
+[ts] o u o [tf]d[Ps] [od] [Pf]
+[tg] p i p [tk]j[ih] [yj] [ik]
+[ul] h [ij] g [of] h [wg] d
+[td]|w|[8s]||
+[rd] w r w [tg] [wf] [td] [wf]
+[yh] g z l k j h g
+[tf] w t w [yh] [wg] [yf] [wg]
+[uj] h x z l k j h
+[wyg]|z l k j [wrh] g
+[wtf]|l k j h [weg] f
+[wrd]|o p a s d f
+g|f g h g d f
+[tus]||[rif]ds d f
+[tus]|l h h f f s
+[wyg]||[wtg]fd f g
+[wrd]|h j h f g d
+[ts] o u o [tf]d[Ps] [od] [Pf]
+[tg] p i p [tk]j[ih] [uj] [ik]
+[ul] h [ij] g [of] h [wg] d
+[td]|w|[8s]||
+[rd] w r w [tg] [wf] [td] [wf]
+[yh] g z l k j h g
+[tf] w t w [yh] [wg] [yf] [wg]
+[uj] h x z l k j h
+[wyg]|z l k j [wrh] g
+[wtf]|l k j h [weg] f
+[wrd]|o p a s d f
+g|f g h g d f
+[tus]||[rif]ds d f
+[tus]|l h h f f s
+[wyg]||[wtg]fd f g
+[wrd]|h j h f g d
+[ts] o u o [tf]d[Ps] [od] [Pf]
+[tg] p i p [tk]j[ih] [uj] [ik]
+[ul] h [ij] g [of] h [wg] d
+[td]|w|[8s]||
+[wh] y i y [wh] y [ih] y
+[wh] t u t [wl] t [ux] t
+[wv] r y r [wv] r [yv] r
+[wx] t u t w t u t
+[wh] y i y [wh] y [ih] y
+[wh] t u t [wl] t [uc] t
+[wv] r y r [wk] r y r
+[tul]||[8us]|[8us]|
+[8us]|t|[wus]|0|
+[8us] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
