@@ -1316,42 +1316,151 @@ shared.scr = [[ [g92]dpdgdpd
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("the godfather", "Auto", function()
+Section:NewButton("Fanteisie Impromptu", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 60 -- tempo overides the delay
+shared.tempo = 100 -- tempo overides the delay
  
-shared.scr = [[ u p s [6a] [0p] [es]
-[0p] [9a] [ep] [yi] [eo] [6uf] |
-[0ig] [euf] [YD] [8uf] [eu] [tp]
-[es] [6a] [0p] [es] [0p] [8a]
-[ep] [tu] [ey] [2y] [6t]
-[9r] [6e] [qt] [6y]
-[9i] [6O] [2ya]
-4 % 7 9 q W r a y i
-O [6tup] 0 e [tu5o] 0 W [5tuo] 9
-w [tu4i] 9 Q [4i] [8u] [qo]
-i [5i] [0u] [wu] W [6e] 8
-0 e t u p s f j j j
-H [5h] 7 9 w r y i k
-k j g [1f] 3 5 8 0 w
-t f f h f [6d] 9
-q E y i P d d g
-D [3f] % 7 0 W r y
-[uf] [pj] [sl] [6ak] [0pj] [esl]
-[0pj] [9ak] [epj] [yig] [eoh] [6uf] |
-[0ig] [euf] [YD] [8uf] [euf] [tpj]
-[esl] [6ak] [0pj] [esl] [0pj] [8ak]
-[epj] [tuf] [YD] [2yd] [6ts] [9ra]
-[6ep] [qts] [6yd] [9ig] [6O] [2ya] 4
-% 7 9 q W r a y i
-O [6tup] 0 e [tu5o] 0 W [5tuo] 9
-w [tu4i] 9 Q [4i] [8u] [qo]
-i [5i] [0u] [wu] W e 1
-3 6 8 0 e t u p s f
-b ]]
+shared.scr = [[ [%W] 
+[!*] W 
+T u T W * W T u T W 
+* W T u T W * W T u T W 
+* O W p T O [uo] O T S W f [0D] S W D T S [us] S T f W H 
+* O W p T O [uo] O T S W f [0D] S W D T S [us] S T f W H 
+( p e S T D [IG] j T L e Z [Qn] b T V Y C [px] Z Y C T L 
+[%l] Z ( j Q H [tG] j Q f ( D [%G] S ( s Q D [tp] O Q a ( p 
+* O W p T O [uo] O T S W f [0D] S W D T S [us] S T f W H 
+* O W P E O [uo] O E S W f [0D] S W D E S [Ts] S E f W H 
+[(D] f W D r d [YD] k r J W H [(h] x E Z T L [ok] J T H E h 
+[%J] H ( k W d [rf] D W H ( P [%S] a ( D W o [rP] O W o ( O 
+[6O] H * s Q S [eI] G Q s * S [6i] g * s Q S [eI] G Q s * S 
+[7T] S Q I e p [rY] D e I Q p [3u] f 7 O 0 a [WO] H 0 a 7 f 
+[6O] H * s Q S [eI] G Q s * S [6i] g * s Q S [eI] G Q s * S 
+[7i] g ( a e D [rI] G e a ( D [3p] j 7 a 0 f [WO] H 0 a 7 f 
+[6O] H * s Q S [eI] G Q s * S [6i] g * s Q S [eI] G Q s * S 
+[7T] S Q I e p [rY] D e I Q p [3u] f 7 O 0 a [WO] H 0 a 7 f 
+[6O] H * s Q S [eI] G Q s * S [6D] Z ( G Q j [eS] L Q G ( j 
+[%S] L ( D Q G [ts] l Q D ( G [%s] l ( D Q G [ts] l Q D ( G 
+[6s] l ( D Q G [ra] k Q D ( G [^a] k ( D Q G [EP] J Q D ( G 
+[8P] J ( D Q G [ep] j Q D ( G [8p] j ( D Q G [ep] j Q D ( G 
+[6s] l ( D Q G [ra] k Q D ( G [^a] k ( D Q G [EP] J Q D ( G 
+[7P] J ( D Q G [ep] j Q D ( G [8p] j ( D Q G [WO] H Q D ( G 
+* O W p T O [uo] O T S W f [0D] S W D T S [us] S T f W H 
+* O W p T O [uo] O T S W f [0D] S W D T S [us] S T f W H 
+( p e S T D [IG] j T L e Z [Qn] b T V Y C [px] Z Y C T 
+L [%l] Z ( j Q H [tG] j Q f ( D [%G] S ( s Q D [tp] O Q a ( 
+p * O W p T O [uo] O T S W f [0D] S W D T S [us] S T f W 
+H [Qf] D T f Y D [pd] D Y G T j [WG] g T G i g [af] g i H T 
+L e S T d I S [ps] S I G T j [WG] g T G i g [af] g i H T 
+L [eH] G T H I G [pg] G I j T L [8j] H Q j W H [Yh] H W l Q 
+Z [*H] j W H T h [uH] x T Z W z [(L] l W k t J [Ij] H t h W 
+G [0f] G W f T D [uf] x T Z W z [QL] l T k Y J [pj] H Y h T 
+G [uWTOH] V v C c x Z [Twupz] L l k J j H 
+h G g f D d S s a P p O o I u Y 
+T [%W?] [ufb] V x x [TSC] x L L [WOZ] L V 
+H [0uj] H x f [*TG] f L S [%WD] S H O [30p] O f 
+u [!*I] u S T [%Y?] T O W [%Y?] T O W [6Y?] T p 
+e [%Y?] T O W [5Y?] T o w [%Y?] T O W Y t O 
+W ! % * q W T i T W q * 
+% ! % * q W T i T W q * 
+% [!O] W t Y t W [*P] s P W O t [IS] t D 
+W [*g] W T i T W [*H] W i O i 
+W [IG] Y W [ig] T W [YD] t W [Tg] W 
+q S [%O] ( W t W ( [$P] Q E T E 
+q ^ q E y E q [^a] S a E P y [OD] y g 
+E [(G] I E [qg] i e [QD] Y E [Wg] I 
+t [*S] W T i T s S W D S [(g] w T Y T D 
+w [%D] ( W t W ( % ( Q E Q 
+( [%O] ( W t W ( [%P] s P W O t [IS] t D 
+E [*g] W T i T W [*H] W i O i 
+W [IG] Y W [ig] T W [YD] t g D W S D [Tg] W 
+q S [%O] ( W t W ( [$P] Q E T E 
+Q ^ q E y E q [^a] S a E P y [OD] y g 
+E [(G] I E [qg] i e [QD] Y E [Wg] I 
+t [*S] W T i T o O W P O [*g] W t I t D 
+W [*D] W t I t W [*S] W T i T 
+H W [%O] ( W t W ( [%P] s P ( w p [TP] w 
+( s [%O] ( W [tl] W ( * J W H T f u S T P 
+W H [@Y] ( W t W ( s [@P] ( w p [TP] w 
+( D [%O] ( W t W ( [$P] Q E [TS] [Es] 
+[QP] [%O] W t Y t W * W O t [IS] t 
+D W [*g] W T i T W [*H] W i O i 
+W [IG] Y W [ig] T W [YD] t g D W S D [Tg] W 
+S q [%O] ( W t W ( [$P] Q E T E 
+Q ^ q E y E q ^ E P y [OD] y 
+g E [(G] I E [qg] i e [QD] Y E [Wg] I 
+t [*S] W T i T o O W P O [*g] W t I t 
+D W [*D] W t I t W [*S] W T i T 
+H W [%O] ( W t W ( [%P] s P ( s w p [TP] w 
+( s [%O] ( W [tl] W ( * J W H T f u S T 
+P W H [@Y] ( W t W ( s [@P] ( w p [TP] w 
+( D [%O] ( W t W ( [$P] Q E [TS] [Es] 
+[QP] [%O] ( W t W ( % W O t [IS] t 
+D E [*g] W T i T W [*H] W i O 
+i W [IG] Y W [ig] T W [YD] t g D W S D [Tg] 
+W S q [%O] ( W t W ( [$P] Q E T 
+E Q ^ q E y E q ^ E P y [OD] 
+y g E [(G] I E [qg] i e [QD] Y E [Wg] 
+I t [*S] W T i T o O W P O [*g] W t I 
+t D W [*D] W t I t W * W t I 
+t W * O W p T O [uo] O T S W f [0D] S W D T S [us] S 
+T f W H * O W p T O [uo] O T S W f [0D] S W D T S [us] 
+S T f W H ( p e S T D [IG] j T L e Z [Qn] b T V Y C [px] 
+Z Y C T L [%l] Z ( j Q H [tG] j Q f ( D [%G] S ( s Q D [tp] 
+O Q a ( p * O W p T O [uo] O T S W f [0D] S W D T S [us] 
+S T f W H * O W P E O [uo] O E S W f [0D] S W D E S [Ts] 
+S E f W H [(D] f W D r d [YD] k r J W H [(h] x E Z T L [ok] 
+J T H E h [%J] H ( k W d [rf] D W H ( P [%S] a ( D W o [rP] 
+O W o ( O [6O] H * s Q S [eI] G Q s * S [6i] g * s Q S [eI] 
+G Q s * S [(T] S Q I e p [rY] D e I Q p [3u] f 7 O 0 a [WO] 
+H 0 a 7 f [6O] H * s Q S [eI] G Q s * S [6i] g * s Q S [eI] 
+G Q s * S [7i] g ( a e D [rI] G e a ( D [3p] j 7 a 0 f [WO] 
+H 0 a 7 f [6O] H * s Q S [eI] G Q s * S [6i] g * s Q S [eI] 
+G Q s * S [7T] S Q I e p [rY] D e I Q p [3u] f 7 O 0 a [WO] 
+H 0 a 7 f [6O] H * s Q S [eI] G Q s * S [6D] Z ( G Q j [eS] 
+L Q G ( j [%S] L ( D Q G [ts] l Q D ( G [%s] l ( D Q G [ts] 
+l Q D ( G [6s] l ( D Q G [ra] k Q D ( G [^a] k ( D Q G [EP] 
+J Q D ( G [8P] J ( D Q G [ep] j Q D ( G [8p] j ( D Q G [ep] 
+j Q D ( G [6s] l ( D Q G [ra] k Q D ( G [^a] k ( D Q G [EP] 
+J Q D ( G [7P] J ( D Q G [ep] j Q D ( G [8p] j ( D Q G [WO] 
+H Q D ( G * O W p T O [uo] O T S W f [0D] S W D T S [us] 
+S T f W H * O W p T O [uo] O T S W f [0D] S W D T S [us] 
+S T f W H ( p e S T D [IG] j T L e Z [Qn] b T V Y C [px] 
+Z Y C T L [%l] Z ( j Q H [tG] j Q f ( D [%G] S ( s Q D [tp] 
+O Q a ( p * O W p T O [uo] O T S W f [0D] S W D T S [us] 
+S T f W H [Qf] D T f Y D [pd] D Y G T j [WG] g T G i g 
+[af] g i H T L e S T d I S [ps] S I G T j [WG] g T G i g 
+[af] g i H T L [eH] G T H I G [pg] G I j T L [8j] H Q j W H 
+[Yh] H W l Q Z [*H] j W H T h [uH] x T Z W z [(L] l W k t J 
+[Ij] H t h W G [0f] G W f T D [uf] x T Z W z [QL] l T k Y J 
+[pj] H Y h T G [uWTOH] V v C c x Z [Twupz] L l k 
+J j H h G g f D d S s a P p O o 
+I u Y T [%W?] [ufb] V x x [TSC] x L L 
+[WOZ] L V H [0uj] H x f [*TG] f L S [%WD] S H O 
+[30p] O f u [!*I] u S T [%Y?] T O W [%Y?] T O W 
+[6Y?] T p e [%Y?] T O W [5Y?] T o w [%Y?] T O W 
+Y t O W [!Y] T [0O] W [*p] O [%f] u [!p] O [Qf] u 
+[8p] O [%D] Y [!p] O [0D] u [*p] O [%S] T [!u] Y [QO] W 
+[8u] Y [%O] W [!Y] T [0O] W [*p] O [%f] u [!p] O [Qf] u 
+[8p] O [%D] Y [!p] O [0D] u [*p] O [%S] T [!u] Y [QO] W 
+[8u] Y [%O] W [!Y] T [0O] W [*p] O [%f] u [!I] u [WS] T 
+[*p] O [%f] u [!Y] T [0O] W [*p] O [%f] u [!I] u [WS] T 
+[*p] O [%f] u [!I] u [0S] T [*p] O [%S] T [!I] u [0S] T 
+[*p] O [%S] T [!I] u [0S] T [*p] O [%S] T [!I] u [0S] T 
+[*p] O [%S] T [!Y] T O W Y T O W Y T O W 
+Y T O W Y T O W Y T O W Y T O W 
+Y T O W [!%Y] T O W Y T O W Y T O W 
+Y T O W [^Y] T O W [%Y] T O W [*Y] T O W 
+[(Y] T O W [qY] T O W Y T O W Y T O W 
+Y T O W [WY] T O W Y T O W Y T O W 
+Y T O W [QY] T O W Y T O W [qY] T O W 
+Y T O W [(Y] T O W Y T O W [qY] T O W 
+[*Y] T O W [%Y] T O q Y T O q Y T O q 
+Y T O q [%i?] Y O Q i Y O Q i Y O Q 
+i Y O Q ! % Q W t Y 
+! % q T  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
