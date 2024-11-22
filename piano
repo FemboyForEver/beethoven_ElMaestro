@@ -4268,7 +4268,7 @@ Section:NewButton("cordelia", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 162 -- tempo overides the delay
+shared.tempo = 165 -- tempo overides the delay
  
 shared.scr = [[ e [tu] [tu]
 q [et] [et]
