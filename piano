@@ -4263,34 +4263,52 @@ t [ej] [tx] [uz] q [ej] [tx] [iz] w [rh] y [oh] - [etupj] [etupj] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("your name", "Auto", function()
+Section:NewButton("cordelia", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 189 -- tempo overides the delay
+shared.tempo = 162 -- tempo overides the delay
  
-shared.scr = [[ 680wetuo |
-[ytqe86] |
-[wut8] |
-68qetuo |
-[yqie^9] |
-t | [ph] | h| h[ih] f d ds[tf] |
-o | s | [ph] | h| s[li] kjh hj[th] |
-fgf[od] | s | [ph] | h| h[ih] f d ds[tf] |
-s | [wd] o sdfdessps ssq i sdfd8s sh sdw o sdfdessps ssq i sdfd8s sh sdw o sds etuo |
-[ypihE] | [toa]sf | [tsoie] | [ypodE] |
-[toa]sf | [uphe] | h| h[tqih] f [ldcb] ds[wtf8] |
-[ywro] | [zvsn] | [utohe] | h|
-s[tqli] kj[lhcb] hj[wth8] | fgf[ywrod] |
-[zvsn] | [utohe] | h| h[tqih] f [ldcb] ds[wtf8] |
-s | [ywrod] o [zvsn]dfd[upe]ssps ss[tqi] i [slcb]dfd[wt8]s sh sd[ywro] o [zvsn]dfd[utoe]ssps ss[tqi] i [slcb]dfd[wt8]s sh sdw9[w7]5[t2][y5][u2]y6[t3][t6][e8][t0]e[t0]t48qq[t8]y[u4]y1[t5]8[t0][o8] ty59ww[t9]yuy6[t3][t6][e8][t0]e[t0]t48qq[t8]y[u4]y1[t5]8[t0][wo] ty59[wo]w[ts9][yd][uf][yd]6[ts3][ts6][pe8][ts0]e[ts0][ts]48[qi]q[ts8][yd][uf4][yd]1[ts5]8[ts0][oh8] [ts][yd]59[wo]w[ts9][yd][uf][yd]6[ts3][ts6][pe8][ts0]e[ts0][ts]48[qi]q[ts8][yd][uf4][yd]1[ts5]8[ts0][woh] [ts][yd]572579wryoadh k [sl6][k8][h0][je][td][uf][ph][uj][td][fe][h0][j8][d6][f0][he][j0][s1]l[k5][h8][j0][wd][tf][uh][oj][sd][of][uh][tj][wd][f0][wh][tj][sle6]| [vphe]| [xqf84] | qetite[sl851]| [toh8]| [zwd95] | wryoyr[xfe60]| [zuped]| [vh][xqf84]| qetite[sl851]| [wtoh80]| [zwd95] | wryoadh | lzxzp[lf] jl llisg lzxzt[ol] l[vs] lzodh lzxzp[lf] jl llisg lzxzt[ol]slv lzodh [ol]zxz[pl]fj[lf]j[lf][lj][lf][li]sgh[sl][zi][xs]z[tl]osl[vo]t[ol]z[zo]dhd[lh][zd][xh]z[pl]f[lj][lf]j[lf][lj][lf][li]sgh[sl][zi][xs]z[tl]osl[vo]t[ol]zoyrw[wo]9[s7][d5][f2][d5]6[s0][se][tp][us]p[us][ts]48[qi]e[ts][id][tf][ed]1[s5]8[s0][wh]t[ws][d0]59[wo]r[ys][od][yf][rd]6[s0][se][tp][us]p[us][ts]48[qi]e[ts][id][tf][ed]1[s5]8[s0][wh]t[ws][d0]59[woh]r[ysl][zod][xf][zd]6[sl6][sl0][pje][tsl]u[spl][sl]44[ig8]q[sle][ztd][xif][zd]1[sl1]5[sl8][vh0]w[tsl][zd]55[oh9]w[srl][zyd][xof][zd]6[sl6][sl0][pje][tsl]u[spl][sl]44[ig8]q[sle][ztd][xif][zd]1[sl1]5[sl8][vh0]w[tsl][zd]559wryoadhk | [sl6]0[ke][tl]up[uk][tl]48[qh][le]t[si][th][se][s1]df5[g8]0[wh]t[wf]0[g5]fd9wryoyr[sl6]0[ke][tl]up[uk][tl]48[qh][le]t[si][th][se][s1]df5[g8]0[wh]t[xw]0[z5]9wryoyr[sl6]0[kea][tsl]up[uka][tsl][sl4]8[qka][sle]ti[tka]e[sl1]58[vh0]wt[wsl]0[zd5]9wryoyr[sl6]0[kea][tsl]up[uka][tsl][sl4]8[qka][sle]ti[tka]e[sl1]58[vh0]wt[wsl]0[zd5]9wryoyr[sl6]| [pje60]| [sle60][zd][xfe60] [sl4]| [qoh84]| [sql84][zd][xqf84] [sl1]| [vh851]| [sl851] [zd5]| [w95]| [w95] [sl6]| [pje60]| [sle60][zd][xfe60] [sl4]| [qoh84]| [sql84][zd][xqf84] [sl1]| [vh851]| [sl851] [zd5]| [w95]| [w95] [sl6]| [pje60]| [sle60][zd][xfe60] [zd4]| [sql84]| [qoh84][sl][zqd84] [sl1]| [vh851]| [sl851] [zd5]| [w95]| [w95] [s6]0e[tp]| sdf [d4]8q[se]| osd [o1]sf58[shf0]wt[ud]t[o5]ad9wryoadhkzvnzv [ph] |
-h| h[ih] f d ds[tf] | s | [ts]od |
-s [ph] | h| s[li] kjh ghjhght |
-fgf[od] | s | [ph] | h| h[ih]
-f d ds[tf] | s |
-[wd] o sdfdqts ps ss8w o sdfdeus sh sdwy|
-s fds[s8]0wt ]]
+shared.scr = [[ e [tu] [tu]
+q [et] [et]
+8 [0wt] [0wt]
+0 [Wry] [Wry]
+e [tu] [tu]
+q [et] [et]
+8 [0wt] [0wt]
+0 [Wry] [Wrya]s[ef] [tu] [tu]s[qa] [eti] [eti]s[8u] [0wt] [0wt]
+0 [Wry] [Wrya]s[ef] [tu] [tu]s[qj] [eti] [eti]g[8f] [0wt] [0wt]d[0f]
+[Wry] [Wrya]s[ef] [tu] [tu]s[qa] [eti] [eti]p[8u] [0wt] [0wt]
+0 [Wry] [Wrya]s[ef] [tu] [tu]s[qj]k[etij] [eti]g[8f] [0wt] [0wt]d[0f] [Wry] [Wryd]f[yg]h[ipg]f[ipd]s[wa]i[ryoh]g[ryof]D[tf]g[uof]d[uos]a[qp]u[etig]f[etid]s[Wd]f[ryud]s[ryua]p[qO]u[wrI]O[wrp]a[es]a[tus]S[tud]D[Wf] [ryuf]h[ryug]f[yg]h[ipg]f[ipd]s[wa]i[ryoh]g[ryof]D[tf]g[uof]d[uos]a[qp]u[etig]f[etid]s[wd]f[ryud]s[ryua]p[QO]u[rWI]O[Wrp]a[ep] [tu] [tu] [tu]|
+as[ef] [tu] [tu]s[qa] [eti] [eti]p[8u] [0wt] [0wt]
+0 [Wry] [Wrya]s[ef] [tu] [tu]s[qj]k[etij] [eti]g[8f] [0wt] [0wt]d[0f] [Wry] [Wryd]f[wg]h[ryig]f[ryid]o[tf] [uo] [uo]
+[0d]f[Wryd]s[Wrya]d[0s] [et] [et]
+[qp]O[etip]a[etis]
+[0p]O[etp]a[ets]
+[(p]O[etp]a[ets]d[0f] [Wryu] [Wryz]x[wc]v[ryic]x[ryiz]h[tx] [uo] [uo]
+[0z]x[Wryz]l[Wryk]z[el] [tu] [tu]
+[qj]H[etij]k[etil]
+[0j]H[etj]k[etl]
+[(j]H[etj]k[etl]z[0x] [Wryf] [Wryf] [Wryf]|
+as[ef] [tu] [tu]s[qa] [et] [et]s[8u] [0w] [0w]
+0 [Wr] [Wra]s[ef] [tu] [tu]s[qj] [et] [et]g[8f] [0w] [0w]d[0f]
+[Wr] [Wrak][sl][6eflx] [0et] [0et][sl][H4qak] [qet] [qet][sl][8tusf] [wtu] [wtu]
+[30] [70W] [W70ak][sl][6eflx] [0et] [0et][sl][4qjlcb] [qet] [qet][gc][8tflx] [wtu] [wtu][dz][H30fkx] [70W] [W70ak][sl][6eflx] [0et] [0et][sfl][H4qak] [qet] [qet][pgj][8tusf] [wtu] [wtu] [30] [70W] [W70ak][sl][6eflx] [0et] [0et][sfl][4qjcb][kn][qetjb] [qet][gc][8tflx] [wtu] [wtux][dz][H30fkx] [70W] [W70d]f[6eg]h[0etg]f[0etd]s[4qa]i[qeth]g[qetf]D[8tf]g[wtuf]d[wtus]a[30p]i[W70g]f[W70d]s[6ed]f[0etd]s[0eta]p[4qO]u[qetI]O[qetp]a[8ts]a[wtus]S[wtud]D[30f] [W70f]h[W70g]f[29g]h[qeyg]f[qeyd]s[5wa]u[wryh]g[wryf]D[18f]g[0wtf]d[0wts]a[4qp]u[etig]f[etid]s[%Wd]f[Wyud]s[Wyua]p[30O]u[0rWI]O[W0rp]a[6p] [etusl] [etufx]
+[4jlcb] [qetiHV][jb][qetilm]
+[18] [80wtflx] [80wtgc]
+[30dhkz] [W0ry][sl][W0ryak]
+[6psj] [etusl] [etufx]
+[4jlcb] [qetiHV][jb][qetilm]
+[18] [80wtflx] [80wtgc]
+[H30dkz] [W0ry][sl][W0ryak]
+[6psj] [etusl] [etufx]
+[4jlcb] [qetiHV][jb][qetilm]
+[18] [80wtxm] [80wtc]
+[V30zn] [W0ry][lm][W0rykn]
+[6p]sfjlxbmx[etupb]xmbxljlxbxljfspsfjfsputetu6|
+[euplxm]| [6e] ]]
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
