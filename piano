@@ -6428,10 +6428,10 @@ shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 110 -- tempo overides the delay
 
-shared.scr = [[ 6|[etu]|5|[etu]|
-4|[etY]|3|[Wru]|
-6|[etu]|5|[etu]|
-4|[etY]|3|YY||||||| t
+shared.scr = [[ 6|||[etu]|5|||[etu]|
+4|||[etY]|3|||[Wru]|
+6|||[etu]|5|||[etu]|
+4|||[etY]|3|||YY t
 [6y]||[5e]| e
 [4t] ty|[3y]|t|
 [6u]|u|[5p]|p|
