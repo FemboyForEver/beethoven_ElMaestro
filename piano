@@ -223,23 +223,70 @@ shared.scr = [[ [7?] [6?] [6?] [18] [6?] [6?] [29] [6?]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("London Bridge is Falling Down", "Auto", function()
+Section:NewButton("golden hour x interstellar", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 80 -- tempo overides the delay
  
-shared.scr = [[ h j h g f g h||
-d f g||
-f g h||
-h j h g f g h||
-d||h||f s
-h j h g f g h||
-d f g||
-f g h||
-h j h g f g h||
-d||h||f s ]]
+shared.scr = [[ [qy] [eu] [to] [ep] [to] [eu] [qy] [eu] [to] [ep] [to] [eu] 
+[qy] [eu] [to] [ep] [to] [eu] [qt] [eu] [to] [ep] [to] 
+[eu] [0t] [wu] [ro] [wp] [ro] [wu] [0t] [wu] [ro] [wp] [ro] 
+[wu] [0t] [wu] [ro] [wp] [ro] [wu] [(t] [wu] [ro] [wp] 
+[ro] [wu] [9t] [wu] [ei] [qo] [ei] [qy] [9t] [qy] [ei] [qto] 
+[ei] [qy] [9t] [qy] [ei] [qo] [ei] [qy] [9t] [qy] [ei] 
+[qo] [ei] [qy] [8r] [0t] [wy] [0u] [wy] [0t] [8r] [0t] 
+[wy] e u [wy] [0t] [8r] [0t] [wy] [0u] [wy] [0t] [8r] [0t] 
+[wy] [0u] w [0u] [4tpj] [8i] [0u] [et] 0 8 [ef] 
+8 [0u] [epj] [0i] [8u] [4qtpj] [8i] [0u] [et] 0 [8i] [4f] 
+[8t] [0u] [ep] [0i] [8u] [5a] [9o] [0u] [ry] [0u] [9o] [5fx] 
+9 u [ra] [0o] [9u] [5a] o [0u] [ry] [0u] [9o] [5f] 
+9 u [rak] [0o] [9u] [6s] [8p] [0u] [et] [0u] [8p] [6fx] 
+[8ts] 0 [es] [0p] [8u] [6s] [8p] [0u] [et] 0 [8p] [6f] 
+[8t] 0 [es] [0p] [8u] [6d] [8a] [0o] [es] [0p] 8 [6f] 
+u [0o] [rd] [0a] [9o] [5d] [9a] [0o] [ru] [0o] [9a] 
+[5f] [etyis] u u u 
+y f [qy] [eu] [tu] 
+[eu] t [eu] [qy] [eu] [tu] [eu] t [eu] [0y] [wu] 
+[ru] [wu] r u [wy] [0f] w r w r w [0y] 
+[wu] [ru] [wu] [ru] [wu] [(y] [wu] [ru] [wu] [ru] [wu] [9t] 
+[qy] [eu] [qy] [eu] [qy] [9d] q e q e q 
+[9t] [qy] [eu] [qy] [eu] [qy] [9d] q e q e 
+q [8t] [0y] [wu] [0y] [wu] 0 [8t] [0y] [wu] [0y] [wu] 
+0 [8t] [0y] [wuo] [0y] t 8 [uf] 
+[oh] [4pj] 8 q e t e 4 8 [qpj] e 
+[tak] [esl] 4 8 q e t e 4 8 [qpj] e 
+[tsl] e [3ak] 7 [0pj] [roh] w [3oh] 7 0 w 
+[ruf] w [3ak] 7 [0upj] w [roh] [@ak] 7 [(pj] 
+[7oh] $ [29oh] 6 [ig] 9 q e q 2 6 9 q 
+e q 2 6 9 q [ig] e q [2oh] 6 [9ig] q [eufx] 
+q [1uf] 5 8 0 w 0 1 5 8 0 w 
+0 [30uf] [30uf] [29yd] [180ts] [ufx] [oh] 
+[4pjx?] [qetu] [pj] [ak] 
+[sl] 4 [qetusf] j [tsl] 
+[3ak?] [pj] [oh] [0wruoah] [ufx] 
+[3ak?] [ak] [ak] [@sl?] [pj] [oh] 
+[2oh?] [ig] [9qey] [zb] [2zb] 
+[ig] [yoh] [ig] [uf] [370uf] 
+3 3 [3pj] 3 3 [3sl] 
+3 [3dz] [4pjx?] i 
+[8u] [qt] [eu] [ti] [qf] [8t] [qu] [9j] [ti] [eu] [qpj] [8i] [qu] 
+[et] u [ei] [4f] [8t] [qu] [epj] [ti] [eu] [4p] 8 q 
+e t e [4ak] 8 q e t e [4v] 8 q 
+e t e [4gH] 8 q W q 8 [1f] 5 8 
+0 w 0 [1a] [5s] [8d] [0f] [wd] [0s] [1a] [5s] [8d] 
+[0f] [wd] [0s] [1a] 5 [8oh] 0 [wsl] [ak] 1 5 8 
+0 w 0 [1ak] 5 8 0 w 0 [29sl] 6 9 
+q e q [3dz] 7 0 w r w [4fx] 8 q 
+e t e [pj] [8i] [qu] [et] [tu] [ei] [4f] [8t] [qtu] 
+[ep] [ti] [eu] [4pj] [8i] [qu] [et] [tu] [ei] [4fx] [8ets] [qu] 
+[epj] [tis] [eu] [4pj] 8 [qt] e t e [4ak] 8 q 
+e t e [4qhkv] 8 q e t e [H4gc] 8 q 
+W q 8 [1fx] 5 8 0 w 0 [1a] [5s] [8d] 
+f [wd] [0s] [1a] [5s] [8d] [0f] [wd] [0s] [1a] 5 [8oh] 
+0 [wsl] [0ak] 1 5 8 0 w 0 [18ak] 
+[26PJ?] [3PJ?]  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
