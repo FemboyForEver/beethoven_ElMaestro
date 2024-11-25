@@ -144,23 +144,81 @@ shared.scr = [[ [le] [uj] [pl] [xu] [zq] t i [tl]k[wl] y o [zy]l[k0] [rj] [uh] [
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("London Bridge is Falling Down", "Auto", function()
+Section:NewButton("virus beethoven", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 80 -- tempo overides the delay
+shared.tempo = 156 -- tempo overides the delay
  
-shared.scr = [[ h j h g f g h||
-d f g||
-f g h||
-h j h g f g h||
-d||h||f s
-h j h g f g h||
-d f g||
-f g h||
-h j h g f g h||
-d||h||f s ]]
+shared.scr = [[ [7?] [6?] [6?] [18] [6?] [6?] [29] [6?] 
+[6?] [30] [6?] [6?] [4q] [6?] [6?] [4q] 
+[30] [6?] [6?] [29] [6?] [6?] [18] [6?] 
+[6?] [7?] [6?] [6?] [18] [6u?] [7p?] [6a?] 
+[6s?] 0 e [td] [%a?] 0 W [0s] 
+[6p?] 0 e t u [tp] O [ep] a [0s] d 
+[6f?] 0 [ef] t [5f?] 9 [wf] r 
+[18f] w t u o u [td] [wf] 
+[29d] f [eg] y i [30a] r [us] [Od] 
+[6s?] d [0f] e t [29p] e [yp] [ea] 
+[18s] Q t [Yd] [30a] r u [rs] 
+[6p?] 0 e t u [tu] [ep] [0a] 
+[6s?] 0 e [td] [%a?] 0 W [0s] 
+[6p?] 0 e t u [tp] O [ep] a [0s] d 
+[6f?] 0 [ef] t [5f?] 9 [wf] r 
+[18f] w t u o u [td] [wf] 
+[29d] f [eg] y i [30a] r [us] [Od] 
+[6s?] d [0f] e t [29p] e [yp] [ea] 
+[18s] Q t [Yd] [30a] r u [rs] 
+[6p?] [30] [6e] [8t] [0u] [8tp] [%WO] [30p] 
+[3a?] [3u?] [3Y?] [3u?] [%a?] [%u?] [%f?] [%d?] 
+[6d?] [6s?] [6a?] [6p?] [6p?] [6a?] [6s?] [6p?] 
+[5a?] [5o?] [5I?] [5o?] [7a?] [7o?] [7h?] [7g?] 
+[18g] [18f] [18d] [18s] [18s] [18d] [18f] [18s] 
+[6S?] [6p?] [6S?] [6f?] [!*j] [!*p] [!*h] [!*p] 
+[29g] [29f] [29d] [29S] [18d] [18p] [18O] [18p] 
+[7D?] [7a?] [7D?] [7G?] [@(l] [@(f] [@(k] [@(j] 
+[30j] [30f] [30a] [30j] [30H] [30j] [5wk] [30f] 
+[6usf?] [80et] d s a u s u [29d] [30u] 
+[6s?] u a [6p?] [7O?] [18p] u a u [18s] u [29p] u 
+[29rua] [9wry] o a h [48qg] [370f] [269d] 
+[6f?] o d o [0etus] o a o s o d o f o [18s] o 
+[h^PJ?] [5w] [^Eh] J [0uh] J f h S f [30p] f 
+[6ej] h j [4qg] j [30f] j [29d] j 
+[@(D] [7?] a G [$l?] a [@k?] j 
+[3u?] O a d [7rf] H [%Wk] z [30x] k [7j?] f [%a?] p [3u?] p 
+[6x?] z x [0etul] x k x j s h s g s [6f?] s 
+[29g] f g [qeyid] g s g a y p y o y [29i] y 
+[5o?] y p y [79wra] y s y d y a y p y [5o?] y 
+[18t] y u o [0wtus] d f h x z l h [18f] d [18s] o 
+[4s?] a s [8qetp] s o s i s u s y s [29t] s 
+[29d] s d [qeyia] d p d o s i d u d [29y] d 
+[30u] O [Wrua] d f G [Oruk] z x z [Wruk] j f d [30a] p 
+[6p?] s [0etuf] j [6l?] k [680ej] H [36j?] 
+[29] [29] [5?] o [5s?] d 
+[18D] w t [Yg] [^d?] w E [wD] 
+[18s] w t Y o [Ys] a [ts] d [wD] g 
+[18h] w [th] Y [^h?] q [Eh] y 
+[@(h] E Y o P o [Yg] [Eh] 
+[4qg] h [tH] i O [5wd] y [oD] [ag] 
+[18D] g [wh] t Y [4qs] t [is] [td] 
+[@(D] e Y [Ig] [5wd] y o [yD] 
+[18s] w t Y o [Yo] [ts] [wd] 
+[18D] w t [Yg] [7d?] w r [wD] 
+[18s] w t Y o [Ys] a [ts] d [wD] g 
+[18h] w [th] Y [^h?] q [Eh] y 
+[@(h] E Y o P o [Yg] [Eh] 
+[4qg] h [tH] i O [5wd] y [oD] [ag] 
+[18D] g [wh] t Y [4qs] t [is] [td] 
+[@(D] e Y [Ig] [5wd] y o [yD] 
+[18s] w t o Y t [wg] h 
+[4qg] h [tH] i O [5wd] y [oD] [ag] 
+[18D] g [wh] t Y [4qs] t [is] [td] 
+[@(D] e Y [Ig] [5wd] y o [yD] 
+[18s] w t Y Y O [18s] [18D] 
+[7h?] d [7a?] O [Y18to] [@(Yos] 
+[5wosD] [D8tsh] [D158sh] 
+[18]  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
