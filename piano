@@ -291,27 +291,6 @@ f [wd] [0s] [1a] [5s] [8d] [0f] [wd] [0s] [1a] 5 [8oh]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("London Bridge is Falling Down", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
-shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = 0 -- delay overides the ftime
-shared.tempo = 80 -- tempo overides the delay
- 
-shared.scr = [[ h j h g f g h||
-d f g||
-f g h||
-h j h g f g h||
-d||h||f s
-h j h g f g h||
-d f g||
-f g h||
-h j h g f g h||
-d||h||f s ]]
- 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
-
-end)
 Section:NewButton("eminen mokingbird", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
