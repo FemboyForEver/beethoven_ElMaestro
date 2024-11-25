@@ -132,12 +132,12 @@ $ [6op?] [*5op] 5
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("London Bridge is Falling Down", "Auto", function()
+Section:NewButton("parasyte", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 80 -- tempo overides the delay
+shared.tempo = 110 -- tempo overides the delay
  
 shared.scr = [[ [le] [uj] [pl] [xu] [zq] t i [tl]k[wl] y o [zy]l[k0] [rj] [uh] [rk] [le] [uj] [pl] [xu] [zq] t i [tl]k[wk] y o [zy]l[wk] [yc] [xo] [wk] [le] [uj] [pl] [vu] [zq] t i [tl]k[wk] y o [yl]k[vtso]|[xroa] z [le] [uf] [pj] [xu] [zq] t i [tl]k[wk] y o [zy]l[wk] [oc] [xu] [rk] [le] [uj] [pl] [xu] [zq] t i [tl]k[wl] y o [zy]l[k0] [rj] [uh] [rk] [le] [uj] [pl] [xu] [zq] t i [tl]k[wk] y o [zy]l[wk] [yc] [xr] [yk] [le] [uj] [pl] [vu] [zq] t i [tl]k[wk] y o [yl]k[vtso]|[xroa] z [le] [uf] [pj] [xu] [zq] t i [tl]k[wk] y o [zy]l[wk] [oc] [xu] [rk] [lfe]|[ul]|[plf] u [tk] u [sqj]|[tj]|[lig] t [ke] [tl] [zwh] y [zr]|[yxh]|[yc] r [xth] o [xu]|[zwh] y [zr] [wl] [lfe]|[ul]|[plf] u [zt] u [sqj]|[tjc]|[xji] t [ze] [tl] [xwh] y [zr]|[vha]|[yc] [xr] [xth] o [uc] x [zwh] [yx] [zr] [wl] [sqj] i [tj] [pc] [xj] t [li] [zq] [zwh] o y [ka]|[zy] [xo] [rc] [xje] u p [sl] [kh] p [ul] [ze] [zh0] r u [zo] [zh] [ul] [rk] [l0] [sqj] i t [pj] [jc] [xt] [zi] [ql] [zwh] o y [ka]|[yl] [zo] [xr] [xje] p s [lf] k s [pl] [zu] [x0] r [zu] O [uc]Oaf x|3%70WruOafHkx|[lfe] [uj] [pl] [xu] [zqg] t i [tl]k[wlh] y o [zy]l[kf0] [rj] [uh] [rk] [lfe] [uj] [pl] [xu] [zqg] t i [tl]k[wkd] y o [zy]l[wkh] [yc] [xo] [wk] [lfe] [uj] [pl] [vu] [zqg] t i [tl]k[wkh] y o [yl]k[vtsol]|[xroa] z [lfe] [uf] [pj] [xu] [zqg] t i [tl]k[wkd] y o [zy]l[wkh] [oc] [xu] [rk] [lfe6] [uj] [pl] [xu] [zqg] t i [tl]k[wlh] y o [zy]l[kf0] [rj] [uh] [rk] [lfe6] [uj] [pl] [xu] [zqg] t i [tl]k[wkd] y o [zy]l[wkh] [yc] [xo] [wk] [lfe6] [uj] [pl] [vu] [zqg] t i [tl]k[wkh] y o [yl]k[vtl8]|[xr7] z [lf6] [uf] [pj] [xu] [zg4] t i [tl]k[kd5] y o [zy]l[kh5] [oc] [xu] [rk] [ze] [xu] [pl] s|l|k e u p [xs] x [zp] [zu] l [zq] [xi] [pl] s|l|k q t i p|[ql] [tl] x [x8] [zt] [zu] [sl] l l l x [x8] [zu] [zs] [lf] l [zu] x k [wk] o a [kd] k j [kd] l w [ok] a d|[wk] [yj] [rk] [le] u [pl]|[sl] u [pk] t [qj] t [ji]|[pl] t [ki] [le] [zw] y [zo]|[xa] y [oc] r [xt] o [xs]|[zw] y [zo] [wl] [le] u [pl]|[sl] u [zp] t [qj] t [ic]|[xp] t [zi] [le] [xw] y [zo]|[va] y [oc] [xr] [xt8]|c x [zw5] x||[qj4] i [tj] [pc] x t [ql] [z8] [zw5] o y [ka]|[zy] [xw] [c9] [xe6] p u [sl] k u [le] [z0] [z30] u r [zo] z [rl] [wk] [l0] [qj4] i t [pj] c [xt] [zq] [l8] [zw5] o y [ka] k [yl] [zw] [x9] [xe6] p u [sl] k u [le] [z0] [x30] r [zu] O [ca] O [xu] r [30]ruOafHkfHkx ]]
  
