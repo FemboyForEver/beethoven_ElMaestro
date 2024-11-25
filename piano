@@ -101,23 +101,33 @@ k||| l ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("London Bridge is Falling Down", "Auto", function()
+Section:NewButton("great balls of fire", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 80 -- tempo overides the delay
+shared.tempo = 168 -- tempo overides the delay
  
-shared.scr = [[ h j h g f g h||
-d f g||
-f g h||
-h j h g f g h||
-d||h||f s
-h j h g f g h||
-d f g||
-f g h||
-h j h g f g h||
-d||h||f s ]]
+shared.scr = [[ [3?] [$?] [%?] [6?] t t t t 
+e Q e e e t 
+[6?] [7?] [!*] [29] t t t 
+e Q e e Q 
+[!*] [29] [@(] [30] r r r T 
+[30] [30] [@(] [29] Q e e w 
+[6T?] w e 
+e S e e w 
+l k j h g f d s a p o I i u y t [3eT?] [3eT?] [e$T?] [3eT?] [3eT?] [3?] 
+[$e?] [3w?] [3e?] [3e?] [$e?] [3eT?] [3?] [3?] 
+[$?] [3?] [et?] [et?] [et?] [et?] [et?] ? 
+[e?] [Q?] [e?] [e?] [e?] [et?] ? ? 
+? ? ? [Wr?] [!Wr?] [Wr?] [Wr?] ? 
+[!?] ? ? [Q?] [Qe?] [Qe?] [Qe?] ? 
+? ? [wt?] w e 
+e S [Qe] [Qe] [0w] 
+[I26p] 9 [$I8p] 9 
+[$8] 9 [I26p] [$Ip] 
+$ [6op?] [*5op] 5 
+[36] [60op?] [op]  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
