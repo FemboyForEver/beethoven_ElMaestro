@@ -108,33 +108,7 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 70 -- tempo overides the delay
  
-shared.scr = [[ [3?] e [eT] [Teu] [3?] E [Ey] [Eyi] 
-[3?] y [yo] [yoP] [3?] p i u 
-[9p] [qep] [qep] [qei] [5o] [^9] [^9] [^9] 
-[6o] [*0o] [*0o] [*0u] [9i] [qei] [qeo] [qep] 
-[9i] [qei] [qei] [qey] [6u] [*0o] [*0i] [*0u] 
-[9p] [qei] [qeu] [qey] [6u] [*0] [0*T] [*0] 
-[269y] [qey] [qey] [qey] [158o] [0wy] [0wy] [0wy] 
-[^4p?] [9qi] [9qu] [9qy] [158u] [0wo] [0wi] [0wu] 
-[269yi] 6 9 [qy] [158oP] 5 [8i] [0u] 
-[^4yi?] 4 [9i] q [1580u] [9o] [8i] [0u] 
-[269yi] 6 [9p] [qy] [158yo] 5 8 [0i] u 
-[^4p?] 4 [9y] q [1580] [9u] [8y] [0T] 
-[269y] [6y] [9y] [qy] [158i] [5y] [8y] [0y] 
-[4^?] [4y] [9y] [qy] [1580p] [9y] [8o] [0u] 
-[9yp] [qep] [qep] [qei] [5o] [^9] [^9] [^9] 
-[6o] [*0o] [*0o] [*0u] [9i] [qei] [qeo] [qep] 
-[9i] [qei] [qei] [qey] [6u] [*0o] [*0i] [*0u] 
-[9p] [qei] [qeu] [qey] [6u] [*0] [0*T] [*0] 
-[269y] [qey] [qey] [qey] [1580o] [0wy] [0wy] [0wy] 
-[^4qp?] [9qi] [9qu] [9qy] [158wu] [0wo] [0wi] [0wu] 
-[269eyi] 6 9 [qy] [158woP] 5 [8i] [0u] 
-[^4qyi?] 4 [9i] q [1580wu] [9o] [8i] [0u] 
-[269eyi] 6 [9p] [qy] [158wyo] 5 8 [0i] u 
-[^4qp?] 4 [9y] q [1580w] [9u] [8y] [0T] 
-[269qey] [6y] [9y] [qy] [158i] [5y] [8y] [0y] 
-[4^?] [4y] [9y] [qy] [1580p] [9y] [8o] [0u] 
-y   ]]
+shared.scr = [[ [pflkj lkhfuspflkj lkhfus[pjf]fj[kh][lj] [kh] [hd]o[uj]spf[lj][kh][lj] [kh] [khd]o[uj]s[jig]s[xl][zkh][lj] [okh] [kjhd]f[khd] [pkf]ljfkl[xlf] [zk] [lj]u[pjf]fj[kh][lj] [kh] [hd]o[upj]spf[lj][kh][lj] [kh] [lhd][ok][upj]s[jig]s[xl][zk][lj] [okh] [kjhd]f[khd]o[pkf]l[jf]| j[okh][lji][zuk][yxjgd] [ljd]g[lj][xl][zukh][lf][zkd][sl][kha]o[pkf]l[xlj][zk][lj][zk][xlj] [zkj][kh][plj][zok][xjig] [ljg][sg][lj][xl][zokh]l[zkh][pl][kha] [slf] [xlh]h[xl] pf[sl][kha][plj][zok][xpjig] [pljg][gf][ljd][xl][zukhd] [zslk]a[zkhd] [yxlj]cx| [zukh]xz| [ljig]zl| [olhf]kh [kha] [pkf]l[lj]k[jf]k[xlj] [zk] [lj] j [lj]k[jf]k[ljf] [kh] j b  ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
