@@ -64,9 +64,9 @@ e [tu]p[tup]s[5a] [ru] [ru]p[wp] [rup] [ru]o[4p] [et] [et]
 q [et]p[etp]s[9d]s[yid] [yi]
 ef[yid]s[yip]a[6s]a[tus] [tu]
 e [tus]s[tus]d[5a] [ru] [ru]p[wp] [rup] [ru]o[4p] [et] [et]
-[qa] [ey] [ey] [qs] [eu] [eu] [eu]||
+[qa] [ey] [ey] [qs] [eu] [eu] [eu]|||
 [9z]j[yig]z[yij]g[ez]j[yig]z[yil]k[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]k[ruj]h[4j] [et] [et] q [etf]j[etk]l[9z]j[yig]z[yij]g[ez]j[yig]x[yil]k[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]h[ruk]x[qj] [et] [et] [qk] [ey] [ey]
-[ql] [eu] [eu] [eu]||
+[ql] [eu] [eu] [eu]|||
 [9g] [yi] [yi]
 efg[yif]d[yis]d[6f] [tu] [tu]
 e [tu] [tus] [5a] [ru] [ruf]
@@ -75,11 +75,11 @@ qp[eta]s[etd]f[9g] [yi] [yi]
 efg[yif]d[yis]d[6f] [tu] [tu]
 e [tu] [tuf] [5h] [ru] [ruk]
 w [rul] [ru] [qj] [et] [et]
-[qk] [ey] [ey] [ql] [eu] [eu] [eu]||
+[qk] [ey] [ey] [ql] [eu] [eu] [eu]|||
 [9z]j[yig]z[yij]g[ez]j[yig]z[yil]k[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]k[ruj]h[4j] [et] [et]
 qkl[etk]j[etk]l[9z]j[yig]z[yij]g[ez]j[yig]x[yil]k[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]h[ruk]x[qj] [et] [et]
 [qk] [ey] [ey] [ql] [eu] [eu]
-[eu]|| [pj][sl][9dz] [yi] [yi]
+[eu]||| [pj][sl][9dz] [yi] [yi]
 e[fx][yidz][sl][yiak][pj][5ak] [ru] [ru]
 w [ruak][ak][ruak][ak][6sl] [tu] [tu]
 [8ak] [ru] [ru]
@@ -91,12 +91,12 @@ w [ruak][ak][ruak][ak][6sl] [tu] [tu]
 [qpj] [et] [et]
 [qak] [ey] [ey]
 [qsl] [eu] [eu]
-[eu]||
+[eu]|||
 [9z]j[yig]z[yij]g[ez]j[yig]zx[yiz]l[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]jk[ruj]h[4j] [et] [et]
 qkl[etk]j[etk]l[9z]j[yig]z[yij]g[ez]j[yig]zx[yiz]l[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]h[ruk]x[4j] [et] [et]
 4 [et] [et]
-[eyiz]jgzjgzjgzlk[eupl]kflkflkflkj[wrok]hfkhfkhfkjh[qtij]||
-k|| l ]]
+[eyiz]jgzjgzjgzlk[eupl]kflkflkflkj[wrok]hfkhfkhfkjh[qtij]|||
+k||| l ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
@@ -5417,7 +5417,7 @@ shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 90 -- tempo overides the delay
 
-shared.scr = [[ j| x| k| H|
+shared.scr = [[ j||x|| k|| H||
 [4p] a s f s a p a s f s a
 [6p] a s f s a p a s f s a
 [0p] a s f s a p a s f s a
@@ -5433,12 +5433,12 @@ shared.scr = [[ j| x| k| H|
 [qetp] a s f s a p a s f s a
 [0etp] a s f s a p a s f s a
 [0wrp] a s f s a p a s f s a
-[qetp] a s f s a p a s f|
-[qetf] h j k|l k j h f d s
+[qetp] a s f s a p a s f|||
+[qetf] h j k|||l k j h f d s
 [etud] f h dsd s d f h dsd s
 [wryd] f h dsd s a s f apa p
-[Q9ep] a s f s a p a s f|
-[qetf] h j l|l z x v zlz l
+[Q9ep] a s f s a p a s f|||
+[qetf] h j l|||l z x v zlz l
 [etuz] x v zlz l z x v zlz l
 [wryz] x v zlz l k l x kjk j
 [Iypk] l x kjk j k l x kjk j
@@ -5449,9 +5449,9 @@ shared.scr = [[ j| x| k| H|
 [qetj] k l x l k j k l x l k
 [0etj] k l x l k j k l x l k
 [0wrj] k l x l k j k l x l k
-[qetj] k l x l k j k l x|
+[qetj] k l x l k j k l x|||
 6 0 e t u p p s f j H l
-x V b m x V b||
+x V b m x V b|||
 6 ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
