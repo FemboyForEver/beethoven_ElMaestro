@@ -51,22 +51,52 @@ shared.scr = [[ u|||||||||||||||||||| u||||||||||||||||| u|||||||||||||| u||||||
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("doors elevatort", "Auto", function()
+Section:NewButton("Idea 10", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 90 -- tempo overides the delay
+shared.tempo = 80 -- tempo overides the delay
  
-shared.scr = [[ y p y p y p y y p
-t o t o t o t t o
-E i E i E i E E i
-e o e o e u e e y i o
-y p y p y p y y p
-u y u o t o t o t t o
-y t E i E i E i E E E t i
-u o o o e i e T u
-y p y a y s y u e u i p y e ]]
+shared.scr = [[ pps[9d]s[yid] [yi]
+e [yi]p[yip]a[6s]a[tus] [tu]
+e [tu]p[tup]s[5a] [ru] [ru]p[wp] [rup] [ru]o[4p] [et] [et]
+q [et]p[etp]s[9d]s[yid] [yi]
+ef[yid]s[yip]a[6s]a[tus] [tu]
+e [tus]s[tus]d[5a] [ru] [ru]p[wp] [rup] [ru]o[4p] [et] [et]
+[qa] [ey] [ey] [qs] [eu] [eu] [eu]||
+[9z]j[yig]z[yij]g[ez]j[yig]z[yil]k[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]k[ruj]h[4j] [et] [et] q [etf]j[etk]l[9z]j[yig]z[yij]g[ez]j[yig]x[yil]k[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]h[ruk]x[qj] [et] [et] [qk] [ey] [ey]
+[ql] [eu] [eu] [eu]||
+[9g] [yi] [yi]
+efg[yif]d[yis]d[6f] [tu] [tu]
+e [tu] [tus] [5a] [ru] [ruf]
+w [ru] [ru] [4p] [et] [et]
+qp[eta]s[etd]f[9g] [yi] [yi]
+efg[yif]d[yis]d[6f] [tu] [tu]
+e [tu] [tuf] [5h] [ru] [ruk]
+w [rul] [ru] [qj] [et] [et]
+[qk] [ey] [ey] [ql] [eu] [eu] [eu]||
+[9z]j[yig]z[yij]g[ez]j[yig]z[yil]k[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]k[ruj]h[4j] [et] [et]
+qkl[etk]j[etk]l[9z]j[yig]z[yij]g[ez]j[yig]x[yil]k[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]h[ruk]x[qj] [et] [et]
+[qk] [ey] [ey] [ql] [eu] [eu]
+[eu]|| [pj][sl][9dz] [yi] [yi]
+e[fx][yidz][sl][yiak][pj][5ak] [ru] [ru]
+w [ruak][ak][ruak][ak][6sl] [tu] [tu]
+[8ak] [ru] [ru]
+[qpj] [et] [et]
+q [et][pj][etpj][sl][9dz] [yi] [yi]
+e[fx][yidz][sl][yiak][pj][5ak] [ru] [ru]
+w [ruak][ak][ruak][ak][6sl] [tu] [tu]
+[8dz] [ru] [rufx]
+[qpj] [et] [et]
+[qak] [ey] [ey]
+[qsl] [eu] [eu]
+[eu]||
+[9z]j[yig]z[yij]g[ez]j[yig]zx[yiz]l[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]jk[ruj]h[4j] [et] [et]
+qkl[etk]j[etk]l[9z]j[yig]z[yij]g[ez]j[yig]zx[yiz]l[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]h[ruk]x[4j] [et] [et]
+4 [et] [et]
+[eyiz]jgzjgzjgzlk[eupl]kflkflkflkj[wrok]hfkhfkhfkjh[qtij]||
+k|| l ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
@@ -827,16 +857,16 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 80 -- tempo overides the delay
  
-shared.scr = [[ h j h g f g h|
-d f g|
-f g h|
-h j h g f g h|
-d|h|f s
-h j h g f g h|
-d f g|
-f g h|
-h j h g f g h|
-d|h|f s ]]
+shared.scr = [[ h j h g f g h||
+d f g||
+f g h||
+h j h g f g h||
+d||h||f s
+h j h g f g h||
+d f g||
+f g h||
+h j h g f g h||
+d||h||f s ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
@@ -1472,20 +1502,20 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 95-- tempo overides the delay
  
-shared.scr = [[ [68] u u u u| u
-[37y]|r w||w
-[68u]|u|y t y|
-[57]|[57]|[57]|[57]|
-[48] t i|i|i u
-[38] y|t||t
-[38u]|u [$9y]|t [0ru]||
-[%0]|[%0]|[%0]|
-[68]|u u u u|u
-[37y]|r w||
-[68u] u| y|t y
-[57]|[57]|[57]|[57]|
-[48] i i i i| i
-[38u]|y t||t
+shared.scr = [[ [68] u u u u|| u
+[37y]||r w|||w
+[68u]||u||y t y||
+[57]||[57]||[57]||[57]||
+[48] t i||i||i u
+[38] y||t|||t
+[38u]||u [$9y]||t [0ru]|||
+[%0]||[%0]||[%0]||
+[68]||u u u u||u
+[37y]||r w|||
+[68u] u|| y||t y
+[57]||[57]||[57]||[57]||
+[48] i i i i|| i
+[38u]||y t|||t
 [38u]|u [$9y]|t [0ru]||
 [%0]|[37] u o p
 [48]|u u o p|p
@@ -1850,15 +1880,15 @@ shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
  
 shared.scr = [[ [6u] u u [6y]|uiu y
-[6u] u u [6y]|uiu y
-[6u] u u [6y]|uiu y
-[6u] u u [6y]|uiu y
-[8u] [8u] [8u] [8y]|[8u]i[8u] [8y]
-[8u] [8u] [8u] [8y]|[8u]i[8u] [8y]
-[6u]||u|
-y|t|r|e r
-3 3 3 3|3 3 [3r]
-[3y] 3 [3y] [3i]|[3y] [3u] 3
+[6u] u u [6y]|||uiu y
+[6u] u u [6y]|||uiu y
+[6u] u u [6y]|||uiu y
+[8u] [8u] [8u] [8y]|||[8u]i[8u] [8y]
+[8u] [8u] [8u] [8y]|||[8u]i[8u] [8y]
+[6u]|||u|||
+y|||t|||r|||e r
+3 3 3 3|||3 3 [3r]
+[3y] 3 [3y] [3i]|||[3y] [3u] 3
 6 6 6 6|6 [6u] 6
 [6y] 6 [6t] 6 r 6 [6e] [6r]
 3 3 3 3|3 3 [3r]
