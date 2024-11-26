@@ -5908,7 +5908,136 @@ shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 132 -- tempo overides the delay
 
-shared.scr = [[ euas h f|||[kd] hh d d| as[ed]uas|hf| sod [ea]yuo| sp|||60rt u o| t y|48we y o p s aop[f6]0ertrw[ed][uoed6] 09[ohd]0|[sqoh4]|[spj]|[yod] [30][uof]|[ura]| [utsp962]|||[yd]| [oh]| [ka]|||p [f6]3[d7][d8] 0s[wd]|fd s|[f4]1[d5][d6] [s8] [s0]| f [d5]2[d5][s8]|[d9][a7]2 [a5]p[w7] op[962]|6 69w[Q62] 6 [e9] p [sf6]0[rd][ted] [ut][sp][utpd]|[up][up][e80][sp] p[sf4]8[wsh][sqhe] [te]j[utsfe]s 0 [860] [sf] [sf5]9[eda][wrda] [ywr]s[yso]|[oa]s[w9][da]|[oea96]| 6 [s9][wp][Q62]| [te9] 6 [pe2] 6[q9] e[tsq9][uf9][yd3] 70[wra0] 7 [pe2] 6[q9] e[tsq9][uf9][yd3] 70[wroh0] 7 [uf2] 69[qe9] [pe] [yqpje]| [ka974]| [ka730] 70rupa[kaWO30] [uf]|[sl]|[ka4]8qet [sl][ka][a5]9wry [sl][ka][a6]0e[tpj][utfe]psf[upjf] [ts] [e860][sl]|[ka4]8qe[tqe]e[usl][tka][a5]9wr[ywroh] [975][pj][uf6] 0e[te]e[ut]e[utp] [ts]|[sl]|[ka4]8qet [sl][zd][d3]70e[rka]| [ka6]0rt[ute] [sl][pj][p5]0rt[uto] [pj] [xf4]8q[ztqed][ztqed] [sl] [qpj4]8qe[tqohe] [pj] [pj3]70rupap[ka0]WruO|[30]| [ke]uas hl[jf]|||[kd] hh d d|||euas h f|||[zd]|||0et[r4]14414[t4][r4]525525[t5][r5]63[e6][60]3680[e80] 8 [860]t|[te4]14414[te4]4[yr5]255[ut2]555[wr6]3[r6]t[u6]o[a3]6[t6]6[e60] 6et[to]|[yr4]14414[ut4]4[wr5]2[t5][yr5][r2]5[yo5]5[ya6]3[a6]s[a6]p[f3]s[a6]p[j6]f[s6]p[l6]j[f3]s[p6]u[y6][y3][u6][e6][t6][yr4]14414[ut4][yr4]4| [y864]uet[y5]25525[t5][o5]5| [yw97]| [ur63] 70eruoa h k| [je]usfd|||[je]oskh|||[je]osfd|||z|||[upf]|[slj]|[kfa4]8q[jeb][tjb] [slf][kfa]59w[rnk][ynk] [slf][kfa][fa6]0[ue]p[spe]f[utje0]lxnbxlj[xtpe]ljf[tso] [e860][slj]|[qkfa4]8qe[tqe]e[uslf][tkfa][w5]9wr[ywrohd] [975][pj][uspfe6] 0e[te]e[ut]e[utp] [tso]|[slj]|[kfa4]8[tq]eut[slfe][zthd][d3]70[e0][rkfa]ur0[kfa6]0[ue]tou[tsl][spojf][utpe]tete0[wspjf5] [xjf4]8q[ztqjed][ztqjed] [sl] [sqpj4]8qe[tsqohe] [spj] [spjf3]70rupap[kfa0]WruO|[30]| [qkfa84] et i[sl][pj]e tu[uka]| [ka730] er[uf] o [zd]| [r70]| euas h f|||[qd]fp| d q| d [wpd]|||f| j| k| fjkx ]]
+shared.scr = [[ J 
+[Yl] [PJ] [Dj] h l 
+i J s j g h h 
+[yg] P D [pD] [ig] d 
+E i y d 
+[@(Pyd] [(d] [YPwyd] z [PDJodz] 
+[Ewyos] d P [Ewyos] d P J 
+[isgj] [gj] [isgj] J [18dJ] 
+[5wg] h J [Ewyil] J J 
+[(Ewyl] J [(Ewy] j h l 
+[E9wy] J [E9wyj] h h 
+[qetig] [qetiD] D g d 
+[Ewy] [Ewy] d 
+[@(Pyd] [(d] [YPwyd] z [PDJodz] 
+[Ewyos] d P [Ewyos] d P J 
+[isgj] [gj] [isgj] J [18dJ] 
+[5q?] w w [5?] q w [5q?] w w [5?] q w 
+[yz] [Ed] [th] [yl] [Ed] [th] [yJ] [Ed] [yz] [Ed] [th] [yl] [Ed] [th] [yJ] 
+[woz] l [wo] [woJ] [woz] [wol] J [wo] 
+[5wd] J [5wg] h [5w] [4q] [4q] [4q] 
+[@(d] J [@(g] h [@(] [29] J [29] j [29] 
+[5wd] J [5wg] h [5w] [4q] [4q] [4q] 
+[@(d] J [@(g] h [@(] [29] J [29] j [29] 
+[oJ] [oh] y [ol] [oJ] [oh] y [ohl] 
+[odPJ] J [osPJ] J z 
+[YPyoz] l l [pJ] P 
+[tl] J [sj] g [Pd] s 
+[Pyid] s h 
+[wyoEJ] J J [sd] J z 
+[(EYwsz] l l J J 
+[qetz] l [sl] j J 
+[^Eqig] s [Pz] l o g 
+[5woPD] [P5wod] [5woP] [P5wos] [P5wod] [Pd] [P5wog] 
+[5woPD] [P5wod] [5woP] [P5wos] [P5wod] [Pod] [P5wog] 
+[5woPD] [P5wod] [5woP] [P5wos] [5woP] d [P5wod] 
+[^EJdgz] [4qsgjl] 
+[@(Pyod] [@(Pyos] [@(Pyos] [@(Pyos] [yo@(P] [@(yop] 
+[4qyoP] P [4qyo] [4qyop] [4qyoP] i [4qyoP] [4qyoP] 
+[P5wyod] [P5wyos] [P5wyos] [5wyoP] P [5wyo] [5wyoP] 
+[29yip] P [29yi] [29yipg] [29yip] p [^Eyi] [6eyip] 
+[@(Pyoh] [@(Pyog] [@(Pyod] [yo@(P] P [@(yo] [@(yop] 
+[4qyoP] [4qyo] p [4qyo] [4qy] p [4qy] [4qyoP] 
+[5wyoP] [5wyoP] [5wyoP] [5wyoP] [5wyoP] [5wyop] 
+[29yip] P [29yi] [29yip] [29yi] i [^Eyp] [6eyip] 
+[@(Pyod] [@(Pyos] [@(Pyos] [@(Pyos] [yo@(P] [yo@(P] 
+[4qyop] [4qyoP] [4qyop] [4qyo] i [4qyoP] [4qyioP] 
+[P5wyod] [P5wyos] [P5wyos] [P5wyos] [5wyoP] [5wyoP] 
+[29yip] P [29yi] [29yipg] [29yip] p [^Eyi] [6eyip] 
+[@(Pyoh] [@(Pyog] [@(Pyod] [yo@(P] [@(yo] [yo@(P] 
+[4qyoP] p o [4qyoP] p P 
+[o(PD] [(J] [(h] ( E 
+[Pwodg] [EP] e q 
+[6ips] 6 6 [qP] ^ 
+[Pwod] s P E [ep] q P 
+[(EYDJhl] [(J] [(j] ( [EJ] 
+[wdh] j E e q 
+[6tip] 6 P [6D] q [^d] 
+w P ^ ^ 6 4 
+[5ys] [iP] [9os] i [wpP] [4ys] [iP] [Pes] i [qpP] 
+[5yp] [ip] [9op] i [wp] [5yp] [ip] [pEP] i [epP] 
+[5ys] [iP] [9os] i [wpP] [4ys] [iP] [Pes] i [qpP] 
+[5yp] [ip] [9op] i [wp] [4yp] [ip] [epP] i [qpP] 
+[5ys] [iP] [9os] i [wpP] [4ys] [iP] [Pes] i [qpP] 
+[5ys] [iP] [9os] i [wpP] [4ys] [iP] [Pes] i [qpP] 
+[5ys] [iP] [9os] i [wpP] [4ys] i [eP] i [qps] 
+P 
+[@(oh] [@(Ewy] [@(Ewy] [@(Ewy] [@(Ewy] [@(Ewy] 
+[4qPJ] [E4qwy] [E4qwy] [4qpj] [E4qwy] [E4qwy] 
+[5wyd] [E5wy] [E5wy] [E5wy] [E5wy] [E5wy] 
+[29sl] [29qey] [29qey] [29qey] [29qey] [29qey] 
+[@(oh] [@(Ewy] [@(Ewy] [@(Ewy] [@(Ewy] [@(Ewy] 
+[4qPJ] [E4qwy] [E4qwy] [4qpj] [E4qwy] [E4qwy] 
+[5wyd] [E5wy] [E5wy] [E5wy] [E5wy] [E5wy] 
+[29sl] [29qey] [29qey] [29qey] [29qey] [29qey] 
+[@(yd] [yo@(EP] [yo@(EP] [@(Eyop] [yo@(EP] [yo@(EP] 
+[4qEP] [E4qwy] [E4qwy] [E4qi] [E4qwy] [E4qwy] 
+[5wP] [5wyiP] [5wyiP] [5wyiP] [5wyip] [E5wyi] 
+[29y] [29qey] [29qey] [29qey] [29qey] [29qey] 
+[@(Pd] [@(Pyod] [@(Pyod] [@(Pyod] [@(yo] [@(yo] 
+[P4qd] [P4qyod] [P4qyod] [P4qd] [4qyo] [4qyo] 
+[P5wyod] [Pyod] [5w] [Pyod] [P5wyod] [P5wyod] [Pyod] [5w] [Pyod] [P5wyod] 
+[29ipsg] [ipsg] [29] [ipsg] [29ipsg] [29ipsg] [ipsg] [29] [ipsg] [29ipsg] 
+[wyED] d d s d g 
+[wEYD] d d s P g 
+[qetiD] d d s d g 
+[wyoED] d d [Ewyos] s P g 
+[wyED] d d s s d g 
+[wEYD] d d s P P g 
+[qetiD] d d s d [dz] 
+[5w] [dz] [5w] [5wdz] [5w] [sl] 
+[@(Pyod] [@(Pyos] [@(Pyos] [@(Pyos] [yo@(P] [@(yop] 
+[4qyoP] P [4qyo] [4qyop] [4qyoP] i [4qyoP] [4qyoP] 
+[P5wyod] [P5wyos] [P5wyos] [5wyoP] P [5wyo] [5wyoP] 
+[29yip] P [29yi] [29ipdg] [29yip] p [^Eyi] [6eyip] 
+[@(Podh] [@(Podg] [@(Pyod] [yo@(P] P [@(yo] [@(yop] 
+[4qyoP] [4qyo] p [4qyo] [4qy] p [4qy] [4qyoP] 
+[5wyoP] [5wyoP] [5wyoP] [5wyoP] [5wyoP] [5wyop] 
+[29yip] P [29yi] [29yip] [29yi] i [^Eyp] [6eyip] 
+[@(Pyod] [@(Pyos] [@(Pyos] [@(Pyos] [yo@(P] [yo@(P] 
+[4qyop] [4qyoP] [4qyop] [4qyo] i [4qyoP] [4qyioP] 
+[P5wyod] [P5wyos] [P5wyos] [P5wyos] [5wyoP] [5wyoP] 
+[29yip] P [29yi] [29ipdg] [29yip] p [^Eyi] [6eyip] 
+[@(Podh] [@(Podg] [@(Pyod] [yo@(P] [@(yo] [yo@(P] 
+[4qyoP] p o [4qyoP] p P 
+[yo@(P] [yo@(P] [yo@(P] [yo@(P] [@(yo] [@(yo] 
+[4qyoP] [4qyoP] [4qyoP] [4qyoP] [4qyo] [4qyop] 
+[5wyoP] [5wyo] p [P5wyos] [5wyoP] P [5wyo] [5wyos] 
+[29yip] d [29yip] [29yip] [29yip] [^Eyi] [6eyiJ] 
+[(EYwv] c z J J 
+[qetiv] c z J J 
+[Eqyov] c z J J 
+[Ewyiv] c z J 
+[@(Pyod] [@(Pyos] [@(Pyos] [@(Pyos] [yo@(P] [@(yop] 
+[4qyoP] P [4qyo] [4qyop] [4qyoP] i [4qyoP] [4qyoP] 
+[P5wyod] [P5wyos] [P5wyos] [5wyoP] P [5wyo] [5wyoP] 
+[29yip] P [29yi] [29yipg] [29yip] p [^Eyi] [6eyip] 
+[@(Podh] [@(Podg] [@(Pyod] [yo@(P] P [@(yo] [@(yop] 
+[4qyoP] [4qyo] p [4qyo] [4qy] p [4qy] [4qyoP] 
+[(Ewd] o P [(Ewd] o P [(Ewd] o 
+[9wys] o P [E9wys] o P [E9wys] o 
+[qets] i p [qetP] i p [qetP] i 
+[E9qi] o p [E9qis] o p [E9qid] P 
+[(Ewd] o P [(Ewd] o P [(Ewd] o 
+[9wys] o P [E9wys] o P [E9wys] o 
+[qets] i p [qetP] i p [qetP] i 
+[E9qi] o p [E9qis] o p [E9qid] [yP] 
+[(Ewy] y [(Ewy] d [(Ewd] 
+[9wy] [E9wy] [E9wy] P 
+[qetp] p p P P 
+[yz] [Ed] [th] [yl] [Ed] [th] [yJ] [Ed] [yz] [Ed] [th] [yl] [Ed] [th] [yJ] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
