@@ -1,52 +1,46 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Beethoven_ElMaestro", "Synapse")
 
--- Fonction pour simuler les touches simultanées
-local function pressSimultaneousNotes(notes)
-    local keys = {}  -- Table pour stocker les touches
-    -- Rechercher tous les groupes de notes entre crochets []
-    for note in string.gmatch(notes, "%[(.-)%]") do
-        local simultaneousNotes = {}  -- Tableau pour les notes simultanées
-        -- Diviser les notes simultanées et les ajouter dans un tableau
-        for singleNote in string.gmatch(note, "%S+") do  -- %S+ capture les séquences de caractères sans espaces
-            table.insert(simultaneousNotes, singleNote)
-        end
-        -- Ajouter les groupes simultanés à la table des touches
-        table.insert(keys, simultaneousNotes)
-    end
+// Générer des groupes simultanés automatiquement
+function generateNotesAutomatic(groups) {
+    return groups.map(group => group.length > 1 ? `[${group.join(' ')}]` : group[0]).join(' ');
+}
 
-    -- Jouer les groupes simultanés
-    for _, simultaneousGroup in ipairs(keys) do
-        -- Appuyer sur toutes les touches simultanément
-        for _, key in ipairs(simultaneousGroup) do
-            game:GetService("UserInputService"):InputBegan({key = key}, true)
-        end
-        wait(0.1)  -- Petit délai pour simuler la pression des touches simultanées
-        -- Relâcher toutes les touches simultanément
-        for _, key in ipairs(simultaneousGroup) do
-            game:GetService("UserInputService"):InputEnded({key = key})
-        end
-    end
-end
+// Exemple de 100 chansons (remplaçant ton long script)
+const songs = [
+    ['A', 'B', 'C'],
+    ['D'],
+    ['E'],
+    ['F', 'G'],
+    ['H'],
+    // Ajoute plus de groupes selon tes besoins
+];
 
--- Fonction pour détecter et jouer les notes avec tempo
-local function playNotesWithTempo(notes, tempo)
-    -- Délai entre les notes (en secondes) en fonction du tempo
-    local delay = 60 / tempo  -- Calcul du délai entre chaque note
+// Générer automatiquement les notes avec les groupes simultanés
+const notes = generateNotesAutomatic(songs);
 
-    -- Parcourir chaque note et jouer celle-ci avec le tempo
-    for note in string.gmatch(notes, "%S+") do
-        -- Si la note est un groupe de notes simultanées, on l'appelle
-        if note:sub(1, 1) == "[" and note:sub(-1, -1) == "]" then
-            pressSimultaneousNotes(note)  -- Appel de la fonction pour jouer les notes simultanées
-        else
-            -- Simuler la pression d'une note individuelle
-            game:GetService("UserInputService"):InputBegan({key = note}, true)
-            wait(delay)  -- Attendre un délai avant la prochaine note
-            game:GetService("UserInputService"):InputEnded({key = note})
-        end
-    end
-end
+// Simuler l'appui des touches
+function pressSimultaneousNotes(notes) {
+    notes.match(/\[([^\]]+)\]/g)?.forEach(group => {
+        group.slice(1, -1).split(' ').forEach(key => console.log(`Key down: ${key}`));
+        setTimeout(() => group.slice(1, -1).split(' ').forEach(key => console.log(`Key up: ${key}`)), 100);
+    });
+}
+
+// Jouer les notes avec un tempo
+function playNotesWithTempo(notes, tempo) {
+    const delay = 60000 / tempo;
+    notes.split(' ').forEach(note => {
+        if (note.startsWith('[')) pressSimultaneousNotes(note);
+        else {
+            console.log(`Key down: ${note}`);
+            setTimeout(() => console.log(`Key up: ${note}`), delay);
+        }
+    });
+}
+
+console.log("Generated notes:", notes);
+playNotesWithTempo(notes, 120);
 
 local Tab = Window:NewTab("Auto Piano")
 local Section = Tab:NewSection("Auto Piano")
