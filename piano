@@ -3062,7 +3062,7 @@ Section:NewButton("prince ali", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 160 -- tempo overides the delay
+shared.tempo = 120 -- tempo overides the delay
  
 shared.scr = [[ [4iP]|
 [Pg]|4 4 ^|4 4 
