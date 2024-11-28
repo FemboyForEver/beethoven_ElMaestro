@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Beethoven_ElMaestro", "Synapse")
-local function = pressSimultaneousNotes(notes)
+local function  pressSimultaneousNotes(notes)
         local keys = {}
         for note in string.gmatch(notes, "%[(.-)%]") do
             table.insert(keys, note)
