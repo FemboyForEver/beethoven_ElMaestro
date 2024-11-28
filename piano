@@ -3057,57 +3057,99 @@ O [TOS] s a [IP] p [PI] Y [YI] [EY] P [5yo] [EY] P [5yo] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("deadman wonderland", "Auto", function()
+Section:NewButton("prince ali", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
  
-shared.scr = [[ [utea] s [uted] a [utse] d
-[ywra] s [ywrd] a [ywsr] d
-[tqea] s [tqed] a [tsqe] d
-[ywra] s [ywrd] s [ywrd] f
-[utea] s [uted] a [utse] d
-[ywra] s [ywrd] a [ywsr] d
-[tqea] s [tqed] a [tsqe] d
-[ywra] s [ywrd] s [ywrd] f
-[pea6] s [utd] a [uts] d
-[woa5] s [yrd] a [ysr] d
-[qia4] s [ted] a [tse] d
-[woa5] s [yrd] s [yrd] f
-[pea6] s [utd] a [uts] d
-[woa5] s [yrd] a [ysr] d
-[qia4] s [ted] a [tse] d
-[woa5] s [yrd] s [yrd] f
-[xute] z [utje] x [zute] j [ywr]|[ywr]|[ywr]|
-[tqle] k [tqfe] l [tqke] f [ywr]|[ywr]|[ywr]|
-[utfe] j [uthe] f [utje] h [ywr]|[ywr]|[ywr]|
-[tqed] j [tqle] d [tqje] l [ywr]|[ywr]|[ywr]|
-[ywJE]|[ywjE]|[ywhE]|[tqed]|[tqe]|[tqe]|
-[wsE(]|[wgE(]|[wED(]|[tqed]|[tqe]|[tsqe]|
-[ywPE]|[ywdE]|[ywgE]|[tqeJ]|[tqje]|[tqhe]|
-[wlE(]|[wE(]|[wE(]|[ztqe]|[tqe]|[tqe]|
-[w5]|[yE]|[yE]|[q4]|[te]|[teJ]|
-[c@(]|[wE]|[wE]|[ql4]|[te]|[te]|
-[zw5]|[yE]|[yE]|[q4]|[te]|[te]|
-[j@(]|[wE]|[wE]|[qJ4]|[te]|[te]|
-[xute] z [utje] x [zute] j [ywr]|[ywr]|[ywr]|
-[tqle] k [tqfe] l [tqke] f [ywr]|[ywr]|[ywr]|
-[utfe] j [uthe] f [utje] h [ywr]|[ywr]|[ywr]|
-[tqed] j [tqle] d [tqje] l [ywr]|[ywr]|[ywr]|
-[xe6] z [utj] x [zut] j [w5]|[yr]|[yr]|
-[ql4] k [tfe] l [tke] f [w5]|[yr]|[yr]|
-[fe6] j [uth] f [utj] h [w5]|[yr]|[yr]|
-[qd4] j [tle] d [tje] l [w5]|[yr]|[yr]|
-[c^E] Z [iTJ] c [iZT] J [W%]|[tY]|[tY]|
-[QL$] l [gTE] L [lTE] g [W%]|[tY]|[tY]|
-[g^E] J [iTH] g [iTJ] H [W%]|[tY]|[tY]|
-[QD$] J [TLE] D [TJE] L [W%]|[tY]|[tY]|
-[c^E] Z [iTJ] c [iZT] J [W%]|[tY]|[tY]|
-[QL$] l [gTE] L [lTE] g [W%]|[tY]|[tY]|
-[g^E] J [iTH] g [iTJ] H [W%]|[tY]|[tY]|
-[QD$] J [TLE] D [TJE] L [W%]|[tY] [tY] [tY] [tY%](W ]]
+shared.scr = [[ [4iP]-
+[Pg]-4 4 ^-4 4 
+^-[4iP]-[$is]-[4iP]-
+[^Pg]-4 4 ^-4 4 
+^-4-$-[4iP]-
+[^Pg]-4 4 ^-4 4 
+^-[4iP]-[$is]-[4iS]-
+[i^P]-4 4 ^-4 4 
+^-4-$-4-
+[^E]-[ETi] [ETi] [^E]-[ETi] [ETi] 
+[^E]-[ETi]-[^I]-[ETi]-
+[4q]-[et] [et] [4q]-[et] [et] 
+[4q]-[et]-[4T]-[et]-
+[^E]-[ETi] [ETi] [^E]-[ETi] [ETi] 
+[^E]-[ETi]-[^I]-[ETi]-
+[@Y]-[QEY] [QEY] 4-[Wyi]-
+$-[EYI] [EYI] @-[ET]-
+[1t]-[tuo] [tuo] [2t]-[Ituo]-
+[3t]-[tuo] o [1t]-[tuo] t 
+[Y4ei] i-i [ETIio]-[ryIO]-
+[Ytip]--[4i] $ [6i] 7 
+[^PSg]--D 4 g [iPD]-
+[i$PS]--[Yps] 4 S s-
+[^P]-[Ti] i 8-[eY]-
+*-[Ti]-[^u]-[Ti]-
+[^P]-[yi] O ^ P [yiO]-
+[2I]-[Ey] i 2 I [Eyi]-
+[@Y]-[QEY] [QEY] 4-[Wyi]-
+$-[EYI] [EYI] @-[EYI]-
+[8I] I [EY] i 4 I [ei]-
+[^T]-[ETi] [ETi] 4-[iTP]-
+[!P] P [ri] O ! P [tiO]-
+[$I]-[ET] [ET] $-[IPS]-
+[8S] S [uP] s 5 S [Pus] S 
+3 s [uPS]-[1a]-[Pus]-
+g-[4ipD]-[5iPD]-[ia%D]-
+[6isD]--[4i] $ [5i] 6 
+[^PSg]--D 4 g [IPD]-
+[i$PS]--[Yps] 4 S [Yps]-
+[^P]-[Ti] i 8-[eY]-
+*-[ETi]-[^u]-[Ti]-
+[^P]-[yi] O ^ P [yiO]-
+[2I]-[Ey] i 2 I [Eyi]-
+[@Y]-[QEY] [QEY] 4-[Wyi]-
+$-[EYI] [EYI] @-[EYI] I 
+8 I [EY] i 4 I [Yei]-
+[^T]-[qET]-4-[iTP] P 
+* P [ri] O * P [riO]-
+[$I]-[ET]-$-[IPS] S 
+1 S [uP] s 1 S [uP] s 
+[D4pg]-[4i]-S-[4p]56
+[^P]-[Ti] [Ti] 4-[Ti]-
+^-[Ti]-[*p]-[iTP]-
+[@YIs]--P ^-p-
+[$YIP]--s @-S-
+[^ETP]--i [8etY]--
+[*ET]--[T6ip]-[^P]-
+[@YIs]--P ^-p-
+[$YIP]--s @-P-
+[i*TS]--[Y8ip]--
+^--p-P-
+[@s]-[YI] P ^-[YIp]-
+[$P]-[YI] s @-[YIS]-
+[^P]-[ET] i 8-[eY]-
+*-[ETi]-^-[iTP]-
+[i$TP]-I I I-[i$TP]-
+I I I-[u$TP]-P s 
+[1uP] s-s a-s-
+[D4psg]--[$EYi]-I-
+[7G]-[Ira] [Tf] [$y] [uG] [iadf] I 
+[5id]-[Ioa] S [$i] d [uIPS]-
+[7a]-[ry] [TI] [*y] u [Tei] I 
+[9i]-[ryI]-[7i]-[ryI]-
+[7a]-[rYI] [Tp] [7Y] [ua] [YIp] a 
+[o@P]-[era] I [@p] o [Iera]-
+[3uo]-[wr] u $-[rYI]-
+5-[ruo]-3-[ruo]-
+[!o] o [Tru] [yI] [$Y] [uo] [uETI] I 
+[7yi]-[rQI]-[$i]-[Iya]-
+[2a]-[Itya] [up] [2I] [oa] [IOtp] p 
+[5oP]-[rya]-[5P]-[oad]-
+[!d] d [Iia] [oS] [%O] [pd] [iaPS] a 
+[sf$PSG]-[IS]-[$sd]-[PS]-
+[7ad]-[yI] a $-[yI]-
+[7yI] ]]
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
