@@ -4970,35 +4970,35 @@ k|x C [vuta]|C|z|h|j|z|k|k z
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Vampire", "Auto", function()
+Section:NewButton("Bach Toccata", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 300 -- tempo overides the delay
  
-shared.scr = [[ [pj]-[oh][ig][uf][yd][TS][yd]-[ep]-[0u][qi][*T][9y]-
-[6e]-[5w][4q][30][29][!*][29]-2-[*ET0wu]--
-[9ey]0Q----[*T]
+shared.scr = [[ [pj]||[oh][ig][uf][yd][TS][yd]|||[ep]||[0u][qi][*T][9y]|||
+[6e]||[5w][4q][30][29][!*][29]|||2-[*ET0wu]|||
+[9ey]0Q||||[*T]
 [9y][0u][*T][9y][0u][*T][9y][0u][*T][9y][0u][qi][wo][0u][qi][wo][0u][qi][wo][0u][qi][wo]
-[ep][EP][wo][ep][EP][wo][ep][EP][wo][ep]----[TS]
+[ep][EP][wo][ep][EP][wo][ep][EP][wo][ep]||||[TS]
 [yd][uf][TS][yd][uf][TS][yd][uf][TS][yd][uf][ig][oh][uf][ig][oh][uf][ig][oh][uf][ig][oh]
-[pj][PJ][oh][pj][PJ][oh][pj][PJ][oh][pj]----[pj]
+[pj][PJ][oh][pj][PJ][oh][pj][PJ][oh][pj]||||[pj]
 [oh][PJ][uf][oh][PJ][uf][ig][pj][yd][ig][pj][yd][uf][oh][ts][uf][oh][ts][yd][ig][EP][yd][ig][EP]
 [ts][uf][ep][ts][uf][ep][EP][yd][wo][EP][yd][wo][ep][ts][qi][ep][ts][qi][wo][EP][0u][wo][EP][0u]
-[qi][ep][9y][qi][ep][9y][0u][wo][*T][0u][wo][*T]2-[0wuo*ETP]----
+[qi][ep][9y][qi][ep][9y][0u][wo][*T][0u][wo][*T]2-[0wuo*ETP]||||
 poiuyTrTeTuoi-u
-[29yi]--pdpfpgpdpfpgphpfp
+[29yi]||pdpfpgpdpfpgphpfp
 gphpjpgphpjpJphpjpgphpfpgpdpfpSp
 dpppPpopppipopupipypopupipypupTp
 ypepEpwpepqpwp0pqp9pwp0pqp9p0p*p
 9 yiPitupuEyoyeTup[9y][iP][8e][up][^E][yo]
 [T60up] yiPitupuEyoyeTup[9y][iP][8e][up][^E][yo]
-[T60up]--oiuyTrTerTyuiopoiuiyipS
+[T60up]|||oiuyTrTerTyuiopoiuiyipS
 dpaSdfghjJ [9d][gJ][8p][fj][^P][dh][S6ufj] dgJg
 sfjfPdhdpSfj[9d][gJ][8p][fj][^P][dh][S6ufj] [%ryia] 
 [5eupS]-apSfhJjhgfgfdSdsPpoiuy
-[TPSwuof]----[of][uS][TP][uS][TP][uS][of][uS][TP][uS][TP]
+[TPSwuof]||||[of][uS][TP][uS][TP][uS][of][uS][TP][uS][TP]
 [uS][of][uS][TP][uS][TP][uS][of][uS][TP][uS][TP][Eo][TP][Eo][wu][Eo][wu][Eo][TP][Eo][wu][Eo][wP]
 [Eo][TP][Eo][wu][Eo][wu][Eo][TP][Eo][wu][Eo][wu][0T][wu][0T][*E][0T][*E][0T][wu][0T][*E][0T][*E]
 [0T][wu][0T][*E][0T][*E][0T][wu][0T][*E][0T][*E][0T][wu][0T][wu][Eo][wu][0T][wu][0T][wu][Eo][wu]
