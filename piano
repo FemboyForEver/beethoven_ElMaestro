@@ -34,6 +34,23 @@ h [8sf] h [osf] [8h] [osf] h [8of] d g 5 9 w p g w [of] w
 [tj] [ef] [yh] d [8of] w [uf] t [oh] [ug] [tf] d [5od] 9 r [wo]
 [oag] r [wof] d 6 0 e t o ]]
 
+local function pressSimultaneousNotes(notes)
+        local keys = {}
+        for note in string.gmatch(notes, "%[(.-)%]") do
+            table.insert(keys, note)
+        end
+        for _, key in ipairs(keys) do
+            game:GetService("UserInputService"):InputBegan(key, true)
+        end
+        wait(0.1)
+        for _, key in ipairs(keys) do
+            game:GetService("UserInputService"):InputEnded(key)
+        end
+    end
+
+    pressSimultaneousNotes(shared.scr)
+end)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
