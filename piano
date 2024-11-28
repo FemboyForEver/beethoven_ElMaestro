@@ -3064,91 +3064,91 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
  
-shared.scr = [[ [4iP]|
-[Pg]|4 4 ^|4 4 
-^|[4iP]|[$is]|[4iP]|
-[^Pg]|4 4 ^|4 4 
-^|4|$|[4iP]|
-[^Pg]|4 4 ^|4 4 
-^|[4iP]|[$is]|[4iS]|
-[i^P]|4 4 ^|4 4 
-^|4|$|4|
-[^E]|[ETi] [ETi] [^E]|[ETi] [ETi] 
-[^E]|[ETi]|[^I]|[ETi]|
-[4q]|[et] [et] [4q]|[et] [et] 
-[4q]|[et]|[4T]|[et]|
-[^E]|[ETi] [ETi] [^E]|[ETi] [ETi] 
-[^E]|[ETi]|[^I]|[ETi]|
-[@Y]|[QEY] [QEY] 4|[Wyi]|
-$|[EYI] [EYI] @|[ET]|
-[1t]|[tuo] [tuo] [2t]|[Ituo]|
-[3t]|[tuo] o [1t]|[tuo] t 
-[Y4ei] i|i [ETIio]|[ryIO]|
-[Ytip]||[4i] $ [6i] 7 
-[^PSg]||D 4 g [iPD]|
-[i$PS]||[Yps] 4 S s|
-[^P]|[Ti] i 8|[eY]|
-*|[Ti]|[^u]|[Ti]|
-[^P]|[yi] O ^ P [yiO]|
-[2I]|[Ey] i 2 I [Eyi]|
-[@Y]|[QEY] [QEY] 4|[Wyi]|
-$|[EYI] [EYI] @|[EYI]|
-[8I] I [EY] i 4 I [ei]|
-[^T]|[ETi] [ETi] 4|[iTP]|
-[!P] P [ri] O ! P [tiO]|
-[$I]|[ET] [ET] $|[IPS]|
+shared.scr = [[ [4iP] 
+[Pg] 4 4 ^ 4 4 
+^ [4iP] [$is] [4iP] 
+[^Pg] 4 4 ^ 4 4 
+^ 4 $ [4iP] 
+[^Pg] 4 4 ^ 4 4 
+^ [4iP] [$is] [4iS] 
+[i^P] 4 4 ^ 4 4 
+^ 4 $ 4 
+[^E] [ETi] [ETi] [^E] [ETi] [ETi] 
+[^E] [ETi] [^I] [ETi] 
+[4q] [et] [et] [4q] [et] [et] 
+[4q] [et] [4T] [et] 
+[^E] [ETi] [ETi] [^E] [ETi] [ETi] 
+[^E] [ETi] [^I] [ETi] 
+[@Y] [QEY] [QEY] 4 [Wyi] 
+$ [EYI] [EYI] @ [ET] 
+[1t] [tuo] [tuo] [2t] [Ituo] 
+[3t] [tuo] o [1t] [tuo] t 
+[Y4ei] i i [ETIio] [ryIO] 
+[Ytip] [4i] $ [6i] 7 
+[^PSg] D 4 g [iPD] 
+[i$PS] [Yps] 4 S s 
+[^P] [Ti] i 8 [eY] 
+* [Ti] [^u] [Ti] 
+[^P] [yi] O ^ P [yiO] 
+[2I] [Ey] i 2 I [Eyi] 
+[@Y] [QEY] [QEY] 4 [Wyi] 
+$ [EYI] [EYI] @ [EYI] 
+[8I] I [EY] i 4 I [ei] 
+[^T] [ETi] [ETi] 4 [iTP] 
+[!P] P [ri] O ! P [tiO] 
+[$I] [ET] [ET] $ [IPS] 
 [8S] S [uP] s 5 S [Pus] S 
-3 s [uPS]|[1a]|[Pus]|
-g|[4ipD]|[5iPD]|[ia%D]|
-[6isD]||[4i] $ [5i] 6 
-[^PSg]||D 4 g [IPD]|
-[i$PS]||[Yps] 4 S [Yps]|
-[^P]|[Ti] i 8|[eY]|
-*|[ETi]|[^u]|[Ti]|
-[^P]|[yi] O ^ P [yiO]|
-[2I]|[Ey] i 2 I [Eyi]|
-[@Y]|[QEY] [QEY] 4|[Wyi]|
-$|[EYI] [EYI] @|[EYI] I 
-8 I [EY] i 4 I [Yei]|
-[^T]|[qET]|4|[iTP] P 
-* P [ri] O * P [riO]|
-[$I]|[ET]|$|[IPS] S 
+3 s [uPS] [1a] [Pus] 
+g [4ipD] [5iPD] [ia%D] 
+[6isD] [4i] $ [5i] 6 
+[^PSg] D 4 g [IPD] 
+[i$PS] [Yps] 4 S [Yps] 
+[^P] [Ti] i 8 [eY] 
+* [ETi] [^u] [Ti] 
+[^P] [yi] O ^ P [yiO] 
+[2I] [Ey] i 2 I [Eyi] 
+[@Y] [QEY] [QEY] 4 [Wyi] 
+$ [EYI] [EYI] @ [EYI] I 
+8 I [EY] i 4 I [Yei] 
+[^T] [qET] 4 [iTP] P 
+* P [ri] O * P [riO] 
+[$I] [ET] $ [IPS] S 
 1 S [uP] s 1 S [uP] s 
-[D4pg]|[4i]|S|[4p]56
-[^P]|[Ti] [Ti] 4|[Ti]|
-^|[Ti]|[*p]|[iTP]|
-[@YIs]||P ^|p|
-[$YIP]||s @|S|
-[^ETP]||i [8etY]||
-[*ET]||[T6ip]|[^P]|
-[@YIs]||P ^|p|
-[$YIP]||s @|P|
-[i*TS]||[Y8ip]||
-^||p|P|
-[@s]|[YI] P ^|[YIp]|
-[$P]|[YI] s @|[YIS]|
-[^P]|[ET] i 8|[eY]|
-*|[ETi]|^|[iTP]|
-[i$TP]|I I I|[i$TP]|
-I I I|[u$TP]|P s 
-[1uP] s|s a|s|
-[D4psg]||[$EYi]|I|
-[7G]|[Ira] [Tf] [$y] [uG] [iadf] I 
-[5id]|[Ioa] S [$i] d [uIPS]|
-[7a]|[ry] [TI] [*y] u [Tei] I 
-[9i]|[ryI]|[7i]|[ryI]|
-[7a]|[rYI] [Tp] [7Y] [ua] [YIp] a 
-[o@P]|[era] I [@p] o [Iera]|
-[3uo]|[wr] u $|[rYI]|
-5|[ruo]|3|[ruo]|
+[D4pg] [4i] S [4p] 5 6 
+[^P] [Ti] [Ti] 4 [Ti] 
+^ [Ti] [*p] [iTP] 
+[@YIs] P ^ p 
+[$YIP] s @ S 
+[^ETP] i [8etY] 
+[*ET] [T6ip] [^P] 
+[@YIs] P ^ p 
+[$YIP] s @ P 
+[i*TS] [Y8ip] 
+^ p P 
+[@s] [YI] P ^ [YIp] 
+[$P] [YI] s @ [YIS] 
+[^P] [ET] i 8 [eY] 
+* [ETi] ^ [iTP] 
+[i$TP] I I I [i$TP] 
+I I I [u$TP] P s 
+[1uP] s s a s 
+[D4psg] [$EYi] I 
+[7G] [Ira] [Tf] [$y] [uG] [iadf] I 
+[5id] [Ioa] S [$i] d [uIPS] 
+[7a] [ry] [TI] [*y] u [Tei] I 
+[9i] [ryI] [7i] [ryI] 
+[7a] [rYI] [Tp] [7Y] [ua] [YIp] a 
+[o@P] [era] I [@p] o [Iera] 
+[3uo] [wr] u $ [rYI] 
+5 [ruo] 3 [ruo] 
 [!o] o [Tru] [yI] [$Y] [uo] [uETI] I 
-[7yi]|[rQI]|[$i]|[Iya]|
-[2a]|[Itya] [up] [2I] [oa] [IOtp] p 
-[5oP]|[rya]|[5P]|[oad]|
+[7yi] [rQI] [$i] [Iya] 
+[2a] [Itya] [up] [2I] [oa] [IOtp] p 
+[5oP] [rya] [5P] [oad] 
 [!d] d [Iia] [oS] [%O] [pd] [iaPS] a 
-[sf$PSG]|[IS]|[$sd]|[PS]|
-[7ad]|[yI] a $|[yI]|
-[7yI] ]]
+[sf$PSG] [IS] [$sd] [PS] 
+[7ad] [yI] a $ [yI] 
+[7yI]  ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
