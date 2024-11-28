@@ -113,15 +113,57 @@ shared.scr = [[ [pflkj lkhfuspflkj lkhfus[pjf]fj[kh][lj] [kh] [hd]o[uj]spf[lj][k
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("sis puella magica", "Auto", function()
+Section:NewButton("La campanella but i got distracted", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 148 -- tempo overides the delay
+shared.tempo = 120 -- tempo overides the delay
  
-shared.scr = [[ [pflkj lkhfuspflkj lkhfus[pjf]fj[kh][lj] [kh] [hd]o[uj]spf[lj][kh][lj] [kh] [khd]o[uj]s[jig]s[xl][zkh][lj] [okh] [kjhd]f[khd] [pkf]ljfkl[xlf] [zk] [lj]u[pjf]fj[kh][lj] [kh] [hd]o[upj]spf[lj][kh][lj] [kh] [lhd][ok][upj]s[jig]s[xl][zk][lj] [okh] [kjhd]f[khd]o[pkf]l[jf]| j[okh][lji][zuk][yxjgd] [ljd]g[lj][xl][zukh][lf][zkd][sl][kha]o[pkf]l[xlj][zk][lj][zk][xlj] [zkj][kh][plj][zok][xjig] [ljg][sg][lj][xl][zokh]l[zkh][pl][kha] [slf] [xlh]h[xl] pf[sl][kha][plj][zok][xpjig] [pljg][gf][ljd][xl][zukhd] [zslk]a[zkhd] [yxlj]cx| [zukh]xz| [ljig]zl| [olhf]kh [kha] [pkf]l[lj]k[jf]k[xlj] [zk] [lj] j [lj]k[jf]k[ljf] [kh] j b  ]]
- 
+shared.scr = [[ [YD] [YD] [YD] Z Z 
+Z [YD] [YD] [YD] Z Z 
+Z [YD] Z Z [YD] Z Z [fx] [dz] [IG] [OH] [SL] [ak] [yd] [uf] 
+[ak] [pj] [TS] [uf] 
+[pj] 
+D Z Z Z Z Z L Z [Wk] Y a Z k Z J Z [rH] O D Z h 
+Z H Z J Z k Z L Z [ej] u p k l z [tx] o 
+s h c x [wz] o 
+a g x z [el] u 
+p f z l * W [WT] u [*O] T [Wu] O [*S] u [WO] S [*f] O [WS] f [*H] S [Wf] H [*L] f [WH] L [*x] H [WL] x [x*THLV] [xWHLV] Y P h o P D Z S Z P S 
+P S P S [QP] S [QP] [QES] P Q S P S [QEP] [QS] [Yts] D [Ws] [tYD] s D [Ws] D 
+[Yts] [WD] [Ytg] q [tYH] [qJ] 
+[tY] f [iETD] S P D [ETi] g 
+[qWT] [Oa] Z a Z P Z [rO] y i Z o 
+Z O Z [oYP] Z Y D D Z Z Z Z 
+Z L Z [Wk] Y a Z k Z J Z [rH] O D Z h 
+Z f Z [YD] P h Z S Z s s s s [qs] [Wt] 8 [Wt] 8 9 0 [4q] [Wt] 8 [Wt] [qs] s [Wts] s [8s] s [Wts] s [qs] s [Wts] s 
+[8s] s [Wts] s [qs] s [Wts] s [8s] S [Wts] a [qs] [Wtg] 
+[8H] [Wt] [0J] J [tEJ] J [8J] H [Eth] J [qH] H [tWH] H 
+[8H] h [Wtg] H [wh] h [rih] h [9d] [rih] [tuf] [8t] 
+[%W] [4i] [ipsg] [468q] [psgj] [468q] [sgjl] [468q] [gjlc] [468q] [jlcb] [468q] [lcbm] [468qcbm] g [fhl] z [Hgkz] x z x z x z x z x z x z x z x z x l x z [aOSD] Z H k Z Z [oYSD] Z h J Z Z W Y a 
+H Y D Z D Z D [SZ] S [%a] Z [(ra] 
+Z P Z [7O] Z [WYo] Z O [oZ] O [(P] Z [EYo] 
+Z [YG] D [Pof] Z [oPD] Z S Z [%a] Z [(ra] 
+Z P Z [7O] Z [WYo] Z O [oZ] O [(P] Z [EYo] 
+Z [YG] D [Pof] Z [oPD] Z S Z [Oa] Z z L l k J j H h G g f D d S s [Oa] 
+Z p z L l k J j H h G g f D d S s a P Z z L l k J j H h G g f D d S s a P p [ryiO] Z z L l k J j H h G g f D d S s a P p O [ryio] Z t Y T y [uI] Y [iz] u L l k J i j H [Io] h G [Ig] f D d [oS] o s a P p O Z [o(P] Z Y 
+D D Z Z Z Z Z L Z [%k] Z [(rk] 
+Z J Z [7H] Z [WYh] Z H [hZ] H [(J] Z [oED] 
+Z [DG] Z [TOPf] V [YOPD] V [uOPS] V [YOaz] z z 
+b [(To] V v c z v b % r Y O D H k Z V a [oP] a [Ip] a [iO] a [uo] S a P a [rYI] C [QYIa] C D S s S [uEI] C [uQIS] C f D d D [Yra] C D [ad] D [PS] D [ps] D [Oa] g D d D [YIP] B [EIPD] B G g f g [yOP] B [EOPg] B H G g G [YID] B G [dg] G [Sf] G [sD] G [ad] H G g G [IPS] L [TPSG] L J H h H [iaS] L [aTSH] t L r E e W w Q q 0 ( 9 * 8 7 ^ 6 % 5 $ 4 3 @ 2 ! 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 [1s] [8s] [1P] [8s] 1 [8o] 1 [8o] [1s] [8g] [1f] [8s] 1 8 1 8 [1s] [8s] [1P] [8s] 1 [8o] 1 [8o] [1s] [8g] [1f] [8s] 1 8 1 [8t] 1 [8t] [1t] [8t] [1u] 
+8 [1u] [8u] [1o] 8 [1o] [8f] 1 
+[8d] [1s] 8 [1s] [8s] [1P] [8s] 1 
+[8o] 1 [8o] [1s] [8g] [1f] [8s] 1 
+8 1 [8t] 1 [8t] [1t] [8t] [1u] 
+[8u] [1u] [8u] [1o] [8o] [1o] [8o] [1f] 
+[8d] [1s] 8 [1s] [8s] [1P] [8s] 1 
+[8o] 1 [8o] [1s] [8g] [1f] [8s] 1 
+8 1 8 [5oad] [5oad] [5oad] [5oad] [5ips] 
+[5ips] [5ips] [5ips] [5uoa] [5uoa] [5uoa] [5uoa] [5yip] 
+[5yip] [5yip] [5ryo] 5 [5o] [5i] [5o] 5 
+[5y] 5 [5y] [5o] [5s] [5a] [5o] 5 
+5 5 5 T I O P S ]]
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
