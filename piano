@@ -1,46 +1,70 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Beethoven_ElMaestro", "Synapse")
 
-// Générer des groupes simultanés automatiquement
-function generateNotesAutomatic(groups) {
-    return groups.map(group => group.length > 1 ? `[${group.join(' ')}]` : group[0]).join(' ');
+-- Fonction pour générer les notes simultanées
+function generateNotesAutomatic(groups)
+    local result = {}
+    for _, group in ipairs(groups) do
+        if #group > 1 then
+            table.insert(result, "[" .. table.concat(group, " ") .. "]")
+        else
+            table.insert(result, group[1])
+        end
+    end
+    return table.concat(result, " ")
+end
+
+-- Exemple de groupe de notes (chansons)
+local songs = {
+    {'A', 'B', 'C'},
+    {'D'},
+    {'E'},
+    {'F', 'G'},
+    {'H'}
+    -- Ajoute plus de groupes selon tes besoins
 }
 
-// Exemple de 100 chansons (remplaçant ton long script)
-const songs = [
-    ['A', 'B', 'C'],
-    ['D'],
-    ['E'],
-    ['F', 'G'],
-    ['H'],
-    // Ajoute plus de groupes selon tes besoins
-];
+-- Générer automatiquement les notes avec les groupes simultanés
+local notes = generateNotesAutomatic(songs)
 
-// Générer automatiquement les notes avec les groupes simultanés
-const notes = generateNotesAutomatic(songs);
+-- Fonction pour simuler l'appui sur des touches simultanées
+function pressSimultaneousNotes(notes)
+    local groups = {}
+    for group in notes:gmatch("%[([%w%s]+)%]") do
+        table.insert(groups, group)
+    end
 
-// Simuler l'appui des touches
-function pressSimultaneousNotes(notes) {
-    notes.match(/\[([^\]]+)\]/g)?.forEach(group => {
-        group.slice(1, -1).split(' ').forEach(key => console.log(`Key down: ${key}`));
-        setTimeout(() => group.slice(1, -1).split(' ').forEach(key => console.log(`Key up: ${key}`)), 100);
-    });
-}
+    -- Simuler l'appui sur chaque touche simultanée
+    for _, group in ipairs(groups) do
+        for note in group:gmatch("%S+") do
+            print("Key down: " .. note)  -- Simule l'appui sur la touche
+        end
+        wait(0.1)  -- Laisser un petit délai avant de relâcher les touches
+        for note in group:gmatch("%S+") do
+            print("Key up: " .. note)  -- Simule le relâchement de la touche
+        end
+    end
+end
 
-// Jouer les notes avec un tempo
-function playNotesWithTempo(notes, tempo) {
-    const delay = 60000 / tempo;
-    notes.split(' ').forEach(note => {
-        if (note.startsWith('[')) pressSimultaneousNotes(note);
-        else {
-            console.log(`Key down: ${note}`);
-            setTimeout(() => console.log(`Key up: ${note}`), delay);
-        }
-    });
-}
+-- Fonction pour jouer les notes avec un tempo
+function playNotesWithTempo(notes, tempo)
+    local delay = 60 / tempo
+    for note in notes:gmatch("%S+") do
+        if note:sub(1, 1) == "[" then
+            pressSimultaneousNotes(note)
+        else
+            print("Key down: " .. note)
+            wait(delay)
+            print("Key up: " .. note)
+        end
+    end
+end
 
-console.log("Generated notes:", notes);
-playNotesWithTempo(notes, 120);
+-- Afficher les notes générées
+print("Generated notes:", notes)
+
+-- Jouer les notes avec un tempo de 120 BPM
+playNotesWithTempo(notes, 120)
 
 local Tab = Window:NewTab("Auto Piano")
 local Section = Tab:NewSection("Auto Piano")
