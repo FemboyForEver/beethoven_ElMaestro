@@ -4977,8 +4977,8 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 110 -- tempo overides the delay
  
-shared.scr = [[ [pj]||[oh][ig][uf][yd][TS][yd]|||[ep]||[0u][qi][*T][9y]|||
-[6e]||[5w][4q][30][29][!*][29]|||2-[*ET0wu]|||
+shared.scr = [[ [pj]|[oh][ig][uf][yd][TS][yd]||[ep]||[0u][qi][*T][9y]||
+[6e]||[5w][4q][30][29][!*][29]||2|[*ET0wu]||
 [9ey]0Q||||[*T]
 [9y][0u][*T][9y][0u][*T][9y][0u][*T][9y][0u][qi][wo][0u][qi][wo][0u][qi][wo][0u][qi][wo]
 [ep][EP][wo][ep][EP][wo][ep][EP][wo][ep]||||[TS]
@@ -4987,7 +4987,7 @@ shared.scr = [[ [pj]||[oh][ig][uf][yd][TS][yd]|||[ep]||[0u][qi][*T][9y]|||
 [oh][PJ][uf][oh][PJ][uf][ig][pj][yd][ig][pj][yd][uf][oh][ts][uf][oh][ts][yd][ig][EP][yd][ig][EP]
 [ts][uf][ep][ts][uf][ep][EP][yd][wo][EP][yd][wo][ep][ts][qi][ep][ts][qi][wo][EP][0u][wo][EP][0u]
 [qi][ep][9y][qi][ep][9y][0u][wo][*T][0u][wo][*T]2-[0wuo*ETP]||||
-poiuyTrTeTuoi-u
+poiuyTrTeTuoi|u
 [29yi]||pdpfpgpdpfpgphpfp
 gphpjpgphpjpJphpjpgphpfpgpdpfpSp
 dpppPpopppipopupipypopupipypupTp
@@ -5003,10 +5003,10 @@ sfjfPdhdpSfj[9d][gJ][8p][fj][^P][dh][S6ufj] [%ryia]
 [Eo][TP][Eo][wu][Eo][wu][Eo][TP][Eo][wu][Eo][wu][0T][wu][0T][*E][0T][*E][0T][wu][0T][*E][0T][*E]
 [0T][wu][0T][*E][0T][*E][0T][wu][0T][*E][0T][*E][0T][wu][0T][wu][Eo][wu][0T][wu][0T][wu][Eo][wu]
 [0T][wu][0T][wu][Eo][wu][0T][wu][0T][wu][Eo][wu][0o][wP][0o][wP][0o][wP][Eo][TP][Eo][TP][Eo][TP]
-[uS][TP][uS][Tf][uS][Tf][uS][Tf][uS][Tf][uS][Tf][TSweupfj]-[qeyipdgj]-
-[EPyodh]--ew[TSeupfh]-0q90*
+[uS][TP][uS][Tf][uS][Tf][uS][Tf][uS][Tf][uS][Tf][TSweupfj]|[qeyipdgj]|
+[EPyodh]||ew[TSeupfh]|0q90*
 97*6^%6[weupS][qeyipd] [9eyi] [6u] Tw
-[29ey] q0q--popipup
+[29ey] q0q||popipup
 ypTpypupipeprpTp
 ypTpypupid[Is]d[oP]d[tp]d
 [Eo]d[eI]d[Eo]d[tp]d[yP]d[Qy]d[wu]d[eI]d
@@ -5103,13 +5103,13 @@ yE[Yo]yTe[yI]t[ri]w[tY]Eeq[Ey][yP]
 [P2h] [pg][of][id]p[uS]p[yd]p[Tf]p[yg]p[uh]p
 [ij]p[eS]p[rd]p[Tf]p[yg]p[Tf]p[yg]p[9rd]p
 [T6f] [4ypd] [P5od] [6upS] [4ipd] [2pdg] [P5df] [6ps] 
-[^EPqyid]----ghjJpPsdsdDgiop
+[^EPqyid]||||ghjJpPsdsdDgiop
 PpPsdpoiYopPsoiYyiopPeEtytyYiqwe
 EeEtytEewEtyYytEetyuIYytEIopPsdo
-[*TPuof]--q-[yipd] 9 
-[%ryia]----WrqW9q7
-9%6 3 [WO0ruad] [0etups]--oi
-[ws]----oiouuyutpopiiui
+[*TPuof]||q||[yipd] 9 
+[%ryia]||||WrqW9q7
+9%6 3 [WO0ruad] [0etups]||oi
+[ws]||||oiouuyutpopiiui
 yapaooiousaspdsdafdfsgfgdhghfsas
 pdsdaOIOusaspiuiyapatpoprOIOutre
 Wytreuytriuytoiuypoiuopas [0wtuo] 
@@ -5117,8 +5117,8 @@ Wytreuytriuytoiuypoiuopas [0wtuo]
 [qryoa] wryoa [qwyoa] [0wuos] wtuos [0wuos] 
 [0etip] qetip [0qtip] [9qyiP] qEyiP [9qyiP] 
 [0uo*P] 0wETP [0uo*TP] [QI8yp] 9eyIp [QI8yp] 
-[E5wy]-[^o]-[ET3u]-[4eyi]-
-[6eu]-t-[^qy]-[5wE]-
+[E5wy]|[^o]|[ET3u]|[4eyi]|
+[6eu]|t|[^qy]|[5wE]|
 [29qe] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
