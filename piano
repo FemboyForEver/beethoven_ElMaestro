@@ -166,6 +166,56 @@ k||| l ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("Idea 10", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 65 -- tempo overides the delay
+ 
+shared.scr = [[ pps[9d]s[yid] [yi]
+e [yi]p[yip]a[6s]a[tus] [tu]
+e [tu]p[tup]s[5a] [ru] [ru]p[wp] [rup] [ru]o[4p] [et] [et]
+q [et]p[etp]s[9d]s[yid] [yi]
+ef[yid]s[yip]a[6s]a[tus] [tu]
+e [tus]s[tus]d[5a] [ru] [ru]p[wp] [rup] [ru]o[4p] [et] [et]
+[qa] [ey] [ey] [qs] [eu] [eu] [eu]|||
+[9z]j[yig]z[yij]g[ez]j[yig]z[yil]k[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]k[ruj]h[4j] [et] [et] q [etf]j[etk]l[9z]j[yig]z[yij]g[ez]j[yig]x[yil]k[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]h[ruk]x[qj] [et] [et] [qk] [ey] [ey]
+[ql] [eu] [eu] [eu]|||
+[9g] [yi] [yi]
+efg[yif]d[yis]d[6f] [tu] [tu]
+e [tu] [tus] [5a] [ru] [ruf]
+w [ru] [ru] [4p] [et] [et]
+qp[eta]s[etd]f[9g] [yi] [yi]
+efg[yif]d[yis]d[6f] [tu] [tu]
+e [tu] [tuf] [5h] [ru] [ruk]
+w [rul] [ru] [qj] [et] [et]
+[qk] [ey] [ey] [ql] [eu] [eu] [eu]|||
+[9z]j[yig]z[yij]g[ez]j[yig]z[yil]k[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]k[ruj]h[4j] [et] [et]
+qkl[etk]j[etk]l[9z]j[yig]z[yij]g[ez]j[yig]x[yil]k[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]h[ruk]x[qj] [et] [et]
+[qk] [ey] [ey] [ql] [eu] [eu]
+[eu]||| [pj][sl][9dz] [yi] [yi]
+e[fx][yidz][sl][yiak][pj][5ak] [ru] [ru]
+w [ruak][ak][ruak][ak][6sl] [tu] [tu]
+[8ak] [ru] [ru]
+[qpj] [et] [et]
+q [et][pj][etpj][sl][9dz] [yi] [yi]
+e[fx][yidz][sl][yiak][pj][5ak] [ru] [ru]
+w [ruak][ak][ruak][ak][6sl] [tu] [tu]
+[8dz] [ru] [rufx]
+[qpj] [et] [et]
+[qak] [ey] [ey]
+[qsl] [eu] [eu]
+[eu]|||
+[9z]j[yig]z[yij]g[ez]j[yig]zx[yiz]l[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]jk[ruj]h[4j] [et] [et]
+qkl[etk]j[etk]l[9z]j[yig]z[yij]g[ez]j[yig]zx[yiz]l[6l]k[tuf]l[tuk]f[el]k[tuf]l[tuk]j[5k]h[ruf]k[ruh]f[wk]h[ruf]h[ruk]x[4j] [et] [et]
+4 [et] [et]
+[eyiz]jgzjgzjgzlk[eupl]kflkflkflkj[wrok]hfkhfkhfkjh[qtij]|||
+k||| l ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("sis puella magica", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
