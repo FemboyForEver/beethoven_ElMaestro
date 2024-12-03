@@ -412,15 +412,15 @@ i f d s d f g d
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("sis puella magica", "Auto", function()
+Section:NewButton("what a wonderful world", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 148 -- tempo overides the delay
+shared.tempo = 71 -- tempo overides the delay
  
-shared.scr = [[ [pflkj lkhfuspflkj lkhfus[pjf]fj[kh][lj] [kh] [hd]o[uj]spf[lj][kh][lj] [kh] [khd]o[uj]s[jig]s[xl][zkh][lj] [okh] [kjhd]f[khd] [pkf]ljfkl[xlf] [zk] [lj]u[pjf]fj[kh][lj] [kh] [hd]o[upj]spf[lj][kh][lj] [kh] [lhd][ok][upj]s[jig]s[xl][zk][lj] [okh] [kjhd]f[khd]o[pkf]l[jf]| j[okh][lji][zuk][yxjgd] [ljd]g[lj][xl][zukh][lf][zkd][sl][kha]o[pkf]l[xlj][zk][lj][zk][xlj] [zkj][kh][plj][zok][xjig] [ljg][sg][lj][xl][zokh]l[zkh][pl][kha] [slf] [xlh]h[xl] pf[sl][kha][plj][zok][xpjig] [pljg][gf][ljd][xl][zukhd] [zslk]a[zkhd] [yxlj]cx| [zukh]xz| [ljig]zl| [olhf]kh [kha] [pkf]l[lj]k[jf]k[xlj] [zk] [lj] j [lj]k[jf]k[ljf] [kh] j b  ]]
- 
+shared.scr = [[ [p4] 6 8 q 8 6 [o4] ^ 9 w 9 ^ [p4] 6 8 q 8 6 [o4] ^ 9 [wt] 9u^ [i4] 6 8 q 8i6 [s6] 8 0 e 0 8 ^ 9dq [dE] qd9 [s6] 8 0 e 0 8 4 ^P9 [wP] 9P^ [p4] 6 8 q 8 6 3 6o* [o0] *o6 [i2] 4 6 9 [i6] [i4] [iWT!] % * q [i*] [i%] [iWT!] % * q * % [tE1] 5 ^ [i9] ^i5 [u1] 5 [i^] 8 [o^] 5 [p4] 6 8 [tq] 8 6 [T4] 6 * q * 6 [y4] ^ 9 q [P9] [p^] [uo1] 3 5 [t8] 5u3 [i4] 6 8 q 8i6 [usp6] 8 0 e 0s8 [id^P] 9 q E qd9 [usp6] 8 0 e 0s8 [yoP5] ^ 9 q [P9] [^P] [tpi4] 6 8 q 8p6 [uoT6] * 0 e [o0] [o] [yie2] 4 6 9 [i6] [i4] [iWT!] %i [qi] *i% [WT!] % * q * % [tE1] 5 ^ [i9] ^i5 [u1] 5 [i^] 8 [o^] 5 [i4] 6 8 [qe] 8 6 [w4] ^ 9 q 9 ^ [E4] ^ 9 q [w9] [^E] [t4] 6 8 [qi] 8 6 [o1] ^o8 [o0] 8o^ [o1] ^t8 0 8t^ [oP4] 8[pi]q [pie] q[uO]8 [pi4] 8 q e qi8 [o1] ^o8 [o0] 8o^ [o1] ^t8 0 8o^ [oP4] 8[pi]q [pie] q[uO]8 [pi4] 8 q [pe] qs8 d [ypi92] [ypi92] [ypid92] d s [uto30] [uto30] [uto] p s d [yqpi4] [yqpi4] [ypid] d s [wuto5] [wuto5] [wuto5] [wuto5] [wuto5] [yqpi4] d d d [spYQI$] s||[P5] [yoi] [yoi] [p$] [tYI] [tYI] [uto5]|[t1] u [i4] 6 8 q 8i6 [s6] 8 0 e 0s8 [d^] 9 q E qd9 [s6] 8 0 e 8 6 4 ^P9 [wP] 9P^ [p4] 6 8 q 8p6 [o3] 6 * 0 [o*] [o6] [i2] 4 6 9 [i6] [i4] [iWT!] % * [qi] [i*] [i%] ! % * q * % [tE1] 5 ^ [i9] ^i5 [u1] 5 [i^] 8 [o^] 5 [tpi4] 8 q e q 8 [oY6] 8 ( w ( 8 [yI9] Q e t e Q [p9]|p|[yqpiE5] i o i|e|[qE5]|i i [uTE81] i o [i4] 8 q e q 8 [w4] ^ 9 w 9 ^ [E4] ^ 9 w 9E^ [e4][t8][qi]p ]]
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
