@@ -17,10 +17,34 @@ end
 -- Exemple de groupe de notes (chansons)
 local songs = {
     {'A', 'B', 'C'},
-    {'D'},
-    {'E'},
+     {'A'}
+     {'B'}
+     {'C'}
+     {'D'}
+     {'E'}
+     {'F'}
+     {'G'}
+     {'H'}
+     {'I'}
+     {'J'}
+     {'K'}
+     {'L'}
+     {'M'}
+     {'N'}
+     {'O'}
+     {'P'}
+     {'Q'} 
+     {'R'}
+     {'S'}
+     {'T'}
+     {'U'}
+     {'V'}
+     {'W'}
+     {'X'}
+     {'Y'}
+     {'Z'} 
     {'F', 'G'},
-    {'H'}
+   
     -- Ajoute plus de groupes selon tes besoins
 }
 
