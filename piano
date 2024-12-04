@@ -1,7 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Beethoven_ElMaestro", "Synapse")
 
--- Fonction pour générer les notes simultanées
 function generateNotesAutomatic(groups)
     local result = {}
     for _, group in ipairs(groups) do
@@ -14,7 +13,6 @@ function generateNotesAutomatic(groups)
     return table.concat(result, " ")
 end
 
--- Exemple de groupe de notes (chansons)
 local songs = {
     {'A', 'B', 'C'},
 {'A'}, {'B'}, {'C'}, {'D'}, {'E'}, {'F'}, {'G'}, {'H'}, {'I'}, {'J'}, {'K'}, {'L'}, {'M'}, {'N'}, {'O'}, {'P'}, {'Q'}, {'R'}, {'S'}, {'T'}, {'U'}, {'V'}, {'W'}, {'X'}, {'Y'}, {'Z'}, 
@@ -30,21 +28,14 @@ local songs = {
 {'J', 'A'}, {'J', 'B'}, {'J', 'C'}, {'J', 'D'}, {'J', 'E'}, {'J', 'F'}, {'J', 'G'}, {'J', 'H'}, {'J', 'I'}, {'J', 'J'}, {'J', 'K'}, {'J', 'L'}, {'J', 'M'}, {'J', 'N'}, {'J', 'O'}, {'J', 'P'}, {'J', 'Q'}, {'J', 'R'}, {'J', 'S'}, {'J', 'T'}, {'J', 'U'}, {'J', 'V'}, {'J', 'W'}, {'J', 'X'}, {'J', 'Y'}, {'J', 'Z'},
 {'K', 'A'}, {'K', 'B'}, {'K', 'C'}, {'K', 'D'}, {'K', 'E'}, {'K', 'F'}, {'K', 'G'}, {'K', 'H'}, {'K', 'I'}, {'K', 'J'}, {'K', 'K'}, {'K', 'L'}, {'K', 'M'}, {'K', 'N'}, {'K', 'O'}, {'K', 'P'}, {'K', 'Q'}, {'K', 'R'}, {'K', 'S'}, {'K', 'T'}, {'K', 'U'}, {'K', 'V'}, {'K', 'W'}, {'K', 'X'}, {'K', 'Y'}, {'K', 'Z'},
 
-   
-    -- Ajoute plus de groupes selon tes besoins
 }
-
--- Générer automatiquement les notes avec les groupes simultanés
 local notes = generateNotesAutomatic(songs)
-
--- Fonction pour simuler l'appui sur des touches simultanées
 function pressSimultaneousNotes(notes)
     local groups = {}
     for group in notes:gmatch("%[([%w%s]+)%]") do
         table.insert(groups, group)
     end
 
-    -- Simuler l'appui sur chaque touche simultanée
     for _, group in ipairs(groups) do
         for note in group:gmatch("%S+") do
             print("Key down: " .. note)  -- Simule l'appui sur la touche
@@ -56,7 +47,6 @@ function pressSimultaneousNotes(notes)
     end
 end
 
--- Fonction pour jouer les notes avec un tempo
 function playNotesWithTempo(notes, tempo)
     local delay = 60 / tempo
     for note in notes:gmatch("%S+") do
@@ -70,10 +60,8 @@ function playNotesWithTempo(notes, tempo)
     end
 end
 
--- Afficher les notes générées
 print("Generated notes:", notes)
 
--- Jouer les notes avec un tempo de 120 BPM
 playNotesWithTempo(notes, 120)
 
 local Tab = Window:NewTab("Auto Piano")
