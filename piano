@@ -30,6 +30,7 @@ local songs = {
 
 }
 local notes = generateNotesAutomatic(songs)
+
 function pressSimultaneousNotes(notes)
     local groups = {}
     for group in notes:gmatch("%[([%w%s]+)%]") do
