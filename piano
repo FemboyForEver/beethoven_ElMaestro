@@ -179,13 +179,13 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 180 -- tempo overides the delay
  
-shared.scr = [[ s asp
-s asp
-s asp
-s asp
-[es] asp
-[ws] asp
-[qs] asp
+shared.scr = [[ s||| a|||s|||p|||
+s||| a|||s|||p|||
+s||| a|||s|||p|||
+s||| a|||s|||p|||
+[es] a||s||p||
+[ws] a||s||p||
+[qs] a||s||p||
 [0s] as[0p]
 [6s]0[ea][rs][tp]
 [5s]0[wa][es][rp]
