@@ -138,24 +138,24 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 115 -- tempo overides the delay
  
-shared.scr = [[ [ea] [us] [id] h [wp] [ua] [is] h [qo] [tp] [us] f||
-[20] [6q] [9w] t|[90] [2q] [6w] [3t] 7 9 0 r||
-[3670r]|[3670r]|[3670r]|[3670r] [360]
-[3680t]|[3680t]|[3680t]|[3680t] [360]
-[369y]|[369y]|[369y]|[369y] [360]
-[3680t]|[3680t]|[3680t]|[680t] [50]
-[470e]|[470e]|[470e]|[470e] [30]
-[279e]|[279e]|[379r]|[379r]|
-[6f] 0 e r [tu] p a s [uf]|d u| s|
-[5d] 9 w e [ry] o p a [yd]|s y| a|
-[4s] 8 q w [et] i o p [ts] s a t p|
-a [60ra]| sa[tp]||
-y|y|[up] a [us] d
+shared.scr = [[ [ea] [us] [id] h [wp] [ua] [is] h [qo] [tp] [us] f|||
+[20] [6q] [9w] t||[90] [2q] [6w] [3t] 7 9 0 r|||
+[3670r]||[3670r]||[3670r]||[3670r] [360]
+[3680t]||[3680t]||[3680t]||[3680t] [360]
+[369y]||[369y]|[369y]|[369y] [360]
+[3680t]||[3680t]||[3680t]||[680t] [50]
+[470e]||[470e]||[470e]||[470e] [30]
+[279e]||[279e]||[379r]||[379r]||
+[6f] 0 e r [tu] p a s [uf]||d u|| s||
+[5d] 9 w e [ry] o p a [yd]||s y|| a|v
+[4s] 8 q w [et] i o p [ts] s a t p||
+a [60ra]|| sa[tp]|||
+y||y||[up] a [us] d
 [6f] w r t e u r [wp]
 [4f] q e [yd]|y [es] q
-[5d] w e r|[5wo] [4qp] a
-[30d] 7 9 [0f]|0 [7a]|
-[4s] w e t|[wh] [qg] [0f]
+[5d] w e r||[5wo] [4qp] a
+[30d] 7 9 [0f]|0 [7a]||
+[4s] w e t||[wh] [qg] [0f]
 [2f] 6 [9d] 0 [qd] e q [0s]
 [3f] 6 7 9 0 Q e r [0W]|||
 [9u] i d u i d u i
@@ -163,11 +163,11 @@ y|y|[up] a [us] d
 [6y] u a y u a y u
 [5a] y u p [9wp]asd[5f]gh
 [4psgj] 4 4 4 [qtosh] 4 4 4
-[8qipg] 4 4 4 [8qupf] 4 3|
+[8qipg] 4 4 4 [8qupf] 4 3||
 [2dgz] 2 2 2 [9esgl] 2 2 2
-[2afk] 2 2 2 [69pdj] 2 2|
-[370paj]|[370e]|[370r]|[370u]|
-[370aOH]|[370eu]|[370I]|[370O] ]]
+[2afk] 2 2 2 [69pdj] 2 2||
+[370paj]||[370e]||[370r]||[370u]||
+[370aOH]||[370eu]||[370I]|[370O] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
