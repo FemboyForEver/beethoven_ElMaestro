@@ -146,7 +146,7 @@ shared.scr = [[ j j
 [3f] [0d][7d] [0d]
 [6d] [es][0s] [es]
 [3s] [0a][7a]s[0a]
-[6ep]|j j
+[6ep]|||j j
 [6f] [ef][3j] [ej]
 [6f] [ef][3f] [ef]
 [2g] [9g][6g]h[9g]
@@ -154,7 +154,7 @@ shared.scr = [[ j j
 [3f] [0d][7d] [0d]
 [6d] [es][0s] [es]
 [3s] [0a][7a]s[0a]
-[6ep]|p a
+[6ep]|||p a
 [6s]a[es][2d]s[9a]
 [6s]a[es][2d]s[9a]
 [6s]a[ep][3O]p[0a]
@@ -162,7 +162,7 @@ shared.scr = [[ j j
 [6s]a[es][2d]s[9d]
 [6f]d[ef][2g]f[9d]
 [6s]a[ep][3O]p[0a]
-[6ep]|p a
+[6ep]|||p a
 [6s]a[es][2d]s[9a]
 [6s]a[es][2d]s[9a]
 [6s]a[ep][3O]p[0a]
@@ -170,7 +170,7 @@ shared.scr = [[ j j
 [6s]a[es][2d]s[9d]
 [6f]d[ef][2g]f[9d]
 [6s]a[ep][3O]p[0a]
-[6ep]|opa
+[6ep]|||opa
 [1s]a[8s][5f]s[8f]
 [1h] [8h][5h]j[8h]
 [5h] [wg][9g]h[wg]
@@ -178,7 +178,7 @@ shared.scr = [[ j j
 [1s]a[8s][5f]s[8f]
 [1h] [8h][5h]G[8h]
 [5k]j[wh][9g]f[wd]
-[8s]|[5wo]pa
+[8s]|||[5wo]pa
 [1s]a[8s][5f]s[8f]
 [1h] [8h][5h]j[8h]
 [5h] [wg][9g]h[wg]
@@ -186,7 +186,7 @@ shared.scr = [[ j j
 [1s]a[8s][5f]s[8f]
 [1h] [8h][5h]G[8h]
 [5k]j[wh][9g]f[wd]
-[8s]|f g
+[8s]|||f g
 [8h]f[ts][5h]f[8s]
 [8h] [th][5h]j[8h]
 [5g]f[wg][9d]f[5g]
@@ -194,7 +194,7 @@ shared.scr = [[ j j
 [8h]f[ts][8h]f[8s]
 [8h] [th][8h]j[8h]
 [5k]j[wh][9g]f[5d]
-[8s]|f g
+[8s]|||f g
 [8h]f[ts][5h]f[8s]
 [8h] [th][5h]j[8h]
 [5g]f[wg][9d]f[5g]
@@ -202,7 +202,7 @@ shared.scr = [[ j j
 [8h]f[ts][8h]f[8s]
 [8h] [th][8h]j[8h]
 [5k]j[wh][9g]f[5d]
-[8s]|j j
+[8s]|||j j
 [6f] [ef][3j] [ej]
 [6f] [ef][3f] [ef]
 [2g] [9g][6g]h[9g]
@@ -210,7 +210,7 @@ shared.scr = [[ j j
 [3f] [0d][7d] [0d]
 [6d] [es][0s] [es]
 [3s] [0a][7a]s[0a]
-[6ep]|j j
+[6ep]|||j j
 [6f] [ef][3j] [ej]
 [6f] [ef][3f] [ef]
 [2g] [9g][6g]h[9g]
@@ -218,7 +218,7 @@ shared.scr = [[ j j
 [3f] [0d][7d] [0d]
 [6d] [es][0s] [es]
 [3s] [0a][7a]s[0a]
-[6ep]|p a
+[6ep]|||p a
 [6s]a[es][2d]s[9d]
 [6f]d[ef][2g]f[9d]
 [6s]a[ep][3O]p[0a]
