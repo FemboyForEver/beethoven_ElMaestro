@@ -131,6 +131,96 @@ l| [Wql]| [qwl]|
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("remember me", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 70 -- tempo overides the delay
+ 
+shared.scr = [[ d| f||s
+[8wo]| |o u
+[Wqi] s s d d f f s
+[0wo]| |f
+[^9g] f f d [W0d]||a
+[0es] j j h h f f s
+[Eqh] g g f [0wf]||p
+[8qp] h h g g f f s
+[Wqf] d d s [9wd]| |
+d| f||s
+[80o] 9 0 q [0w]| o u
+[Wqi] s s d [wd] f [qf] g
+[0wf] 9 8 7 [^0] f f g
+[^9g] f f g [0wh]| 8|
+[qes] l l k [wk] j [qj] h
+[W0h] f [Wf] d [0es]||s
+[Wqs] D D h h l [9wz]|||
+l| [Wql]| [qwl]|
+[80wl] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
+Section:NewButton("remember me", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 70 -- tempo overides the delay
+ 
+shared.scr = [[ d| f||s
+[8wo]| |o u
+[Wqi] s s d d f f s
+[0wo]| |f
+[^9g] f f d [W0d]||a
+[0es] j j h h f f s
+[Eqh] g g f [0wf]||p
+[8qp] h h g g f f s
+[Wqf] d d s [9wd]| |
+d| f||s
+[80o] 9 0 q [0w]| o u
+[Wqi] s s d [wd] f [qf] g
+[0wf] 9 8 7 [^0] f f g
+[^9g] f f g [0wh]| 8|
+[qes] l l k [wk] j [qj] h
+[W0h] f [Wf] d [0es]||s
+[Wqs] D D h h l [9wz]|||
+l| [Wql]| [qwl]|
+[80wl] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
+Section:NewButton("remember me", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 70 -- tempo overides the delay
+ 
+shared.scr = [[ d| f||s
+[8wo]| |o u
+[Wqi] s s d d f f s
+[0wo]| |f
+[^9g] f f d [W0d]||a
+[0es] j j h h f f s
+[Eqh] g g f [0wf]||p
+[8qp] h h g g f f s
+[Wqf] d d s [9wd]| |
+d| f||s
+[80o] 9 0 q [0w]| o u
+[Wqi] s s d [wd] f [qf] g
+[0wf] 9 8 7 [^0] f f g
+[^9g] f f g [0wh]| 8|
+[qes] l l k [wk] j [qj] h
+[W0h] f [Wf] d [0es]||s
+[Wqs] D D h h l [9wz]|||
+l| [Wql]| [qwl]|
+[80wl] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("Adieu to the piano", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
@@ -193,32 +283,88 @@ shared.scr = [[ u w|
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
-end)Section:NewButton("remember me", "Auto", function()
+end)
+Section:NewButton("butterfly waltz", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 70 -- tempo overides the delay
  
-shared.scr = [[ d| f||s
-[8wo]| |o u
-[Wqi] s s d d f f s
-[0wo]| |f
-[^9g] f f d [W0d]||a
-[0es] j j h h f f s
-[Eqh] g g f [0wf]||p
-[8qp] h h g g f f s
-[Wqf] d d s [9wd]| |
-d| f||s
-[80o] 9 0 q [0w]| o u
-[Wqi] s s d [wd] f [qf] g
-[0wf] 9 8 7 [^0] f f g
-[^9g] f f g [0wh]| 8|
-[qes] l l k [wk] j [qj] h
-[W0h] f [Wf] d [0es]||s
-[Wqs] D D h h l [9wz]|||
-l| [Wql]| [qwl]|
-[80wl] ]]
+shared.scr = [[ f g
+[8h] w [ts]a[0s] r [uh]
+[qh] tj[ig]f[wg] y [of]g
+[8h] w [ts]a[0s] r [uf]
+[qp] t i [wa] y [of]g
+[8h] w [ts]a[0s] r [uh]
+[qh] tj[ig]f[wg] y [of]g
+[8h] wl[tk]l[0h] rl[uk]l
+[qh] t i [wj] y [oj]k
+[el] uk[pz]k[ql] tk[iz]k
+[8l] [wk] [tj] [5d] 9d[wf]d
+[6s] 0d[ef]j[4h] [8f] [qs]f
+[5d] 9 w 5 9 [wf]g
+[8h] w [ts]a[0s] r [uh]
+[qh] tj[ig]f[wg] y [of]g
+[8h] w [ts]a[0s] r [uf]
+[qp] t i [wa] y [of]g
+[8h] w [ts]a[0s] r [uh]
+[qh] tj[ig]f[wg] y [of]g
+[8h] wl[tk]l[0h] rl[uk]l
+[qh] t i [wj] y [oj]k
+[el] uk[pz]k[ql] tk[iz]k
+[8l] [wk] [tj] [5d] 9d[wf]d
+[6s] 0d[ef]j[4h] [8f] [qs]f
+[5d] 9 w 5 9 [ws]a
+[6s] 0 e [9p] eIys
+[5a] [9s] [wd] [8o] wo[ts]a
+[6s] [0d] [ef] [9f] [ed] [ys]
+[5d] 9 w 5 9 [ws]a
+[6s] 0 e [9p] eIys
+[5a] [9s] [wd] [8o] wo[ts]a
+[6s] [0d] [ef] [9f] [eG] [yh]
+[5h] 9 w [5d] 9 wd
+[5d] [9f] [wg] [5g] [9f] [wd]||
+fg[8h] w [ts]a[0s] r [uh]
+[qh] tj[ig]f[wg] y [of]g
+[8h] w [ts]a[0s] r [uf]
+[qp] t i [wa] y [of]g
+[8h] w [ts]a[0s] r [uh]
+[qh] tj[ig]f[wg] y [of]g
+[8h] wl[tk]l[0h] rl[uk]l
+[qh] t i [wj] y [oj]k
+[el] uk[pz]k[ql] tk[iz]k
+[8l] [wk] [tj] [5d] 9d[wf]d
+[6s] 0d[ef]j[4h] [8f] [qs]f
+[5d] 9 w 5 9 [ws]a
+[6s] 0 e [9p] eIys
+[5a] [9s] [wd] [8o] wo[ts]a
+[6s] [0d] [ef] [9f] [ed] [ys]
+[5d] 9 w 5 9 [ws]a
+[6s] 0 e [9p] eIys
+[5a] [9s] [wd] [8o] wo[ts]a
+[6s] [0d] [ef] [9f] [eG] [yh]
+[5h] 9 w [5d] 9 wd
+[5d] [9h] [wh] [5h] 9 wh
+[5h] [9j] [wk] [5k] 9 [wl]k
+[6l] 0 e [9j] eG[yd]l
+[5k] [9l] [wz] [8h] wh[tl]k
+[6l] [0z] [ex] [9x] [ez] [yl]
+[5z] 9 w 5 9 [wl]k
+[6l] 0 e [9j] eG[yd]l
+[5k] [9l] [wz] [8h] wh[tl]k
+[6l] [0z] [ex] [9x] [eC] [yv]
+[5v] 9 w [5z] 9 wz
+[5z] [9x] [wc] [5c] [9x] [wz]||
+xc[tv] o [sl]k[ul] a [fv]
+[iv] sb[gc]x[oc] d [hx]c
+[tv] o [sl]k[ul] a [fx]
+[ij] s g [ok] d [hx]c
+[tv] o [sl]k[ul] a [fv]
+[iv] sb[gc]x[oc] d [hx]c
+[tv] om[sn]m[uv] am[fn]m
+[iv] s g [ob] d [hn]
+[8m] w t y u o s hlm ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
