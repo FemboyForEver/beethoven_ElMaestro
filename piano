@@ -131,32 +131,98 @@ l| [Wql]| [qwl]|
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("remember me", "Auto", function()
+Section:NewButton("Tarantella Napoletana", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 70 -- tempo overides the delay
+shared.tempo = 180 -- tempo overides the delay
  
-shared.scr = [[ d| f||s
-[8wo]| |o u
-[Wqi] s s d d f f s
-[0wo]| |f
-[^9g] f f d [W0d]||a
-[0es] j j h h f f s
-[Eqh] g g f [0wf]||p
-[8qp] h h g g f f s
-[Wqf] d d s [9wd]| |
-d| f||s
-[80o] 9 0 q [0w]| o u
-[Wqi] s s d [wd] f [qf] g
-[0wf] 9 8 7 [^0] f f g
-[^9g] f f g [0wh]| 8|
-[qes] l l k [wk] j [qj] h
-[W0h] f [Wf] d [0es]||s
-[Wqs] D D h h l [9wz]|||
-l| [Wql]| [qwl]|
-[80wl] ]]
+shared.scr = [[ j j
+[6f] [ef][3j] [ej]
+[6f] [ef][3f] [ef]
+[2g] [9g][6g]h[9g]
+[6f] e[0f] [ef]
+[3f] [0d][7d] [0d]
+[6d] [es][0s] [es]
+[3s] [0a][7a]s[0a]
+[6ep]|j j
+[6f] [ef][3j] [ej]
+[6f] [ef][3f] [ef]
+[2g] [9g][6g]h[9g]
+[6f] e[0f] [ef]
+[3f] [0d][7d] [0d]
+[6d] [es][0s] [es]
+[3s] [0a][7a]s[0a]
+[6ep]|p a
+[6s]a[es][2d]s[9a]
+[6s]a[es][2d]s[9a]
+[6s]a[ep][3O]p[0a]
+[6p] e[3p] [ea]
+[6s]a[es][2d]s[9d]
+[6f]d[ef][2g]f[9d]
+[6s]a[ep][3O]p[0a]
+[6ep]|p a
+[6s]a[es][2d]s[9a]
+[6s]a[es][2d]s[9a]
+[6s]a[ep][3O]p[0a]
+[6p] e[3p] [ea]
+[6s]a[es][2d]s[9d]
+[6f]d[ef][2g]f[9d]
+[6s]a[ep][3O]p[0a]
+[6ep]|opa
+[1s]a[8s][5f]s[8f]
+[1h] [8h][5h]j[8h]
+[5h] [wg][9g]h[wg]
+[1g] [8f][5o]p[8a]
+[1s]a[8s][5f]s[8f]
+[1h] [8h][5h]G[8h]
+[5k]j[wh][9g]f[wd]
+[8s]|[5wo]pa
+[1s]a[8s][5f]s[8f]
+[1h] [8h][5h]j[8h]
+[5h] [wg][9g]h[wg]
+[1g] [8f][5o]p[8a]
+[1s]a[8s][5f]s[8f]
+[1h] [8h][5h]G[8h]
+[5k]j[wh][9g]f[wd]
+[8s]|f g
+[8h]f[ts][5h]f[8s]
+[8h] [th][5h]j[8h]
+[5g]f[wg][9d]f[5g]
+[8h]f[ts][5s]f[8h]
+[8h]f[ts][8h]f[8s]
+[8h] [th][8h]j[8h]
+[5k]j[wh][9g]f[5d]
+[8s]|f g
+[8h]f[ts][5h]f[8s]
+[8h] [th][5h]j[8h]
+[5g]f[wg][9d]f[5g]
+[8h]f[ts][5s]f[8h]
+[8h]f[ts][8h]f[8s]
+[8h] [th][8h]j[8h]
+[5k]j[wh][9g]f[5d]
+[8s]|j j
+[6f] [ef][3j] [ej]
+[6f] [ef][3f] [ef]
+[2g] [9g][6g]h[9g]
+[6f] e[0f] [ef]
+[3f] [0d][7d] [0d]
+[6d] [es][0s] [es]
+[3s] [0a][7a]s[0a]
+[6ep]|j j
+[6f] [ef][3j] [ej]
+[6f] [ef][3f] [ef]
+[2g] [9g][6g]h[9g]
+[6f] e[0f] [ef]
+[3f] [0d][7d] [0d]
+[6d] [es][0s] [es]
+[3s] [0a][7a]s[0a]
+[6ep]|p a
+[6s]a[es][2d]s[9d]
+[6f]d[ef][2g]f[9d]
+[6s]a[ep][3O]p[0a]
+[6ep] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
