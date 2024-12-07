@@ -131,6 +131,65 @@ l| [Wql]| [qwl]|
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("remember me", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 70 -- tempo overides the delay
+ 
+shared.scr = [[ d| f||s
+[8wo]| |o u
+[Wqi] s s d d f f s
+[0wo]| |f
+[^9g] f f d [W0d]||a
+[0es] j j h h f f s
+[Eqh] g g f [0wf]||p
+[8qp] h h g g f f s
+[Wqf] d d s [9wd]| |
+d| f||s
+[80o] 9 0 q [0w]| o u
+[Wqi] s s d [wd] f [qf] g
+[0wf] 9 8 7 [^0] f f g
+[^9g] f f g [0wh]| 8|
+[qes] l l k [wk] j [qj] h
+[W0h] f [Wf] d [0es]||s
+[Wqs] D D h h l [9wz]|||
+l| [Wql]| [qwl]|
+[80wl] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)Section:NewButton("remember me", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 70 -- tempo overides the delay
+ 
+shared.scr = [[ d| f||s
+[8wo]| |o u
+[Wqi] s s d d f f s
+[0wo]| |f
+[^9g] f f d [W0d]||a
+[0es] j j h h f f s
+[Eqh] g g f [0wf]||p
+[8qp] h h g g f f s
+[Wqf] d d s [9wd]| |
+d| f||s
+[80o] 9 0 q [0w]| o u
+[Wqi] s s d [wd] f [qf] g
+[0wf] 9 8 7 [^0] f f g
+[^9g] f f g [0wh]| 8|
+[qes] l l k [wk] j [qj] h
+[W0h] f [Wf] d [0es]||s
+[Wqs] D D h h l [9wz]|||
+l| [Wql]| [qwl]|
+[80wl] ]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("la vaguelette", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
