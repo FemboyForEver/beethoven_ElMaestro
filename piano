@@ -451,7 +451,7 @@ Section:NewButton("virus beethoven", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 156 -- tempo overides the delay
+shared.tempo = 200 -- tempo overides the delay
  
 shared.scr = [[ [7?] [6?] [6?] [18] [6?] [6?] [29] [6?] 
 [6?] [30] [6?] [6?] [4q] [6?] [6?] [4q] 
