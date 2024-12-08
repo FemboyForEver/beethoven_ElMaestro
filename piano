@@ -2631,7 +2631,7 @@ Section:NewButton("Howl’s Moving Castle Theme", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = nil -- delay overides the ftime
+shared.delay = 1 -- delay overides the ftime
 shared.tempo = 105 -- tempo overides the delay
  
 shared.scr = [[ [sf] [dg] [sf] [dg] [sf] [dg] [ad] [sf] [ad] [sf] [ad] [sf] [ps] [ad] [ps] [ad] [ps] [ad] [Oa] [Ip] [uO]
