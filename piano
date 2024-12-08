@@ -48,7 +48,7 @@ shared.tempo = 80 -- tempo overides the delay
 
 shared.scr = [[ u|||||||||||||||||||| u||||||||||||||||| u|||||||||||||| u|||||||||| u|||| u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u 6 [80] 3 [80] 3 $ % [6] [80] 3 [80] [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] i [80u] Y [6u] [80p] [3s] [80] [%d] d [90d] d [3d] s [90a] d [6s] s [80s] s [3s] a [80p] s [7a] a [(ea] a [$I] [(ea] [0WO] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] [9z] l [qek] z [8l] k [0ej] l [7k] j [9qH] k [6j] f [80s] p [30g] f [$Qd] s [%Wa] p [30O] a [6ep] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] i [80u] Y [6u] [80p] [3s] [80] [7d] d [90d] d [3d] s [90a] d [6s] s [80s] s [3s] a [80p] s [7a] a [(Qa] a [$I] [(Qa] [0WO] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] [9z] l [qek] z [8l] k [0ej] l [7k] j [9qH] k [6j] f [80s] p [30g] f [$Qd] s [%Wa] p [30O] a [6ep] [6] 7 * [29d] [qe] S [6d] [qef] [9g] [qef] [6d] [qeg] [8f] [0e] d [6s] [0ed] [8f] [0e] 6 [0es] [0a] [Wr] P [7a] [Wrs] [0d] [Wrs] [7a] [Wrd] [6s] [6p] [8s] [0f] [ej] [0f] [8s] [6p] [29d] [qe] S [6d] [qef] [9g] [qef] [6d] [qeg] [8f] [0e] d [6s] [0ed] [8f] [0e] [6j] [0e] 9 [qed] 7 [qeg] [30f] [18s] [29d] [7a] [6p] [O3uf] [6psj] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] i [80u] Y [6u] [80p] [3s] [80] [7d] d [90d] d [3d] s [90a] d [6s] s [80s] s [3s] a [80p] s [7a] a [(Qa] a [$I] [(Qa] [0WO] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] [9z] l [qek] z [8l] k [0ej] l [7k] j [9WH] k [6j] f [8es] p [7g] f d s [30a] p O a [6ep] [6] [80] 3 [80] 3 $ % [6] [80] 3 [80] [6] [80e] 3 [80e] 3 $ % [6] [80e] 3 [80e] [6] [0et] 3 [0et] [6] [etu] 3 [etu] [6] [tup] 3 [ups] [6] [psf] 3 [sfj] [6f] [ps] [80f] [ps] [3f] [ps] [80f] [ps] [6f] [ps] [80f] [ps] [3f] [ps] [80f] [ps] [6f] [ps] [80f] [ps] [3f] g [80f] D [6f] [80j] [3l] [80] [7fH] z [90fH] z [3fH] z [90fH] z [6fj] l [80fj] l [3fj] l [80fj] l [7DG] k [(QDG] k [$G] [(Qk] [0fWH] [3] $ % [6f] [ps] [80f] [ps] [3f] [ps] [80f] [ps] [6f] [ps] [80f] [ps] [3f] [ps] [80f] [ps] [6f] g [80f] D [3f] [80j] l [6x] [80b] [3m] [80] [9] m [qen] [8m] n [0eb] m [7n] b [9WV] n [6b] x [80l] j [7c] x z l [30k] j H k [6ej] 6 [yd] [ip] S d [ipf] g [ipf] [yd] [ipg] [tf] [up] d s [upd] f [up] t [ups] [ra] [ru] P a [rus] d [rus] [ra] [rud] [es] [ep] [ts] [uf] [epj] [0uf] [8ts] [6ep] [9d] [qe] S [6d] [qef] [9g] [qef] [6d] [qeg] [8f] [0e] d [6s] [0ed] [8f] [0e] [6j] [0e] 9 [qed] 7 [qeg] [30f] [18s] [29d] [7a] [6p] [O3uf] [6psj] [3] [6u] [et] [80u] [et] [3u] [et] [80u] [et] [6u] [et] [80u] [et] [3u] [et] [80u] [et] [6u] [et] [80u] [et] [3u] i [80u] Y [6u] [80p] [3s] [80] [7uO] d [90uO] d [3uO] d [90uO] d [6up] s [80up] s [3up] s [80up] s [7YI] a [(QYI] a [$I] [(Qa] [0uWO] [3] $ % [6u] [et] [80u] [et] [3u] [et] [80u] [et] [6u] [et] [80u] [et] [3u] [et] [80u] [et] [6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] [9qz] l [ek] z [80l] k [ej] l [79k] j [0H] k [68j] f [0s] p [%0g] f d s [30a] p O a [6ep] [6] [^i] [ET] [*qi] [ET] [4i] [ET] [*qi] [ET] [^i] [ET] [*qi] [ET] [4i] [ET] [*qi] [ET] [^i] [ET] [*qi] [ET] [4i] I [*qi] u [^i] [q*P] [4S] [*q] [8ip] D [(qip] D [4ip] D [(qip] D [i^P] S [qi*P] S [4iP] S [qi*P] S [8uo] s [0wuo] s [5o] [0ws] [qeip] [4] 5 6 [^i] [ET] [*qi] [ET] [4i] [ET] [*qi] [ET] [^i] [ET] [*qi] [ET] [4i] [ET] [*qi] [ET] [^i] I [*qi] u [4i] [q*P] S [^g] [q*J] [4L] [*q] [(Z] L [QEl] Z [*L] l [qEJ] L [8l] J [(ej] l [^J] g [q*S] P [8G] g D S [4qs] P p s [^EP] [^] [(Q] m [q*] m B [(8m] B b m [^*B] c L J [68C] c Z L [4ql] J j l [^EJ] [^JLB] [1234567890qwertyuiopasdfghjklZXcvbnm] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("Idea 10", "Auto", function()
@@ -98,7 +98,7 @@ qkl[etk]j[etk]l[9z]j[yig]z[yij]g[ez]j[yig]zx[yiz]l[6l]k[tuf]l[tuk]f[el]k[tuf]l[t
 [eyiz]jgzjgzjgzlk[eupl]kflkflkflkj[wrok]hfkhfkhfkjh[qtij]|||
 k||| l ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("remember me", "Auto", function()
@@ -128,7 +128,7 @@ d| f||s
 l| [Wql]| [qwl]|
 [80wl] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("Tarantella Napoletana", "Auto", function()
@@ -224,7 +224,7 @@ shared.scr = [[ j j
 [6s]a[ep][3O]p[0a]
 [6ep] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("Quiet resource", "Auto", function()
@@ -385,7 +385,7 @@ Q|[tu]|[tu]|
 [tu]||x
 [6b] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("Melody of the night", "Auto", function()
@@ -484,7 +484,7 @@ shared.scr = [[ p a s f
 [5r]| [wt] 9 [ry] 9 u|
 [1e]6tup ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("Adieu to the piano", "Auto", function()
@@ -547,7 +547,7 @@ shared.scr = [[ u w|
 [yd97]iow [a5] w [o97] w
 [i80] w 5 w [u80] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("butterfly waltz", "Auto", function()
@@ -632,7 +632,7 @@ xc[tv] o [sl]k[ul] a [fv]
 [iv] s g [ob] d [hn]
 [8m] w t y u o s hlm ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("la vaguelette", "Auto", function()
@@ -673,7 +673,7 @@ y||y||[up] a [us] d
 [370paj]||[370e]||[370r]||[370u]||
 [370aOH]||[370eu]||[370I]|[370O] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("carol of the bells", "Auto", function()
@@ -737,7 +737,7 @@ s||| a|||s|||p|||
 [6t]869[6y]0[6u]86[9i][6u]0[5y]758[5r]9[5w]75[8e][5r]9
 [4t]64[7r][4e]8[3w]73[8q][3w]9[8e]|78[6e] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("sis puella magica", "Auto", function()
@@ -749,7 +749,7 @@ shared.tempo = 148 -- tempo overides the delay
  
 shared.scr = [[ [pflkj lkhfuspflkj lkhfus[pjf]fj[kh][lj] [kh] [hd]o[uj]spf[lj][kh][lj] [kh] [khd]o[uj]s[jig]s[xl][zkh][lj] [okh] [kjhd]f[khd] [pkf]ljfkl[xlf] [zk] [lj]u[pjf]fj[kh][lj] [kh] [hd]o[upj]spf[lj][kh][lj] [kh] [lhd][ok][upj]s[jig]s[xl][zk][lj] [okh] [kjhd]f[khd]o[pkf]l[jf]| j[okh][lji][zuk][yxjgd] [ljd]g[lj][xl][zukh][lf][zkd][sl][kha]o[pkf]l[xlj][zk][lj][zk][xlj] [zkj][kh][plj][zok][xjig] [ljg][sg][lj][xl][zokh]l[zkh][pl][kha] [slf] [xlh]h[xl] pf[sl][kha][plj][zok][xpjig] [pljg][gf][ljd][xl][zukhd] [zslk]a[zkhd] [yxlj]cx| [zukh]xz| [ljig]zl| [olhf]kh [kha] [pkf]l[lj]k[jf]k[xlj] [zk] [lj] j [lj]k[jf]k[ljf] [kh] j b  ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("La campanella but i got distracted", "Auto", function()
@@ -803,7 +803,7 @@ b [(To] V v c z v b % r Y O D H k Z V a [oP] a [Ip] a [iO] a [uo] S a P a [rYI] 
 [5y] 5 [5y] [5o] [5s] [5a] [5o] 5 
 5 5 5 T I O P S ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("partita for violin no.3", "Auto", function()
@@ -923,7 +923,7 @@ i f d s d f g d
 [ip] d [wy] a
 [ts] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("what a wonderful world", "Auto", function()
@@ -935,7 +935,7 @@ shared.tempo = 71 -- tempo overides the delay
  
 shared.scr = [[ [p4] 6 8 q 8 6 [o4] ^ 9 w 9 ^ [p4] 6 8 q 8 6 [o4] ^ 9 [wt] 9u^ [i4] 6 8 q 8i6 [s6] 8 0 e 0 8 ^ 9dq [dE] qd9 [s6] 8 0 e 0 8 4 ^P9 [wP] 9P^ [p4] 6 8 q 8 6 3 6o* [o0] *o6 [i2] 4 6 9 [i6] [i4] [iWT!] % * q [i*] [i%] [iWT!] % * q * % [tE1] 5 ^ [i9] ^i5 [u1] 5 [i^] 8 [o^] 5 [p4] 6 8 [tq] 8 6 [T4] 6 * q * 6 [y4] ^ 9 q [P9] [p^] [uo1] 3 5 [t8] 5u3 [i4] 6 8 q 8i6 [usp6] 8 0 e 0s8 [id^P] 9 q E qd9 [usp6] 8 0 e 0s8 [yoP5] ^ 9 q [P9] [^P] [tpi4] 6 8 q 8p6 [uoT6] * 0 e [o0] [o] [yie2] 4 6 9 [i6] [i4] [iWT!] %i [qi] *i% [WT!] % * q * % [tE1] 5 ^ [i9] ^i5 [u1] 5 [i^] 8 [o^] 5 [i4] 6 8 [qe] 8 6 [w4] ^ 9 q 9 ^ [E4] ^ 9 q [w9] [^E] [t4] 6 8 [qi] 8 6 [o1] ^o8 [o0] 8o^ [o1] ^t8 0 8t^ [oP4] 8[pi]q [pie] q[uO]8 [pi4] 8 q e qi8 [o1] ^o8 [o0] 8o^ [o1] ^t8 0 8o^ [oP4] 8[pi]q [pie] q[uO]8 [pi4] 8 q [pe] qs8 d [ypi92] [ypi92] [ypid92] d s [uto30] [uto30] [uto] p s d [yqpi4] [yqpi4] [ypid] d s [wuto5] [wuto5] [wuto5] [wuto5] [wuto5] [yqpi4] d d d [spYQI$] s||[P5] [yoi] [yoi] [p$] [tYI] [tYI] [uto5]|[t1] u [i4] 6 8 q 8i6 [s6] 8 0 e 0s8 [d^] 9 q E qd9 [s6] 8 0 e 8 6 4 ^P9 [wP] 9P^ [p4] 6 8 q 8p6 [o3] 6 * 0 [o*] [o6] [i2] 4 6 9 [i6] [i4] [iWT!] % * [qi] [i*] [i%] ! % * q * % [tE1] 5 ^ [i9] ^i5 [u1] 5 [i^] 8 [o^] 5 [tpi4] 8 q e q 8 [oY6] 8 ( w ( 8 [yI9] Q e t e Q [p9]|p|[yqpiE5] i o i|e|[qE5]|i i [uTE81] i o [i4] 8 q e q 8 [w4] ^ 9 w 9 ^ [E4] ^ 9 w 9E^ [e4][t8][qi]p ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("parasyte", "Auto", function()
@@ -947,7 +947,7 @@ shared.tempo = 110 -- tempo overides the delay
  
 shared.scr = [[ [le] [uj] [pl] [xu] [zq] t i [tl]k[wl] y o [zy]l[k0] [rj] [uh] [rk] [le] [uj] [pl] [xu] [zq] t i [tl]k[wk] y o [zy]l[wk] [yc] [xo] [wk] [le] [uj] [pl] [vu] [zq] t i [tl]k[wk] y o [yl]k[vtso]|[xroa] z [le] [uf] [pj] [xu] [zq] t i [tl]k[wk] y o [zy]l[wk] [oc] [xu] [rk] [le] [uj] [pl] [xu] [zq] t i [tl]k[wl] y o [zy]l[k0] [rj] [uh] [rk] [le] [uj] [pl] [xu] [zq] t i [tl]k[wk] y o [zy]l[wk] [yc] [xr] [yk] [le] [uj] [pl] [vu] [zq] t i [tl]k[wk] y o [yl]k[vtso]|[xroa] z [le] [uf] [pj] [xu] [zq] t i [tl]k[wk] y o [zy]l[wk] [oc] [xu] [rk] [lfe]|[ul]|[plf] u [tk] u [sqj]|[tj]|[lig] t [ke] [tl] [zwh] y [zr]|[yxh]|[yc] r [xth] o [xu]|[zwh] y [zr] [wl] [lfe]|[ul]|[plf] u [zt] u [sqj]|[tjc]|[xji] t [ze] [tl] [xwh] y [zr]|[vha]|[yc] [xr] [xth] o [uc] x [zwh] [yx] [zr] [wl] [sqj] i [tj] [pc] [xj] t [li] [zq] [zwh] o y [ka]|[zy] [xo] [rc] [xje] u p [sl] [kh] p [ul] [ze] [zh0] r u [zo] [zh] [ul] [rk] [l0] [sqj] i t [pj] [jc] [xt] [zi] [ql] [zwh] o y [ka]|[yl] [zo] [xr] [xje] p s [lf] k s [pl] [zu] [x0] r [zu] O [uc]Oaf x|3%70WruOafHkx|[lfe] [uj] [pl] [xu] [zqg] t i [tl]k[wlh] y o [zy]l[kf0] [rj] [uh] [rk] [lfe] [uj] [pl] [xu] [zqg] t i [tl]k[wkd] y o [zy]l[wkh] [yc] [xo] [wk] [lfe] [uj] [pl] [vu] [zqg] t i [tl]k[wkh] y o [yl]k[vtsol]|[xroa] z [lfe] [uf] [pj] [xu] [zqg] t i [tl]k[wkd] y o [zy]l[wkh] [oc] [xu] [rk] [lfe6] [uj] [pl] [xu] [zqg] t i [tl]k[wlh] y o [zy]l[kf0] [rj] [uh] [rk] [lfe6] [uj] [pl] [xu] [zqg] t i [tl]k[wkd] y o [zy]l[wkh] [yc] [xo] [wk] [lfe6] [uj] [pl] [vu] [zqg] t i [tl]k[wkh] y o [yl]k[vtl8]|[xr7] z [lf6] [uf] [pj] [xu] [zg4] t i [tl]k[kd5] y o [zy]l[kh5] [oc] [xu] [rk] [ze] [xu] [pl] s|l|k e u p [xs] x [zp] [zu] l [zq] [xi] [pl] s|l|k q t i p|[ql] [tl] x [x8] [zt] [zu] [sl] l l l x [x8] [zu] [zs] [lf] l [zu] x k [wk] o a [kd] k j [kd] l w [ok] a d|[wk] [yj] [rk] [le] u [pl]|[sl] u [pk] t [qj] t [ji]|[pl] t [ki] [le] [zw] y [zo]|[xa] y [oc] r [xt] o [xs]|[zw] y [zo] [wl] [le] u [pl]|[sl] u [zp] t [qj] t [ic]|[xp] t [zi] [le] [xw] y [zo]|[va] y [oc] [xr] [xt8]|c x [zw5] x||[qj4] i [tj] [pc] x t [ql] [z8] [zw5] o y [ka]|[zy] [xw] [c9] [xe6] p u [sl] k u [le] [z0] [z30] u r [zo] z [rl] [wk] [l0] [qj4] i t [pj] c [xt] [zq] [l8] [zw5] o y [ka] k [yl] [zw] [x9] [xe6] p u [sl] k u [le] [z0] [x30] r [zu] O [ca] O [xu] r [30]ruOafHkfHkx ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("virus beethoven", "Auto", function()
@@ -1026,7 +1026,7 @@ shared.scr = [[ [7?] [6?] [6?] [18] [6?] [6?] [29] [6?]
 [5wosD] [D8tsh] [D158sh] 
 [18]  ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("golden hour x interstellar", "Auto", function()
@@ -1094,7 +1094,7 @@ f [wd] [0s] [1a] [5s] [8d] [0f] [wd] [0s] [1a] 5 [8oh]
 0 [wsl] [0ak] 1 5 8 0 w 0 [18ak] 
 [26PJ?] [3PJ?]  ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("eminen mokingbird", "Auto", function()
@@ -1193,7 +1193,7 @@ shared.scr = [[ [6eu] s s [4qi] s a a|
 [6esfj] [tf]f[uf]s[4qd] [ef] [tf]f[if]f[tf]f
 [5wad] [rf]f[ys]a[6eup] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("etude d'execution", "Auto", function()
@@ -1251,7 +1251,7 @@ shared.scr = [[ [W0ru] [ruWO] [Orua] [Ouaf] [Ouaf] [Orua] [ruWO] [W0ru] [7rQY] [
 [3580wtu?] [Euosxv] [48qeti?] [etiscb] 
 [@$(Q7r?] [YIZCrpakn] [!%W30r] [0rkxWOHV] [0rkxWOHV]  ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("waltz in mirror", "Auto", function()
@@ -1286,7 +1286,7 @@ u [6p] a [etus] [etu] [2d] f [eyig] [eyi]
 3 [fgf] [0yWD] f [0yk] d [6s] [0et] [0et]
 8 l [0euk] j h g [9f] d [eriS] d f g [3f]gfgfg[0tD] f [0ryg] O [6p] [0t] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("spooky scary", "Auto", function()
@@ -1378,7 +1378,7 @@ shared.scr = [[ [4qg] h j [qetj] g [30f] G H [WH0r] f
 [D4qsgj] [hk] [jl] [qetlx] [jl] [gj] [30adf] [Hf] [Hk] [W0rkx] [Ds] [ad]
 [60etpsfj] [80etsf] [60etps] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("sonata 17 3rd", "Auto", function()
@@ -1390,7 +1390,7 @@ shared.tempo = 112 -- tempo overides the delay
  
 shared.scr = [[ pgf[9d]ey[ip]gf[9d]ey[ip]gf[9d]ey[ip]gd[6f]eT[up]hg[6f]eT[up]hg[6f]eT[up]hg[6f]eT[up]hf[9g]ey[id]jz[wJ]yoPdJ[(h]EYoPh[*f]eTupf[9g]eyipg[6d]qeypd[6S]0w[eT]pS[2d]9qe[yi]pdgjgzj[wJ]yoPdJ[(h]EYoPh[*f]eTupf[9g]eyipg[6d]qeypd[6S]0w[eT]pS[9d]qp[ej]y HhGgfD[6d]qeypd[6S]0w[eT]pS[9d]qd[ez]y LlkJjH[6j]qeypd[6S]0w[6S][4j][3L][2z]9q[6e][4y]329q[6e][4y]329q[6e][4y]2[59]qryia[18t]s[0u]f[wo]h[ts]l[uf]x[ts]l[wo]h[0u]f[wo]h[0u]f[8t][5s]32180[5w][3t]2180[5w][3t]2180[5w][3t]1[49e]y[9e]y[(e]Y[W30u] [ry]hgu[Wf]u[ry]hgu[Wf]u[ry]hgu[Wf]u[ry]hgu[Wf]u[ry]hgu[Wf]u[ry]hgu[Wf]u[ryg]uWu[ry]u[Wf]u[ryd]uedsu[ta]u[ep]u[0O]y[rp]y[0a]y[etp]u[ryg][uc][Wf][ux][ryg][uc][Wf][ux][ryg][uc][Wf][ux][ryg][uc][Wf][ux][ryg][uc][Wf][ux][ryg][uc][Wfx]u[rygc]uWu[ry]u[Wfx]u[rydz]u[esl]u[tak]u[epj]u[0OH]y[rpj]y[0ak]y[qpj]t[egc]t[qgc]t[9gc]E[qfx]E[9dz]E[0sl]t[eak]t[0pj]t[9OH]r[0pj]r[9ak]r[8pj]e[7gc]e[8gc]e[9gc][er][8fx][er][9dz][er][0sl][et][(ak][et][0pj][et][0OH][ry][0pj][et][0ak][Wr][6pj]tet[0p][tj][6s]tet[0s][tl][6f]tet[0f][tx][6s]tet[0s][tl][3p]t[ej]t0t3y[rak]y[0OH]y[6pj]te[tp][0j][tp][6s]te[ts][0l][ts][6f]te[tf][0x][tf][6s]te[ts][0l][ts][3p]t[ej]t0t3y[rak]y[0OH]y[6pj]e[Wak]e[wSL]e[qdz]e[0sl]e[(ak]e[0sl]e[rOH]0[tpj]0[yak]0[tIG]0[rOH]0[6p][ej][Wa][ek][wS][eL][qd][ez][0s][el][(a][ek][0s][el][iO][0H][up][0j][ya][0k][tI][0G][rO][0H][6p][ej][WO][ep][6j][ep][WO][ep][6j][ep][WO][ep][6j][ep][WO][ep][6j][ep][WO][ep][6j][ep][WO][ep][uoTP]pPpPpPpPpPpPpPpSpdpfpgf[9d]ey[ip]gf[9d]ey[ip]gf[9d]ey[ip]gd[6f]eT[up]hg[6f]eT[up]hg[6f]eT[up]hg[6f]eT[up]hf[9g]ey[id]jz[wJ]yoPdJ[(h]EYoPh[*f]eTupf[9g]eyipg[6d]qeypd[6S]0w[eT]pS[2d]9qe[yi]pdgjgzj[wJ]yoPdJ[(h]EYoPh[*f]eTupf[9g]eyipg[6d]qeypd[6S]0w[eT]pS[9d]qp[ej]y HhGgfD[6d]qeypd[6S]0w[eT]pS[9d]qd[ez]y LlkJjH[6j]qeypd[6S]0w[6S][4j][3L][2z]9q[6e][4y]329q[6e][4y]329q[6e][4y]2[59]qryia[18t]s[0u]f[wo]h[ts]l[uf]x[ts]l[wo]h[0u]f[wo]h[0u]f[8t][5s]32180[5w][3t]2180[5w][3t]2180[5w][3t]1[49e]y[9e]y[(e]Y[W30u] [ry]hgu[Wf]u[ry]hgu[Wf]u[ry]hgu[Wf]u[ry]hgu[Wf]u[ry]hgu[Wf]u[ry]hgu[Wf]u[ryg]uWu[ry]u[Wf]u[ryd]uedsu[ta]u[ep]u[0O]y[rp]y[0a]y[etp]u[ryg][uc][Wf][ux][ryg][uc][Wf][ux][ryg][uc][Wf][ux][ryg][uc][Wf][ux][ryg][uc][Wf][ux][ryg][uc][Wfx]u[rygc]uWu[ry]u[Wfx]u[rydz]u[esl]u[tak]u[epj]u[0OH]y[rpj]y[0ak]y[qpj]t[egc]t[qgc]t[9gc]E[qfx]E[9dz]E[0sl]t[eak]t[0pj]t[9OH]r[0pj]r[9ak]r[8pj]e[7gc]e[8gc]e[9gc][er][8fx][er][9dz][er][0sl][et][(ak][et][0pj][et][0OH][ry][0pj][et][0ak][Wr][6pj]tet[0p][tj][6s]tet[0s][tl][6f]tet[0f][tx][6s]tet[0s][tl][3p]t[ej]t0t3y[rak]y[0OH]y[6pj]te[tp][0j][tp][6s]te[ts][0l][ts][6f]te[tf][0x][tf][6s]te[ts][0l][ts][3p]t[ej]t0t3y[rak]y[0OH]y[6pj]e[Wak]e[wSL]e[qdz]e[0sl]e[(ak]e[0sl]e[rOH]0[tpj]0[yak]0[tIG]0[rOH]0[6p][ej][Wa][ek][wS][eL][qd][ez][0s][el][(a][ek][0s][el][iO][0H][up][0j][ya][0k][tI][0G][rO][0H][6p][ej][WO][ep][6j][ep][WO][ep][6j][ep][WO][ep][6j][ep][WO][ep][6j][ep][WO][ep][6j][ep][WO][ep][uoTP]pPpPpPpPpPpPpPpSpdpfpgf[ID]psDjJ[Il]psDjJ[Il]psDjJ[Il]psdlj[5J]^2[5^]9w[5E]^9[wE]yo[wP]Ey[oP]dh[oJ]Pd[sg][ak][pl][Oz]adgkl[Oz]adgkl[Oz]adgkl[Oz]adfzk[6l]13[68]0e[6t]80[et]up[es]tu[ps]fjl6^509*Eu[*o][wP]q0To[0P][ES]ewPS[wf][uh]yTfJ[4j]654yi[4p][qd]09ip[9d][eg]wqpd[qg][ij]uyiOHdDg24[%g][7a]sd4%[7d][9i]oO79[qO][Wy]YiWw[qh][(s][9d][8D]@5[8D]oas58[(s]Yio8([wo]tyYtw18^6Qt[6Y][(I]*8eY[8I][Qp]q(Ip[(s][tD]EesG[!g]*8^Ti[^P][qS](*iP[*S][Tg]tEPS[Eg][iJ]YTiPcJlL@$[^L]GHJ$^[(J]SgG^([QG]PsS(Q[Ec]JlL4^[*L]gjJ^*[qJ]SDg*q[Eg]PsSqE[TL]JlL$^[*S]PsSQE[TL]JlL5^[(S]PsSwE[Yl]HJl%8[(s]OPsWt[YZ]lLZ68[qD]sSDetiSs[^P]qE[Ti]Ss[^P]qE[Ti]Ss[^P]qE[Ti]SP[4s]qe[ti]DS[4s]qe[ti]DS[4s]qe[ti]DS[4s]qe[ti]Ds[^S]qE[Ti]Sg^qE[Ti]Sg^qE[Ti]Sg^QE[TI]SG^QE[TI]SG^wT[uo]Sh^wT[uo]Sh^Wy[uO]dH^Wy[uO]dH^Wy[iO]dH^Wy[iO]dH[6j]eT[up][fj]S[9gH]ey[ip][gH]d[6fj]eT[up][fj]S[9gH]ey[ip][gH]d[S6fj]eT[uS]fh[wP]euPSf[*o]0ePpo[9i]qeiuy[6T]eT[uS]fh[wP]euPSf[*o]0ePpo[9i]qeiuy[9G]yI[pG]jl[tD]ypDGj[Qs]eYDds[wP]EyPpo[9I]yI[pG]jl[tD]ypDGj[Qs]eyDds[wP]EyPpo[*J]0eJjh[9g]qegfd[QD]eyDds[wP]EyPpo[*J]0eJjh[9g]qegfd[*J]0eJjh[9g]qegfd[*J]0eJjh[9g]qegfd[60w*J]hGhJhGhJhGhDfhfDfhfDfhfsSfSsSfSsSfSpPSPpPSPpPSPIoPoIoPoIoPoIoPoIoPoIoPoIoPoIoPSPoIoPSfoIoPSfpgf[9d]ey[ip]gf[9d]ey[ip]gf[9d]ey[ip]gd[6f]eT[up]hg[6f]eT[up]hg[6f]eT[up]hg[6f]eT[up]hf[9g]ey[id]jz[wJ]yoPdJ[(h]EYoPh[*f]eTupf[9g]eyipg[6d]qeypd[6S]0w[eT]pS[2d]9qe[yi]pdgjgzj[wJ]yoPdJ[(h]EYoPh[8D]wtYoD[6s]qetis[^d]qEyid[@D]8(YoD[4s]8qtps[2g]^9iPg[5d]^wyPd[@D]8(YoD[4s]8qtps[^P]4^4!1^^*[4q][!E]1^^*[4q][!E]1^^*[4q][!E]^[15]^0wEu[4q]i[%W]O[8t]s[qi]g[WO]H[qi]g[8t]s[%W]O[8t]s[%W]O[4q][1i]%54qW[1t][%i]54qW[1t][%i]54qW[1t][%i]4[59]qryia[18t]s[(Y]D[wo]h[ts]l[YD]Z[ts]l[wo]h[(Y]D[wo]h[(Y]D[8t][5s]@218([5w][@t]218([5w][@t]218([5w][@t]1[26]8QetI[5w]o[^E]P[9y]d[wo]h[EP]J[wo]h[9y]d[^E]P[9y]d[^E]P[5w][2o]^659w[2E][^y]659w[2E][^y]659w[2E][^y]5[9^W]y[9W]y[9W]y[60eT] [0w]sPe[*p]e[0w]sPe[*p]e[0w]sPe[*p]e[0w]sPe[*p]e[0w]sPe[*p]e[0w]sPe[*p]e[0wP]e*e[0w]e[*p]e[0wo]e9oie[qu]e[9y]e[6T]w[0y]w[6u]w[9qy]e[0wP][eJ][*p][ej][0wP][eJ][*p][ej][0wP][eJ][*p][ej][0wP][eJ][*p][ej][0wP][eJ][*p][ej][0wP][eJ][*pj]e[0wPJ]e*e[0w]e[*pj]e[0woh]e[9ig]e[quf]e[9yd]e[6TS]w[0yd]w[6uf]w[^yd]q[9PJ]q[^PJ]q[5PJ]([^pj]([5oh]([6ig]q[9uf]q[6yd]q[5TS]0[6yd]0[5uf]0[4yd]9[3PJ]9[4PJ]9[5PJ][90][4pj][90][5oh][90][6ig][9q][%uf][9q][6yd][9q][6TS][0w][6yd][9q][6uf][*0][2yd]q9q[6y][qd][2i]q9q[6i][qg][2p]q9q[6p][qj][2i]q9q[6i][qg][6y]q[9d]q6q6w[0uf]w[6TS]w[2yd]q9[qy][6d][qy][2i]q9[qi][6g][qi][2p]q9[qp][6j][qp][2i]q9[qi][6g][qi][6y]q[9d]q6q6w[0uf]w[6TS]w[9yd]y[Tf]y[tG]y[Eh]y[egz]y[Wfz]y[egz]y[uSL]e[idz]e[ofx]e[iak]e[uSL]e[9d][yz][Tf][yz][tG][yz][Eh][yz][eg][yz][Wf][yz][eg][yz][uS][eL][id][ez][of][ex][ia][ek][uS][eL][9d][yz][TS][yd][9z][yd][TS][yd][9z][yd][TS][yd][9z][yd][TS][yd][9z][yd][TS][yd][9z][yd][TS][yd][psID]dDdDdDdDdDdDdDdDdDdDDjJ[Il]psDjJ[Il]psDjJ[Il]psDjJ[Il]psdlj[wJ]EyoPdwEyoPSwEyoPdwTuoPfOadgkL[Oz]adgkL[Oz]adgkL[Oz]adfzk[eL]TupSfeTYpSDeTupSfeTIpSGeTopSheTIpSGeTopSheTipSgeTupSfeTYpSDeTupSfeTIpSGeTopSheTopSheTopSheTup[gj]f[9d]ey[ip][gj]f[9d]ey[ip][gj]f[9d]ey[ip][gj]d[6f]eT[up][hj]g[6f]eT[up][hj]g[6f]eT[up][hj]g[6f]eT[up][hj]f[9g]ey[id]jz[wJ]yoPdJ[(h]EYoPh[*f]eTupf[9g]eyipg[6d]qeypd[6S]0w[eT]pS[2d]9qe[yi]pdgjgzj[wJ]yoPdJ[(h]EYoPh[*f]eTupf[9g]eyipg[6d]qeypd[6S]0w[eT]pS[9d]qp[ej]y HhGgfD[6d]qeypd[6S]0w[eT]pS[9d]qd[ez]y LlkJjH[6j]qeypd[6S]0w[eT]pS[9d] d[gc]| [fx][DZ][dz][SL][sl][ak][PJ][pj][OH][oh][IG][ig][uf][YD][yd][pj]| [ep] [9d]ey[ip]gd[6S]eT[up]fS[9d]ey[ij]cz[6L]eT[uj]xL[9z]ey[ip]gd[6S]eT[up]fS[9d]ey[ij]cz[6L]eT[uj]xL[9z]ey[ic]jz[9g]ey[iz]gj[9d]ey[ij]dg[9p]ey[ig]pd[9i]dpiyeqyeq9642 ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("virtual love", "Auto", function()
@@ -1454,7 +1454,7 @@ shared.scr = [[ [@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*a] a [WTqa] a
 [@Y] [(QE] [^P] [qET] [7I] [(Qr] * [qWT] 
 [@(]  ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("devil crybaby", "Auto", function()
@@ -1528,7 +1528,8 @@ $| Q| $|
 [G7] Q [yrI] Q [urT] Q [yr] Qfd
 [S6] 0 [ue] 0 [upe] 0 [ue] 0dS
 [a5] 9 w e r T y I a S d G [ra]Gk||[r7] ]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("my alchoolic friend", "Auto", function()
@@ -1615,7 +1616,7 @@ r t r e r e w e w Q w Q
 [I30a] 
 7 5 [3?]  ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("initial d", "Auto", function()
@@ -1731,7 +1732,7 @@ shared.scr = [[ [sf] [aD] [6e]-[sf] [aD] [6e]-
 [80sf] [7a(D] [^P9d] [6pS] [%O8s] [6pS] [^P9d] [7a(D] 
 6 e p j 6 e p j ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("une derniere danse", "Auto", function()
@@ -1843,7 +1844,7 @@ h-J H H--H
 @ E [Yo] [@E] 2 [2r] [2ryo]-
 [1t] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("London Bridge is Falling Down", "Auto", function()
@@ -1864,7 +1865,7 @@ f g h||
 h j h g f g h||
 d||h||f s ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("river flows in you", "Auto", function()
@@ -1876,7 +1877,7 @@ shared.tempo = 110 -- tempo overides the delay
  
 shared.scr = [[ [bI]V[bS]V[bG]V[bS]V[yb]V[pb]V[db]x[pb]z[eL]z[uL]z[xjS]L[zu]L[xuk] a f [uj]H[jI] S G [jS]k[yL] p d [pL]z[xe] u S [zu]L[uk] a f| [bI]V[bS]V[bG]V[bS]V[yb]V[pb]V[db]x[pb]z[eL]z[uL]z[xjS]L[zu]x[un] a f [ub]V[bI] S G [jS]k[yL] p d [pL]z[xe] u S [zu]L[uk]|afaOurW0| yuyT[yrQ7]| yuyT[yw95]| yuyT[y2]69yuIoIu[eT60]| yuyT[yrQ7]| yuyT[yw95]| yuyT[y2]69yuIoIu[eT60]| yuyT[y7]| [yrQ]uyT[y5]| [yw9]uyT[y2] yu[I96]oIu[T6]| [ye0]uyT[y7] [rQ] [y7]u[yrQ]T[y5] [w9] [y5]u[yw9]T[y2]u[I96]o[p2]a[S96]d[fe60]| [ed60]f[ed60]S[d7]Q[ra]Q[d7][fQ][rd][SQ][d5]9[wp]9[d5][f9][wd][S9][d9]e[yd][fe][G9][he][yG][fe][S6]0e0[d6][f0][ed][S0][d7]Q[ra]Q[d7][fQ][rd][SQ][d5]9[wp]9[d5][f9][wd][S9][d9]e[yd][fe][G9][he][yG][fe][S6]0e0[d6][d0]f[ed][S0][d7]Q[ra]Q[d7][dQ]f[rd][SQ][d5]9[wp]9[d5][d9]f[wd][S9][d9][fe][yG][he][j9][eG][yf][ed][S6]0e0[d6][d0]f[ed][S0][d7]Q[ra]Q[d7][dQ]f[rd][SQ][d5]9[wp]9[d5][d9]f[wd][S9][d9][fe][yG][he][j9][eG][yf][ed][G6] [f0] [ed] [S0] [d7]S[dQ]S[rd]S[dQ]S[d5]S[d9]S[wd]a[d9]p[p2]a[S6]d[h9]G[f6]d[f6] 0 [ed] [S0] [d7]S[dQ]S[rd]S[dQ]S[d5]S[d9]S[wd]a[d9]p[p2]a[S6]d[j9]h[G6]f[G6] [f0] [ed] [S0] [d7]a[dQ]a[rd]a[dQ]a[d5]a[d9]a[wd]p[d9]o[I2]o[I6]o[p9]I[o6]I[u6] 0 e [y0]T[y7] Q ry[uQ]I[o5] 9 wo[p9]a[S2] [d6] [f9] [G6] [f6] 0 [ed] [S0] [d7]a[dQ]a[rd]a[dQ]a[d5]a[d9]a[wd]p[d9]o[I2]o[I6]o[p9]I[o6]p[f6] 0 e [d0]S[d7] Q rd[SQ]d[d5] 9 wd[S9]d[d2] [f6] [G9] [h6] [G6] 0 [ed]fdS[d7]$[a7]9Qr[dQ]9[a5]725[d9][wf][d9][S7][d2]$[p6]9Qe[yd][eS]d[S6]0e[dT][uf][pd][uS][d7]$[a7]9Qr[dQ]9[a5]725[d9][wf][d9][S7][d2]$[p6]9Qe[yd][eS]d[S6]0e[dT][uf][pd][uS][d7][f$][d7][S9][aQ]r[dQ][f9][d5][S7][a2]5[d9][wf][d9][S7][p2][a$][S6][d9][hQ][eG][yf][ed][f6]0e[dT][uf][pd][uS][d7][f$][d7][S9][aQ]r[dQ][f9][d5][S7][a2]5[d9][wf][d9][S7][p2][a$][S6][d9][jQ][he][yG][fe][G6][f0]e[dT]upu[d7][a$][d7][a9][dQ][ra][dQ][a9][d5][a7][d2][a5][d9][wp][d9][o7][I2][o$][I6][o9][pQ][eI][yo][eI][u6]0eTupS[d7][a$][d7][a9][dQ][ra][dQ][a9][d5][a7][d2][a5][d9][wp][d9][o7][I2][o$][I6][o9][pQ][eI][yo][pe][p6][a][S0][ed][pT][ua][pS][ud][a3][S7][d0][f7][G3][H7][j0]*[ka3]| [j3]kjH[jQ]T[IG]T[jQ][kT][jI][TH][j9]e[yf]e[j9][ke][yj][eH][j6]0[je][k0][L6][z0][eL][k0][H0]rur[j0][rk][uj][rH][jQ]T[IG]T[jQ][kT][jI][TH][j9]e[yf]e[j9][ke][yj][eH][j6]0[je][k0][L6][z0][eL][k0][H0]rur[j0][rk][uj][rH][jI]k[jS]HG [jS]k[yj]H[pG] [jd]k[pj]H[fe]G[uH]j[zp]L[uk]j[uk] a [jf]k[ja]H[jI]k[jS]HG [jS]k[yj]H[pG] [jd]k[pj]H[fe]G[uH]j[xp]z[uL]k[uL] a [jf]k[ja]H[jI]G[SH]j[jG]k[jS]H[yj]G[pH]j[jd]k[pj]H[je]f[uG]H[zp]L[uk]j[uk] a [jf]k[ja]H[jI]G[SH]j[jG]G[SH]j[yj]G[pH]j[jd]G[pH]j[je]f[uG]H[pj]f[uG]H[j0]k[rj]k[uj] [rf] a [pj30][ka][pj][OH][pj$] [IG] [Q$] [pj] [IG2]| [pj92][ka][pj][OH][pj6] [uf] [e6] [pj] [OH3]| [pj30][ka][pj][OH][pj$] [IG] [Q$] [pj] [IG2]| [pj92][ka][pj][OH][pj6] [uf] [e6] [pj] [OH3]| [pj30][ka][pj][OH][pj$] [IG] [VQH$][GC] [pj][IG2]| [pj92][ka][pj][OH][pj6] [uf] [jeb6][VH] [pj][OH3]| [pj30][ka][pj][OH][pj$] [IG] [VQH$][GC] [pj][IG2]| [pj92][ka][pj][OH][pj6] [uf] [jeb6][VH] [pj][OH3]| [pj30][ka][pj][OH][jQ] [TG] I j [G9] e [yj]kjH[je] [uf] S j [H0] r [uj]kjH[jQ]p[fT]p[jI]kjH[j9]p[fe]p[yj]kjH[je]k[uL]z[xS]Lkj[H0]| W r u O a f H k x V [bI]V[bS]V[bG]V[bS]V[yb]V[pb]V[db]x[pb]z[eL]z[uL]z[xjS]L[zu]L[xuk] a f [uj]H[jI] S G [jS]k[yj]kL p d [pL]z[eL]zx u S [zu]L[zu]Lk a f| [bI]V[bS]V[bG]V[bS]V[yb]V[pb]V[db]x[pb]z[eL]z[uL]z[xjS]L[zu]L[un] a f [ub]V[bI] S G [jS]k[yj]Lxp d [pL]z[xe]bLu S [zu]L[uf]Hk afaOurW0| bnbV[j6][eL]b ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("nuvole bianche", "Auto", function()
@@ -1945,7 +1946,7 @@ shared.scr = [[ [ute]||[tqie]||
 [ule]|k|j|[tqj]| h|g
 [toh]| h| [ywh]| h ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("Yarichin B club Touch Me", "Auto", function()
@@ -2002,7 +2003,7 @@ O-O-O I a O
 [%S] D [%S] D [$S]-[$a]-
 [%O] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("lacrimosa", "Auto", function()
@@ -2056,7 +2057,7 @@ h-[tf]-h-
 4-h-[tf]-h-
 [5a]-h-[yf]-d-[18] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("experience", "Auto", function()
@@ -2163,7 +2164,7 @@ shared.scr = [[ [ef] u [pf] u [eg] u [pf] u
 [0f] r [of] r [0g] r [of] r
 [qf] t [pd] t [qf] t [pg] t ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("les lacs du connemara", "Auto", function()
@@ -2280,7 +2281,7 @@ O-o-O-
 [7qi]-[60u]-[7qi]-
 [8wo] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("top gun", "Auto", function()
@@ -2488,7 +2489,7 @@ Y T O q [%i?] Y O Q i Y O Q i Y O Q
 i Y O Q ! % Q W t Y 
 ! % q T  ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("pokemon theme", "Auto", function()
@@ -2677,7 +2678,7 @@ u p s [9qsf] f [O0ys] a s [eupd] s [wuoa] p [qtp] o i [W0yu] I O [Teup]
 [0f] G f [wruD] [wruf] [0h] [wruG] [wruf] [QD] [erY] [erYG] [7a] [erI] [Iera]
 [0fh] [wu] [wuhk] [0hk] [Gwuj] [wufh] [QDj] [eIG] [eI] 7 [erYI] [Iera] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("Five nights at freddy's", "Auto", function()
@@ -2975,7 +2976,7 @@ shared.tempo = 300 -- tempo overides the delay
  
 shared.scr = [[ 7a 8s *S 9d D 6s f e t s G et sG 6s f e t s G et sG 0a f r u a G ru aG w a f r u a G ru aG a Q D a D e Y aG eY 7a D a D e Y aG eY 30af 7ak 18sl !*SL 29dz @(DZ 6j l x etu jlC etu jlC 6j l x etu jlC etu jlC 30h k x wru hkC wru hkC 7r h k x wru hkC wru hkC jkQZ jkZ erY jkC erYC 7jkZ jkZ erY jkC erYC 3hkx 7 5 3 a a 3f 0wr f 0wrf G 8h 0wt G 0wtf D 6f etus etu 3 etuf etuG 2j Qeyh eyQG 6j Qeyd Qeyf 5d wry wry 5 wrya wrya 7D D erY D erY D 7G Yerf erYD 3oaf wru wru 5 wrua wrua 8s s wtus s wtus s 6f f Qetf f Qetf f 7f erYD erY 7erY a s a P a 3f 0wr f 0wrf G 8h 0wt G 0wtf D 6f etus etu 3 etuf etuG 2j Qeyh eyQG 6j Qeyd Qeyf 5d wry wry 5 wrya wrya 7D D erY D erY D 7G Yerf erYD 3oaf wru wru 5 wrua wrua 8s s wtus s wtus s 7a Yerh erYG 3f 0wr 0wr 3 d f d S d 6G Qey f Qeyf d 2G f Qey f Qey d 5h wry f wryf d 2h f wry f wry d 6G Qey f Qeyf d 2G d Qey d Qey s 5a wry wry 5 a s a P a $D rQY QYrf 7G QYrf rQYD 3f h wruk f wruh k 2f wrua wrua 8f f wtuf f wtuf f 6f etuh etuh 7h j h erYG erY 7 d f d S d 6G Qey f Qeyf d 2G f Qey f Qey d 5h wry f wryf d 2h f wry f wry d 6G Qey f Qeyf d 2G d Qey d Qey s 5a wry wry 5 a s a P a $D rQY QYrf 7G QYrf rQYD 3f h wruk f wruh k 2f wrua wrua 8f f wtuf f wtuf f 7D QYrh rQYG 3f a s S d D 6sf sf et sG etsG 6sf sf et sG etsG 0af af ru aG ruaG waf af ru aG ruaG aQD aD eY aG eaYG 7aD aD eY aG eaYG 0uoaf 7ak 18sl !*SL 29dz @(DZ 6jlx jlx etu jlC etujlC 6jlx jlx etu jlC etujlC 30hkx hkx wru hkC wruhkC 7rhkx hkx wru hkC wruhkC jk$QZ jkZ erY jkC erjkYC 7jkZ jkZ erY jkC erjkYC 30hkx f @(D 30f 5wh 7rk 3hkx ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("change xxtentation", "Auto", function()
@@ -3185,7 +3186,7 @@ $ [(YD] [QTS] [(YD]
 [5wh] [@(] [!*] [7?] 
 [YH] [Ok] a  ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("WOLF AND RABBIT", "Auto", function()
@@ -3361,7 +3362,7 @@ shared.scr = [[ [8qep]|s [8qep] s d [8qe] f
 [80ed] f||
 [9wrd] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("trhough the fire and flames", "Auto", function()
@@ -3730,7 +3731,7 @@ i--o--O-
 [18oh][18ig][18YD][18ts][18EP][ts][YD][ig][18oh]-[18PJ]-[^sl] 
 [7akn] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("Je Te Laisserais Des Mots", "Auto", function()
@@ -3834,7 +3835,7 @@ p d f d|s
 [180w]|||
 [W30r] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("travelers who rest jojos bizarre adventure", "Auto", function()
@@ -3975,7 +3976,7 @@ I I I [u$TP] P s
 [7ad] [yI] a $ [yI] 
 [7yI]  ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("Young girl a", "Auto", function()
@@ -4104,7 +4105,7 @@ u j [ul] [uz] [uZ] zul j
 r j [rl] z [tZ] ztl [ej]
 [el] j[eh]-[ej] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("La Marseillaise", "Auto", function()
@@ -4192,7 +4193,7 @@ w o
 [8s] t t
 t ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("urss", "Auto", function()
@@ -4439,7 +4440,7 @@ shared.scr = [[ [lj] s [kH] s [hJ] s
 4|[tqe]|4|[yqE] i
 4 q [lj] s [kH] s [hJ] s [qg][je] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("golden hour", "Auto", function()
@@ -4557,7 +4558,7 @@ shared.scr = [[ [id][pf][sh][pj][sh][pf][id][pf][sh][pj][sh][pf]
 [Q9ed]z| I e y I
 [yd] p G d j ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("four season", "Auto", function()
@@ -4592,7 +4593,7 @@ shared.tempo = 100 -- tempo overides the delay
  
 shared.scr = [[ [dz] [fx] [sl] [pj] [ak] [oh] [yd] [uf] [ts] [ep] [ra] [wo] [9y] [0u] [8t] [6e] [7r] [6e] [%W] [5w] [5oadh] [wry] Y [8u] s [0wt] u [5ws] [Ewtu] s [4q] [et] [30] [sfl] [wtdgz] [DGZ] [5fhx] [sfl] [0wtdgz] [fhx] 5 [adk] [qwrdgz] [8sfl] [0wt] [0wt] [wry] Y [8u] s [0wt] u [5ws] [Ewtu] s [4q] [et] [30] [@(psj] [osh] [29sIG] [pj] [Q9tsl] [fx] 9 [dz] [Qetsl] [pj] [wrdgz] [5w] [6e] [7ry] Y [8u] s [0wt] u [5ws] [Ewtu] s [4q] [et] [30] [sfl] [wtdgz] [DGZ] [5fhx] [sfl] [0wtdgz] [fhx] 5 [adk] [qwrdgz] [8sfl] [0wt] [wtu] [sl] [dz] [8tfx] [sl] [wtudz] [fx] [^E] [sl] [wtudz] [sl] [6efx] [sl] [etidz] [fx] [%W] [sl] [Wtidz] [sl] [5wfx] [sl] [wtudz] [fx] 5 [ak] [wrdz] [8wtsfl] [5w] [6e] [7ry] Y [8u] s [0wt] u [5ws] [Ewtu] s [4q] [et] [30] [sfl] [wtdgz] [DGZ] [5fhx] [sfl] [0wtdgz] [fhx] 5 [adk] [qwrdgz] [8sfl] [0wt] [0wt] [wry] Y [8u] s [0wt] u [5ws] [Ewtu] s [4q] [et] [30] [@(psj] [osh] [29sIG] [pj] [Q9tsl] [fx] 9 [dz] [Qetsl] [pj] [wrdgz] [5w] [6e] [7ry] Y [8u] s [0wt] u [5ws] [Ewtu] s [4q] [et] [30] [sfl] [wtdgz] [DGZ] [5fhx] [sfl] [0wtdgz] [fhx] 5 [adk] [qwrdgz] [8sfl] [0wt] [wtu] [sl] [dz] [8tfx] [sl] [wtudz] [fx] [^E] [sl] [wtudz] [sl] [6efx] [sl] [etidz] [fx] [%W] [sl] [Wtidz] [sl] [5wfx] [sl] [wtudz] [fx] 5 [ak] [wrdz] [8wtsfl] [5w] [18] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("march", "Auto", function()
@@ -4853,7 +4854,7 @@ e [eSL] [6pj] * 0 e [eSL]
 [6pj] * 0 e [efx] [6pj]
 [S60epfj] [S60epfj] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("flight of the bumblebee", "Auto", function()
@@ -4869,7 +4870,7 @@ dDdSdDdSdDdSdDdSdDfgGgfDdDfgGgfDdSsaPDdSdSsaPasSdSsasaPpPasSsSdDxZzLzLlklkJjHhGg
 tTyYuiIoOpPasSdDfgfDfgfDfDdSsgfDfDdSsSdDfDdSsgfDfDdSsSdDfDdSdSsasSdDfgfDfDdSdSsasSdDfGhHjHhGgJjHjHhGgGhHjHhGgJjHjHhGgGhHjHhGhGgfgGhHjJjHjHhGgGhHjklzxcxZxZzLlcxZxZzLlLzZxZzLlcxZxZzLlLzZxHjJklLzLlklkJjHjJklLzZxcxZxcxZxHjJklLzLlklkJjHjJklLzZxcxZxCvVbVvCvCcxcxZzLlkJjHhGhGgfgfDdSsaPpPpOPOPOpasdfgfDgDgDf[fG][hf][dH][sj]
 uiIoOpPasSdDfgGhHjJklLzZxCvVb| psfj|e ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("nocturne op. 9 no, 2", "Auto", function()
@@ -8318,7 +8319,7 @@ shared.tempo = 250 -- tempo overides the delay
 
 shared.scr = [[ s s s s s s s s s s s st stl stl8 stl8m stlm81 stlm81, q [Wt] 8 [Wt] [18] [29] [30] [4q], [Wt] 8 [Wt] [4s] s [Wts] s [8s] s [Wts] s [4s] s [Wts] s [8s] s [Wts] s [4s] [[Wt] a [8s] [Wtg] [4H] [Wt] 8 [Wtl] [0L] [Et] l [8J] [EtL] [4l] [Wt] 8 [WtH] [*J] [ET] H [h9] [gwr] [0wtf] [18s] [29] [30] [4qs], s [Wts] s [8s] s [Wts] s [4s] s [Wts] s [8s] s [Wts] s [4s] [Wt] g [8H] [WtJ] [4l] [Wt] [8c] [Wt] 0 [*wL] 4 [8Wl] [5J] [^0h] [%H] [8qJ] [8tl] [^E] [%Wx] [5w] [4qc] [18s] [29] [30] [4qs], s [Wts] s [8s] s [Wts] s [4s] s [Wts] s [8s] s [Wts] s [4s] [[Wt] a [8s] [Wtg] [4H] [Wt] 8 [Wtl] [0L] [Et] l [8J] [EtL] [4l] [Wt] 8 [WtH] [*J] [ET] H [h9] [gwr] [0wtf] [18s] [29] [30] [4qs], s [Wts] s [8s] s [Wts] s [4s] s [Wts] s [8s] s [Wts] s [4s] [Wt] g [8H] [WtJ] [4l] [Wt] [8c] [Wt] 0 [*wL] 4 [8Wl] [5J] [^0h] [%H] [8qJ] [8tl] [^E] [%Wx] [5w] [4qc], [29] [30] [4q] [$Q], g [Wt] 4 [*qS] [^g] [*q] 4 [S*q] [%g] [8qs] [4O] [8qs] [%g] [8q] 4 [8q] [f5] [Eu] 8 [Eus] [f5] [Eu] 8 [Eus] [%Wg] [4qh] [%WH] [8tJ] [qil] [4q] [^L] [*q] 4 [*qJ] [^L] [*q] 4 [*qJ] [%l] [8q] 4 [8qH] [%l] [8q] 4 [8qH] [0J] [*wL] [4l] [8WH] [5h] [80J] [%H] [4qg] [8tf] [^Es] [%Wd] [5wf] [4qg], [18ts] [29] [30] [4qts], [st] [Wts] [ts] [8ts] [ts] [Wts] [ts] [4ts] [ts] [Wts] [ts] [8ts] [ts] [Wts] [ts] [4ts] [[Wt] [ra] [8ts] [Wtig] [4OH] [Wt] 8 [Wtsl] [0SL] [Et] [ls] [8PJ] [EtSL] [4sl] [Wt] 8 [WtOH] [*PJ] [ET] [OH] [oh9] [giwr] [0wtuf] [18ts] [29] [30] [4qts], [ts] [Wts] [ts] [8ts] [ts] [Wts] [ts] [4ts] [ts] [Wts] [ts] [8ts] [ts] [Wts] [ts] [4ts] [Wt] [ig] [8OH] [WtPJ] [4sl] [Wt] [8gc] [Wt] 0 [*wigSL] [4q] [8WYDsl] [5wTSPJ] [^0ufoh] [%giOH] [8qohPJ] [8tfusl] [^E] [%Wohfx] [5w] [4qOHgc], [4q] [Wt] 8 [Wt] [4q] [Wt] 8 [Wt] [4q] [WtiOs] 8 [WtiOs] [4q] [WtiOs] 8 [WtiOs] [4qi] [WtiOsgHl] [8t] [WtiOsgHl] [4qi] [WtiOsgHl] [8t] [WtiOsgHl], [4qst] [Wts] [ts] [8ts] [ts] [Wts] [ts] [4qts] [ts] [Wts] [ts] [8ts] [ts] [Wts] [ts] [4qts] [[Wt] [ra] [8ts] [Wtig] [4qOH] [Wt] 8 [Wtsl] [03SL] [Et] [ls] [8PJ] [EtSL] [4qsl] [Wt] 8 [WtOH] [*!PJ] [ET] [OH] [oh9] [giwr] [30wtuf] [18ts] [29] [30] [4qts], [ts] [Wts] [ts] [8ts] [ts] [Wts] [ts] [4qts] [ts] [Wts] [ts] [8ts] [ts] [Wts] [ts] [4qts] [Wt] [ig] [8OH] [WtPJ] [4qsl] [Wt] [8gc] [Wt] [30] [*wigSL] [4q] [8WYDsl] [5wTSPJ] [^0ufoh] [%giOH] [8qohPJ] [8tfusl] [^E] [%Wohfx] [5w] [4qOHgc], [29] [30] [4q] [$Q], [gcPJ] [ETi] [ETigiSL] [PgJc] [ETigiSL] [^E] [ETiPgJc] [OgHc] [gWtiisl] [WtitOsH] [OsHc] [Wti] [4q] [Wti] [8txhfo] [tuo] [tuosfl] [ofhx] [tuo] [8t] [tuosfl] [4qOgHc] [4qshlv] [%WgcHV] [8thvBJ] [mlVH] [mlVH] [mlVH] [mlVH], [^WOLS] [*q] [4qi] [*qPJ] [^WOSL] [*q] [4qi] [*qPJ] [%WOsl] [8q] [4qi] [8qOH] [%sl] [8q] [4qi] [8qOH] [30uPJ] [*wSL] [4qisl] [8WOH] [5woh] [80PJ] [%WOH] [4qig] [8stuf] [^Ets] [%Wz92yd] [5woufx03] [4qigc], [18] [29] [30] [4qiOs] [iOs] [4%8qWtiOs] [iOs] [8iOs] [iOs] [4%8qWtiOs] [iOs] [4qiOs] [iOs] [4%8qWtiOs] [iOs] [8iOs] [iOs] [4%8qWtiOs] [iOs] [4qiOs] [4%8qWtiOs] [oa] [8Os] [4%8qWtiOsg] [4qsgH] [4%8qWtiOs] 8 [4%8qWtiOsgHl] [30gJL] [3580wtuos] [Dgl] [8DgJ] [3580wtuosLJg] [4qlHg] [4%8qWtiOs] 8 [4%8qWtiOsgH] [!*SgJ] [4^*qETiPS] [sDH] [29PSh] [457qwrioaPSg] [3058wtuosPsf] [18tsl] [29ydz] [30ufx] [4qgWtiOs] [qWtiOs] [4%8qWtiOs] [qWtiOs] [8qWtiOs] [qWtiOs] [4%8qWtiOs] [qWtiOs] [4qWtiOs] [qWtiOs] [4%8qWtiOs] [qWtiOs] [8qWtiOs] [qWtiOs] [4%8qWtiOs] [qWtiOs] [4qWtiOs] [4%8qWtiOs] [8WtiOsg] [4%8qWtiOsuPfhJ] [4qiOsgHl] [4%8qWtiOs] [8HOsglc] [4%8qWtiOs] [30] [4^QqETiPSgJL] [4q] [4%8qWtiOsDglZ] [5wTiPSgJ] [3580wtuosPShJ] [%WtiOsgH] [4%8qWtiOsTiPSg] [13580qtuosfh] [osfhlx] [180wtuosfhl] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("hhttps://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("Rick Astley- Never Gonna Give You Up", "Auto", function()
