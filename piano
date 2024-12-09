@@ -3968,7 +3968,7 @@ shared.scr = [[ [8qep]|s [8qep] s d [8qe] f
 [80ed] f||
 [9wrd] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("trhough the fire and flames", "Auto", function()
