@@ -679,20 +679,10 @@ end)
 Section:NewButton("carol of the bells", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.tempo = 180
-shared.delay = 0
-shared.scr = "qw[er]ty"
-shared.nospacedelay = false
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 180 -- tempo overides the delay
 
-local nstr = string.gsub(shared.scr, "[%[%]%s]", "")
-local totalNotes = #nstr
-local delay = shared.delay > 0 and shared.delay or (6 / shared.tempo)
-local timeForNotes = totalNotes * delay
-
-shared.ftime = timeForNotes
-
-print("Temps total estimé pour finir les notes:", shared.ftime, "secondes")
- 
 shared.scr = [[ s||| a|||s|||p|||
 s||| a|||s|||p|||
 s||| a|||s|||p|||
