@@ -19,7 +19,7 @@ local function humanDelay(factor)
     return baseDelay * factor * randomFactor * dynamicFactor
 end
 
-print("Finishing in", math.floor((baseDelay * #nstr) / 60), "minute/s", tostring(tonumber(tostring((baseDelay * #nstr) / 60):sub(3, 8)) * 60):sub(1, 2), "second/s")
+print("Finishing in", math.floor((baseDelay * #nstr) / 60), "minute/s", tostring(tonumber(tostring((baseDelay * #nstr) / 60):sub(1, 8)) * 60):sub(1, 2), "second/s")
 
 local shifting = false
 
@@ -59,7 +59,7 @@ local function pressMultipleKeys(keys)
         vim:SendKeyEvent(false, string.byte(key:lower()), false, nil)
         endshift()
     end
-    wait(humanDelay(1.0))
+    wait(humanDelay(1))
 end
 
 local queue = ""
