@@ -456,7 +456,7 @@ Section:NewButton("watlz death", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 200 -- tempo overides the delay
+shared.tempo = 140 -- tempo overides the delay
  
 shared.scr = [[ ^-^-^-^S-
 [269eypd]-29 2 2-29 2 
