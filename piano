@@ -6318,9 +6318,9 @@ Section:NewButton("moonlight sonata 3rd mouvement", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 3*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 200 -- tempo overides the delay
+shared.tempo = 80 -- tempo overides the delay
 
 shared.scr = [[ !%[%*]0[!W]*[%0]W[!T]0[%W]T[!u]W[%T]u
 [!O]T[%u]O[!S]u[%O]S[!f]O[%S]f[f!*OSH] [f%OSH] 
