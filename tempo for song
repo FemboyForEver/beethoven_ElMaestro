@@ -49,7 +49,7 @@ local function pressKey(key)
 end
 
 local function pressMultipleKeys(keys)
-    wait(humanDelay(1.5))
+    wait(humanDelay(1.3))
     for _, key in ipairs(keys) do
         doshift(key)
         vim:SendKeyEvent(true, string.byte(key:lower()), false, nil)
@@ -59,7 +59,7 @@ local function pressMultipleKeys(keys)
         vim:SendKeyEvent(false, string.byte(key:lower()), false, nil)
         endshift()
     end
-    wait(humanDelay(1.5))
+    wait(humanDelay(1.0))
 end
 
 local queue = ""
@@ -88,7 +88,7 @@ for i = 1, #str do
     end
 
     if c == "|" or c == "-" then
-        wait(humanDelay(2))
+        wait(humanDelay(1.5))
         continue
     end
 
