@@ -6665,7 +6665,7 @@ Q*8(||6||%|||
 [!*]||[3f!%*SHL]||
 [3u!%*TOS] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("pirate of caraibes", "Auto", function()
