@@ -1,0 +1,103 @@
+shared.stop = true
+wait(1)
+shared.stop = false
+
+shared.nospacedelay = shared.nospacedelay or false
+
+local str = shared.scr or "qw[er]ty"
+local FinishTime = shared.ftime or 10
+
+local vim = game:GetService("VirtualInputManager")
+
+local nstr = string.gsub(str, "[\\\n]", "")
+
+local baseDelay = shared.tempo and (6 / shared.tempo) or shared.delay or FinishTime / (string.len(nstr) / 1.05)
+
+local function humanDelay(factor)
+    local randomFactor = math.random(90, 110) / 100
+    local dynamicFactor = 1 + (math.sin(tick() * 0.1) * 0.05)
+    return baseDelay * factor * randomFactor * dynamicFactor
+end
+
+print("Finishing in", math.floor((baseDelay * #nstr) / 60), "minute/s", tostring(tonumber(tostring((baseDelay * #nstr) / 60):sub(3, 8)) * 60):sub(1, 2), "second/s")
+
+local shifting = false
+
+local function doshift(key)
+    if key:upper() ~= key then return end
+    if tonumber(key) then return end
+
+    vim:SendKeyEvent(true, 304, false, nil)
+    shifting = true
+end
+
+local function endshift()
+    if not shifting then return end
+
+    vim:SendKeyEvent(false, 304, false, nil)
+    shifting = false
+end
+
+local function pressKey(key)
+    wait(humanDelay(1))
+    doshift(key)
+    vim:SendKeyEvent(true, string.byte(key:lower()), false, nil)
+    wait(humanDelay(1))
+    vim:SendKeyEvent(false, string.byte(key:lower()), false, nil)
+    endshift()
+    wait(humanDelay(1))
+end
+
+local function pressMultipleKeys(keys)
+    wait(humanDelay(1.5))
+    for _, key in ipairs(keys) do
+        doshift(key)
+        vim:SendKeyEvent(true, string.byte(key:lower()), false, nil)
+    end
+    wait(humanDelay(1))
+    for _, key in ipairs(keys) do
+        vim:SendKeyEvent(false, string.byte(key:lower()), false, nil)
+        endshift()
+    end
+    wait(humanDelay(1.5))
+end
+
+local queue = ""
+local rem = true
+local bracketQueue = {}
+
+for i = 1, #str do
+    if shared.stop == true then return end
+
+    local c = str:sub(i, i)
+
+    if c == "[" then
+        rem = false
+        continue
+    elseif c == "]" then
+        rem = true
+        if #bracketQueue > 0 then
+            pcall(function()
+                pressMultipleKeys(bracketQueue)
+            end)
+        end
+        bracketQueue = {}
+        continue
+    elseif c == " " or string.byte(c) == 10 then
+        c = "|"
+    end
+
+    if c == "|" or c == "-" then
+        wait(humanDelay(2))
+        continue
+    end
+
+    if not rem then
+        table.insert(bracketQueue, c)
+        continue
+    end
+
+    pcall(function()
+        pressKey(c)
+    end)
+end
