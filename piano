@@ -1077,7 +1077,7 @@ Section:NewButton("virus beethoven", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
-shared.delay = 0 -- delay overides the ftime
+shared.delay = nil -- delay overides the ftime
 shared.tempo = 200 -- tempo overides the delay
  
 shared.scr = [[ [7?] [6?] [6?] [18] [6?] [6?] [29] [6?] 
@@ -1149,7 +1149,7 @@ shared.scr = [[ [7?] [6?] [6?] [18] [6?] [6?] [29] [6?]
 [5wosD] [D8tsh] [D158sh] 
 [18]  ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("golden hour x interstellar", "Auto", function()
@@ -2875,7 +2875,7 @@ L [rZYI] [H3] k x [rW0] [rW0] 7
 [raW0] P a D [tfe0] G [urWH] G
 H k [rlYQ] Z [xurW] [r730] u O ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
 Section:NewButton("Five nights at freddy's", "Auto", function()
