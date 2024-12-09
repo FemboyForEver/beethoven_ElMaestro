@@ -2677,7 +2677,7 @@ u p s [9qsf] f [O0ys] a s [eupd] s [wuoa] p [qtp] o i [W0yu] I O [Teup]
 [0f] G f [wruD] [wruf] [0h] [wruG] [wruf] [QD] [erY] [erYG] [7a] [erI] [Iera]
 [0fh] [wu] [wuhk] [0hk] [Gwuj] [wufh] [QDj] [eIG] [eI] 7 [erYI] [Iera] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("Five nights at freddy's", "Auto", function()
