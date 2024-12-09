@@ -1,0 +1,114 @@
+shared.stop = true
+wait(1)
+shared.stop = false
+
+local str = shared.scr or "qw[er]ty"
+local FinishTime = shared.ftime or 10
+
+local vim = game:GetService("VirtualInputManager")
+
+local initialBPM = 120
+local maxBPM = 200
+local accelDuration = 10  -- Temps plus court pour atteindre la vitesse maximale
+local tempoReturnDuration = 2
+local finalAccelDuration = 20  -- Temps pour continuer à augmenter rapidement
+
+local totalDuration = accelDuration + tempoReturnDuration + finalAccelDuration
+
+local function calculateDelay(bpm)
+    return 60 / bpm
+end
+
+local shifting = false
+
+local function doshift(key)
+    if key:upper() ~= key then return end
+    if tonumber(key) then return end
+
+    vim:SendKeyEvent(true, 304, false, nil)
+    shifting = true
+end
+
+local function endshift()
+    if not shifting then return end
+
+    vim:SendKeyEvent(false, 304, false, nil)
+    shifting = false
+end
+
+local function pressKey(key, delay)
+    doshift(key)
+    vim:SendKeyEvent(true, string.byte(key:lower()), false, nil)
+    wait(delay * 0.3) -- Note courte : durée réduite à 30% du délai total
+    vim:SendKeyEvent(false, string.byte(key:lower()), false, nil)
+    endshift()
+    wait(delay * 0.2) -- Court intervalle avant la note suivante
+end
+
+local function pressMultipleKeys(keys, delay)
+    for _, key in ipairs(keys) do
+        doshift(key)
+        vim:SendKeyEvent(true, string.byte(key:lower()), false, nil)
+    end
+    wait(delay * 0.3) -- Note courte pour plusieurs touches
+    for _, key in ipairs(keys) do
+        vim:SendKeyEvent(false, string.byte(key:lower()), false, nil)
+        endshift()
+    end
+    wait(delay * 0.2) -- Court intervalle avant la note suivante
+end
+
+local bracketQueue = {}
+local rem = true
+local startTime = tick()
+
+for i = 1, #str do
+    if shared.stop == true then return end
+
+    local c = str:sub(i, i)
+    local currentTime = tick() - startTime
+
+    local currentBPM
+    if currentTime <= accelDuration then
+        currentBPM = initialBPM + ((currentTime / accelDuration) * (maxBPM - initialBPM))
+    elseif currentTime <= accelDuration + tempoReturnDuration then
+        currentBPM = maxBPM - (((currentTime - accelDuration) / tempoReturnDuration) * (maxBPM - initialBPM))
+    elseif currentTime <= totalDuration then
+        currentBPM = initialBPM + (((currentTime - accelDuration - tempoReturnDuration) / finalAccelDuration) * (maxBPM - initialBPM))
+    else
+        currentBPM = maxBPM
+    end
+
+    currentBPM = math.floor(currentBPM)
+    local delay = calculateDelay(currentBPM)
+
+    if c == "[" then
+        rem = false
+        continue
+    elseif c == "]" then
+        rem = true
+        if #bracketQueue > 0 then
+            pcall(function()
+                pressMultipleKeys(bracketQueue, delay)
+            end)
+        end
+        bracketQueue = {}
+        continue
+    elseif c == " " or string.byte(c) == 10 then
+        c = "|"
+    end
+
+    if c == "|" or c == "-" then
+        wait(delay * 0.2) -- Intervalle court pour espaces
+        continue
+    end
+
+    if not rem then
+        table.insert(bracketQueue, c)
+        continue
+    end
+
+    pcall(function()
+        pressKey(c, delay)
+    end)
+end
