@@ -183,7 +183,7 @@ shared.tempo = 120 -- tempo overides the delay
  
 shared.scr = [[ [2345890qwuiopasjkcv][235678wesdjkcv][12378wesdjkcv][1235678weiopasjklzxcv][234578weuijkcv][234578weuijkcv][1235678weiopasdjkcv]3|[80][wertyui][we][we][wertyui][we][we][wertyui] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/for%20logo%20rush%20e"))()
 
 end)
 Section:NewButton("Rush A", "Auto", function()
