@@ -4949,7 +4949,7 @@ shared.scr = [[ [id][pf][sh][pj][sh][pf][id][pf][sh][pj][sh][pf]
 [Q9ed]z| I e y I
 [yd] p G d j ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("four season", "Auto", function()
@@ -5515,7 +5515,7 @@ sfjsfjsfjsfjsfjfafjafjafhafhafhf
 [sjf6] [sjf] [sjf] [sjf] [sjf] [sjf] [sjf7] [sjf]
 [jfa3] [jfa] [jfa] [hfa] [hfa] [hfa] [hfa3] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("jojo aventure", "Auto", function()
@@ -5924,7 +5924,7 @@ shared.scr = [[ [$ETI]-[ET] [ET] [ETI] T E T
 [*QETI]-[qETI] [(ETI] [*ETI]-[^ETI]-
 [$^ETI] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("the second watlz", "Auto", function()
@@ -6380,7 +6380,7 @@ Wytreuytriuytoiuypoiuopas [0wtuo]
 [6eu]|t|[^qy]|[5wE]|
 [29qe] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("Liebestraum no 3", "Auto", function()
@@ -6668,7 +6668,7 @@ y y u [Ei]
 [^ETqi] T [q^E] [Ti] [^q] E [^Tqo] i 
 [E18ti] [E18ti] [E18tu] t [^qey?] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("bella ciao", "Autoplayf", function()
@@ -6702,7 +6702,7 @@ c [yx] z [tx] l t|
 [tz] l [rk] x r l [rk] [ej]
  ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-piano-40/refs/heads/main/teste"))()
 
 end)
 Section:NewButton("moonlight sonata 3rd mouvement", "Auto", function()
