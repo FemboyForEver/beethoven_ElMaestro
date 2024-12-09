@@ -54,7 +54,7 @@ end)
 Section:NewButton("rush hard", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 1*30 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 1*50 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 200 -- tempo overides the delay
  
