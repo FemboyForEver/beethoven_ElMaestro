@@ -1,0 +1,78 @@
+shared.stop = true
+wait(1)
+shared.stop = false
+
+local str = shared.scr or "qw[er]ty"
+local vim = game:GetService("VirtualInputManager")
+
+local tempos = {
+    {time = 0, bpm = 110},
+    {time = 10, bpm = 130},
+    {time = 20, bpm = 150},
+    {time = 30, bpm = 170},
+    {time = 40, bpm = 190},
+    {time = 50, bpm = 220},
+    {time = 60, bpm = 60},
+    {time = 70, bpm = 65},
+    {time = 80, bpm = 70},
+    {time = 90, bpm = 80},
+    {time = 100, bpm = 320},
+    {time = 110, bpm = 70},
+    {time = 120, bpm = 80},
+    {time = 130, bpm = 90},
+    {time = 140, bpm = 100},
+    {time = 150, bpm = 120},
+    {time = 160, bpm = 140},
+    {time = 170, bpm = 160},
+    {time = 180, bpm = 160},
+    {time = 190, bpm = 180},
+    {time = 200, bpm = 200},
+    {time = 210, bpm = 220},
+    {time = 220, bpm = 240},
+    {time = 230, bpm = 260},
+    {time = 240, bpm = 280},
+    {time = 250, bpm = 120}
+}
+
+local function calculateDelay(bpm)
+    return 60 / bpm
+end
+
+local function pressKey(key, delay)
+    vim:SendKeyEvent(true, string.byte(key:lower()), false, nil)
+    wait(delay * 0.3)
+    vim:SendKeyEvent(false, string.byte(key:lower()), false, nil)
+    wait(delay * 0.2)
+end
+
+local currentIndex = 1
+local startTime = tick()
+
+for i = 1, #str do
+    if shared.stop == true then return end
+
+    local c = str:sub(i, i)
+    local currentTime = tick() - startTime
+
+    if currentIndex <= #tempos and currentTime >= tempos[currentIndex].time then
+        currentBPM = tempos[currentIndex].bpm
+        currentIndex = currentIndex + 1
+    end
+
+    local delay = calculateDelay(currentBPM)
+
+    if c == "[" then
+        rem = false
+        continue
+    elseif c == "]" then
+        rem = true
+        continue
+    elseif c == "|" or c == "-" then
+        wait(delay * 0.2)
+        continue
+    end
+
+    pcall(function()
+        pressKey(c, delay)
+    end)
+end
