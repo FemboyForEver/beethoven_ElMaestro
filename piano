@@ -7861,7 +7861,7 @@ r y T k L [rpL] [Iz]
 p G [udj] H [6aj] 0 
 r u 0 e T  ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
 
 end)
 Section:NewButton("instertellar main theme", "Autoplayf", function()
