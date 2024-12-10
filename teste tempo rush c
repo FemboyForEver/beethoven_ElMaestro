@@ -5,37 +5,8 @@ shared.stop = false
 local str = shared.scr or "qw[er]ty"
 local vim = game:GetService("VirtualInputManager")
 
-local tempos = {
-    {time = 0, bpm = 110},
-    {time = 10, bpm = 130},
-    {time = 20, bpm = 150},
-    {time = 30, bpm = 170},
-    {time = 40, bpm = 190},
-    {time = 50, bpm = 220},
-    {time = 60, bpm = 60},
-    {time = 70, bpm = 65},
-    {time = 80, bpm = 70},
-    {time = 90, bpm = 80},
-    {time = 100, bpm = 320},
-    {time = 110, bpm = 70},
-    {time = 120, bpm = 80},
-    {time = 130, bpm = 90},
-    {time = 140, bpm = 100},
-    {time = 150, bpm = 120},
-    {time = 160, bpm = 140},
-    {time = 170, bpm = 160},
-    {time = 180, bpm = 160},
-    {time = 190, bpm = 180},
-    {time = 200, bpm = 200},
-    {time = 210, bpm = 220},
-    {time = 220, bpm = 240},
-    {time = 230, bpm = 260},
-    {time = 240, bpm = 280},
-    {time = 250, bpm = 120}
-}
-
 local function calculateDelay(bpm)
-    return 60 / bpm
+    return 60 / bpm  -- Calculer le délai entre chaque pression de touche en fonction du BPM
 end
 
 local function pressKey(key)
@@ -43,22 +14,32 @@ local function pressKey(key)
     vim:SendKeyEvent(false, string.byte(key:lower()), false, nil)
 end
 
-local currentIndex = 1
+-- Initialisation des BPM et de l'heure de début
+local bpm = 120  -- BPM de départ
 local startTime = tick()
 
+local delay = calculateDelay(bpm)  -- Calculer le délai initial basé sur le BPM
+local currentBPM = bpm  -- Initialiser le BPM actuel
+
 for i = 1, #str do
-    if shared.stop == true then return end
+    if shared.stop == true then return end  -- Arrêter si la variable stop est activée
 
-    local c = str:sub(i, i)
-    local currentTime = tick() - startTime
+    local c = str:sub(i, i)  -- Prendre chaque caractère de la chaîne
+    local currentTime = tick() - startTime  -- Temps écoulé depuis le début
 
-    if currentIndex <= #tempos and currentTime >= tempos[currentIndex].time then
-        currentBPM = tempos[currentIndex].bpm
-        currentIndex = currentIndex + 1
+    -- Changer le BPM après 5 secondes pour 160 et après 90 secondes pour 200
+    if currentTime >= 90 and currentBPM ~= 200 then
+        currentBPM = 200
+    elseif currentTime >= 5 and currentBPM ~= 160 then
+        currentBPM = 160
+    elseif currentTime < 5 and currentBPM ~= 120 then
+        currentBPM = 120
     end
 
-    local delay = calculateDelay(currentBPM)
+    -- Recalculer le délai basé sur le BPM actuel
+    delay = calculateDelay(currentBPM)
 
+    -- Gérer les caractères spéciaux
     if c == "[" then
         rem = false
         continue
@@ -66,14 +47,15 @@ for i = 1, #str do
         rem = true
         continue
     elseif c == "|" or c == "-" then
-        wait(delay * 0.2)
+        wait(delay * 0.2)  -- Attendre un délai plus court pour ces caractères
         continue
     end
 
+    -- Essayer de presser la touche correspondant au caractère
     pcall(function()
         pressKey(c)
     end)
 
-    -- Synchronize the next key press based on the tempo
+    -- Attendre selon le délai calculé pour le BPM
     wait(delay)
 end
