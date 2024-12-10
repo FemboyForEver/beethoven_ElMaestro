@@ -1,4 +1,3 @@
--- Modifications dans la fonction humanDelay pour ajouter de l'aléatoire
 local function humanDelay(factor, extraDelay)
     local randomFactor = math.random(90, 105) / 100
     local dynamicFactor = 1 + (math.sin(tick() * 0.1) * 0.05)
