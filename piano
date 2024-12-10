@@ -3893,7 +3893,7 @@ shared.scr = [[ [8qep]|s [8qep] s d [8qe] f
 [80ed] f||
 [9wrd] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
 
 end)
 Section:NewButton("trhough the fire and flames", "Auto", function()
@@ -7925,7 +7925,7 @@ r u r r u r
 t u t t u t
 y u y y u r ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
 
 end)
 Section:NewButton("la campanella", "Autoplayf", function()
