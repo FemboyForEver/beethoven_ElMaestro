@@ -96,7 +96,7 @@ shared.scr = [[ [GC][hv] [lm] [kn] [JB] [sl][DZ][hv][GC][gc][DZ][gc]
 sDhl[158] [@(DJZ] [5whv][z$QGC] [4qgc] [@(DZ] [18sl]||
 [H7dhkz] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%203"))()
 
 end)
 Section:NewButton("Rush E", "Auto", function()
