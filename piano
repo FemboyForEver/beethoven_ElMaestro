@@ -8848,7 +8848,6 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 120 -- starting tempo at 120
 
--- Tempo change logic
 local startTime = tick() -- get the current time
 local tempo1 = 120
 local tempo2 = 160
@@ -8859,12 +8858,10 @@ local changeTime2 = 90 -- Time (in seconds) after which tempo increases to 200
 game:GetService("RunService").Heartbeat:Connect(function()
     local currentTime = tick() - startTime
 
-    -- Change tempo to 160 after 5 seconds
     if currentTime >= changeTime1 and shared.tempo ~= tempo2 then
         shared.tempo = tempo2
     end
 
-    -- Change tempo to 200 after 90 seconds
     if currentTime >= changeTime2 and shared.tempo ~= tempo3 then
         shared.tempo = tempo3
 
