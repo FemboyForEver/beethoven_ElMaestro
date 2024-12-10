@@ -6366,7 +6366,8 @@ k|x C [vuta]|C|z|h|j|z|k|k z
 3| v C [zQ] [rj] [yh]
 [zQ] jrGyf [hQ] Grdya
 [fQ] d [rp] I [ya] p u y I y e|7Qey] ]] 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%202%20al%C3%A9atoire"))()
 
 end)
 Section:NewButton("Bach Toccata", "Auto", function()
