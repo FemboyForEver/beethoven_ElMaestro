@@ -38,11 +38,9 @@ local function calculateDelay(bpm)
     return 60 / bpm
 end
 
-local function pressKey(key, delay)
+local function pressKey(key)
     vim:SendKeyEvent(true, string.byte(key:lower()), false, nil)
-    wait(delay * 0.3)
     vim:SendKeyEvent(false, string.byte(key:lower()), false, nil)
-    wait(delay * 0.2)
 end
 
 local currentIndex = 1
@@ -73,6 +71,9 @@ for i = 1, #str do
     end
 
     pcall(function()
-        pressKey(c, delay)
+        pressKey(c)
     end)
+
+    -- Synchronize the next key press based on the tempo
+    wait(delay)
 end
