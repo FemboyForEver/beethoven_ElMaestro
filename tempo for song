@@ -1,53 +1,34 @@
-shared.stop = true
-wait(0.5)
-shared.stop = false
-
-shared.nospacedelay = shared.nospacedelay or false
-
-local str = shared.scr or "qw[er]ty"
-local FinishTime = shared.ftime or 10
-
-local vim = game:GetService("VirtualInputManager")
-
-local nstr = string.gsub(str, "[\\\n]", "")
-
-local baseDelay = shared.tempo and (6 / shared.tempo) or shared.delay or FinishTime / (string.len(nstr) / 1.05)
-
-local function humanDelay(factor)
+-- Modifications dans la fonction humanDelay pour ajouter de l'aléatoire
+local function humanDelay(factor, extraDelay)
     local randomFactor = math.random(90, 105) / 100
     local dynamicFactor = 1 + (math.sin(tick() * 0.1) * 0.05)
-    return baseDelay * factor * randomFactor * dynamicFactor
+    -- Ajouter un délai supplémentaire aléatoire entre 0.3 et 1 seconde si spécifié
+    local delay = baseDelay * factor * randomFactor * dynamicFactor
+    if extraDelay then
+        delay = delay + math.random(300, 1000) / 1000  -- Ajouter entre 0.3 et 1 seconde supplémentaires
+    end
+    return delay
 end
 
-print("Finishing in", math.floor((baseDelay * #nstr) / 60), "minute/s", tostring(tonumber(tostring((baseDelay * #nstr) / 60):sub(1, 8)) * 60):sub(1, 2), "second/s")
-
-local shifting = false
-
-local function doshift(key)
-    if key:upper() ~= key then return end
-    if tonumber(key) then return end
-
-    vim:SendKeyEvent(true, 304, false, nil)
-    shifting = true
-end
-
-local function endshift()
-    if not shifting then return end
-
-    vim:SendKeyEvent(false, 304, false, nil)
-    shifting = false
-end
-
+-- Modifier pressKey pour ajouter un délai supplémentaire aléatoire pour certaines touches
 local function pressKey(key)
     wait(humanDelay(0.9))
     doshift(key)
+    
+    -- Appliquer un délai plus long pour certaines touches, par exemple, les touches de modification ou spéciales
+    local extraDelay = false
+    if key == "a" or key == "e" or key == "s" then
+        extraDelay = true  -- Exemple : appliquer un délai supplémentaire pour certaines touches spécifiques
+    end
+    
     vim:SendKeyEvent(true, string.byte(key:lower()), false, nil)
-    wait(humanDelay(0.9))
+    wait(humanDelay(0.9, extraDelay))  -- Appliquer un délai normal + délai supplémentaire si nécessaire
     vim:SendKeyEvent(false, string.byte(key:lower()), false, nil)
     endshift()
     wait(humanDelay(0.9))
 end
 
+-- Vous pouvez également ajuster la durée de pression des touches dans pressMultipleKeys si nécessaire
 local function pressMultipleKeys(keys)
     wait(humanDelay(1.2))
     for _, key in ipairs(keys) do
@@ -60,44 +41,4 @@ local function pressMultipleKeys(keys)
         endshift()
     end
     wait(humanDelay(0.9))
-end
-
-local queue = ""
-local rem = true
-local bracketQueue = {}
-
-for i = 1, #str do
-    if shared.stop == true then return end
-
-    local c = str:sub(i, i)
-
-    if c == "[" then
-        rem = false
-        continue
-    elseif c == "]" then
-        rem = true
-        if #bracketQueue > 0 then
-            pcall(function()
-                pressMultipleKeys(bracketQueue)
-            end)
-        end
-        bracketQueue = {}
-        continue
-    elseif c == " " or string.byte(c) == 10 then
-        c = "|"
-    end
-
-    if c == "|" or c == "-" then
-        wait(humanDelay(1))
-        continue
-    end
-
-    if not rem then
-        table.insert(bracketQueue, c)
-        continue
-    end
-
-    pcall(function()
-        pressKey(c)
-    end)
 end
