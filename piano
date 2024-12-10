@@ -1269,7 +1269,7 @@ s|| a||s||p||
 [6t]869[6y]0[6u]86[9i][6u]0[5y]758[5r]9[5w]75[8e][5r]9
 [4t]64[7r][4e]8[3w]73[8q][3w]9[8e]|78[6e] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%202%20al%C3%A9atoire"))()
 
 end)
 Section:NewButton("sis puella magica", "Auto", function()
