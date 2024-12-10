@@ -8332,7 +8332,7 @@ po[wut0]i[wuto0]p
 [xtsolhf]|
 [wutsof8] [wutsof8] [wutsof8] [81] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
 
 end)
 Section:NewButton("HIT THE ROAD JACK", "Autoplayf", function()
