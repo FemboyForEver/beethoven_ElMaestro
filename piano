@@ -6852,7 +6852,7 @@ shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 3*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 150 -- tempo overides the delay
+shared.tempo = 155 -- tempo overides the delay
 
 shared.scr = [[ !%[%*]0[!W]*[%0]W[!T]0[%W]T[!u]W[%T]u
 [!O]T[%u]O[!S]u[%O]S[!f]O[%S]f[f!*OSH] [f%OSH] 
@@ -7122,7 +7122,7 @@ Q*8(||6||%|||
 [!*]||[3f!%*SHL]||
 [3u!%*TOS] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%201%20monligth%203%20mouvement"))()
 
 end)
 Section:NewButton("pirate of caraibes", "Auto", function()
