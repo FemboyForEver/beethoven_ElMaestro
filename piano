@@ -217,7 +217,53 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
 
-shared.scr = [[ u|||||||||||||||||||| u||||||||||||||||| u|||||||||||||| u|||||||||| u|||| u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u 6 [80] 3 [80] 3 $ % [6] [80] 3 [80] [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] i [80u] Y [6u] [80p] [3s] [80] [%d] d [90d] d [3d] s [90a] d [6s] s [80s] s [3s] a [80p] s [7a] a [(ea] a [$I] [(ea] [0WO] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] [9z] l [qek] z [8l] k [0ej] l [7k] j [9qH] k [6j] f [80s] p [30g] f [$Qd] s [%Wa] p [30O] a [6ep] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] i [80u] Y [6u] [80p] [3s] [80] [7d] d [90d] d [3d] s [90a] d [6s] s [80s] s [3s] a [80p] s [7a] a [(Qa] a [$I] [(Qa] [0WO] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] [9z] l [qek] z [8l] k [0ej] l [7k] j [9qH] k [6j] f [80s] p [30g] f [$Qd] s [%Wa] p [30O] a [6ep] [6] 7 * [29d] [qe] S [6d] [qef] [9g] [qef] [6d] [qeg] [8f] [0e] d [6s] [0ed] [8f] [0e] 6 [0es] [0a] [Wr] P [7a] [Wrs] [0d] [Wrs] [7a] [Wrd] [6s] [6p] [8s] [0f] [ej] [0f] [8s] [6p] [29d] [qe] S [6d] [qef] [9g] [qef] [6d] [qeg] [8f] [0e] d [6s] [0ed] [8f] [0e] [6j] [0e] 9 [qed] 7 [qeg] [30f] [18s] [29d] [7a] [6p] [O3uf] [6psj] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] i [80u] Y [6u] [80p] [3s] [80] [7d] d [90d] d [3d] s [90a] d [6s] s [80s] s [3s] a [80p] s [7a] a [(Qa] a [$I] [(Qa] [0WO] [3] $ % [6u] u [80u] u [3u] u [80u] u [6u] u [80u] u [3u] u [80u] u [6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] [9z] l [qek] z [8l] k [0ej] l [7k] j [9WH] k [6j] f [8es] p [7g] f d s [30a] p O a [6ep] [6] [80] 3 [80] 3 $ % [6] [80] 3 [80] [6] [80e] 3 [80e] 3 $ % [6] [80e] 3 [80e] [6] [0et] 3 [0et] [6] [etu] 3 [etu] [6] [tup] 3 [ups] [6] [psf] 3 [sfj] [6f] [ps] [80f] [ps] [3f] [ps] [80f] [ps] [6f] [ps] [80f] [ps] [3f] [ps] [80f] [ps] [6f] [ps] [80f] [ps] [3f] g [80f] D [6f] [80j] [3l] [80] [7fH] z [90fH] z [3fH] z [90fH] z [6fj] l [80fj] l [3fj] l [80fj] l [7DG] k [(QDG] k [$G] [(Qk] [0fWH] [3] $ % [6f] [ps] [80f] [ps] [3f] [ps] [80f] [ps] [6f] [ps] [80f] [ps] [3f] [ps] [80f] [ps] [6f] g [80f] D [3f] [80j] l [6x] [80b] [3m] [80] [9] m [qen] [8m] n [0eb] m [7n] b [9WV] n [6b] x [80l] j [7c] x z l [30k] j H k [6ej] 6 [yd] [ip] S d [ipf] g [ipf] [yd] [ipg] [tf] [up] d s [upd] f [up] t [ups] [ra] [ru] P a [rus] d [rus] [ra] [rud] [es] [ep] [ts] [uf] [epj] [0uf] [8ts] [6ep] [9d] [qe] S [6d] [qef] [9g] [qef] [6d] [qeg] [8f] [0e] d [6s] [0ed] [8f] [0e] [6j] [0e] 9 [qed] 7 [qeg] [30f] [18s] [29d] [7a] [6p] [O3uf] [6psj] [3] [6u] [et] [80u] [et] [3u] [et] [80u] [et] [6u] [et] [80u] [et] [3u] [et] [80u] [et] [6u] [et] [80u] [et] [3u] i [80u] Y [6u] [80p] [3s] [80] [7uO] d [90uO] d [3uO] d [90uO] d [6up] s [80up] s [3up] s [80up] s [7YI] a [(QYI] a [$I] [(Qa] [0uWO] [3] $ % [6u] [et] [80u] [et] [3u] [et] [80u] [et] [6u] [et] [80u] [et] [3u] [et] [80u] [et] [6u] i [80u] Y [3u] [80p] s [6f] [80j] [3l] [80] [9qz] l [ek] z [80l] k [ej] l [79k] j [0H] k [68j] f [0s] p [%0g] f d s [30a] p O a [6ep] [6] [^i] [ET] [*qi] [ET] [4i] [ET] [*qi] [ET] [^i] [ET] [*qi] [ET] [4i] [ET] [*qi] [ET] [^i] [ET] [*qi] [ET] [4i] I [*qi] u [^i] [q*P] [4S] [*q] [8ip] D [(qip] D [4ip] D [(qip] D [i^P] S [qi*P] S [4iP] S [qi*P] S [8uo] s [0wuo] s [5o] [0ws] [qeip] [4] 5 6 [^i] [ET] [*qi] [ET] [4i] [ET] [*qi] [ET] [^i] [ET] [*qi] [ET] [4i] [ET] [*qi] [ET] [^i] I [*qi] u [4i] [q*P] S [^g] [q*J] [4L] [*q] [(Z] L [QEl] Z [*L] l [qEJ] L [8l] J [(ej] l [^J] g [q*S] P [8G] g D S [4qs] P p s [^EP] [^] [(Q] m [q*] m B [(8m] B b m [^*B] c L J [68C] c Z L [4ql] J j l [^EJ] [^JLB] [1234567890qwertyuiopasdfghjklZXcvbnm] ]]
+shared.scr = [[ [3wr]||$||
+[5ey] 7 8 9 0 9 8 7 
+[6eT]||5|$|3|
+[2390yudfzx]||||
+[2390yudfzx]||||
+[2390yu]||||
+[90yu]||||
+u||||
+u||||
+u|u|[uf]|[uf]|
+[0ufx] [0ufx] [0ufx][0ufx][0ufx][0ufx][30ufx][30ufx][30ufx][30ufx][30ufx][30ufx][30ufx][30ufx][30ufx][30ufx][30ufx][30ufx][30ufx][30ufx][30ufx][30ufx]3$%
+6|[80]|3|[80]|
+6|[80]|3|[80]*q9(Q0wqQWweWeEE
+[3wr]||[$p]|a|
+[y%WI]||7Q9Q[7y]Q[9u]Q
+[^QET]||% % %P6I% 
+[8wtu]|[8wtu] u[8wtu]|[48ei]|[8wtu]|[48et]|[8wtu]|
+[3p] p p p [$S]$$S$QSQ$S$Q
+[5a] a a a [7f]*7*[7f]*7*[7f]*7*[7f]*7*
+[6eQTG] G G G [5pG]IGp[sG]pspGI
+[8wuf]||||d|
+o|5|6|7|
+[8sfk][sfk][sfk][0wsfk]|[sfJ][5sfj][sfj][sfj][0wsfj]|[sfJ]
+[8sfk]|[sfH][0wsfj][sfj][sfj][5sfj]|[sfH][0wsfj]|[sfJ]
+[D7ak][Dak][Dak][(QDak]|[aDJ][$Daj][Daj][Daj][(QDaj]|[aDJ]
+[D7ak]|Zn|71!2@34$5%6^78*9(0qQwWeErtTyYuiIoO
+[qtips]||||p|
+[^Pqyf]||||[60d]fdfdfdf
+[6us]fj sfj sfj sfj sfj sfj [7ps]fj sfj 
+[%0us]||[50us]||
+[$0us]||[40us]||
+[30us]||[@0us]||
+[20us]||[!0us]||
+[10us]||[70us]||
+[^S]71!2@[3D]4$5%6[^G]78*9([0D]qQwWe
+[(QEJ]||J|H|D||G||||
+[(QEPJ] D D|[DH]|S|D D P P S||
+[g^J][gJ][gJ]4[gJ][gJ][gJ][gJ][gJ][gJ]^[gJ][gJ][gJ]g%[gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ]4[gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ]g^[gJ][gJ][gJ][gJ][gJ]4[gJ][gJ][gJ]%[gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ][gJ]
+[^Pg][Pg][Pg][Pg][Pg][Pg][Pg]4[Pg][Pg]P^[Pg][Pg]%P[Pg][Pg][Pg][Pg][Pg][Pg][Pg][Pg][^Pg][Pg][Pg][Pg][Pg][Pg][Pg][Pg][Pg]P^[Pg]%[Pg][Pg][Pg]4[Pg][Pg][Pg]
+[^H] [4L] [^Z] [%J]JJJJJJJ4 ^ 4 % 
+^ 4 ^ % ^ ^ % 4 
+O S D [(QEP]||O|
+[YO][YO][YO][YO][TI] [TI] [EY] [EY] [TI]||
+[6uO]0eTe0*60e
+[6T]ep0jb6[9eTI]OpaoO uI||
+u I [Y4to]4444444[yi^P]^^^
+[^i]^^^[123679yudfx$%WTIOSHLCV?] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo"))()
 
