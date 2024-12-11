@@ -9,12 +9,12 @@ local vim = game:GetService("VirtualInputManager")
 
 local initialBPM = 140
 local maxBPM = 300
-local accelDuration = 90  -- Temps plus court pour atteindre la vitesse maximale
-local tempoReturnDuration = 2
-local finalAccelDuration = 10  -- Temps pour continuer à augmenter rapidement
+local minBPM = 140
+local rapidIncreaseTime = 3
+local rapidDecreaseTime = 12
+local smoothIncreaseEndTime = 60
 
-local totalDuration = accelDuration + tempoReturnDuration + finalAccelDuration
-
+-- Fonction pour calculer le délai entre chaque touche
 local function calculateDelay(bpm)
     return 60 / bpm
 end
@@ -69,13 +69,18 @@ for i = 1, #str do
     local currentTime = tick() - startTime
 
     local currentBPM
-    if currentTime <= accelDuration then
-        currentBPM = initialBPM + ((currentTime / accelDuration) * (maxBPM - initialBPM))
-    elseif currentTime <= accelDuration + tempoReturnDuration then
-        currentBPM = maxBPM - (((currentTime - accelDuration) / tempoReturnDuration) * (maxBPM - initialBPM))
-    elseif currentTime <= totalDuration then
-        currentBPM = initialBPM + (((currentTime - accelDuration - tempoReturnDuration) / finalAccelDuration) * (maxBPM - initialBPM))
+    if currentTime < rapidIncreaseTime then
+        -- Avant 3 secondes, le BPM reste à la valeur initiale
+        currentBPM = initialBPM
+    elseif currentTime >= rapidIncreaseTime and currentTime < rapidDecreaseTime then
+        -- À partir de 3 secondes, le BPM passe directement au maximum
+        currentBPM = maxBPM
+    elseif currentTime >= rapidDecreaseTime and currentTime < smoothIncreaseEndTime then
+        -- Après 7 secondes, le BPM augmente progressivement jusqu'à atteindre le maximum
+        local progress = (currentTime - rapidDecreaseTime) / (smoothIncreaseEndTime - rapidDecreaseTime)
+        currentBPM = minBPM + (progress * (maxBPM - minBPM))
     else
+        -- Après le temps final, le BPM reste au maximum
         currentBPM = maxBPM
     end
 
