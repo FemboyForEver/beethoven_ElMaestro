@@ -1331,7 +1331,7 @@ s|| a||s||p||
 [6t]869[6y]0[6u]86[9i][6u]0[5y]758[5r]9[5w]75[8e][5r]9
 [4t]64[7r][4e]8[3w]73[8q][3w]9[8e]|78[6e] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
 end)
 Section:NewButton("sis puella magica", "Auto", function()
@@ -5186,7 +5186,7 @@ shared.tempo = 100 -- tempo overides the delay
  
 shared.scr = [[ [dz] [fx] [sl] [pj] [ak] [oh] [yd] [uf] [ts] [ep] [ra] [wo] [9y] [0u] [8t] [6e] [7r] [6e] [%W] [5w] [5oadh] [wry] Y [8u] s [0wt] u [5ws] [Ewtu] s [4q] [et] [30] [sfl] [wtdgz] [DGZ] [5fhx] [sfl] [0wtdgz] [fhx] 5 [adk] [qwrdgz] [8sfl] [0wt] [0wt] [wry] Y [8u] s [0wt] u [5ws] [Ewtu] s [4q] [et] [30] [@(psj] [osh] [29sIG] [pj] [Q9tsl] [fx] 9 [dz] [Qetsl] [pj] [wrdgz] [5w] [6e] [7ry] Y [8u] s [0wt] u [5ws] [Ewtu] s [4q] [et] [30] [sfl] [wtdgz] [DGZ] [5fhx] [sfl] [0wtdgz] [fhx] 5 [adk] [qwrdgz] [8sfl] [0wt] [wtu] [sl] [dz] [8tfx] [sl] [wtudz] [fx] [^E] [sl] [wtudz] [sl] [6efx] [sl] [etidz] [fx] [%W] [sl] [Wtidz] [sl] [5wfx] [sl] [wtudz] [fx] 5 [ak] [wrdz] [8wtsfl] [5w] [6e] [7ry] Y [8u] s [0wt] u [5ws] [Ewtu] s [4q] [et] [30] [sfl] [wtdgz] [DGZ] [5fhx] [sfl] [0wtdgz] [fhx] 5 [adk] [qwrdgz] [8sfl] [0wt] [0wt] [wry] Y [8u] s [0wt] u [5ws] [Ewtu] s [4q] [et] [30] [@(psj] [osh] [29sIG] [pj] [Q9tsl] [fx] 9 [dz] [Qetsl] [pj] [wrdgz] [5w] [6e] [7ry] Y [8u] s [0wt] u [5ws] [Ewtu] s [4q] [et] [30] [sfl] [wtdgz] [DGZ] [5fhx] [sfl] [0wtdgz] [fhx] 5 [adk] [qwrdgz] [8sfl] [0wt] [wtu] [sl] [dz] [8tfx] [sl] [wtudz] [fx] [^E] [sl] [wtudz] [sl] [6efx] [sl] [etidz] [fx] [%W] [sl] [Wtidz] [sl] [5wfx] [sl] [wtudz] [fx] 5 [ak] [wrdz] [8wtsfl] [5w] [18] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
 end)
 Section:NewButton("march", "Auto", function()
