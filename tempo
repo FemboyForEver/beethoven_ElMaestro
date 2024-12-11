@@ -11,7 +11,7 @@ local initialBPM = 140
 local maxBPM = 300
 local minBPM = 140
 local rapidIncreaseTime = 3
-local rapidDecreaseTime = 12
+local rapidDecreaseTime = 11
 local smoothIncreaseEndTime = 60
 
 -- Fonction pour calculer le délai entre chaque touche
