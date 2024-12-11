@@ -113,7 +113,7 @@ shared.scr = [[ u|||||||||||||||||||| u||||||||||||||||| u|||||||||||||| u||||||
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo"))()
 
 end)
-Section:NewButton("rush hard", "Auto", function()
+Section:NewButton("rush E hard", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 1*50 + 00 -- time in seconds for the song to finish (extended by |)
@@ -233,7 +233,7 @@ s P p s P i T E
 [48qC] c [59wZ] L [60elm] [JB] [48qjb] [lm] 
 [qc^*EJLB]||[!@$%^*(QWETYIOPSDGHJLZCVB1234567890qwertyuiopasdfghjklzxcvbnm?] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%206%20delai%20for%20rush%20e"))()
 
 end)
 Section:NewButton("logo rush e", "Auto", function()
