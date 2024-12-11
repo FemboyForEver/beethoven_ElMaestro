@@ -8,10 +8,10 @@ local FinishTime = shared.ftime or 10
 local vim = game:GetService("VirtualInputManager")
 
 local initialBPM = 140
-local maxBPM = 200
-local accelDuration = 10  -- Temps plus court pour atteindre la vitesse maximale
+local maxBPM = 300
+local accelDuration = 90  -- Temps plus court pour atteindre la vitesse maximale
 local tempoReturnDuration = 2
-local finalAccelDuration = 20  -- Temps pour continuer à augmenter rapidement
+local finalAccelDuration = 10  -- Temps pour continuer à augmenter rapidement
 
 local totalDuration = accelDuration + tempoReturnDuration + finalAccelDuration
 
