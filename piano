@@ -7305,7 +7305,7 @@ shared.scr = [[ j||x|| k|| H||
 6 0 e t u p p s f j H l
 x V b m x V b|||
 6 ]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%20for%20solas%20song"))()
 
 end)
 Section:NewButton("lilium", "Auto", function()
