@@ -46,55 +46,71 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 110 -- tempo overides the delay
 
-shared.scr = [[ [GC][hv] [lm] [kn] [JB] [sl][DZ][hv][GC][gc][DZ][gc]
-181818|kzcbn[qry]||rWwq(98^%5||
-[Yos]|[Yoa]|[oYP]|[Yoa] [Yos]|
-[Yos]|[Yoa]|[oYP]|[Yoa] [Yos]|
-[Yos]|[Yoa]|[oYP]|[Yoa] [Yos]|
-[Yos]|[Yoa]|[oYP]|[Yoa] [Yos]
-[18] [Y1os] @ [@Yoa] 4 [oYP]5|[Yoa]@ [Yos]
-1 [Y1os] @ [@Yoa] 4 [oYP]5|[Yoa]@ [Yos]
-1 [Y1os] @ [@Yoa] 4 [oYP]5|[Yoa]@ [Yos]
-1 [Y1os] @ [@Yoa] 4 [oYP]5|[Yoa]@ [Yos]
-[18] [Y1os] @ [@Yoa] 4 [oYP]5|[Yoa]@ [Yos]
-1 [Y1os] @ [@Yoa] 4 [oYP]5|[Yoa]@ [Yos]
-1 [Y1os] @ [@Yoa] 4 [oYP]5|[Yoa]@ [Yos]
-1 [Y1os] @ [@Yoa] 4 [oYP]5|[Yoa]@ 
-[18hlv] 1[sl]@ [@hv][sl][4GC]|5[gc]@ @[sl]
-[1DZ] [1sl] [@PJ][sl]@ 4|5 @ @
-[1hlv] 1[sl]@ [@hv][sl][4GC]|5[gc]@ @[sl]
-[1DZ] [1sl] [@PJ][sl]@ 4|5 @ @
-[4lm] 4[gc]% [%lm][HV][^kn]|8[JB]% %[gc]
-[4HV] [4gc] [%DZ][gc]% ^|8 % %
-[H5dz] [5SL][dz]7 [H7dz] [2SL][dz]2 4 4 
-[25glc] 5 [4DZ] 4 [@(dz] [@(] [29DZ] [29] 
-[D18shl] 1 @ [@Yoa] 4 [oYP]5|[Yoa]@ [Yos]
-1 [Y1os] @ [@Yoa] 4 [oYP]5|[Yoa]@ [Yos]
-1 [Y1os] @ [@Yoa] 4 [oYP]5|[Yoa]@ [Yos]
-1 [Y1os] @ [@Yoa] 4 [oYP]5|[Yoa]@ 
-[158][8wt] [18][8wt] t8[8HL][1l] [18J] [18H] [gh][18][8wtH]J[^f]||
-4 [%s] [5ios] [@s] [Y5ia] [1o] [7s] [^d] 
-[18osD] 1 % [1d]d[7dh] [5g] [8aD]d5 
-[4qiOD] 8 4 [$s]s[Y5ia] [1o] [^d] 7 
-[18osD] @ 5 @ [18os] 5 [8dg] 5 
-[4qiOD] [8s] [$s] [4s] [5wyia] [@o]o[%Yia]d^ 
-[18osD] 5 8 [^s]s[@Pgh] [(g] [@PD]d^ 
-[%D] 1 ! [2s] [@ios] [4s] [$sg] [%g] 
-[7iaOD] 2 5 2 8 9 [(ig] [qoh] 
-[4ODH] [Wqt] [O4is] [Wqt][Oia]5 [wry] [5YD] [wryig] 
-[@odh] [(Ews] [@Yos] [w(E][Yos]@ [w(E] @ [(EYws] 
-[4isg] [qtWOD] [4id] [Wqtis] [5oa] [wryoa] [5oa] [wry] 
-[Y1os] [(8w] [1ad] [(8w] [s@D] [w(E] [@ig] [(Ewoh] 
-[4ODH] [Wqt] [O4is] [Wqt][Oia]5 [wry] [5YD] [wryig] 
-[@odh] [w(ED] [@Ood][od][w(E][os]@ [w(E] @ [(Ews] 
-[4isg] [qtWYD] [4yd] [Wqts] [2ra] [W9qra][ra][2hODH] [9qW] 
-[25]|[odgh][48q]|[%(W]|[59w]||
-[Yos]|[Yoa]|[oYP]|[Yoa] [Yos]|
-[Yos]|[Yoa]|[oYP]|[Yoa] [Yos]
-[18] [Y1os] @ [@Yoa] 4 [oYP]5|[Yoa]@ [Yos]
-1 [Y1os] @ [@Yoa] 4 [oYP]5|@||
-sDhl[158] [@(DJZ] [5whv][z$QGC] [4qgc] [@(DZ] [18sl]||
-[H7dhkz] ]]
+shared.scr = [[ [G$]    [h5]    [l8]    [k7]    [J^]    [s1]    [D@]    [h5] 
+   [G$]    [g4]    [D@]    [g4]       h       D       a       o 
+      Y       r       w [aDhk5]       4       5    [18]   [Yos] 
+  [Yoa]   [YoP]   [Yoa]   [Yos]   [Yos]   [Yoa]   [YoP]   [Yoa] 
+  [Yos]   [Yos]   [Yoa]   [YoP]   [Yoa]   [Yos]   [Yos]   [Yoa] 
+  [YoP]   [Yoa]   [Yos]       8   [Yos]       (   [Yoa]       q 
+  [YoP]       w   [Yoa]  [Yos(]       8  [Yos8]       (  [Yoa(] 
+      q   [YoP]       w   [Yoa]  [Yos(]       8   [Yos]       ( 
+  [Yoa]       q   [YoP]       w   [Yoa]  [Yos(]       8  [Yos8] 
+      (  [Yoa(]       q   [YoP]       w   [Yoa]  [Yos8]       1 
+  [Yos]    [@(]   [Yoa]       8    [4q]   [YoP]    [5w] [Yoa@(] 
+ [Yos8]       1 [Yos18]    [@(] [Yoa@(]    [4q]   [YoP]    [5w] 
+[Yoa@(]  [Yos8]       1   [Yos]    [@(]   [Yoa]       8    [4q] 
+  [YoP]    [5w] [Yoa@(]  [Yos8]       1 [Yos18]    [@(] [Yoa@(] 
+   [4q]   [YoP]    [5w] [Yoa@(]       8   [oh1]    [(w]       s 
+      @    [oh]    [(w]       s   [IG2]    [8Q] [Oadg5]    [7q] 
+   [oD]    [18]    [os]    [(w]       P   [os@]    [(w]    [C2] 
+      v       m   [v8Q]       C       l    [J5]       h       G 
+  [g7q]       D       s  [Dh18]    [(w]       s       @    [oh] 
+   [(w]       s   [IG2]    [8Q] [Oadg5]    [7q]    [oD]    [18] 
+   [os]    [(w]       P   [os@]    [(w]       4       s   [D8q] 
+      G   [g5w]       D   [s$Q]  [sl4q]    [Wt]       g       % 
+   [sl]    [Wt]       g   [ak5]    [qr] [SfhJ8]    [0E]    [sH] 
+      4    [sg]    [Wt]       D   [sg5]    [wt]       %       c 
+   [Wt]   [c4q]    [$Q]   [dz5]       h  [SLqr]    [dz]       7 
+ [dzqr]       h   [SL9]    [dz]    [qr]       4       $   [gc5] 
+[DHkZqWrY] [dHkzqWry] [DHkZ5] [sDhl18]    [(w]       @  [aDhk]    [(w] 
+[PdGJ2]    [8Q]  [aDhk]       5 [sDhl7q]       1       l   [s(w] 
+      D    [k@]       s   [D(w]       J    [j2]       H   [h8Q] 
+      G    [h5]       k   [Z7q]    [hv]       1       l   [Z(w] 
+   [GC]    [l@]       Z  [hv(w]       l    [Z2]    [GC]   [l8Q] 
+      Z   [hv5]  [JB7q]   [GC1]    [GC]    [(w]    [gc]   [gc@] 
+ [DZ(w]    [DZ]       2    [sl]   [g8Q]       G   [PJ5]  [ak7q] 
+   [18]  [YuOP]    [18]  [YuOP]    [18]    [18]    [L*]    [l8] 
+   [J^]    [H%]    [h5]    [H%]    [J^]       f    [18]       4 
+   [s%]    [s5]    [s4]    [a5]    [o2]    [s^]    [d7]   [oD1] 
+      @       5    [s!]   [Ph1]    [g3]    [D5]    [d$]   [OD4] 
+      8       4    [s$]    [a5]    [o2]    [d^]       7 [oPsD8] 
+      @       5       ! [Tuos1]       3  [osg5]       $  [oOD4] 
+   [s8]       4   [oOs]       $   [ia5]    [o2]    [s^]       d 
+      7    [oD]       1       5       1    [s7]    [h^]    [g4] 
+   [D@]    [d6]    [D%]       1       @    [s5]    [s%]       s 
+   [o%]       s       g  [iaD5]       i       a       D       g 
+      k       Z       c       n       Z  [cwri]       g       9 
+   [h7]       5  [OsH4]    [8(]   [YOs]       4    [ia]       5 
+  [yio]       q       5   [iaD]       5    [g9]       q  [oDh8] 
+      s    [(E]    [os]       P       8    [s5]       1   [Tuo] 
+      5       8   [Tuo]       1    [s5]       8   [Og4]       D 
+   [4(]       d    [s8]       (   [ia5]       a    [7q]       a 
+      q   [yio]       5    [s1]   [yYo]       5       8   [yYo] 
+      1       5       8       1   [Tuo]       5       8   [osg] 
+      1    [h5]       8  [OsH4]    [8(]   [YOs]       4    [ia] 
+      5   [yio]       q       5   [iaD]       5    [g9]       q 
+ [oDh8]       s    [(E]    [os]       P       8    [s5]       @ 
+  [Tio]       ^       *   [Tio]       @    [s^]       *   [Og%] 
+      D       d    [s4]       @    [a2]       s [OsgHWti] [oaDh5] 
+ [gkZc]    [59]       q    [59]       q    [59]       q  [HkZV] 
+   [59]       q    [59]       q    [59]       q  [hkZv]    [59] 
+      q    [59]       q    [59]       q   [Yos]   [Yoa]   [YoP] 
+  [Yoa]   [Yos]   [Yos]   [Yoa]   [YoP]   [Yoa]   [Yos]       1 
+[Yos(w]       @ [Yoa(w]       2 [yIP8Q]       5   [Yoa]    [7q] 
+  [Yos]       1 [Yos(w]       @ [Yoa(w]       2 [yIP8Q]       5 
+  [Yoa]    [7q]       1    [s8]    [D(]    [hw]    [GQ]    [gq] 
+   [D(]    [s8]       h       s       o       t       w       8 
+[Dhjz18] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%202%20al%C3%A9atoire"))()
 
