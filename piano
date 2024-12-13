@@ -1919,27 +1919,27 @@ shared.tempo = 150 -- tempo overides the delay
  
 shared.scr = [[ j k j H
 [2j] [6d] 9 e y i
-p o [ij] y e [H9]
+p o [ij] y e [9H]
 [6j] [0f] e u s a
-p [uf] [Dt] [ef] [0h] [G6]
+p [uf] [tD] [ef] [0h] [6G]
 [2g] 6 9 e y [uf] g f
 3 7 W r [ud] O
-s 3 8 0 e t
-[*S5o] e T [Tf]
+[s?] 3 8 0 e t
+[5o*S] e T [Tf]
 [*Spj] [!PSh]
 [ed] [yg] [ij]
- 
+2
 d d f d f
 g f g h g h
-[4j] [H8] [qj] [ek] [yj] [ek]
+[4j] [8H] [qj] [ek] [yj] [ek]
 [6fl] 0 [tf] u s a
 p [ufl] [tk] [rj] [efl] [0k]
 [2pdg] 6 q e y e
 [9e] [fl] k [9wj] [fl] k
-[psf] [3f] [8g] [0f] [th] [Gu]
+[psf?] [3f] [8g] [0f] [th] [uG]
 [tupg] f d f d f
 [2g] [6f] [qg] [eh] [yg] [eh]
-j [H4] [9j] [qk] [ej] [qk]
+[j?] [4H] [9j] [qk] [ej] [qk]
 [6fl] 0 [tfl] u s a
 u [rl] [ek] [0l] [7x] [6z]
 [2gjz] [6l] [ql] [ek] [yz] [el]
@@ -1948,31 +1948,31 @@ u [rl] [ek] [0l] [7x] [6z]
 [Twj] H
 [2j] d [9qegjz] l [9qel] k
 [2gjz] l [9qel] [9qej] H
-j f [80efjl] k [80ek] j
-[fjl] k [80ek] [80e] f h G
+[j?] f [80efjl] k [80ek] j
+[fjl?] k [80ek] [80e] f h G
 [2g] [9qe] [9qe]
 [3f] [W9ra] [W9rs]
-f [80e] [80e]
+[f?] [80e] [80e]
 [6j] [*w] [*w] H
 [2j] d [9qegjz] l [9qel] k
 [2gjx] z [9qez] [9qek] j
-l f [80efjx] z [80ez] l
-[fjl] [80ek] [80ej]
+[l?] f [80efjx] z [80ez] l
+[fjl?] [80ek] [80ej]
 [2h] [9qe] [9qeg]
 [3f] [W9r] [W9rd]
-f [80e] [80e]
+[f?] [80e] [80e]
 u p a f h j
-d d f d f
+2 d d f d f
 g f g h g h
-[4j] [H8] [qj] [ek] [yj] [ek]
+[4j] [8H] [qj] [ek] [yj] [ek]
 [6fl] 0 [tf] u s a
 p [ufl] [tk] [rj] [efl] [0k]
 [2pdg] 6 q e y e
 [9e] [fl] k [9wj] [fl] k
-[psf] [3f] [8g] [0f] [th] [Gu]
+[psf?] [3f] [8g] [0f] [th] [uG]
 [tupg] f d f d f
 [2g] [6f] [qg] [eh] [yg] [eh]
-j [H4] [9j] [qk] [ej] [qk]
+[j?] [4H] [9j] [qk] [ej] [qk]
 [6fl] 0 [tfl] u s a
 u [rl] [ek] [0l] [7x] [6z]
 [2gjz] [6l] [ql] [ek] [yz] [el]
@@ -1981,31 +1981,31 @@ u [rl] [ek] [0l] [7x] [6z]
 [Twj] H
 [2j] d [9qegjz] l [9qel] k
 [2gjz] l [9qel] [9qej] H
-j f [80efjl] k [80ek] j
-[fjl] k [80ek] [80e] f h G
+[j?] f [80efjl] k [80ek] j
+[fjl?] k [80ek] [80e] f h G
 [2g] [9qe] [9qe]
 [3f] [W9ra] [W9rs]
-f [80e] [80e]
+[f?] [80e] [80e]
 [6j] [*w] [*w] H
 [2j] d [9qegjz] l [9qel] k
 [2gjx] z [9qez] [9qek] j
-l f [80efjx] z [80ez] l
-[fjl] [80ek] [80ej]
+[l?] f [80efjx] z [80ez] l
+[fjl?] [80ek] [80ej]
 [2h] [9qe] [9qeg]
 [3f] [W9r] [W9rd]
-f [80e] [80e]
+[f?] [80e] [80e]
 u p a f h j
-d d f d f
+2 d d f d f
 g f g h g h
-[4j] [H8] [qj] [ek] [yj] [ek]
+[4j] [8H] [qj] [ek] [yj] [ek]
 [6fl] 0 [tf] u s a
 p [ufl] [tk] [rj] [efl] [0k]
 [2pdg] 6 q e y e
 [9e] [fl] k [9wj] [fl] k
-[psf] [3f] [8g] [0f] [th] [Gu]
+[psf?] [3f] [8g] [0f] [th] [uG]
 [tupg] f d f d f
 [2g] [6f] [qg] [eh] [yg] [eh]
-j [H4] [9j] [qk] [ej] [qk]
+[j?] [4H] [9j] [qk] [ej] [qk]
 [6fl] 0 [tfl] u s a
 u [rl] [ek] [0l] [7x] [6z]
 [2gjz] [6l] [ql] [ek] [yz] [el]
@@ -2014,34 +2014,34 @@ u [rl] [ek] [0l] [7x] [6z]
 [Twj] H
 [2j] d [9qegjz] l [9qel] k
 [2gjz] l [9qel] [9qej] H
-j f [80efjl] k [80ek] j
-[fjl] k [80ek] [80e] f h G
+[j?] f [80efjl] k [80ek] j
+[fjl?] k [80ek] [80e] f h G
 [2g] [9qe] [9qe]
 [3f] [W9ra] [W9rs]
-f [80e] [80e]
+[f?] [80e] [80e]
 [6j] [*w] [*w] H
 [2j] d [9qegjz] l [9qel] k
 [2gjx] z [9qez] [9qek] j
-l f [80efjx] z [80ez] l
-[fjl] [80ek] [80ej]
+[l?] f [80efjx] z [80ez] l
+[fjl?] [80ek] [80ej]
 [2h] 6 9 q e y i p [dg]
-[3f] 7 0 W r u O a [Hf]
-j
+[3f] 7 0 W r u O a [fH]
+[j?]
 r t
 [2y] T [9qey] u [9qey] u
 [2i] u [9qei] o [9qei] o
-p O [80ep] a [80ep] a
-s a [80es] d [80es] d
+[p?] O [80ep] a [80ep] a
+[s?] a [80es] d [80es] d
 [2f] d [9qes] a [9qed] s
-[3a] p [WO9r] p [W9ra] s
-d s [80ea] p [80es] a
+[3a] p [9rWO] p [W9ra] s
+[d?] s [80ea] p [80es] a
 [6p] o [*wi] u [*wy] T
 [2d] S [9qed] f [9qed] f
 [2g] f [9qeg] h [9qeg] h
-j H [80ej] k [80ej] k
-l k [80el] z [80el] z
+[j?] H [80ej] k [80ej] k
+[l?] k [80el] z [80el] z
 [2x] z [9qel] k [9qez] l
-[3k] j [WH9r] j [W9rk] l
+[3k] j [9rWH] j [W9rk] l
 [3680j] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
