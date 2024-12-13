@@ -7720,7 +7720,7 @@ P
 [qetp] p p P P 
 [yz] [Ed] [th] [yl] [Ed] [th] [yJ] [Ed] [yz] [Ed] [th] [yl] [Ed] [th] [yJ] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
 end)
 Section:NewButton("bohemian rhapsody", "Autoplayf", function()
