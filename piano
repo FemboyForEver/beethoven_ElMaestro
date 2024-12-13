@@ -1910,138 +1910,139 @@ f [wd] [0s] [1a] [5s] [8d] [0f] [wd] [0s] [1a] 5 [8oh]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("the real slim shady", "Auto", function()
+Section:NewButton("La Boheme", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 200 -- tempo overides the delay
+shared.tempo = 90 -- tempo overides the delay
  
-shared.scr = [[ [2y] i [3p] [4s] [5d]--[5P] 
-[4p]--[4P] [3p]Ppo i [6T] 
-[2y] i [3p] [4s] [5d]--[5P] 
-[4p]--[4P] [3p]Ppo i [6T] 
-[2y] i [3p] [4s] [5d]--[5P] 
-[4p]--[4P] [3p]Ppo i [6T] 
-[2y] i [3p] [4s] [5d]--[5P] 
-[4p]--[4P] [3p] [cb] [cb] [6xv] 
-[2zc]-[3p] [4s] [5d]--[5P] 
-[4p]--[4P] [3p]Ppo i [6T] 
-[2y] i [3p] [4s] [5d]--[5P] 
-[4p]--[4P] [3p] [cb] [3cb] [6xv] 
-[2zc]-[3p] [4s] [5d]--[5P] 
-[4p]--[4P] [3p]Ppo i [6T] 
-[2y] i [3p] [4s] [5d]--[5P] 
-[4p]--[4P] [3p] [cb] [3cb] [6xv] 
-[2zc]-[3p] [4s] [5d]--[5P] 
-[4p]--[4P] [3p]Ppo i [6T] 
-[2y] i [3p] [4s] [5d]--[5P] 
-[4p]--[4P] [3p] [cb] [3cb] [6xv] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*3i] [36T] 
-[2y] [2i] [2p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p] [cb] [*3cb] [36xv] 
-[2zc]-[3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p] [cb] [*3cb] [36xv] 
-[2zc]-[3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]--[4P] [3p] [cb] [*3cb] [36xv] 
-[29zc]-[3p] [4s] [59d] q 0 [5^P] 
-[46p]--[4^P] [36p]Ppo [6i] [6*T] 
-[29y] i [3p] [4s] [59d] q 0 [5^P] 
-[46p]--[4^P] [36p] [cb] [36cb] [*6xv] 
-[29zc]-[3p] [4s] [59d] q 0 [5^P] 
-[46p]--[4^P] [36p]Ppo [6i] [6*T] 
-[29y] i [3p] [4s] [59d] q 0 [5^P] 
-[46p]--[4^P] [36p] [cb] [36cb] [*6xv] 
-[2zc]-[3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*3i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p] [cb] [*3cb] [36xv] 
-[2zc]-[3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*3i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p] [cb] [*3cb] [36xv] 
-[2zc] 2 [2p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p] [cb] [*3cb] [36xv] 
-[29zc]-[3p] [4s] [59d] q 0 [5^P] 
-[46p]--[4^P] [36p]Ppo [6i] [6*T] 
-[29y] i [3p] [4s] [59d] q 0 [5^P] 
-[46p]--[4^P] [36p] [cb] [36cb] [*6xv] 
-[29zc]-[3p] [4s] [59d] q 0 [5^P] 
-[46p]--[4^P] [36p]Ppo [6i] [6*T] 
-[29y] i [3p] [4s] [59d] q 0 [5^P] 
-[46p]--[4^P] [36p] [cb] [36cb] [*6xv] 
-[2zc]-[3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*3i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p] [cb] [*3cb] [36xv] 
-[2zc]-[3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*3i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p] [cb] [*3cb] [36xv] 
-[2zc]-[3p] [4s] [5d]-2 [5P] 
-[4p]-2 [4P] [3p]Ppo [*i] [36T] 
-[2y] i [3p] [4s] [5d]-2 [5P] 
-[4p]--[4P] [3p] [cb] [*3cb] [36xv] 
-[29zc]-[3p] [4s] [59d] q 0 [5^P] 
-[46p]--[4^P] [36p]Ppo [6i] [6*T] 
-[29y] i [3p] [4s] [59d] q 0 [5^P] 
-[46p]--[4^P] [36p] [cb] [36cb] [*6xv] 
-[29zc]-[3p] [4s] [59d] q 0 [5^P] 
-[46p]--[4^P] [36p]Ppo [6i] [6*T] 
-[29y] i [3p] [4s] [59d] q 0 [5^P] 
-[46p]--[4^P] [36p] [cb] [36cb] [*6xv] 
-[29zc]-[3d] 4 [59p] q [0o] [5^P] 
-[46p]-i [4^P] [36up]Ppo [6yi] [6*T] 
-[29pf]-[3id] 4 [59ip] q [0o] [5^P] 
-[46p]--[4i^P] [36up] [cb] [36cb] [*6xv] 
-[29zc]-[3d] 4 [59p] q [0o] [5^P] 
-[46p]-i [4^P] [36up]Ppo [6yi] [6*T] 
-[29pf]-[3id] 4 [59ip] q [0o] [5^P] 
-[46p]--[4i^P] [36up] [cb] [36cb] [*6xv] 
-[29zc]-[3d] 4 [59p] q [0o] [5^P] 
-[46p]-i [4^P] [36up]Ppo [6yi] [6*T] 
-[29pf]-[3id] 4 [59ip] q [0o] [5^P] 
-[46p]--[4i^P] [36up] [cb] [36cb] [*6xv] 
-[29zc]-[3d] 4 [59p] q [0o] [5^P] 
-[46p]-i [4^P] [36up]Ppo [6yi] [6*T] 
-[29pf]-[3id] 4 [59ip] q [0o] [5^P] 
-[46p]--[4i^P] [36up] [cb] [36cb] [*6xv] 
-[29zc]-[3d] 4 [59p] q [0o] [5^P] 
-[46p]-i [4^P] [36up]Ppo [6yi] [6*T] 
-[29pf]-[3id] 4 [59ip] q [0o] [5^P] 
-[46p]--[4i^P] [36up] [cb] [36cb] [*6xv] 
-[29zc]-[3d] 4 [59p] q [0o] [5^P] 
-[46p]-i [4^P] [36up]Ppo [6yi] [6*T] 
-[29pf]-[3id] 4 [59ip] q [0o] [5^P] 
-[46p]--[4i^P] [36up] [cb] [36cb] [*6xv] 
-[zc] ]]
+shared.scr = [[ j k j H
+[2j] [6d] 9 e y i
+p o [ij] y e [H9]
+[6j] [0f] e u s a
+p [uf] [Dt] [ef] [0h] [G6]
+[2g] 6 9 e y [uf] g f
+3 7 W r [ud] O
+s 3 8 0 e t
+[*S5o] e T [Tf]
+[*Spj] [!PSh]
+[ed] [yg] [ij]
+ 
+d d f d f
+g f g h g h
+[4j] [H8] [qj] [ek] [yj] [ek]
+[6fl] 0 [tf] u s a
+p [ufl] [tk] [rj] [efl] [0k]
+[2pdg] 6 q e y e
+[9e] [fl] k [9wj] [fl] k
+[psf] [3f] [8g] [0f] [th] [Gu]
+[tupg] f d f d f
+[2g] [6f] [qg] [eh] [yg] [eh]
+j [H4] [9j] [qk] [ej] [qk]
+[6fl] 0 [tfl] u s a
+u [rl] [ek] [0l] [7x] [6z]
+[2gjz] [6l] [ql] [ek] [yz] [el]
+[3fl] [7k] [Wk] [rk] [uj] [OH]
+[etusfj]
+[Twj] H
+[2j] d [9qegjz] l [9qel] k
+[2gjz] l [9qel] [9qej] H
+j f [80efjl] k [80ek] j
+[fjl] k [80ek] [80e] f h G
+[2g] [9qe] [9qe]
+[3f] [W9ra] [W9rs]
+f [80e] [80e]
+[6j] [*w] [*w] H
+[2j] d [9qegjz] l [9qel] k
+[2gjx] z [9qez] [9qek] j
+l f [80efjx] z [80ez] l
+[fjl] [80ek] [80ej]
+[2h] [9qe] [9qeg]
+[3f] [W9r] [W9rd]
+f [80e] [80e]
+u p a f h j
+d d f d f
+g f g h g h
+[4j] [H8] [qj] [ek] [yj] [ek]
+[6fl] 0 [tf] u s a
+p [ufl] [tk] [rj] [efl] [0k]
+[2pdg] 6 q e y e
+[9e] [fl] k [9wj] [fl] k
+[psf] [3f] [8g] [0f] [th] [Gu]
+[tupg] f d f d f
+[2g] [6f] [qg] [eh] [yg] [eh]
+j [H4] [9j] [qk] [ej] [qk]
+[6fl] 0 [tfl] u s a
+u [rl] [ek] [0l] [7x] [6z]
+[2gjz] [6l] [ql] [ek] [yz] [el]
+[3fl] [7k] [Wk] [rk] [uj] [OH]
+[etusfj]
+[Twj] H
+[2j] d [9qegjz] l [9qel] k
+[2gjz] l [9qel] [9qej] H
+j f [80efjl] k [80ek] j
+[fjl] k [80ek] [80e] f h G
+[2g] [9qe] [9qe]
+[3f] [W9ra] [W9rs]
+f [80e] [80e]
+[6j] [*w] [*w] H
+[2j] d [9qegjz] l [9qel] k
+[2gjx] z [9qez] [9qek] j
+l f [80efjx] z [80ez] l
+[fjl] [80ek] [80ej]
+[2h] [9qe] [9qeg]
+[3f] [W9r] [W9rd]
+f [80e] [80e]
+u p a f h j
+d d f d f
+g f g h g h
+[4j] [H8] [qj] [ek] [yj] [ek]
+[6fl] 0 [tf] u s a
+p [ufl] [tk] [rj] [efl] [0k]
+[2pdg] 6 q e y e
+[9e] [fl] k [9wj] [fl] k
+[psf] [3f] [8g] [0f] [th] [Gu]
+[tupg] f d f d f
+[2g] [6f] [qg] [eh] [yg] [eh]
+j [H4] [9j] [qk] [ej] [qk]
+[6fl] 0 [tfl] u s a
+u [rl] [ek] [0l] [7x] [6z]
+[2gjz] [6l] [ql] [ek] [yz] [el]
+[3fl] [7k] [Wk] [rk] [uj] [OH]
+[etusfj]
+[Twj] H
+[2j] d [9qegjz] l [9qel] k
+[2gjz] l [9qel] [9qej] H
+j f [80efjl] k [80ek] j
+[fjl] k [80ek] [80e] f h G
+[2g] [9qe] [9qe]
+[3f] [W9ra] [W9rs]
+f [80e] [80e]
+[6j] [*w] [*w] H
+[2j] d [9qegjz] l [9qel] k
+[2gjx] z [9qez] [9qek] j
+l f [80efjx] z [80ez] l
+[fjl] [80ek] [80ej]
+[2h] 6 9 q e y i p [dg]
+[3f] 7 0 W r u O a [Hf]
+j
+r t
+[2y] T [9qey] u [9qey] u
+[2i] u [9qei] o [9qei] o
+p O [80ep] a [80ep] a
+s a [80es] d [80es] d
+[2f] d [9qes] a [9qed] s
+[3a] p [WO9r] p [W9ra] s
+d s [80ea] p [80es] a
+[6p] o [*wi] u [*wy] T
+[2d] S [9qed] f [9qed] f
+[2g] f [9qeg] h [9qeg] h
+j H [80ej] k [80ej] k
+l k [80el] z [80el] z
+[2x] z [9qel] k [9qez] l
+[3k] j [WH9r] j [W9rk] l
+[3680j] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
