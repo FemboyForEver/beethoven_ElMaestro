@@ -3594,7 +3594,7 @@ xd v vz|||
 [qm]un[am]vsmh|gf
 [tm]uOnm[sv] mdmva ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
 end)
 Section:NewButton("halloween", "Auto", function()
