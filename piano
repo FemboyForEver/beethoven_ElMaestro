@@ -46,8 +46,112 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 134 -- tempo overides the delay
 
-shared.scr = [[ [G$] [h5] [l8] [k7] [J^] [s1] [D@] [h5] [G$] [g4] [D@] [g4] h D a o Y r w [aDhk5] 4 5 [18] [Yos] [Yoa] [YoP] [Yoa] [Yos] [Yos] [Yoa] [YoP] [Yoa] [Yos] [Yos] [Yoa] [YoP] [Yoa] [Yos] [Yos] [Yoa] [YoP] [Yoa] [Yos] 8 [Yos] ( [Yoa] q [YoP] w [Yoa] [Yos(] 8 [Yos8] ( [Yoa(] q [YoP] w [Yoa] [Yos(] 8 [Yos] ( [Yoa] q [YoP] w [Yoa] [Yos(] 8 [Yos8] ( [Yoa(] q [YoP] w [Yoa] [Yos8] 1 [Yos] [@(] [Yoa] 8 [4q] [YoP] [5w] [Yoa@(] [Yos8] 1 [Yos18] [@(] [Yoa@(] [4q] [YoP] [5w] [Yoa@(] [Yos8] 1 [Yos] [@(] [Yoa] 8 [4q] [YoP] [5w] [Yoa@(] [Yos8] 1 [Yos18] [@(] [Yoa@(] [4q] [YoP] [5w] [Yoa@(] 8 [oh1] [(w] s @ oh [(w] s [IG2] [8Q] [Oadg5] [7q] [oD] [18] [os] [(w] P [os@] [(w] [C2] v m [v8Q] C l [J5] h G [g7q] D s [Dh18] [(w] s @ oh [(w] s [IG2] [8Q] [Oadg5] [7q] [oD] [18] [os] [(w] P [os@] [(w] 4 s [D8q] G [g5w] D [s$Q] [sl4q] [Wt] g % [sl] [Wt] g ak5 [qr] [SfhJ8] [0E] [sH] 4 [sg] [Wt] D [sg5] [wt] % c [Wt] [c4q] [$Q] [dz5] h [SLqr] [dz] 7 dzqr h [SL9] [dz] [qr] 4 $ [gc5] [DHkZqWrY] [dHkzqWry] [DHkZ5] [sDhl18] [(w] @ [aDhk] [(w] [PdGJ2] [8Q] [aDhk] 5 [sDhl7q] 1 l [s(w] D [k@] s [D(w] J [j2] H [h8Q] G [h5] k [Z7q] [hv] 1 l [Z(w] [GC] [l@] Z [hv(w] l [Z2] [GC] [l8Q] Z [hv5] [JB7q] [GC1] [GC] [(w] [gc] [gc@] [DZ(w] [DZ] 2 [sl] [g8Q] G [PJ5] [ak7q] [18] [YuOP] [18] [YuOP] [18] [18] [L*] [l8] [J^] [H%] [h5] [H%] [J^] f [18] 4 [s%] [s5] [s4] [a5] [o2] [s^] [d7] [oD1] @ 5 [s!] [Ph1] [g3] [D5] [d$] [OD4] 8 4 [s$] [a5] [o2] [d^] 7 [oPsD8] @ 5 ! [Tuos1] 3 [osg5] $ [oOD4] [s8] 4 [oOs] $ [ia5] [o2] [s^] d 7 [oD] 1 5 1 [s7] [h^] [g4] [D@] [d6] [D%] 1 @ [s5] [s%] s [o%] s g [iaD5] i a D g k Z c n Z [cwri] g 9 [h7] 5 [OsH4] [8(] [YOs] 4 ia 5 [yio] q 5 [iaD] 5 [g9] q [oDh8] s [(E] [os] P 8 [s5] 1 [Tuo] 5 8 [Tuo] 1 [s5] 8 [Og4] D [4(] d [s8] ( [ia5] a [7q] a q [yio] 5 [s1] [yYo] 5 8 [yYo] 1 5 8 1 [Tuo] 5 8 [osg] 1 [h5] 8 [OsH4] [8(] [YOs] 4 ia 5 [yio] q 5 [iaD] 5 [g9] q [oDh8] s [(E] [os] P 8 [s5] @ [Tio] ^ * [Tio] @ [s^] * [Og%] D d [s4] @ [a2] s [OsgHWti] [oaDh5] [gkZc] [59] q [59] q [59] q [HkZV] [59] q [59] q [59] q [hkZv] [59] q [59] q [59] q [Yos] [Yoa] [YoP] [Yoa] [Yos] [Yos] [Yoa] [YoP] [Yoa] [Yos] 1 [Yos(w] @ [Yoa(w] 2 [yIP8Q] 5 [Yoa] [7q] [Yos] 1 [Yos(w] @ [Yoa(w] 2 [yIP8Q] 5 [Yoa] [7q] 1 [s8] [D(] [hw] [GQ] [gq] [D(] [s8] h s o t w 8 [Dhjz18] ]]
-
+shared.scr = [[ [IG] [oh] -[sl]- [ak] -[PJ]- [ts] [YD] [oh]
+[IG] [ig] [YD] [ig] w 5 w 5 w 5 w 5 [dhkz] --
+[os] - [oa] - [oP] - [oa]- {[os][os]} - [oa] -
+[oP] - [oa]- [os]t -[os] - [oa] - [oP] - [oa]-
+[os]t -[os] - [oa] - [oP] - [oa] -[os] 8- [(wos]-
+( -[(woa]- [qY] -[toWP] Y w [Yoa] [tWY] [Yos]
+[8Y] Y [(Ywos] Y [(Y]- [(Ywoa] Y [qY] -Y [toWYP]
+Y [wY] [oa] [tWY] [os] 8- [(Ywos] -[(Y]- [(Ywoa] -[qY]-
+[toWP] Y [wY] [Yoa] [tWY] [Yos] [8Y] Y [(Ywos] Y [(Y] Y
+[(Ywoa] Y [qY] Y [toWYPD] [YD] [wYD] [(Yoa] [Wt] [(Yos]
+[18]- [(Ywos] 8 [@(Y] -[(Ywoa]- [4qY] -[toWP] [qY] [5wY]
+[Yoa] [tWY] [Yos] [18Y] Y [(Ywos] [8Y] [@(Y]- [(Ywoa] Y
+[4qY] Y [toWYP] [qY] [5wY] [Yoa] [tWY] [os] [18] -[(Ywos]
+[8Y] [@(Y]- [(Ywoa] Y [4qY] Y [toWP] q [5w] [Yoa] [tWY]
+[Yos] [18Y] Y [(Ywos] [8Y] [@(Y] Y [(Ywoa] Y [4qY] -[toWYP]
+q [5wY] [oa] [tWY] [os] [18oh]- [(wos] [8ts] [@(] [oh] [(woa]-
+[4qIG] -[toWP] [qig] [5w] [oa] [tWYD] [os] [18]- [(wtos] [8EP]
+[@(ts] -[(woa]- [4q] -[toWP] q [5w] [oa] [Wt] [os] [18oh]- [(wos]
+[8ts] [@(] [oh] [(woa] -[4qIG] [toWP] [qig] [5w] [oa] [tWYD] [os]
+[18]- [(wtos] [8EP] [@(ts] -[(woa]- [4q] -[toWP] q [5w] [oa] [Wt]
+[os] [4qsl]- [Wti] [qig] [%W] [sl] [tiWO] -[^Eak]- [toYP] [EPJ]
+[8t] [Os] [tYOH] [ti] [4q] -[Wtig] [qYD] [%Wig]- [tiWO] -[^E]-
+[toYP] E [8t] [Os] [tY] [ti] [5wdz] [dz] [ryoSL] [wdz] [7r] -[ryoadz]
+[dz] [9ySL] [dz] [oad] y [qi] [dg] [oa] [yo] [5wgc]- [yo] -[@(DZ]-
+[oa] -[29dz]- [ad] -[@(DZ] [dg]- [os] [18] -[(Ywos] 8 [@(Y]-
+[(Ywoa] Y [4q] Y [toWYP] [qY] [5wY] [Yoa] [Wt] [os] [18] -[(Ywos]
+8 [@(Y] [(Ywoa]- Y [4q] Y [toWYP] q [5wY] [oa] [Wt] [os] [18]-
+[(Ywos] 8 [@(Y] Y [(Ywoa] -[4qY] Y [toWYP] [qY] [5w] [Yoa]
+[Wt] [os] [18]- [(Ywos] 8 [@(Y] -[(Ywoa]- [4qY] -[toWP]
+[qY] [5wY] [Yoa] [Wt]- 5 [Ywro]- 5 -[Ywro]- [Ywro] -[*SL]
+[8sl] -[^PJ]- [%OH] -[5oh]- [%OH] [^PJ] -[3uf]- -
+ 
+[4g] [%Os] [O5s] [^Osg] [5oah] [2yo] [os]
+[2adh] [D1sh] [@D] [5s] [^Dsh] [(Dh] [^sg]
+[s(D] [^Pd] [4sD] [8s] [5o] [^os][os][5oah] [2yo]
+[ad] [2h] [D1sh] [@s] [5o] [^h] [(Yosh] ^ [(osg] ^
+[4sD] [O8s] [O5s] [^Osg] [5oah] [2o] [os] [2ad]
+[D1sh] @ 5 [^os][os][h(DH] [^g] [(DJ]d[^hl] [s%DJ]
+4 1 [@os][os][4os] [5os] [%sg] [7sg] [D5hk] @ 1
+[2hkz] @ [@sg] [3dh] [4qWDH] %[qW][O5s]
+4[oa][5wr] @[wr][sD] [1dg] [YD8th] [(os][tY][5os]
+%[os][^tu] %[tu]5 [@os] [4isg] [%D][is][5d] [4s]
+[5yoa] [@oa][yoa]a [1oa] [Y1os] @[os][5id] %
+[^osf] %[sf][O5g] [@sh] [4qWDH] %[qW][O5s]
+4[oa][5wr] @[wr][hl] [1z] [8tlYZ] [(z][tY][5hl][hJ]%[Dh][EYo]
+W[Yo][wsg] [s(D] [W4qdg] [%D][qW][5d] [O4s] [5wroa]
+@[wr][OH] 1 [5ioah] 2 [iag] -[ag%OH] 2 [oah] - [osl]- [oal] -
+[Pol]- [oa]l[os][DZ] [osl]- [oa] -[oP]- [oa] [os][18] [(wos]8[@(]
+[(woa] [4q] [toWP]q[5w][oa][Wt][os][18] [(wos]8[@(]
+[(woa] [4q] [toWP]q[5w][oa][Wt] - [ts] [YD]
+[oh][IG] [ig] [YD] {[ts]1}@58([D18dhlz]
+ 
+---
+ 
+V2 (*Transposition : + 3*) =
+[YD] [uf] -[pj]- [OH] -[oh]- [ep] [ts] [uf]
+[YD] [yd] [ts] [yd] 0 3 0 3 0 3 0 3 [Hafk] --
+[up] - [Ou] - [uo] - [Ou]- [up][up] - [Ou] -
+[uo] - [Ou]- [up]e -[up] - [Ou] - [uo] - [Ou]-
+[up]e -[up] - [Ou] - [uo] - [Ou] -[up] 6- [80up]-
+8 -[O80u]- [9t] -[qeuo] t 0 [Otu] [qet] [tup]
+[6t] t [80tup] t [8t]- [O80tu] t [9t] -t [qetuo]
+t [0t] [Ou] [qet] [up] 6- [80tup] -[8t]- [O80tu] -[9t]-
+[qeuo] t [0t] [Otu] [qet] [tup] [6t] t [80tup] t [8t] t
+[O80tu] t [9t] t [qetuos] [ts] [0ts] [O8tu] [qe] [8tup]
+6- [80tup] 6 [18t] -[O80tu]- [29t] -[qeuo] [9t] [30t]
+[Otu] [qet] [tup] [6t] t [80tup] [6t] [18t]- [O80tu] t
+[29t] t [qetuo] [9t] [30t] [Otu] [qet] [up] 6 -[80tup]
+[6t] [18t]- [O80tu] t [29t] t [qeuo] 9 [30] [Otu] [qet]
+[tup] [6t] t [80tup] [6t] [18t] t [O80tu] t [29t] -[qetuo]
+9 [30t] [Ou] [qet] [up] [6uf]- [80up] [6ep] [18] [uf] [O80u]-
+[YD29] -[qeuo] [9yd] [30] [Ou] [qets] [up] 6- [80eup] [6wo]
+[18ep] -[O80u]- [29] -[qeuo] 9 [30] [Ou] [qe] [up] [6uf]- [80up]
+[6ep] [18] [uf] [O80u] -[YD29] [qeuo] [9yd] [30] [Ou] [qets] [up]
+6- [80eup] [6wo] [18ep] -[O80u]- [29] -[qeuo] 9 [30] [Ou] [qe]
+[up] [29pj]- [qey] [9yd] [4q] [pj] [qeyi] -[OH5w]- [etuo] [woh]
+[6e] [ip] [etig] [ey] [29] -[qeyd] [9ts] [4qyd]- [qeyi] -[5w]- [etuo]
+w [6e] [ip] [et] [ey] [30ak] [ak] [WPJru] [0ak] [%W] -[WOruak]
+[ak] [PJ7r] [ak] [Oua] r [9y] [ad] [Ou] [ru] [30dz]- [ru] -[18sl]-
+[Ou] -[7ak]- [Oa] -[18sl] [ad]- [up] 6 -[80tup] 6 [18t]- [O80tu]
+t [29] t [qetuo] [9t] [30t] [Otu] [qe] [up] 6 -[80tup] 6 [18t]
+[O80tu]- t [29] t [qetuo] 9 [30t] [Ou] [qe] [up] 6- [80tup]
+6 [18t] t [O80tu] -[29t] t [qetuo] [9t] [30] [Otu] [qe] [up]
+6- [80tup] 6 [18t] -[O80tu]- [29t] -[qeuo] [9t] [30t]
+[Otu] [qe]- 3 [W0tu]- 3 -[W0tu]- [W0tu] -[^PJ]
+[6pj] -[5oh]- [4ig] -[3uf]- [4ig] [5oh] -[!TS]- -
+ 
+[2d] [4ip] [3ip] [5ipd] [O3uf] [ru] [up]
+[Oaf] [psf] [1s] [3p] [5psf] [8sf] [5pd]
+[8ps] [5oa] [2ps] [6p] [3u] [5up][up][O3uf] [ru]
+[Oa] f [psf] [1p] [3u] [5f] [8tupf] 5 [8upd] 5
+[2ps] [6ip] [3ip] [5ipd] [O3uf] u [up] [Oa]
+[psf] 1 3 [5up][up][8sfg] [5d] [8sh]a[5fj] [4psh]
+2 [1up][up][2up] [3up] [4pd] [%pd] [H3sf] 1
+[Hfk] 1 [1pd] [!af] [29qsg] 4[9q][3ip] 2[Ou][W30]
+1[W0][ps] [ad] [6etsf] [8up][et][3up] 4[up][T5e]
+4[Te]3 [1up] [2ypd] [4s][yp][3a] [2p] [O3ru]
+[O1u][Oru]O [Ou] [tup] 1[up][3ya] 4 [S5up]
+4[Sp][3id] [1pf] [29qsg] 4[9q][3ip] 2[Ou][W30]
+1[W0][fj] k [6etjl] [8k][et][3fj][fh]4[sf][wtu] q[tu][0pd]
+[8ps] [29qad] [4s][9q][3a] [2ip] [WO30u] 1[W0][ig]
+[O3yuf] [Oyd] -[O4idg] [Ouf] - [upj]- [Ouj] -[uoj]-
+[Ou]j[up][sl] [upj]- [Ou] -[uo]- [Ou] [up]6 [80up]6[18]
+[O80u] [29] [qeuo]9[30][Ou][qe][up]6 [80up]6[18]
+[O80u] [29] [qeuo]9[30][Ou][qe] - [ep] [ts]
+[uf][YD] [yd] [ts] {[ep]1}368[6asfjk] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
 end)
