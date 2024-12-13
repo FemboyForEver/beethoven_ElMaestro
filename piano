@@ -2267,7 +2267,7 @@ shared.scr = [[ [@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*a] a [WTqa] a
 [@Y] [(QE] [^P] [qET] [7I] [(Qr] * [qWT] 
 [@(]  ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
 end)
 Section:NewButton("devil crybaby", "Auto", function()
