@@ -2765,7 +2765,7 @@ p p p o s p
 [6d] f [6d] f [5d] [5s]
 [6p] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
 end)
 Section:NewButton("lacrimosa", "Auto", function()
