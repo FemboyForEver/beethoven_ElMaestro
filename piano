@@ -2718,52 +2718,52 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
  
-shared.scr = [[ [3D] 3 [0D] 7 [@D] @ [(D] ^ 
-[a%OD] ( [WS] [Ya] [Oa] S D D 
-[!OS] %a* P [@a] ^ ( aa
-[%G] (fW f [a$D] * [(QES]-
-[3D] 7 [0D]-[@D] ^ [(D]-
-[%D] ( [WS] [Ya] [Oa] S D D 
-[!S] %a* P [@a] ^ ( a 
-[%S] [(D] [WS] D [$*QS]-[$*Qa]-
-[%O] [(a] W-[^D] [(a] E-
-[7O] [Qa] [rD] a [*O] [Wa] T-
-[%O] [(a] W-[^D] [(a] E-
-[7O] [Qa] [rD] a [*O] [Wa] T-
-O-O-O I a O 
-[%O] (OW O [^I] (oE O 
-7 Q r-* W T-
-[%O] [(O] [WO] O [^I] (oE O 
-7 Q r-* W T-
-[%O]O[(O]OW-^O[(O]O[EO]-
-[7O] [QO] rO-[*O] [WO] [TD] S 
-[%O] O O O [^I]-o-O 
-7--a a S a 
-[!D] % *-[@D] [^S] [(D] G 
-% [(D] [WS] [YD] O D S a 
-[!P] [%P] [*a] a [@S] [^S] [(D] D 
-[%a] [(O] [WI] O $ * [(QE]-
-[!D] % *-[@D] [^S] [(D] G 
-% [(D] [WS] [YD] O D S a 
-[!P] % [*a]-[@G] ^ [(D]-
-[(WE]-[(WE]-[(WE] [(WE]--
-[3Z]70-Z-[@Z]^(-Z-
-[k%HZ](W-L k k L Z Z 
-[!HL]%* k-J [@k]^(--kk
-[%C](W x-x [k$Z]*Q-L-
-[!Z] % [*Z]-[@Z] ^ [(Z]-
-[%Z] ( [WL] [Yk] [Ok] L Z Z 
-[!L] %k* J [@k] ^ ( k 
-[%L] [(Z] [WL] Z [$L] * [(QEk]-
-[3D] 3 [0D] 7 [@D] @ [(D] ^ 
-[a%OD] ( [WS] [Ya] [Oa] S D D 
-[!OS] %a* P [@a] ^ ( aa
-[%G] (fW f [a$D] * [(QES]-
-[3D] 7 [0D]-[@D] ^ [(D]-
-[%D] ( [WS] [Ya] [Oa] S D D 
-[!S] %a* P [@a] ^ ( a 
-[%S] D [%S] D [$S]-[$a]-
-[%O] ]]
+shared.scr = [[ [4f] 4 [qf] 8 [3f] 3 [0f] 7
+[6psf] 0 [ed] [us] [ps] d f f
+[2pd] 6 s 9 a [3s] 7 0 s s
+[6h] 0 g e g [5sf] 9 [0wrd]
+[4f] 8 [qf] [3f] 7 [0f]
+[6f] 0 [ed] [us] [ps] d f f
+[2d] 6 s 9 a [3s] 7 0 s
+[6d] [0f] [ed] f [59wd] [59ws]
+[6p] [0s] e [7f] [0s] r
+[8p] [ws] [tf] s [9p] [es] y
+[6p] [0s] e [7f] [0s] r
+[8p] [ws] [tf] s [9p] [es] y
+p p p o s p
+[6p] 0 p e p [7o] 0 O r p
+8 w t 9 e y
+[6p] [0p] [ep] p [7o] 0 O r p
+8 w t 9 e y
+[6p] p [0p] p e 7 p [0p] p [rp]
+[8p] [wp] t p [9p] [ep] [yf] d
+[6p] p p p [7o] O p
+8 s s d s
+[2f] 6 9 [3f] [7d] [0f] h
+6 [0f] [ed] [uf] p f d s
+[2a] [6a] [9s] s [3d] [7d] [0f] f
+[6s] [0p] [eo] p 5 9 [0wr]
+[2f] 6 9 [3f] [7d] [0f] h
+6 [0f] [ed] [uf] p f d s
+[2a] 6 [9s] [3h] 7 [0f]
+[0er] [0er] [0er] [0er]
+[4x] 8 q x [3x] 7 0 x
+[6jlx] 0 e z l l z x x
+[2jz] 6 9 l k [3l] 7 0 l l
+[6v] 0 e c c [5lx] 9 w z
+[2x] 6 [9x] [3x] 7 [0x]
+[6x] 0 [ez] [ul] [pl] z x x
+[2z] 6 l 9 k [3l] 7 0 l
+[6z] [0x] [ez] x [5z] 9 [0wrl]
+[4f] 4 [qf] 8 [3f] 3 [0f] 7
+[6psf] 0 [ed] [us] [ps] d f f
+[2pd] 6 s 9 a [3s] 7 0 s s
+[6h] 0 g e g [5sf] 9 [0wrd]
+[4f] 8 [qf] [3f] 7 [0f]
+[6f] 0 [ed] [us] [ps] d f f
+[2d] 6 s 9 a [3s] 7 0 s
+[6d] f [6d] f [5d] [5s]
+[6p] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
