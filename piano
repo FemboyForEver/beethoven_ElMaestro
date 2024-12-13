@@ -100,6 +100,73 @@ W[Yo][wsg] [s(D] [W4qdg] [%D][qW][5d] [O4s] [5wroa]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
 end)
+Section:NewButton("katyusha", "Autoplayf", function()
+    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 80 -- tempo overides the delay
+
+shared.scr = [[ [efjl] - u [sl] j - [Hek]-d u a H S-[fh]-*-
+J [eJ] [uj] h [9sG] - e [Ij], [7rZ] -
+[pdg] - j [8tpf], j 0-r-[Oh] g
+f - l [ej] - [tu] 0 [tu] t-[et]
+[tu] [0t] [tu] - [ep] [tu] 0 t-[ua] [es]
+[tu] 0 [tuj]-p [es] [tusl] [0a] - [tupj] - [Wa]
+[ry] [0u] - [ry] W-a [ry] 0 [rys] [Wr]-d
+[ry] [0r] [ry]-a [Wryd] [ryd] 0-s [ryak] [epj] [tu]
+0 [tu] - [ef] - [psj] [qj] [psj] 8-h - [sf]
+[*j] [pfh] [9g] - [pdg] [7f] [pd] f-8 [up] [*p]
+u - 9 [pdg]-y-q-y [pd] - [0fx] [psfl] -
+[psl] [0d] d-[Oa] s - [Oa] [ep] - [tu] 0
+[tu] - [etpsfjx] - [qipsjl], [8tsfhl] - [*TSfj] - h
+[9y]-[pdg] - g [7rf]-y-d - [8tpfj] - [*Tpj] - p
+[9y] - [pdgj] - [qi] [id] - [0upsdfx], s [30]-[Od] -
+d s a - [epj] [tu] 0 [tu] e-[pj] -
+[tu] 0 [ta] [es] t-u 0 [tup] - [es]
+t-[usl] a-0 [tup] [Wa] r-y [0u] r-y [Wa]
+[ry] 0 [rys] [Wd] [ry] 0 - [rya] - [Wryd]
+[ryd] [0s] - [rya] - [ep] [tu] - 0 t-u - [ef] t-[upsl]
+[qj] [tips] [8h] [wt]-[sfl] [*j] h-[Tpf] 9-g [ypdgj] [7f] -
+[rd]-p [8f] [tup] - [*pj] [Tu] 9 - [ypdg] q [ipd] -
+[0f] [upsl], [upsl] [0d] [Ouad] s - [Ouak]
+[epj] - [tu] 0 [tu] - [epsfj] - [tu] [qtpsjl] [ti]
+[8sfhl] [wt] [*TSfj] - [Th] [9ypdg] g-y [7rf] - [rd]
+[8fjx]-p t [*p] - T 9 - [ypdg] [qi] - [ipd] [0upsfx], l-s-
+[30] [O0d] - d s a e-[fjl] u s
+j e-[Hdk] u a H S-f-[*h]-J [eJ] [uj]
+[fh] [9sG] e - [Ij], [7rG] - [pdg] - j - [8tpfh],
+j 0-r-O-h g f l [ej] - [tu]
+0 [tu] e - [tu] 0 - [tu] - [etpj] [tu]
+0 - [tua] [es] [tu] 0 [tupj] [esl] [tus]
+[0a] - [tupj] [Wa] [ry] [0u] - r-y [Wa] [ry]
+0 [rysl] [Wd] r-y 0 - [rya] W-d [ryd] 0-s
+[rya] e-[pj] [tu] - 0 t - [ef] - [psf] [qj]
+s-p [8h] - [sf] [*j] - [pfh] 9-g [pdgj] [7fx]
+[pd] - [8f] [up] *-p u 9 [pdgj] - q [pd] -
+[0f] [psj], [psj] [0d] O-[uad] s [Oa] [ep]
+t-u 0 [tu] [etpsfjlx], [qipsjl] - [8tsfhl],
+[*TSfj] h - [*9ypdg] g [7rfG] d [8tpfj], [*Tp] -
+[9y] - [pdg] i-q [id] - [0upsfl], [sl]
+3-0-[Od] - d - s - a - [epj] - [tu] 0 [tu] -
+[epj] [tu] 0 [ta]-u [es] t-u 0 j-[tup]
+[es] s-[tu] [0a] [tu]-p [Wa] [ry] 0-u [ry] [Wa]-r
+[ry] 0 [rys] - [Wyd] [ry] 0 [rya] - [Wd]
+[ryd] [0s] - [rya] [epj] - [tu] 0 - [tu] - [ef] [tu]-[ps]
+[qj] [tipsl] 8-h [qwtsfl] [*j] [Tpfhj] [_9g] j-[ypdg]-_-
+[7rf] - [rpdj] [8fx] - [tup] [*p] - [Tu] 9 - [ypdg] q
+[ipd] - 0-f [ups] - [upsl] 0-d [Oud] s
+[Oua] - [epj] [tu] 0 - [tu] f-[epsj] [tu] [qpsj]
+[ti] [8tsfh] [wt] [*TSfj] - T-h [9ypdg] - [yg] 7-f [rd]
+[8pfj] t - [*p] - T 9 [ypdg] q [ipd] [0upsfx],
+f [30] [Oaf] - f G H [6eupj] [psf] [30] [psf] -
+[6pjlxb] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%202%20al%C3%A9atoire"))()
+
+end)
 Section:NewButton("Rush E", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
