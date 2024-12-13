@@ -2869,7 +2869,7 @@ h-[tf]-h-
 4-h-[tf]-h-
 [5a]-h-[yf]-d-[18] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
 end)
 Section:NewButton("experience", "Auto", function()
