@@ -1847,7 +1847,7 @@ Section:NewButton("golden hour x interstellar", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 80 -- tempo overides the delay
+shared.tempo = 110 -- tempo overides the delay
  
 shared.scr = [[ [qy] [eu] [to] [ep] [to] [eu] [qy] [eu] [to] [ep] [to] [eu] 
 [qy] [eu] [to] [ep] [to] [eu] [qt] [eu] [to] [ep] [to] 
