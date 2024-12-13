@@ -2006,7 +2006,7 @@ shared.scr = [[ [6eu] s s [4qi] s a a|
 [6esfj] [tf]f[uf]s[4qd] [ef] [tf]f[if]f[tf]f
 [5wad] [rf]f[ys]a[6eup] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
 end)
 Section:NewButton("etude d'execution", "Auto", function()
