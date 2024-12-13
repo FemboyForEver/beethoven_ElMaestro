@@ -1915,7 +1915,7 @@ Section:NewButton("the real slim shady", "Auto", function()
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
-shared.tempo = 110 -- tempo overides the delay
+shared.tempo = 200 -- tempo overides the delay
  
 shared.scr = [[ [2y] i [3p] [4s] [5d]--[5P] 
 [4p]--[4P] [3p]Ppo i [6T] 
