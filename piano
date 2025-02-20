@@ -34,7 +34,7 @@ h [8sf] h [osf] [8h] [osf] h [8of] d g 5 9 w p g w [of] w
 [tj] [ef] [yh] d [8of] w [uf] t [oh] [ug] [tf] d [5od] 9 r [wo]
 [oag] r [wof] d 6 0 e t o ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet(""))()
 
 end)
 Section:NewButton("wild side", "Autoplayf", function()
@@ -7180,7 +7180,7 @@ y y u [Ei]
 [^ETqi] T [q^E] [Ti] [^q] E [^Tqo] i 
 [E18ti] [E18ti] [E18tu] t [^qey?] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
 Section:NewButton("bella ciao", "Autoplayf", function()
