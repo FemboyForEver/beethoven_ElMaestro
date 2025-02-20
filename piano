@@ -2303,7 +2303,7 @@ shared.scr = [[ [@Y] [(QEI] Y [^P] [ETqi] I [7Y] [(Qr] [*a] a [WTqa] a
 [@Y] [(QE] [^P] [qET] [7I] [(Qr] * [qWT] 
 [@(]  ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
 Section:NewButton("devil crybaby", "Auto", function()
